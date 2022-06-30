@@ -1,0 +1,284 @@
+return_gp_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Gaelic polytheism.
+
+	set_character_faith_with_conversion = faith:gaelic_polytheism
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored Gaelic polytheism as state religion trait
+	add_trait = gp_state_religion
+	add_trait = zealous
+	remove_trait = pilgrim
+	clear_global_variable_list = unavailable_unique_decisions_gp
+	#goidelic_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_gp_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:goidelic_group
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#irish remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:irish }
+					random = {
+						chance = 45
+						set_county_faith = faith:gaelic_polytheism
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:gaelic_polytheism
+					}
+				}
+				#Other irish cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:gaelic_polytheism
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:gaelic_polytheism
+			}
+			custom = gaelic_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = gaelic_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:gaelic_polytheism = { change_fervor = 100 }
+	}
+}
+
+#Brythonic polytheism
+return_bp_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Brythonic polytheism.
+
+	set_character_faith_with_conversion = faith:brythonic_polytheism
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored brythonic polytheism as state religion trait
+	add_trait = bp_state_religion
+	add_trait = zealous
+	remove_trait = pilgrim
+	clear_global_variable_list = unavailable_unique_decisions_gl
+	#brythonic_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:brythonic_group
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#welsh remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:welsh}
+					random = {
+						chance = 45
+						set_county_faith = faith:brythonic_polytheism
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:brythonic_polytheism
+					}
+				}
+				#Other welsh cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:brythonic_polytheism
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:brythonic_polytheism
+			}
+			custom = brythonic_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = brythonic_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give brythonic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:brythonic_polytheism = { change_fervor = 100 }
+	}
+}
+
+#Gaulish polytheism
+return_gl_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Brythonic polytheism.
+
+	set_character_faith_with_conversion = faith:gaulish_polytheism
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored gaulish polytheism as state religion trait
+	add_trait = Gl_state_religion
+	add_trait = zealous
+	remove_trait = pilgrim
+    clear_global_variable_list = unavailable_unique_decisions_bp
+	#frankish_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:frankish_group
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#welsh remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:french}
+					random = {
+						chance = 45
+						set_county_faith = faith:gaulish_polytheism
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:gaulish_polytheism
+					}
+				}
+				#Other welsh cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:gaulish_polytheism
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:gaulish_polytheism
+			}
+			custom = brythonic_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = gaulish_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give gaulish_polytheism a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:gaulish_polytheism = { change_fervor = 100 }
+	}
+}
+
+#Celtic Iberian polytheism
+return_ci_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Brythonic polytheism.
+
+	set_character_faith_with_conversion = faith:celtic_iberian_polytheism
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored brythonic polytheism as state religion trait
+	add_trait = Ci_state_religion
+	add_trait = zealous
+	remove_trait = pilgrim
+    clear_global_variable_list = unavailable_unique_decisions_ci
+	#brythonic_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:iberian_group
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#welsh remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:galician}
+					random = {
+						chance = 45
+						set_county_faith = faith:celtic_iberian_polytheism
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:celtic_iberian_polytheism
+					}
+				}
+				#Other welsh cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:celtic_iberian_polytheism
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:celtic_iberian_polytheism
+			}
+			custom = celtic_iberian_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = celtic_iberian_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give celtic_iberian_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:celtic_iberian_polytheism = { change_fervor = 100 }
+	}
+}
+
+
+
+
+
+

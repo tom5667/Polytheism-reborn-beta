@@ -1,0 +1,80 @@
+﻿l_english:
+
+et.001.t:0 "Creating kingdom"
+et.001.desc:0 "After years of fighting against Muslims and Christians, It's finnaly time to Restore Egypt."
+et.001.a:0 "Egypt is once more"
+
+#Return kemetic polytheism event localization 
+kemetic.001.t:0 "Travel trough realm"
+kemetic.001.desc:0 "it's difficult to get to the true egyptian religions because not much survived the roman times and the monotheistic religions although there is much to learn there."
+kemetic.001.a:0 "let's go"
+
+kemetic.002.t:0 "After visiting Memphis"
+kemetic.002.desc:0 "After visiting the old remains of the great temple of Ptah, I feel like there is some kind of strange power here."
+kemetic.002.a:0 "I need to know more"
+kemetic.002.b:0 "Great but this is al I want to know"
+
+kemetic.003.t:0 "Study some more tempels"
+kemetic.003.desc:0 "After some time spended by some tempels, at that time group of a old berber came to me and asked if would be interested in knowing the history and rituals "
+kemetic.003.a:0 "Let's hear what they have to say"
+kemetic.003.b:0 "Great but this is al I want to know"
+
+kemetic.004.t:0 "after talking with the group"
+kemetic.004.desc:0 "They talked about tanit the godess who was worshiped the most in Memphis. After some time they asked me if i would like to follow a ritual for their gods ?"
+kemetic.004.a:0 "Watch their ritual"
+
+kemetic.005.t:0 "Final"
+kemetic.005.desc:0 "After watching the ritual, they asked me if would like to "
+kemetic.005.a:0 "Hold ritual and make choice convert to Kemetic"
+kemetic.005.b:0 "Hold ritual and make choice convert to Atenism"
+kemetic.005.c:0 "Let's stop before anyone finds out (last chance)"
+
+
+
+#change state religion 
+
+#kemetic state religion event localization
+kemetic_sr.001.t:0 "Change state religion"
+
+kemetic_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back kemetic polytheism as state religion. After a day of debating in the senate if found a minoraty in favor but that's more than enough."
+kemetic_sr.001.a:0 "Proclaim the new state religion"
+
+kemetic_sr.002.t:0 "State religion changed"
+
+kemetic_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+kemetic_sr.002.desc.vassals:0 "test vassals desc"
+kemetic_sr.002.desc_vanilla:0 "test vanilla desc"
+kemetic_sr.002.b:0 "Convert willing vassals"
+kemetic_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+kemetic_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_kemetic_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+#atenism state religion event localization
+atenism_sr.001.t:0 "Change state religion"
+
+atenism_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back atenism as state religion. After a day of debating in the kings hall, i found a minoraty in favor but that's more than enough."
+atenism_sr.001.a:0 "Proclaim the new state religion"
+
+atenism_sr.002.t:0 "State religion changed"
+
+atenism_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+atenism_sr.002.desc.vassals:0 "test vassals desc"
+atenism_sr.002.desc_vanilla:0 "test vanilla desc"
+atenism_sr.002.b:0 "Convert willing vassals"
+atenism_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+atenism_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_atenism_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+#Choose main deity 
+kemetic_cmd.001.t:0 "Choose main deity"
+kemetic_cmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+kemetic_cmd.001.a:0 "I choose Amun Ra"
+kemetic_cmd.001.b:0 "I choose Ra"
+kemetic_cmd.001.c:0 "I choose Isis"
+kemetic_cmd.001.d:0 "I choose Montu"
+kemetic_cmd.001.e:0 "I choose Hathor"
+kemetic_cmd.001.f:0 "Maybe this isn't the right time"
+
+

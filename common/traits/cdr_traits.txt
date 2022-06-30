@@ -1,0 +1,419 @@
+cdr_state_religion = {
+	index = 57421
+	fame = yes 
+	inherit_chance = 0
+	inherit_from_real_father = no
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = State_religion.dds
+			}
+			desc = State_religion.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#choose main deity traits 
+
+#Iupiter
+cdr_cmd1_religion = {
+	index = 57422
+	fame = yes 
+	same_faith_opinion = 10
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Iupiter.dds
+			}
+			desc = Iupiter.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#Iuno
+cdr_cmd2_religion = {
+	index = 57423
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.25
+	spouse_opinion = 20
+	monthly_piety = 0.5
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Iuno.dds
+			}
+			desc = Iuno.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#Mars
+cdr_cmd3_religion = {
+	index = 57424
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Mars.dds
+			}
+			desc = Mars.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#Venus
+cdr_cmd4_religion = {
+	index = 57425
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Venus1.dds
+			}
+			desc = Venus1.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		#ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#House Lares
+cdr_cmd5_religion = {
+	index = 57426
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+	opinion_of_liege = 10
+	#dynasty_house_opinion = 10
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = House_Laren.dds
+			}
+			desc = House_Laren.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+
+# Mercurius
+cdr_cmd6_religion = {
+	index = 57427
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_income = 0.1
+	monthly_piety = 0.5
+	stewardship = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Mercurius.dds
+			}
+			desc = Mercurius.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		
+	}
+}
+
+#hellenic
+#Zeus
+h_cmd1_religion = {
+	index = 77422
+	fame = yes 
+	same_faith_opinion = 10
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Iupiter.dds
+			}
+			desc = Iupiter.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#Hera
+h_cmd2_religion = {
+	index = 77423
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Iuno.dds
+			}
+			desc = Iuno.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#Ares
+h_cmd3_religion = {
+	index = 77424
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Mars.dds
+			}
+			desc = Mars.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+#Aphrodite
+h_cmd4_religion = {
+	index = 77425
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+	fertility = 0.2
+
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Venus1.dds
+			}
+			desc = Venus1.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		#ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+
+# Hermes
+h_cmd5_religion = {
+	index = 77426
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+	stewardship = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Mercurius.dds
+			}
+			desc = Mercurius.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		
+	}
+}
+
+#Mithras
+mm_cmd1_religion = {
+	index = 58422
+	fame = yes 
+	same_faith_opinion = 10
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	martial = 1
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Mithras.dds
+			}
+			desc = Mithras.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+
+hellenismos_state_religion = {
+	index = 57428
+	fame = yes 
+	inherit_chance = 0
+	inherit_from_real_father = no
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Hellenic_State_religion.dds
+			}
+			desc = Hellenic_State_religion.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+
+julian_state_religion = {
+	index = 57429
+	fame = yes 
+	inherit_chance = 0
+	inherit_from_real_father = no
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Hellenic_State_religion.dds
+			}
+			desc = Hellenic_State_religion.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}

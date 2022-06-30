@@ -1,0 +1,106 @@
+﻿l_english:
+ RELIGION_LOC_PLACEHOLDER:0 "#D PLACEHOLDER!#!"
+
+ #Holy Sites: cdr
+ holy_site_athens_name:0 "Athens"
+ holy_site_athens_effect_name:0 "From [holy_site|E] #weak ($holy_site_athens_name$)#!"
+ holy_site_carthage_name:0 "Carthage"
+ holy_site_carthage_effect_name:0 "From [holy_site|E] #weak ($holy_site_carthage_name$)#!"
+
+ holy_site_ravenna_name:0 "Ravenna"
+ holy_site_ravenna_effect_name:0 "From [holy_site|E] #weak ($holy_site_ravenna_name$)#!"
+ holy_site_ravenna_effects:0 "County Conversion Speed: #P +20%#!"
+
+ holy_site_giza_name:0 "giza"
+ holy_site_giza_effect_name:0 "From [holy_site|E] #weak ($holy_site_giza_name$)#!"
+ holy_site_giza_effects:0 "County Conversion Speed: #P +10%#!"
+ 
+ #Holy Sites: Gaelic polytheism
+ holy_site_dublin_name:0 "Dublin"
+ holy_site_dublin_effect_name:0 "From [holy_site|E] #weak ($holy_site_dublin_name$)#!"
+ holy_site_dublin_effects:0 "County Conversion Speed: #P +20%#!"
+
+ holy_site_ailech_name:0 "ailech"
+ holy_site_ailech_effect_name:0 "From [holy_site|E] #weak ($holy_site_ailech_name$)#!"
+ holy_site_ailech_effects:0 "County Conversion Speed: #P +5%#!"
+ 
+ holy_site_isle_of_man_name:0 "Isle of Man"
+ holy_site_isle_of_man_effect_name:0 "From [holy_site|E] #weak ($holy_site_isle_of_man_name$)#!"
+
+ holy_site_gowrie_name:0 "Gowrie"
+ holy_site_gowrie_effect_name:0 "From [holy_site|E] #weak ($holy_site_gowrie_name$)#!"
+
+ #Holy Sites: Brythonic polytheism 
+ holy_site_cornwall_name:0 "Cornwall"
+ holy_site_cornwall_effect_name:0 "From [holy_site|E] #weak ($holy_site_cornwall_name$)#!"
+ holy_site_cornwall_effects:0 "County Conversion Speed: #P +20%#!"
+
+ holy_site_glammorgan_name:0 "Glammorgan"
+ holy_site_glammorgan_effect_name:0 "From [holy_site|E] #weak ($holy_site_glammorgan_name$)#!"
+ holy_site_glammorgan_effects:0 "County Conversion Speed: #P +5%#!"
+ 
+ holy_site_vannes_name:0 "Vannes"
+ holy_site_vannes_effect_name:0 "From [holy_site|E] #weak ($holy_site_vannes_name$)#!"
+
+ holy_site_wiltshire_name:0 "Wiltshire"
+ holy_site_wiltshire_effect_name:0 "From [holy_site|E] #weak ($holy_site_wiltshire_name$)#!"
+
+ #Holy Sites: Gaulish polytheism
+ holy_site_ile_de_france_name:0 "Ile de France"
+ holy_site_ile_de_france_effect_name:0 "From [holy_site|E] #weak ($holy_site_ile_de_france_name$)#!"
+ holy_site_ile_de_france_effects:0 "County Conversion Speed: #P +20%#!"
+
+ holy_site_aachen_name:0 "Aachen"
+ holy_site_aachen_effect_name:0 "From [holy_site|E] #weak ($holy_site_aachen_name$)#!"
+ holy_site_aachen_effects:0 "County Conversion Speed: #P +5%#!" 
+
+ holy_site_montpellier_name:0 "Montpellier"
+ holy_site_montpellier_effect_name:0 "From [holy_site|E] #weak ($holy_site_montpellier_name$)#!"
+
+ #Holy sites: Celtic Iberian polytheism
+ holy_site_astorga_name:0 "Astorga"
+ holy_site_astorga_effect_name:0 "From [holy_site|E] #weak ($holy_site_astorga_name$)#!"
+ holy_site_astorga_effects:0 "County Conversion Speed: #P +20%#!"
+
+ holy_site_lisboa_name:0 "Lisboa"
+ holy_site_lisboa_effect_name:0 "From [holy_site|E] #weak ($holy_site_lisboa_name$)#!"
+ holy_site_lisboa_effects:0 "County Conversion Speed: #P +5%#!"
+
+ holy_site_toledo_name:0 "Toledo"
+ holy_site_toledo_effect_name:0 "From [holy_site|E] #weak ($holy_site_toledo_name$)#!"
+
+ holy_site_zaragoza_name:0 "Zaragoza"
+ holy_site_zaragoza_effect_name:0 "From [holy_site|E] #weak ($holy_site_zaragoza_name$)#!"
+
+ #Holy sites: Punic Polytheism
+ holy_site_sidon_name:0 "Sidon"
+ holy_site_sidon_effect_name:0 "From [holy_site|E] #weak ($holy_site_sidon_name$)#!"
+ holy_site_sidon_effects:0 "County Conversion Speed: #P +20%#!"
+
+ holy_site_tyre_name:0 "Tyre"
+ holy_site_tyre_effect_name:0 "From [holy_site|E] #weak ($holy_site_tyre_name$)#!"
+ holy_site_tyre_effects:0 "County Conversion Speed: #P +5%#!"
+
+ holy_site_cartagena_name:0 "Cartagena"
+ holy_site_cartagena_effect_name:0 "From [holy_site|E] #weak ($holy_site_cartagena_name$)#!"
+
+
+ #Etruscan Polytheism
+ holy_site_arezzo_name:0 "Arezzo"
+ holy_site_arezzo_effect_name:0 "From [holy_site|E] #weak ($holy_site_arezzo_name$)#!"
+ holy_site_arezzo_effects:0 "County Conversion Speed: #P +20%#!"
+
+ holy_site_fufluna_name:0 "Fufluna"
+ holy_site_fufluna_effect_name:0 "From [holy_site|E] #weak ($holy_site_fufluna_name$)#!"
+
+ holy_site_hofgeismar_name:0 "Hofgeismar"
+ holy_site_hofgeismar_effect_name:0 "From [holy_site|E]"
+
+ holy_site_augsburg_name:0 "Augsburg"
+ holy_site_augsburg_effect_name:0 "From [holy_site|E]"
+
+ rf_abrahamic:0 "Abrahamic"
+ rf_pagan:0 "Polytheistic"
+ rf_eastern:0 "Eastern"
+
+ 

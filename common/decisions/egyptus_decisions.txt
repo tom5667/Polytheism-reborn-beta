@@ -1,0 +1,98 @@
+
+restore_egyptus ={
+	picture = "gfx/interface/illustrations/decisions/Memphis.dds"
+	major = yes
+	desc =  restore_egyptus_desc
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		
+		#has_culture_group = culture_group:berber_group 
+		OR{
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
+		}
+		is_imprisoned = no	
+		is_at_war = no
+		NOR = {
+			has_title = title:k_egyptus
+		}
+		AND ={
+			NOT ={
+				exists = title:k_egyptus.holder
+			}
+		}
+		
+	}
+
+	is_valid = {
+		completely_controls = title:d_cairo
+		completely_controls = title:d_delta
+		completely_controls = title:d_alexandria
+		completely_controls = title:d_eastern_desert
+		completely_controls = title:d_al_said
+		completely_controls = title:d_sinai
+		completely_controls = title:d_palastine
+		completely_controls = title:d_urdunn
+		completely_controls = title:d_lebanon
+		completely_controls = title:d_antioch
+		completely_controls = title:d_cilicia
+
+		OR{
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
+
+		}
+
+						
+	}
+	effect = {
+		custom_tooltip = restore_egyptus_effect_tooltip
+		trigger_event = {
+			id = et.001
+		}
+	}
+	ai_check_interval = 0
+}
+
+#choose your main deity decision only Kemetic
+
+choose_main_deity_kemetic_decision = {
+	picture = "gfx/interface/illustrations/decisions/egyptian_temple.dds"
+	major = yes
+	desc =  kemetic_cmd_decision_desc
+	#selection_tooltip = choose_main_deity_kemetic_decision_tooltip
+	is_shown = {
+		faith = faith:kemetic_polytheism
+		is_adult = yes
+		 NOR ={	
+			has_trait = kemetic_cmd1_religion
+			has_trait = kemetic_cmd2_religion
+			has_trait = kemetic_cmd3_religion
+			has_trait = kemetic_cmd4_religion
+			has_trait = kemetic_cmd5_religion
+		 }
+	}
+	is_valid = {
+	}
+	cost = {
+		piety = 150
+	}
+	cooldown = { years = 1}
+
+	effect = {
+		trigger_event = kemetic_cmd.001 
+		
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+}
+
+#pyramid for pharao -> runestone decision as basis ? 

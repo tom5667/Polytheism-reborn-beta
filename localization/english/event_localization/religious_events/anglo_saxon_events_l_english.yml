@@ -1,0 +1,109 @@
+﻿l_english:
+
+#Return Cultus deorum event localization 
+anglo_saxon_return.001.t:0 "Travel to Paderborn"
+anglo_saxon_return.001.desc:0 "After reaching the city of Paderborn i went to the church where once the irminsul stood so important for the pagan Saxons"
+anglo_saxon_return.001.a:0 "Interesting"
+
+anglo_saxon_return.002.t:0 "Church at "
+anglo_saxon_return.002.desc:0 "At the church a priest came to me with the question if would like to do a confession"
+anglo_saxon_return.002.a:0 "Ask the priest about the irminsul"
+anglo_saxon_return.002.b:0 "Do your confession by the priest and leave"
+
+anglo_saxon_return.003.t:0 "Talk about the irminsul"
+anglo_saxon_return.003.desc:0 "I asked the priest about the irminsul, and he said that charlamagne burnt the irminsul that once stood here and that he forced the pagans to convert to christianity and renounce the false gods in a signed document. "
+anglo_saxon_return.003.a:0 "Tell me more"
+
+anglo_saxon_return.004.t:0 "Talk about the irminsul part 2"
+anglo_saxon_return.004.desc:0 "He said that with the irminsul gone the spirit of the saxons was broken, deep down I feel sorry for those people. After some more talking the priest said I have a mass to attend to in a few minutes please excusse me." 
+anglo_saxon_return.004.a:0 "I thanked the priest for his time" 
+
+anglo_saxon_return.005.t:0 "Talk about the irminsul part 3"
+anglo_saxon_return.005.desc:0 "After the talk with the priest a Woman came to me and said she had heard me and the priest talk about the irminsul. Should I talk with her ?"
+anglo_saxon_return.005.a:0 "Talk with the woman"
+anglo_saxon_return.005.b:0 "I said I dont know what your talking about and left. (last chance)"
+
+anglo_saxon_return.006.t:0 "Talk about the irminsul final"
+anglo_saxon_return.006.desc:0 "I agreed to talk with her, She smilled and said we can better talk somewhere else just in case the priest would hear us and we would both end up in jail. After some talk at a safe place away from the church she said, that she and her family still where followers of gods like wodan and that she would like to show me how the religion works. Now I finnaly know what i have to do."
+anglo_saxon_return.006.a:0 "Thank the woman and convert to Anglo Saxon Polytheism"
+
+
+
+#Cultus Deorum state religion event localization
+anglo_saxon_sr.001.t:0 "Change state religion"
+
+anglo_saxon_sr.001.desc:0 "As i proceded with my rituals and learning more about the religion, it got me thinking maybe it's time to bring back the Anglo Saxon religion as state religion. After a day of debating in the lords hall it's done"
+anglo_saxon_sr.001.a:0 "Proclaim the new state religion"
+
+anglo_saxon_sr.002.t:0 "State religion changed"
+
+anglo_saxon_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+anglo_saxon_sr.002.desc.vassals:0 "test vassals desc"
+anglo_saxon_sr.002.desc_vanilla:0 "test vanilla desc"
+anglo_saxon_sr.002.b:0 "Convert willing vassals"
+anglo_saxon_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+anglo_saxon_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_anglo_saxon_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+g_r.001.t:0 "Just before meeting"
+g_r.001.desc:0 "Today I have a Volva comes on audience, I don't know what the volva wants. What to do when the Volva is inside, i still have some time to think about it."
+g_r.001.a:0 "Send the Volva in"
+
+g_r.002.t:0 "Realm priest"
+g_r.002.desc:0 "Before I got the chance to ask the guard to let the Volva in... My King, I must object to letting the Volva in, they Honor demons and use magic something that is blasphemy. Let the volva be imprisoned at once."
+g_r.002.a:0 "This is none of your buisness"
+g_r.002.b:0 "You are right, imprison the volva"
+
+g_r.003.t:0 "Realm priest"
+g_r.003.desc:0 "This is my kingdom so I choose who get's audience and who not, you have to know your place priest get out now! "
+g_r.003.a:0 "Guards send the Volva in"
+
+g_r.004.t:0 "Meeting with the Volva"
+g_r.004.desc:0 "Come in volva of Scandinavia, What brings you here?"
+g_r.004.a:0 "Continue"
+
+g_r.004.t:0 "Meeting with the Volva"
+g_r.004.desc:0 "The Volva told me about a prophecy that talked about a German king who would restore German Polytheism and bring back the old tradions of the tribes, Could it be me ?"
+g_r.004.a:0 "Tell me more"
+g_r.004.b:0 "You're going to prison for this blasphemy"
+
+g_r.005.t:0 "Meeting with the Volva"
+g_r.005.desc:0 "After some further talking, this has to be me I could be the one she had seen in her visions"
+g_r.005.a:0 "Let's continue"
+
+g_r.006.t:0 "Meeting with the Volva"
+g_r.006.desc:0 "The Volva told me that we need two months of preparation and learning, before I can openly declare I converted to German Polytheism"
+g_r.006.a:0 "Let the preparations begin!"
+
+g_sr.001.t:0 "Religion changed"
+g_sr.001.desc:0 "As i proceded with my rituals and learning more about the religion, it got me thinking maybe it's time to bring back the German religion as state religion. After a day of debating in the lords hall it's done"
+g_sr.001.a:0 "Proclaim the new state religion"
+
+#Saxon
+ascmd.001.t:0 "Choose main deity"
+ascmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ascmd.001.woden:0 "Wōden"
+ascmd.001.njord:0 "Njǫrd"
+ascmd.001.fri:0 "Frī"
+ascmd.001.tiwaz:0 "Tīwaz"
+ascmd.001.seaxneat:0 "Seaxnēat"
+ascmd.001.optout:0 "Maybe now isn't the right time"
+
+#German
+ascmd.002.t:0 "Choose main deity"
+ascmd.002.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ascmd.002.wotan:0 "Wotan"
+ascmd.002.njordr:0 "Nerthus"
+ascmd.002.freyr:0 "Frauwaz"
+ascmd.002.nornir:0 "Nornir"
+ascmd.002.mimir:0 "Mímir"
+ascmd.002.optout:0 "Maybe now isn't the right time"
+
+solstice.001.t:0 "Winter Solstice"
+solstice.001.desc:0 "As the snow thaws and the ice retreats Uller the seas begin to calm and a new season begins where the gods and life alike begin their return back from fighting the spirits of Ice and Snow, Raiders and Farmers alike are to appreciate the calming of the seas. I should gather the realm in order to celebrate the retreat of Winter as it begins its retreat for soon the Sól arrives. "
+solstice.001.a:0 "Gather the realm for the Solstice"
+
+solstice.002.t:0 "Summer Solstice"
+solstice.002.desc:0 "As the Summer ends and the Winter Begins Sól Raiders and Farmers alike give their thanks to the gods for a fruitful season of Harvest where our crops have grown bountiful and the calmer seas allow us to trade and raid with the other folk across the seas. I should prepare to gather the realm in order to celebrate this bountiful harvest season for the sun leaves us soon and the winter begins its arrival."
+solstice.002.a:0 "Gather the realm for the Solstice"

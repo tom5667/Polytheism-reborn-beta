@@ -1,0 +1,119 @@
+﻿l_english:
+held_ritual_for_jupiter:0 "Honored Jupiter"
+held_ritual_for_jupiter_desc:0 "Recently held a ritual in honor of Jupiter"
+
+held_ritual_for_juno:0 "Honored Juno"
+held_ritual_for_juno_desc:0 "Recently held a ritual in honor of Juno"
+
+held_ritual_for_mars:0 "Honored Mars"
+held_ritual_for_mars_desc:0 "Recently held a ritual in honor of Mars"
+
+held_ritual_for_venus:0 "Honored Venus"
+held_ritual_for_venus_desc:0 "Recently held a ritual in honor of Venus"
+
+held_ritual_for_house_lares:0 "Honored Hous Lares"
+held_ritual_for_house_lares_desc:0 "Recently held a ritual in honor of the Hous Lares"
+
+held_ritual_for_mercurius:0 "Honored Mercurius"
+held_ritual_for_mercurius_desc:0 "Recently held a ritual in honor of Mercurius"
+
+burning_flame_of_vesta:0 "Burning flame of Vesta"
+burning_flame_of_vesta_desc:0 "With the flame of Mother Vesta burning again Rome can be brought back to greatness ones more"
+
+#Celtic choose main deity 
+#Gaelic
+gaelic_an_dagda:0 "Devoted to An Dagda"
+gaelic_an_dagda_desc:0 "Devotee of An Dagda, god of fertility, agriculture manliness and strength as well as magic druidry and wisdom. He can also control life and death"
+
+gaelic_lugh:0 "Devoted to Lugh"
+gaelic_lugh_desc:0 "Devotee of Lugh, Associated skill and mastery in multiple diciplines including trade. And god of oaths and sworn contracts"
+
+gaelic_brigid:0 "Devoted to Brigid"
+gaelic_brigid_desc:0 "Devotee of Brigid goddess of hearth and home, magic, woman and childbirth"
+
+gaelic_the_morrighan:0 "Devoted to The Morrighan"
+gaelic_the_morrighan_desc:0 "Devotee of The Morrígan goddess of war and fate"
+
+gaelic_ecna:0 "Devoted to Ecna"
+gaelic_ecna_desc:0 "Devotee of Ecna goddess of wisdom"
+
+#Brythonic 
+brythonic_taranis:0 "Devoted to Taranis"
+brythonic_taranis_desc:0 "Devotee of Taranis god of thunder"
+
+brythonic_lugus:0 "Devoted to Lugus"
+brythonic_lugus_desc:0 "Devotee of Lugus god of trade"
+
+brythonic_arianrhod:0 "Devoted to Arianrhod"
+brythonic_arianrhod_desc:0 "Devotee of Arianrhod goddess of fertility and beauty"
+
+brythonic_andraste:0 "Devoted to Andraste"
+brythonic_andraste_desc:0 "Devotee of Andraste god of war"
+
+brythonic_brigantia:0 "Devoted to Brigantia"
+brythonic_brigantia_desc:0 "Devotee of Brigantia goddess of wisdom"
+
+#Gaulish
+gaulish_toutatis:0 "Devoted to Toutatis"
+gaulish_toutatis_desc:0 "Devotee of Toutatis god of thunder"
+
+gaulish_lughus:0 "Devoted to Lughus"
+gaulish_lughus_desc:0 "Devotee of Lughus god of trade"
+
+gaulish_rosmerta:0 "Devoted to Rosmerta"
+gaulish_rosmerta_desc:0 "Devotee of Rosmerta goddess of fertility"
+
+gaulish_cicolluis:0 "Devoted to Cicolluis"
+gaulish_cicolluis_desc:0 "Devotee of Cicolluis god of War"
+
+gaulish_belisama:0 "Devoted to Belisama"
+gaulish_belisama_desc:0 "Devotee of Belisama goddess of wisdom"
+
+#Celtic Iberian
+
+#Germanic
+#Anglo Saxon
+anglo_saxon_woden:0 "Devoted to Wōden"
+anglo_saxon_woden_desc:0 "Devotee of Wōden allfather and god of wisdom"
+
+anglo_saxon_njord:0 "Devoted to Njǫrd"
+anglo_saxon_njord_desc:0 "Devotee of Njǫrd god of wealth and trade"
+
+anglo_saxon_fri:0 "Devoted to Frī"
+anglo_saxon_fri_desc:0 "Devotee of Frī goddess of fertility"
+
+anglo_saxon_tiwaz:0 "Devoted to Tīwaz"
+anglo_saxon_tiwaz:0 "Devotee of Tīwaz god of war"
+
+anglo_saxon_seaxneat:0 "Devoted to Seaxnēat"
+anglo_saxon_seaxneat:0 "Devotee of Seaxnēat protector of the Saxons"
+
+#german
+german_wotan:0 "Devoted to Wotan"
+german_wotan_desc:0 "Devotee of Wotan allfather and god of wisdom and fate"
+
+german_njordr:0 "Devoted to Nerthus"
+german_njordr_desc:0 "Devotee of Nerthus god of wealth and trade"
+
+german_freyr:0  "Devoted to Frauwaz"
+german_freyr_desc:0 "Devotee of Frauwaz goddess of fertility"
+
+german_nornir:0 "Devoted to Nornir"
+german_nornir_desc:0 "Devotee of Nornir god of war"
+
+german_mimir:0 "Devoted to Mímir"
+german_mimir_desc:0 "Devotee of Mímir known for his wisdom"
+
+#Punic
+punic_baal:0 "Devoted to Baal"
+punic_baal_desc:0 "Devotee of Baal Hammon high god of the carthagenian, god of fertility"
+
+punic_astarte:0 "Devoted to Astarte"
+punic_astarte_desc:0 "Devotee of Astarte goddess of fertility"
+
+punic_tanit:0 "Devoted to Tanit"
+punic_tanit_desc:0 "Devotee of Tanit Goddess of war and invassions"
+
+summer_solstice:0 "Held Summer Solstice"
+winter_solstice:0 "Held Winter Solstice"
+saturnalia:0 "Celebrated Saturnalia"

@@ -1,0 +1,154 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+#Cultus deorum duchy title
+d_pontifex1 = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_roma
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Hadrianus Quintus Maxentius Scipio Gaius Trajanus Marcus Brutus Octavianus Julius}
+	female_names = {Hadriana Trajana Sabine Octavia Agrippina Domitia Hortensia Antonia Augusta Camilla Aurellia Sabina Junia}
+}
+
+#Celtic duchy title 
+d_druidic = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_dublin
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Áedacán Áileachán Boidmal Brangen Caochlaoch Díomasach Dochartach Filtiarn Colla Irial}
+	female_names = {Essa Gelgéis Gráinde Gránne Mealla Lasairfhíona Laisrén Cobhfhlaith Báine}
+}
+#Ireland 
+k_high_kingdom_of_ireland = {
+	color = {22 92 29 }
+	color2 = { 255 255 255 }
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	capital = c_dublin
+
+	can_create = {
+		trigger_if = {
+			limit = {
+				is_ai = yes
+			}
+			culture = { has_cultural_pillar = heritage_goidelic }
+			faith = faith:gaelic_polytheism
+		}
+	}
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:irish
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				culture = culture:gaelic
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}	
+}
+
+#Carthago
+k_carthago = {
+	color = white 
+	color2 = yellow
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	capital = c_tunis
+
+	can_create = {
+		trigger_if = {
+			limit = {
+				is_ai = yes
+			}
+			culture = { has_cultural_pillar = berber_group }
+			faith = faith:punic_polytheism
+		}
+	}
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:bedouin
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				culture = culture:bedouin 
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}	
+}
+
+#Egytp
+k_egyptus = {
+	color = blue
+	color2 = yellow
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	capital = c_cairo
+
+	can_create = {
+		trigger_if = {
+			limit = {
+				is_ai = yes
+			}
+			culture = { has_cultural_pillar = arabic_group }
+			faith = faith:kemetic_polytheism
+		}
+	}
+	
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:egyptian
+			}
+			add = @correct_culture_primary_score
+		}
+		if = {
+			limit = {
+				culture = culture:egyptian
+			}
+			add = @better_than_the_alternatives_score
+		}
+	}	
+}
+

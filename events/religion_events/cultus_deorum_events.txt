@@ -1,0 +1,676 @@
+namespace = cdr_cmd
+namespace = cdr_rgg
+namespace = cdr_r
+namespace = cdr_erc
+namespace = cdr_rph_decisions
+namespace = julian_sr
+namespace = hellenismos
+namespace = hellenismos_sr
+namespace = h_cmd
+namespace = cdr_otv
+namespace = rejected_to_join_vestal_vergins
+namespace = accepted_to_join_vestal_vergins
+namespace = saturnalia
+#mithras mysteries namespace 
+namespace = mm_cmd
+
+
+#choose your main deity events
+cdr_cmd.001 = {
+	type = character_event
+	title = cdr_cmd.001.t
+	desc = cdr_cmd.001.desc
+	theme = learning_scholarship_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	
+	option = {
+		name = cdr_cmd.001.a
+		#Iupiter
+		add_trait = cdr_cmd1_religion
+	}
+	option = {
+		name = cdr_cmd.001.b
+		#Iuno
+		add_trait = cdr_cmd2_religion
+	}
+	option = {
+		name = cdr_cmd.001.c
+		#Mars
+		add_trait = cdr_cmd3_religion
+	}
+	option = {
+		name = cdr_cmd.001.d
+		#Venus
+		add_trait = cdr_cmd4_religion
+	}
+	option = {
+		name = cdr_cmd.001.e
+		#House Lares
+		add_trait = cdr_cmd5_religion
+	}
+	option = {
+		name = cdr_cmd.001.f
+		#Mercurius
+		add_trait = cdr_cmd6_religion
+	}
+	option = {
+		name = cdr_cmd.001.g
+		add_piety = 100
+		
+		ai_chance = {
+			base = 0
+		}	
+	}
+	#option for more in the future 
+}
+
+#hellenic main deity
+h_cmd.001 = {
+	type = character_event
+	title = h_cmd.001.t
+	desc = h_cmd.001.desc
+	theme = learning_scholarship_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	
+	option = {
+		name = h_cmd.001.a
+		#Zeus
+		add_trait = h_cmd1_religion
+	}
+	option = {
+		name = h_cmd.001.b
+		#Hera
+		add_trait = h_cmd2_religion
+	}
+	option = {
+		name = h_cmd.001.c
+		#Ares
+		add_trait = h_cmd3_religion
+	}
+	option = {
+		name = h_cmd.001.d
+		#Aphrodite
+		add_trait = h_cmd4_religion
+	}
+	option = {
+		name = h_cmd.001.e
+		#Hermes
+		add_trait = h_cmd5_religion
+	}
+	option = {
+		name = h_cmd.001.f
+		add_piety = 100
+		ai_chance ={
+			base = 0 
+		}
+	}
+	#option for more in the future 
+}
+
+#choose main deity Mithraic Mysteries
+mm_cmd.001 = {
+	type = character_event
+	title = mm_cmd.001.t
+	desc = mm_cmd.001.desc
+	theme = learning_scholarship_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	
+	option = {
+		name = mm_cmd.001.a
+		#Mithras
+		add_trait = mm_cmd1_religion
+	}
+	option = {
+		name = mm_cmd.001.b
+		add_piety = 100
+		ai_chance = {
+			base = 0
+		}
+	}
+}
+
+#hold ritual
+cdr_r.001 = {
+	type = character_event
+	title = cdr_r.001.t
+	desc = cdr_r.001.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.001.a
+		trigger_event = cdr_r.002
+		ai_chance ={
+			base = 0 
+		}
+		
+	}
+	option = {
+		name = cdr_r.001.b
+		add_character_modifier = {modifier = held_ritual_for_jupiter  months = 3 }
+		add_piety = 50
+	}
+
+}
+
+cdr_r.009 = {
+	type = character_event
+	title = cdr_r.009.t
+	desc = cdr_r.009.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.009.a
+		add_character_modifier = {modifier = held_ritual_for_juno  months = 3 }
+		add_piety = 50 
+	}
+	
+}
+
+cdr_r.010 = {
+	type = character_event
+	title = cdr_r.010.t
+	desc = cdr_r.010.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.010.a
+		add_character_modifier = {modifier = held_ritual_for_mars  months = 3 }
+		add_piety = 50
+	}
+	
+}
+cdr_r.011 = {
+	type = character_event
+	title = cdr_r.011.t
+	desc = cdr_r.011.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.011.a
+		add_character_modifier = {modifier = held_ritual_for_venus  months = 3 }
+		add_piety = 50 
+	}
+	
+}
+cdr_r.012 = {
+	type = character_event
+	title = cdr_r.012.t
+	desc = cdr_r.012.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.012.a
+		add_character_modifier = {modifier = held_ritual_for_lares  months = 3 }
+		add_piety = 50
+	}
+	
+	
+}
+cdr_r.013 = {
+	type = character_event
+	title = cdr_r.013.t
+	desc = cdr_r.013.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.013.a
+		add_character_modifier = {modifier = held_ritual_for_mercurius  months = 3 }
+		add_piety = 50 
+	}
+	
+}
+cdr_r.002 = {
+	type = character_event
+	title = cdr_r.002.t
+	desc = cdr_r.002.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.002.a
+		trigger_event = cdr_r.003
+	}
+}
+
+cdr_r.003 = {
+	type = character_event
+	title = cdr_r.003.t
+	desc = cdr_r.003.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.003.a
+		trigger_event = cdr_r.004
+	}
+}
+
+cdr_r.004 = {
+	type = character_event
+	title = cdr_r.004.t
+	desc = cdr_r.004.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.004.a
+		trigger_event = cdr_r.005
+	}
+}
+
+cdr_r.005 = {
+	type = character_event
+	title = cdr_r.005.t
+	desc = cdr_r.005.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.005.a
+		trigger_event = cdr_r.006
+	}
+}
+
+cdr_r.006 = {
+	type = character_event
+	title = cdr_r.006.t
+	desc = cdr_r.006.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.006.a
+		trigger_event = cdr_r.007
+	}
+}
+
+cdr_r.007 = {
+	type = character_event
+	title = cdr_r.007.t
+	desc = cdr_r.007.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.007.a
+		trigger_event = cdr_r.008
+	}
+}
+
+cdr_r.008 = {
+	type = character_event
+	title = cdr_r.008.t
+	desc = cdr_r.008.desc
+	theme = learning_theology_focus
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+
+	option = {
+		name = cdr_r.008.a
+		add_character_modifier = {modifier = held_ritual_for_jupiter  months = 3 }
+		add_piety = 100 
+	}
+}
+
+
+
+
+
+
+
+
+cdr_erc.001 = {
+	type = character_event
+	title = cdr_erc.001.t
+	desc = cdr_erc.001.desc
+	theme = learning
+
+	override_background = {
+		event_background = virtues
+	}
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cdr_erc.001.a
+		set_culture = culture:roman
+	}
+
+}
+
+#Restore Priesthood events
+cdr_rph_decisions.0001 = {
+	type = character_event
+	title = cdr_rph_decisions.0001.t
+	desc = cdr_rph_decisions.0001.desc
+	theme = faith
+	left_portrait = {
+		character = scope:scoped_ruler
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:new_priest
+		animation = happiness
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		save_scope_as = scoped_ruler
+		if = { # Check if Temporal first.
+			limit = {
+				faith = { has_doctrine = doctrine_temporal_head }
+			}
+			save_scope_as = new_priest
+		}
+		else_if = { # Pick your chaplain first.
+			limit = {
+				exists = cp:councillor_court_chaplain
+				cp:councillor_court_chaplain = { faith = scope:scoped_ruler.faith }
+			}
+			cp:councillor_court_chaplain = { save_scope_as = new_priest }
+		}
+		else = {
+			hidden_effect = {
+				create_character = {
+					employer = root
+					template = religious_leader_character
+					random_traits = no
+					save_scope_as = new_priest
+					dynasty = generate
+				}
+			}
+			scope:new_priest = {
+				add_trait = education_learning_3
+				add_trait = zealous
+				add_trait = intellect_good_1
+				random_list = {
+					1 = { add_trait = lustful }
+					1 = { add_trait = chaste }
+					1 = { add_trait = wrathful }
+					1 = { add_trait = diligent }
+					1 = { add_trait = impatient }
+					1 = { add_trait = arrogant }
+					1 = { add_trait = humble }
+					1 = { add_trait = gregarious }
+				}
+				random_list = {
+					1 = { add_trait = honest }
+					1 = { add_trait = ambitious }
+					1 = { add_trait = just }
+					1 = { add_trait = cynical }
+					1 = { add_trait = zealous }
+					1 = { add_trait = compassionate }
+					1 = { add_trait = stubborn }
+				}
+			}
+		}
+		create_title_and_vassal_change = {
+			type = created
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		root.faith.religious_head_title = {
+			change_title_holder = {
+				holder = scope:new_priest
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+
+	option = {
+		name = cdr_rph_decisions.0001.a
+		add_prestige = major_prestige_gain
+		add_piety = major_piety_gain
+		faith = { change_fervor = 10 }
+		if = { # Vassalize if possible/needed.
+			limit = {
+				highest_held_title_tier > scope:new_priest.highest_held_title_tier
+				NOT = { scope:new_priest = { any_liege_or_above = { this = root } } }
+			}
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			scope:new_priest = {
+				change_liege = {
+					liege = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+		hidden_effect = {
+			every_player = {
+				limit = {
+					NOT = { this = root }
+					OR = {
+						faith.religion = root.faith.religion
+						AND = {
+							is_landed = yes
+							capital_province = {
+								OR = {
+									geographical_region = world_europe_south_east
+								}
+							}
+						}
+					}
+				}
+				trigger_event = cdr_rph_decisions.0002
+			}
+		}
+	}
+}
+
+# Players notified.
+cdr_rph_decisions.0002 = {
+	type = character_event
+	title = cdr_rph_decisions.0001.t
+	desc = {
+		first_valid = {
+			# Cultus Deorum Reaction
+			triggered_desc = {
+				trigger = {
+					root.faith.religion = scope:scoped_ruler.faith.religion
+				}
+				desc = cdr_rph_decisions.0001.desc
+			}
+			# Christian Reaction
+			triggered_desc = {
+				trigger = {
+					root.faith.religion = faith:orthodox.religion
+				}
+				desc = cdr_rph_decisions.0002.desc.orthodox
+			}
+			# Everybody else
+			triggered_desc = {
+				trigger = {
+					NOR = {
+						root.faith.religion = scope:scoped_ruler.faith.religion
+						root.faith.religion = faith:orthodox.religion
+					}
+				}
+				desc = cdr_rph_decisions.0002.desc.others
+			}
+		}
+	}
+	theme = faith
+	left_portrait = {
+		character = scope:scoped_ruler
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:new_priest
+		animation = happiness
+	}
+
+	immediate = {
+		#Cultus Deorum characters get some chilled music.
+		if = {
+			limit = {
+				faith = { religion_tag = hellenism_religion }
+			}
+			play_music_cue = "mx_cue_faith_conversion"
+		}
+	}
+
+	option = {
+		name = cdr_rph_decisions.0002.a
+		trigger = {
+			root.faith.religion = scope:scoped_ruler.faith.religion
+		}
+	}
+	option = {
+		name = cdr_rph_decisions.0002.b
+		trigger = {
+			NOT = {
+				root.faith.religion = scope:scoped_ruler.faith.religion
+			}
+		}
+	}
+	option = {
+		name = cdr_rph_decisions.0002.c
+		trigger = {
+			NOR = {
+				root.faith.religion = scope:scoped_ruler.faith.religion
+				root.faith.religion = faith:orthodox.religion
+			}
+		}
+	}
+}
+#Open the temple of vesta
+cdr_otv.001 = {
+	type = character_event
+	title = cdr_otv.001.t
+	desc = cdr_otv.001.desc
+	theme = faith
+	option={
+		name = cdr_otv.001.a
+		title:c_roma ={
+			add_county_modifier = open_temple_of_vesta
+		}
+		add_character_modifier = burning_flame_of_vesta
+		clear_global_variable_list = unavailable_unique_decisions_close_temple_of_vesta
+	}
+}
+
+#Take Vows Rejected
+rejected_to_join_vestal_vergins.001 = {
+	type = letter_event
+	opening = {
+		desc = religious_interaction.1.opening
+	}
+	desc = rejected_to_join_vestal_vergins.001.desc
+	sender = {
+		character = scope:recipient
+		animation = dismissal
+	}
+
+	immediate = {
+		show_as_tooltip = {
+			scope:recipient = {
+				add_opinion = {
+					target = scope:actor
+					modifier = asked_me_to_take_vows_opinion
+					years = 5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = religious_interaction.1000.strong_negative
+	}
+}
+
+accepted_to_join_vestal_vergins.001={
+	type = letter_event
+	opening = {
+		desc = char_interaction.0001.opening
+	}
+	desc = accepted_to_join_vestal_vergins.001.desc
+		
+	sender = scope:recipient
+
+	immediate = {
+		send_child_to_clergy_effect = yes
+	}
+
+	option = { #Send them on their way
+		name = accepted_to_join_vestal_vergins.001.a
+	}
+}
+
+saturnalia.001 = {
+	type = character_event
+	title = saturnalia.001.t
+	desc = saturnalia.001.desc
+	theme =	feast_activity
+
+	option = {
+		name = saturnalia.001.a
+		add_character_modifier = { modifier = saturnalia  months = 3 }
+		faith = scope:root.faith
+		faith ={ 
+			change_fervor = {
+				value = 5
+			}
+		}
+	}
+	
+}

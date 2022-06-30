@@ -1,0 +1,23 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+######################
+
+kemetic_return_decision:0 "Return one of the old Egyptian religions"
+kemetic_return_decision_desc:0 "I'm wondering what the old Egyptian religions looked like"
+kemetic_return_decision_tooltip:1 "How did the ancient religions work" 
+kemetic_return_decision_confirm:1 "Travel to Memphis"
+
+
+restore_egyptus:0 "Restore Egypt"
+restore_egyptus_desc:0 "Now all the duchies of the ancient Egyptian kingdom are back under one banner we can recreate the kingdom of Egypt"
+restore_egyptus_effect_tooltip:0 "Restored Kigdom of Egypt"
+restore_egyptus_tooltip:1 "It's time to reclaim egyptus"
+restore_egyptus_confirm:0 "Create Egypt"
+
+
+#choose your main deity 
+choose_main_deity_kemetic_decision:0 "Choose your main deity"
+kemetic_cmd_decision_desc:0 "For most of the old kemetic polytheists there was one particualar god who was important for their family, now i have the chance to choose for myself."
+choose_main_deity_kemetic_decision_tooltip:1 "this can only be done once in a lifetime so choose wisely"
+choose_main_deity_kemetic_decision_confirm:1 "Let's see"

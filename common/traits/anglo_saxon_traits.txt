@@ -1,0 +1,55 @@
+anglo_saxon_state_religion = {
+	index = 58000
+	fame = yes 
+	inherit_chance = 0
+	inherit_from_real_father = no
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = anglo_saxon_state_religion.dds
+			}
+			desc = anglo_saxon_state_religion.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+
+german_state_religion = {
+	index = 58040
+	fame = yes 
+	inherit_chance = 0
+	inherit_from_real_father = no
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = german_state_religion.dds
+			}
+			desc = german_state_religion.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}

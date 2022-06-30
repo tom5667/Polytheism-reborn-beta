@@ -1,0 +1,27 @@
+etc_state_religion = {
+	index = 61000
+	fame = yes 
+	inherit_from_real_father = no
+	same_faith_opinion = 15
+	monthly_prestige = 0.3
+	monthly_piety = 0.5
+
+	
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = Etruscan_State_religion.dds
+			}
+			desc = Etruscan_State_religion.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+

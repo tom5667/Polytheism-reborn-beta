@@ -1,0 +1,992 @@
+﻿random_yearly_everyone_pulse = {
+	effect = {
+		if = {
+			limit = {
+				NOT = { has_trait = devoted }
+				has_council_position = councillor_court_chaplain
+				faith = { has_doctrine = doctrine_monk_clergy_enforced }
+			}
+			add_trait = devoted
+		}
+	}
+}
+on_game_start = {
+	effect = {
+		religion:akom_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_kathenotheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:baltic_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_aeonic
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:bon_religion = {
+			every_faith	= {
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_tritheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_dualistic
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_promised_deliverer
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_holy_mortals_none
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:buddhism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_transtheistic
+				add_doctrine = doctrine_ethereal_immortal
+				add_doctrine = doctrine_cyclic
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_enlightened_monks
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_saints
+				add_doctrine = doctrine_autonomous
+				add_doctrine = doctrine_curtailed
+				add_doctrine = doctrine_monk_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_encouraged_alms
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:christianity_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_religious_text
+				add_doctrine = doctrine_monotheistic
+				add_doctrine = doctrine_immortal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_archangels
+				add_doctrine = doctrine_anointed_deliverer
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_paradise_and_underworld
+				add_doctrine = doctrine_saints
+				add_doctrine = doctrine_obligatory
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_encouraged_atone
+				add_doctrine = doctrine_encouraged_alms
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_approval
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+				add_doctrine = doctrine_sacred_marriage
+			}
+		}
+		religion:tani_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_ditheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_dualistic
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_promised_deliverer
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_holy_mortals_none
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:dualism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_ditheistic
+				add_doctrine = doctrine_immortal
+				add_doctrine = doctrine_dualistic
+				add_doctrine = doctrine_aspects
+				add_doctrine = doctrine_prophets
+				add_doctrine = doctrine_judgement_day
+				add_doctrine = doctrine_paradise_and_underworld
+				add_doctrine = doctrine_saints
+				add_doctrine = doctrine_obligatory
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_encouraged_atone
+				add_doctrine = doctrine_encouraged_alms
+			}
+		}
+		religion:finno_ugric_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_aeonic
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:hinduism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_kathenotheistic
+				add_doctrine = doctrine_ethereal_immortal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_aspects
+				add_doctrine = doctrine_avatars
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_gurus_2
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_curtailed
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_encouraged_alms
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_restricted
+				add_doctrine = doctrine_sacred_marriage
+			}
+		}
+		religion:islam_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_polygamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_religious_text
+				add_doctrine = doctrine_monotheistic
+				add_doctrine = doctrine_ethereal_immortal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_archangels
+				add_doctrine = doctrine_prophets
+				add_doctrine = doctrine_judgement_day
+				add_doctrine = doctrine_paradise_and_underworld
+				add_doctrine = doctrine_saints
+				add_doctrine = doctrine_paramount
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_mandatory_atone
+				add_doctrine = doctrine_mandatory_alms
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_divorce_approval
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_sacred_marriage
+			}
+		}
+		religion:jainism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_transtheistic
+				add_doctrine = doctrine_ethereal_immortal
+				add_doctrine = doctrine_eternal
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_gurus
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_avatars_2
+				add_doctrine = doctrine_autonomous
+				add_doctrine = doctrine_curtailed
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_encouraged_alms
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_sacred_marriage
+			}
+		}
+		religion:judaism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_religious_text
+				add_doctrine = doctrine_monotheistic
+				add_doctrine = doctrine_immortal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_archangels
+				add_doctrine = doctrine_anointed_deliverer
+				add_doctrine = doctrine_promised_deliverer
+				add_doctrine = doctrine_paradise_and_underworld
+				add_doctrine = doctrine_saints
+				add_doctrine = doctrine_obligatory
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_encouraged_atone
+				add_doctrine = doctrine_encouraged_alms
+			}
+		}
+		religion:kushitism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_syncretic_mythology
+				add_doctrine = doctrine_ethereal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_judgement_day
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:magyar_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_syncretic_mythology
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_judgement_day
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:mundhum_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_syncretic_mythology
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_dualistic
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_promised_deliverer
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_holy_mortals_none
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:paganism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_aeonic
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:qiangic_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_henotheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_dualistic
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_promised_deliverer
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_holy_mortals_none
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:siberian_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_ethereal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:slavic_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_aeonic
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:taoism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_transtheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_dualistic
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_promised_deliverer
+				add_doctrine = doctrine_paradise
+				add_doctrine = doctrine_holy_mortals_none
+				add_doctrine = doctrine_autonomous
+				add_doctrine = doctrine_curtailed
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_encouraged_alms
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_worldly_marriage
+			}
+		}
+		religion:tengrism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_syncretic_mythology
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_judgement_day
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:waaqism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_monotheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:west_african_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_kathenotheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_polygamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:west_african_bori_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_kathenotheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:west_african_orisha_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_kathenotheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:west_african_roog_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_autonomous_tradition
+				add_doctrine = doctrine_kathenotheistic
+				add_doctrine = doctrine_spiritual
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_reincarnation
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		religion:yazidi_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_monotheistic
+				add_doctrine = doctrine_ethereal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_archangels
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_paradise_and_underworld
+				add_doctrine = doctrine_holy_mortals_none
+				add_doctrine = doctrine_obligatory
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_encouraged_atone
+				add_doctrine = doctrine_encouraged_alms
+				add_doctrine = doctrine_polygamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_sacred_marriage
+			}
+		}
+		religion:zoroastrianism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_religious_text
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_divorce_approval
+				add_doctrine = doctrine_bastardry_none
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_ditheistic
+				add_doctrine = doctrine_immortal
+				add_doctrine = doctrine_theistic_creation
+				add_doctrine = doctrine_aspects
+				add_doctrine = doctrine_prophets
+				add_doctrine = doctrine_judgement_day
+				add_doctrine = doctrine_paradise_and_underworld
+				add_doctrine = doctrine_saints
+				add_doctrine = doctrine_obligatory
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_encouraged_atone
+				add_doctrine = doctrine_encouraged_alms
+			}
+		}
+		religion:zunism_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_monotheistic
+				add_doctrine = doctrine_ethereal_immortal
+				add_doctrine = doctrine_eternal
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_promised_deliverer
+				add_doctrine = doctrine_paradise
+				add_doctrine = doctrine_heroes
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
+		#Polytheism reborn 
+		religion:celtic_religion ={
+			every_faith ={
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_personal
+				add_doctrine = doctrine_eternal
+				add_doctrine = doctrine_demigods
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_underworld
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_paramount
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_monk_not_clergy_enforced 
+				add_doctrine = doctrine_no_restrictions
+
+			}
+		}
+		religion:egyptian_religion ={
+			every_faith ={
+				clear_modded_doctrines = yes
+				#Belief Doctrines 
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_personal
+				add_doctrine = doctrine_eternal
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_underworld
+	
+				#Practices Doctrines 
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_paramount
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monk_not_clergy_enforced 
+				add_doctrine = doctrine_no_restrictions
+	
+				#Marriage
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_consanguinity_cousins
+			}
+		}
+		religion:hellenism_religion ={
+			every_faith ={
+				clear_modded_doctrines = yes
+				#Belief
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_syncretic_mythology
+				add_doctrine = doctrine_personal
+				add_doctrine = doctrine_chaos_into_world
+				add_doctrine = doctrine_demigods
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_underworld
+
+				#Practices
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_paramount
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monk_not_clergy_enforced 
+				add_doctrine = doctrine_no_restrictions
+
+				#Marriage
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+			}
+		}
+		religion:etruscan_religion ={
+			every_faith ={
+				clear_modded_doctrines = yes
+				#Belief
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_personal
+				add_doctrine = doctrine_chaos_into_world
+				add_doctrine = doctrine_demigods
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_underworld
+
+				#Practices
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_paramount
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monk_not_clergy_enforced 
+				add_doctrine = doctrine_no_restrictions
+
+				#Marriage
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+			}
+		}
+		religion:punic_religion ={
+			every_faith ={
+				clear_modded_doctrines = yes
+				#Belief Doctrines 
+				add_doctrine = doctrine_sacred_scriptures
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_personal
+				add_doctrine = doctrine_eternal
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_underworld
+				#Practices Doctrines 
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_paramount
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monk_not_clergy_enforced 
+				add_doctrine = doctrine_no_restrictions
+				#Marriage
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+			}
+		}
+		religion:basque_religion = {
+			every_faith ={ 
+				clear_modded_doctrines = yes
+				#Belief Doctrines 
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_personal
+				add_doctrine = doctrine_eternal
+				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_eschatology_none
+				add_doctrine = doctrine_underworld
+				#Practices Doctrines 
+				add_doctrine = doctrine_venerated_ancestors
+				add_doctrine = doctrine_paramount
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_monk_not_clergy_enforced 
+				add_doctrine = doctrine_no_restrictions
+				#Marriage
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_consanguinity_cousins
+			}
+		}
+	}
+}
+
+on_game_start_after_lobby = {
+	effect = {
+		#polytheism reborn
+		faith:atenism ={add_doctrine_monotheistic = yes}
+		faith:hellenic_pagan = {
+			add_doctrine_judgement_day = yes
+			add_doctrine_worldly_marriage = yes
+		}
+		#end polytheism reborn
+		faith:theravada = { add_doctrine_polygamy = yes }
+		faith:vajrayana = {
+			add_doctrine_concubines = yes
+			add_doctrine_monogamy = yes
+		}
+		faith:ari = { add_doctrine_polygamy = yes }
+		faith:lamaism = {
+			add_doctrine_concubines = yes
+			add_doctrine_monogamy = yes
+		}
+		faith:orthodox = { add_doctrine_monk_clergy_enforced = yes }
+		faith:coptic = { add_doctrine_monk_clergy_enforced = yes }
+		faith:armenian_apostolic = { add_doctrine_monk_clergy_enforced = yes }
+		faith:cathar = {
+			add_doctrine_ditheistic = yes
+			add_doctrine_divorce_disallowed = yes
+		}
+		faith:waldensian = {
+			add_doctrine_personal = yes
+			add_doctrine_apostolic_poverty = yes
+			add_doctrine_monk_clergy_enforced = yes
+		}
+		faith:lollard = {
+			add_doctrine_monk_clergy_enforced = yes
+			add_doctrine_apostolic_poverty = yes
+		}
+		faith:iconoclast = {
+			add_doctrine_monk_clergy_enforced = yes
+			add_doctrine_apostolic_poverty = yes
+		}
+		faith:bogomilist = {
+			add_doctrine_apostolic_poverty = yes
+			add_doctrine_monk_clergy_enforced = yes
+		}
+		faith:paulician = { add_doctrine_monk_clergy_enforced = yes }
+		faith:nestorian = { add_doctrine_monk_clergy_enforced = yes }
+		faith:messalian = {
+			add_doctrine_consanguinity_unrestricted = yes
+			add_doctrine_apostolic_poverty = yes
+			add_doctrine_monk_clergy_enforced = yes
+		}
+		faith:adamites = {
+			add_doctrine_monogamy = yes
+			add_doctrine_concubines = yes
+			add_doctrine_divorce_allowed = yes
+			add_doctrine_bastardry_none = yes
+			add_doctrine_consanguinity_unrestricted = yes
+		}
+		faith:insular_celtic = {
+			add_doctrine_polygamy = yes
+			add_doctrine_divorce_approval = yes
+		}
+		faith:bosnian_church = { add_doctrine_monk_clergy_enforced = yes }
+		faith:mandeaism = { add_doctrine_monotheistic = yes }
+		faith:sabianism = { add_doctrine_monotheistic = yes }
+		faith:mutazila = { add_doctrine_divorce_allowed = yes }
+		faith:alawite = {
+			add_doctrine_monogamy = yes
+			add_doctrine_divorce_allowed = yes
+		}
+		faith:alevi = { add_doctrine_divorce_disallowed = yes }
+		faith:druze = { add_doctrine_monogamy = yes }
+		faith:west_african_bidu_pagan = { add_doctrine_concubines = yes }
+		faith:mazdayasna = { add_doctrine_consanguinity_unrestricted = yes }
+		faith:zurvanism = { add_doctrine_consanguinity_unrestricted = yes }
+		faith:mazdakism = { add_doctrine_monogamy = yes }
+		faith:khurramism = { add_doctrine_monogamy = yes }
+	}
+}

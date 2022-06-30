@@ -1,0 +1,878 @@
+﻿l_english:
+#####################
+#Made by tom5667 in coorparation with romanrepublic.org
+#V0.1 added religious family and cdr
+#V0.2 integrated more religous doctrines by scarelos, Added Eluesinian Mysteries
+###################### 
+
+
+    hellenic_pagan:0 "Hellenismos"
+    hellenic_pagan_adj:0 "Hellenismos"
+    hellenic_pagan_adherent:0 "Hellenismos"
+    hellenic_pagan_adherent_plural:0 "Hellenists"
+
+    hellenic_pagan_old:0 "Old Hellenismos"
+    hellenic_pagan_old_adj:0 "Old Hellenismos"
+    hellenic_pagan_old_adherent:0 "Old Hellenismos"
+    hellenic_pagan_old_adherent_plural:0 "Old Hellenismos"
+
+    #hellenic Localization correction
+    hellenism_religion:0 "Greek-Roman"
+    hellenism_religion_adj:2 "Greek-Roman"
+    hellenism_religion_adherent:2 "Greek-Roman"
+    hellenism_religion_adherent_plural:2 "Greek-Roman"
+    hellenic_pagan_desc:0 "Greaco Roman worship the ancient Greek and gods,Th greek gods said to reside on Mount Olympus . Each god has their own aspects and is venerated by their worshipers in their own way."
+    hellenic_pagan_old_desc:0 "Greaco Roman worship the ancient Greek and gods,Th greek gods said to reside on Mount Olympus . Each god has their own aspects and is venerated by their worshipers in their own way."
+    hellenism_religion_desc:0 "The Greek and Roman Religions are the same on many fronts, although there are also some major differences like the way they perform rituals and that the greek gods reside on Mount Olympus on the contrary the Roman gods dont visit the mortal world"
+
+    roman_religion:0 "Cultus Deorum Romanorum"
+    roman_religion_adj:0 "Cultus Deorum Romanorum"
+    roman_religion_desc:0 "There are hundrets of gods in the roman religion all worshiped in their own way"
+    #roman_religion_religious_head_title:0 "Pontifex Maximus" 
+    #cdr_pantheon_the_gods:0 "Deii Consentes"
+    #cdr
+    cdr_polytheism:0 "Cultus Deorum"
+    cdr_polytheism_adj:0 "Cultus Deorum"
+    cdr_polytheism_adherent:0 "Cultus Deorum follower"
+    cdr_polytheism_adherent_plural:0 "Cultus Deorum followers"
+    cdr_polytheism_desc:0 "Deii Consentes (counsel of the gods) honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance." 
+    cdr_polytheism_religious_head_title:0 "Pontifex Maximus"
+    cdr_polytheism_divine_realm:0 "Deii Consentes"
+    cdr_polytheism_religious_symbol:0 "Offer altar"
+    cdr_polytheism_religious_text:0 "Ritus and Caerimoniae"
+    roman_pantheon_the_gods:0 "Roman pantheon of gods"
+
+    #Cdr gods/goddesses Localization
+
+    #jupiter Localization
+    cdr_polytheism_high_god_name:0 "Jupiter"
+    cdr_polytheism_high_god_name_possessive:0 "Jupiter's"
+    cdr_polytheism_high_god_name_alternate:0 "Pater Iupiter"
+    cdr_polytheism_high_god_name_alternate_possessive:0 "Pater Iupiter's"
+    cdr_polytheism_high_god_shehe:0 "He"
+    cdr_polytheism_high_god_herselfhimself:0 "Himself"
+    cdr_polytheism_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    cdr_polytheism_creator_god_name:0 "kháos"
+    cdr_polytheism_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    cdr_polytheism_health_god_name:0 "Bona Dea"
+    cdr_polytheism_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    cdr_polytheism_fertility_god_name:0 "Ceres"
+    cdr_polytheism_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    cdr_polytheism_wealth_god_name:0 "Mercurius"
+    cdr_polytheism_wealth_god_name_possessive:0 "Mercurius's"
+
+    #Household god Lares 
+    cdr_polytheism_household_god_name:0 "Lares"
+    cdr_polytheism_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    cdr_polytheism_fate_god_name:0 "Janus"
+    cdr_polytheism_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    cdr_polytheism_knowledge_god_name:0 "Minerva"
+    cdr_polytheism_knowledge_god_name_possessive:0 "Minerva's"
+
+    #War god Mars Localization
+    cdr_polytheism_war_god_name:0 "Mars"
+    cdr_polytheism_war_god_name_possessive:0 "Mars"
+
+    #Trickster god Mendacius Localization
+    cdr_polytheism_trickster_god_name:0 "Mendacius"
+    cdr_polytheism_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    cdr_polytheism_night_god_name:0 "Latona"
+    cdr_polytheism_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    cdr_polytheism_water_god_name:0 "Neptunus"
+    cdr_polytheism_water_god_name_possessive:0 "Neptunus"
+
+    #evil gods names 
+    cdr_polytheism_evil_god_trivia:0 "Trivia" 
+    cdr_polytheism_evil_god_discordia:0 "Discordia"
+
+    #witch goddess
+    cdr_polytheism_witchgodname_trivia:0 "Trivia"
+    cdr_polytheism_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Devil god   
+    cdr_polytheism_devil_name:0 "Orcus" 
+    cdr_polytheism_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    cdr_polytheism_death_deity_name:0 "Pluto"
+    cdr_polytheism_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+    cdr_polytheism_good_god_juno:0 "Juno" 
+    cdr_polytheism_good_god_bona_dea:0 "Bona Dea" 
+    cdr_polytheism_good_god_minerva:0 "Minerva" 
+    cdr_polytheism_good_god_mercury:0 "Mercurius" 
+    cdr_polytheism_good_god_neptune:0 "Neptune" 
+    cdr_polytheism_good_god_mars:0 "Mars" 
+    cdr_polytheism_good_god_apollo:0 "Apollo" 
+    cdr_polytheism_good_god_Venus:0 "Venus"
+
+    #Cdr priest flamen vestals
+
+    #Cdr priest 
+    cdr_polytheism_priest_male:0 "Priest"
+    cdr_polytheism_priest_male_plural:0 "Priest"
+
+    #Cdr vestals 
+    cdr_polytheism_priest_female:0 "Vestal" 
+    cdr_polytheism_priest_female_plural:0 "Vestals" 
+
+    #Cdr flamen  
+    cdr_polytheism_bishop_male:0 "flamen" 
+    cdr_polytheism_bishop_male_plural:0 "flamens" 
+
+    #roman names
+    #males
+    reserved_male_names:0 "Cultus Deorum male names"
+    #Female 
+    reserved_female_names:0 "Cultus Deorum female names"
+
+    #holy orders: 
+    holy_order_sons_of_mars:0 "Sons of Mars"
+    holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"
+
+    #eluesinian mysteries
+    
+    eluesinian_mysteries:0 "Eluesinian Mysteries"
+    eluesinian_mysteries_adj:0 "Eluesinian Mysteries"
+    eluesinian_mysteries_adherent:0 "Eluesinian"
+    eluesinian_mysteries_adherent_plural:0 "Eluesinian Mysteries followers"
+    eluesinian_mysteries_desc:0 "The Eluesinian mysteries was one of the most famous mysterie cults of Greece and later The Roman republic and Empire. It represented the myth of the abduction of Persephone from her mother Demeter by the king of the underworld Hades. Rites were performed at Eleusis near Athens" 
+    eluesinian_mysteries_divine_realm:0 "Deii Consentes"
+    eluesinian_mysteries_religious_head_title:0 "Hierophantes"
+    eluesinian_mysteries_religious_symbol:0 "Offer altar"
+    eluesinian_mysteries_religious_text:0 "Sibylline Books"
+
+    #Demeter Localization
+    eluesinian_mysteries_high_god_name:0 "Demeter"
+    eluesinian_mysteries_high_god_name_possessive:0 "Demeter's"
+    eluesinian_mysteries_high_god_name_alternate:0 "Demeter Pelasgis"
+    eluesinian_mysteries_high_god_name_alternate_possessive:0 "Demeter Pelasgis's"
+    eluesinian_mysteries_high_god_shehe:0 "She"
+    eluesinian_mysteries_high_god_herselfhimself:0 "Herself"
+    eluesinian_mysteries_high_god_herhis:0 "Her"
+
+    #Creater god Localization
+    eluesinian_mysteries_creator_god_name:0 "kháos"
+    eluesinian_mysteries_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    eluesinian_mysteries_health_god_name:0 "Bona Dea"
+    eluesinian_mysteries_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    eluesinian_mysteries_fertility_god_name:0 "Ceres"
+    eluesinian_mysteries_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    eluesinian_mysteries_wealth_god_name:0 "Mercurius"
+    eluesinian_mysteries_god_name_possessive:0 "Mercurius"
+
+    #Household god Lares 
+    eluesinian_mysteries_household_god_name:0 "Lares"
+    eluesinian_mysteries_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    eluesinian_mysteries_fate_god_name:0 "Janus"
+    eluesinian_mysteries_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    eluesinian_mysteries_knowledge_god_name:0 "Minerva"
+    eluesinian_mysteries_knowledge_god_name_possessive:0 "Minerva's"
+
+    #War god Mars Localization
+    eluesinian_mysteries_war_god_name:0 "Mars"
+    eluesinian_mysteries_war_god_name_possessive:0 "Mars"
+
+    #Trickster god Mendacius Localization
+    eluesinian_mysteries_trickster_god_name:0 "Mendacius"
+    eluesinian_mysteries_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    eluesinian_mysteries_night_god_name:0 "Latona"
+    eluesinian_mysteries_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    eluesinian_mysteries_water_god_name:0 "Neptunus"
+    eluesinian_mysteries_water_god_name_possessive:0 "Neptunus"
+
+    #evil gods names 
+    eluesinian_mysteries_evil_god_trivia:0 "Trivia" 
+    eluesinian_mysteries_evil_god_discordia:0 "Discordia"
+
+    #Devil god   
+    eluesinian_mysteries_devil_name:0 "Orcus" 
+    eluesinian_mysteries_devil_name_possessive:0 "Orcus's"
+
+    #witch goddess
+    eluesinian_mysteries_witchgodname_trivia:0 "Trivia"
+    eluesinian_mysteries_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Death god Pluto 
+    eluesinian_mysteries_death_deity_name:0 "Pluto"
+    eluesinian_mysteries_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+          
+    eluesinian_mysteries_good_god_demeter:0 "Demeter" 
+    eluesinian_mysteries_good_god_venus:0 "Venus" 
+    eluesinian_mysteries_good_god_minerva:0 "Minerva" 
+    eluesinian_mysteries_good_god_mercury:0 "Mercurius" 
+    eluesinian_mysteries_good_god_jupiter:0 "Jupiter" 
+    eluesinian_mysteries_good_god_mars:0 "Mars" 
+    eluesinian_mysteries_good_god_apollo:0 "Apollo" 
+    eluesinian_mysteries_good_god_juno:0 "Juno"
+
+    #Eluesinian Mysteries priest 
+    eluesinian_mysteries_priest_male:0 "Dadouchos"
+    eluesinian_mysteries_priest_male_plural:0 "Dadouchos"
+    #Eluesinian Mysteries priestess 
+    eluesinian_mysteries_priest_female:0 "Dadouchousa Prietess" 
+    eluesinian_mysteries_priest_female_plural:0 "Dadouchousa Prietess's" 
+
+    #holy order Eluesinian Mysteries 
+    holy_order_protectors_of_eluesinian_mysteries:0 "Protectors of Eluesinian Mysteries"
+
+    #Mithras Mysteries 
+    mithraic_mysteries:0 "Mithraic Mysteries"
+    mithraic_mysteries_adj:0 "Mithraic Mysteries"
+    mithraic_mysteries_adherent:0 "Mithraic"
+    mithraic_mysteries_adherent_plural:0 "syndexioi"
+    mithraic_mysteries_desc:0 "Roman mysterie cult popular by the roman army from 1st till 4th century ad" 
+    mithraic_mysteries_divine_realm:0 "Deii Consentes"
+    mithraic_mysteries_religious_head_title:0 "Hierophantes"
+    mithraic_mysteries_religious_symbol:0 "Offer altar"
+    mithraic_mysteries_religious_text:0 "Mitrhraic mysteries"
+
+    #Mithras Localization
+    mithraic_mysteries_high_god_name:0 "Mithras"
+    mithraic_mysteries_high_god_name_possessive:0 "Mithras's"
+    mithraic_mysteries_high_god_name_alternate:0 "Mithras"
+    mithraic_mysteries_high_god_name_alternate_possessive:0 "Mithras's"
+    mithraic_mysteries_high_god_shehe:0 "He"
+    mithraic_mysteries_high_god_herselfhimself:0 "Himself"
+    mithraic_mysteries_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    mithraic_mysteries_creator_god_name:0 "kháos"
+    mithraic_mysteries_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    mithraic_mysteries_health_god_name:0 "Bona Dea"
+    mithraic_mysteries_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    mithraic_mysteries_fertility_god_name:0 "Ceres"
+    mithraic_mysteries_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    mithraic_mysteries_wealth_god_name:0 "Mercurius"
+    mithraic_mysteries_god_name_possessive:0 "Mercurius"
+
+    #Household god Lares 
+    mithraic_mysteries_household_god_name:0 "Lares"
+    mithraic_mysteries_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    mithraic_mysteries_fate_god_name:0 "Janus"
+    mithraic_mysteries_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    mithraic_mysteries_knowledge_god_name:0 "Minerva"
+    mithraic_mysteries_knowledge_god_name_possessive:0 "Minerva's"
+
+    #War god Mars Localization
+    mithraic_mysteries_war_god_name:0 "Mars"
+    mithraic_mysteries_war_god_name_possessive:0 "Mars"
+
+    #Trickster god Mendacius Localization
+    mithraic_mysteries_trickster_god_name:0 "Mendacius"
+    mithraic_mysteries_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    mithraic_mysteries_night_god_name:0 "Latona"
+    mithraic_mysteries_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    mithraic_mysteries_water_god_name:0 "Neptunus"
+    mithraic_mysteries_water_god_name_possessive:0 "Neptunus"
+
+    #evil gods names 
+    mithraic_mysteries_evil_god_trivia:0 "Trivia" 
+    mithraic_mysteries_evil_god_discordia:0 "Discordia"
+
+    #witch goddess
+    mithraic_mysteries_witchgodname_trivia:0 "Trivia"
+    mithraic_mysteries_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Devil god   
+    mithraic_mysteries_devil_name:0 "Orcus" 
+    mithraic_mysteries_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    mithraic_mysteries_death_deity_name:0 "Pluto"
+    mithraic_mysteries_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+          
+    mithraic_mysteries_good_god_mithras:0 "Mithras" 
+    mithraic_mysteries_good_god_venus:0 "Venus" 
+    mithraic_mysteries_good_god_minerva:0 "Minerva" 
+    mithraic_mysteries_good_god_mercury:0 "Mercurius" 
+    mithraic_mysteries_good_god_jupiter:0 "Jupiter" 
+    mithraic_mysteries_good_god_mars:0 "Mars" 
+    mithraic_mysteries_good_god_apollo:0 "Apollo" 
+    mithraic_mysteries_good_god_juno:0 "Juno"
+
+    #Mithraic Mysteries priest 
+    mithraic_mysteries_priest_male:0 "Mithraic priest"
+    mithraic_mysteries_priest_male_plural:0 "Mithraic priest's"
+    #Mithraic priestess 
+    mithraic_mysteries_priest_female:0 "Dadouchousa Prietess" 
+    mithraic_mysteries_priest_female_plural:0 "Mithraic Prietess's" 
+
+    #holy order Mithraic Mysteries 
+    holy_order_protectors_of_mithraic_mysteries:0 "Protectors of Mitras"
+
+    #Isis Mysteries 
+    mysteries_of_isis:0 "Mysteries of isis"
+    mysteries_of_isis_adj:0 "Mysteries of Isis"
+    mysteries_of_isis_adherent:0 "Isis Mysteries"
+    mysteries_of_isis_adherent_plural:0 "followers of mysterie cult of Isis"
+    mysteries_of_isis_desc:0 "With roots in Kemetic Polytheism, the cult of isis mysteries where mostly practiced in Italy and Greece" 
+    mysteries_of_isis_divine_realm:0 "Deii Consentes"
+    mysteries_of_isis_religious_head_title:0 "Hierophantes"
+    mysteries_of_isis_religious_symbol:0 "ankh symbol"
+    mysteries_of_isis_religious_text:0 "Mysteries of Isis one of the most famous mysterie cults in rome"
+
+    #Isis Localization
+    mysteries_of_isis_high_god_name:0 "Isis"
+    mysteries_of_isis_high_god_name_possessive:0 "Isis's"
+    mysteries_of_isis_high_god_name_alternate:0 "Isis"
+    mysteries_of_isis_high_god_name_alternate_possessive:0 "Isis's"
+    mysteries_of_isis_high_god_shehe:0 "She"
+    mysteries_of_isis_high_god_herselfhimself:0 "Herself"
+    mysteries_of_isis_high_god_herhis:0 "Her"
+
+    #Creater god Localization
+    mysteries_of_isis_creator_god_name:0 "kháos"
+    mysteries_of_isis_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    mysteries_of_isis_health_god_name:0 "Bona Dea"
+    mysteries_of_isis_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    mysteries_of_isis_fertility_god_name:0 "Ceres"
+    mysteries_of_isis_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    mysteries_of_isis_wealth_god_name:0 "Mercurius"
+    mysteries_of_isis_god_name_possessive:0 "Mercurius"
+
+    #Household god Lares 
+    mysteries_of_isis_household_god_name:0 "Lares"
+    mysteries_of_isis_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    mysteries_of_isis_fate_god_name:0 "Janus"
+    mysteries_of_isis_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    mysteries_of_isis_knowledge_god_name:0 "Minerva"
+    mysteries_of_isis_knowledge_god_name_possessive:0 "Minerva's"
+
+    #War god Mars Localization
+    mysteries_of_isis_war_god_name:0 "Mars"
+    mysteries_of_isis_war_god_name_possessive:0 "Mars"
+
+    #Trickster god Mendacius Localization
+    mysteries_of_isis_trickster_god_name:0 "Mendacius"
+    mysteries_of_isis_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    mysteries_of_isis_night_god_name:0 "Latona"
+    mysteries_of_isis_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    mysteries_of_isis_water_god_name:0 "Neptunus"
+    mysteries_of_isis_water_god_name_possessive:0 "Neptunus"
+
+    #evil gods names 
+    mysteries_of_isis_evil_god_trivia:0 "Trivia" 
+    mysteries_of_isis_evil_god_discordia:0 "Discordia"
+
+    #Devil god   
+    mysteries_of_isis_devil_name:0 "Orcus" 
+    mysteries_of_isis_devil_name_possessive:0 "Orcus's"
+
+    #witch goddess
+    mysteries_of_isis_witchgodname_trivia:0 "Trivia"
+    mysteries_of_isis_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Death god Pluto 
+    mysteries_of_isis_death_deity_name:0 "Pluto"
+    mysteries_of_isis_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+          
+    mysteries_of_isis_good_god_demeter:0 "Isis" 
+    mysteries_of_isis_good_god_venus:0 "Venus" 
+    mysteries_of_isis_good_god_minerva:0 "Minerva" 
+    mysteries_of_isis_good_god_mercury:0 "Mercurius" 
+    mysteries_of_isis_good_god_jupiter:0 "Jupiter" 
+    mysteries_of_isis_good_god_mars:0 "Mars" 
+    mysteries_of_isis_good_god_apollo:0 "Apollo" 
+    mysteries_of_isis_good_god_juno:0 "Juno"
+
+    #Isis Mysteries priest 
+    mysteries_of_isis_priest_male:0 "Isis mysterie priest"
+    mysteries_of_isis_priest_male_plural:0 "Isis mysterie priest's"
+    #Isis Mysteries priestess 
+    mysteries_of_isis_female:0 "Isis mysterie priestess" 
+    mysteries_of_isis_priest_female_plural:0 "Isis mysterie priestess's" 
+
+    #holy order Isis Mysteries 
+    holy_order_protectors_of_isis_mysteries:0 "Protectors of Isis Mysteries"
+
+    #Serapis Cult
+    cult_of_serapis:0 "Serapis Cult"
+    cult_of_serapis_adj:0 "Serapis Cult"
+    cult_of_serapis_adherent:0 "Serapis Cult"
+    cult_of_serapis_adherent_plural:0 "followers of Serapis cult"
+    cult_of_serapis_desc:0 "The cult of Serapis was pushed forward during the third century BC on the orders of Greek Pharaoh Ptolemy I Soter of the Ptolemaic Kingdom and made him patron of the ptolomic dynasty and Alexandria. In roman times Serapis continued to increase in popularity " 
+    cult_of_serapis_divine_realm:0 "Deii Consentes"
+    cult_of_serapis_religious_head_title:0 "Hierophantes"
+    cult_of_serapis_religious_symbol:0 "no symbol"
+    cult_of_serapis_religious_text:0 "Mysterie cult of Serapis"
+
+    #Serapis Cult Localization
+    cult_of_serapis_high_god_name:0 "Serapis"
+    cult_of_serapis_high_god_name_possessive:0 "Serapis's"
+    cult_of_serapis_high_god_name_alternate:0 "Serapis"
+    cult_of_serapis_high_god_name_alternate_possessive:0 "Serapis's"
+    cult_of_serapis_high_god_shehe:0 "He"
+    cult_of_serapis_high_god_herselfhimself:0 "Himself"
+    cult_of_serapis_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    cult_of_serapis_creator_god_name:0 "Kháos"
+    cult_of_serapis_creator_god_name_possessive:0 "Kháos's"
+
+    #Health Goddess Bona Dea
+    cult_of_serapis_health_god_name:0 "Bona Dea"
+    cult_of_serapis_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    cult_of_serapis_fertility_god_name:0 "Ceres"
+    cult_of_serapis_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    cult_of_serapis_wealth_god_name:0 "Mercurius"
+    cult_of_serapis_god_name_possessive:0 "Mercurius"
+
+    #Household god Lares 
+    cult_of_serapis_household_god_name:0 "Lares"
+    cult_of_serapis_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    cult_of_serapis_fate_god_name:0 "Janus"
+    cult_of_serapis_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    cult_of_serapis_knowledge_god_name:0 "Minerva"
+    cult_of_serapis_knowledge_god_name_possessive:0 "Minerva's"
+
+    #War god Mars Localization
+    cult_of_serapis_war_god_name:0 "Mars"
+    cult_of_serapis_war_god_name_possessive:0 "Mars"
+
+    #Trickster god Mendacius Localization
+    cult_of_serapis_trickster_god_name:0 "Mendacius"
+    cult_of_serapis_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    cult_of_serapis_night_god_name:0 "Latona"
+    cult_of_serapis_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    cult_of_serapis_water_god_name:0 "Neptunus"
+    cult_of_serapis_water_god_name_possessive:0 "Neptunus"
+
+    #evil gods names 
+    cult_of_serapis_evil_god_trivia:0 "Trivia" 
+    cult_of_serapis_evil_god_discordia:0 "Discordia"
+
+    #Devil god   
+    cult_of_serapis_devil_name:0 "Orcus" 
+    cult_of_serapis_devil_name_possessive:0 "Orcus's"
+
+    #witch goddess
+    cult_of_serapis_witchgodname_trivia:0 "Trivia"
+    cult_of_serapis_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Death god Pluto 
+    cult_of_serapis_death_deity_name:0 "Pluto"
+    cult_of_serapis_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+          
+    cult_of_serapis_good_god_serapis:0 "Serapis" 
+    cult_of_serapis_good_god_venus:0 "Venus" 
+    cult_of_serapis_good_god_minerva:0 "Minerva" 
+    cult_of_serapis_good_god_mercury:0 "Mercurius" 
+    cult_of_serapis_good_god_jupiter:0 "Jupiter" 
+    cult_of_serapis_good_god_mars:0 "Mars" 
+    cult_of_serapis_good_god_apollo:0 "Apollo" 
+    cult_of_serapis_good_god_juno:0 "Juno"
+
+    #Serapis cult priest 
+    cult_of_serapis_priest_male:0 "Serapist priest"
+    cult_of_serapis_priest_male_plural:0 "Serapist priests"
+    #Serapis cult priestess 
+    cult_of_serapis_female:0 "Serapist priestess" 
+    cult_of_serapis_priest_female_plural:0 "Serapis priesterss's" 
+
+    #holy order Serapis cult
+    holy_order_protectors_of_serapis_cult:0 "Protectors of Serapis"
+
+    #Sol invictus Cult
+    sol_invictus_cult:0 "Sol Invictus cult"
+    sol_invictus_cult_adj:0 "Sol Invictus cult"
+    sol_invictus_cult_adherent:0 "Sol Invictus cult"
+    sol_invictus_cult_adherent_plural:0 "followers of Sol Invictus cult"
+    sol_invictus_cult_desc:0 "Sol Invictus ("Unconquered Sun") was the official sun god of the later Roman Empire and a patron of soldiers" 
+    sol_invictus_cult_divine_realm:0 "Deii Consentes"
+    sol_invictus_cult_religious_head_title:0 "Hierophantes"
+    sol_invictus_cult_religious_symbol:0 "Unconquerable sun"
+    sol_invictus_cult_religious_text:0 "Cult of Sol Invictus"
+
+    #Serapis Cult Localization
+    sol_invictus_cult_high_god_name:0 "Sol Invictus"
+    sol_invictus_cult_high_god_name_possessive:0 "Sol Invictus's"
+    sol_invictus_cult_high_god_name_alternate:0 "unconquerable sun"
+    sol_invictus_cult_high_god_name_alternate_possessive:0 "unconquerable sun's"
+    sol_invictus_cult_high_god_shehe:0 "He"
+    sol_invictus_cult_high_god_herselfhimself:0 "Himself"
+    sol_invictus_cult_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    sol_invictus_cult_creator_god_name:0 "kháos"
+    sol_invictus_cult_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    sol_invictus_cult_health_god_name:0 "Bona Dea"
+    sol_invictus_cult_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    sol_invictus_cult_fertility_god_name:0 "Ceres"
+    sol_invictus_cult_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    sol_invictus_cult_wealth_god_name:0 "Mercurius"
+    sol_invictus_cult_god_name_possessive:0 "Mercurius"
+
+    #Household god Lares 
+    sol_invictus_cult_household_god_name:0 "Lares"
+    sol_invictus_cult_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    sol_invictus_cult_fate_god_name:0 "Janus"
+    sol_invictus_cult_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    sol_invictus_cult_knowledge_god_name:0 "Minerva"
+    sol_invictus_cult_knowledge_god_name_possessive:0 "Minerva's"
+
+    #War god Mars Localization
+    sol_invictus_cult_war_god_name:0 "Mars"
+    sol_invictus_cult_war_god_name_possessive:0 "Mars"
+
+    #Trickster god Mendacius Localization
+    sol_invictus_cult_trickster_god_name:0 "Mendacius"
+    sol_invictus_cult_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    sol_invictus_cult_night_god_name:0 "Latona"
+    sol_invictus_cult_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    sol_invictus_cult_water_god_name:0 "Neptunus"
+    sol_invictus_cult_water_god_name_possessive:0 "Neptunus"
+
+    #evil gods names 
+    sol_invictus_cult_evil_god_trivia:0 "Trivia" 
+    sol_invictus_cult_evil_god_discordia:0 "Discordia"
+
+    #witch goddess
+    sol_invictus_cult_witchgodname_trivia:0 "Trivia"
+    sol_invictus_cult_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Devil god   
+    sol_invictus_cult_devil_name:0 "Orcus" 
+    sol_invictus_cult_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    sol_invictus_cult_death_deity_name:0 "Pluto"
+    sol_invictus_cult_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+          
+    sol_invictus_cult_good_god_sol_invictus:0 "Sol Invictus" 
+    sol_invictus_cult_good_god_venus:0 "Venus" 
+    sol_invictus_cult_good_god_minerva:0 "Minerva" 
+    sol_invictus_cult_good_god_mercury:0 "Mercurius" 
+    sol_invictus_cult_good_god_jupiter:0 "Jupiter" 
+    sol_invictus_cult_good_god_mars:0 "Mars" 
+    sol_invictus_cult_good_god_apollo:0 "Apollo" 
+    sol_invictus_cult_good_god_juno:0 "Juno"
+
+    #Serapis cult priest 
+    sol_invictus_cult_priest_male:0 "Sol Invictus priest"
+    sol_invictus_cult_priest_male_plural:0 "Sol Invictuspriests"
+    #Serapis cult priestess 
+    sol_invictus_cult_female:0 "Sol Invictus priestess" 
+    sol_invictus_cult_priest_female_plural:0 "Sol Invictus priesterss's" 
+
+    #holy order of Sol Invictus 
+    holy_order_protectors_of_sol_invictus:0 "Protectors of Sol Invictus"
+
+    #Imperial cult
+    imperial_cult:0 "Imperial Cult"
+    imperial_cult_adj:0 "Imperial Cult"
+    imperial_cult_adherent:0 "Imperial Cult follower"
+    imperial_cult_adherent_plural:0 "Imperial Cult followers"
+    imperial_cult_desc:0 "In Imperial Cult Emperors are honored by ritus and Caerimoniae. Established in 28 bc by eastern states of the Roman Empire, Difference in west Divus (with the gods) in eastern Deus(god)" 
+    imperial_cult_religious_head_title:0 "Pontifex Maximus"
+    imperial_cult_divine_realm:0 "Deii Consentes"
+    imperial_cult_religious_symbol:0 "Offer altar"
+    imperial_cult_religious_text:0 "Ritus and Caerimoniae"
+    
+
+    #Imperial Cult gods/goddesses Localization
+
+    #Augustus Localization
+    imperial_cult_high_god_name:0 "Augustus "
+    imperial_cult_high_god_name_possessive:0 "Augustus s"
+    imperial_cult_high_god_name_alternate:0 "Divus Augustus"
+    imperial_cult_high_god_name_alternate_possessive:0 "Divus Augustus's"
+    imperial_cult_high_god_shehe:0 "He"
+    imperial_cult_high_god_herselfhimself:0 "Himself"
+    imperial_cult_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    imperial_cult_creator_god_name:0 "kháos"
+    imperial_cult_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    imperial_cult_health_god_name:0 "Bona Dea"
+    imperial_cult_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    imperial_cult_fertility_god_name:0 "Ceres"
+    imperial_cult_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    imperial_cult_wealth_god_name:0 "Mercurius"
+    imperial_cult_wealth_god_name_possessive:0 "Mercurius"
+
+    #Household god Lares 
+    imperial_cult_household_god_name:0 "Lares"
+    imperial_cult_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    imperial_cult_fate_god_name:0 "Janus"
+    imperial_cult_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    imperial_cult_knowledge_god_name:0 "Minerva"
+    imperial_cult_knowledge_god_name_possessive:0 "Minerva's"
+
+    #War god Mars Localization
+    imperial_cult_war_god_name:0 "Mars"
+    imperial_cult_war_god_name_possessive:0 "Mars"
+
+    #Trickster god Mendacius Localization
+    imperial_cult_trickster_god_name:0 "Mendacius"
+    imperial_cult_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    imperial_cult_night_god_name:0 "Latona"
+    imperial_cult_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    imperial_cult_water_god_name:0 "Neptunus"
+    imperial_cult_water_god_name_possessive:0 "Neptunus"
+
+    #evil gods names 
+    imperial_cult_evil_god_trivia:0 "Trivia" 
+    imperial_cult_evil_god_discordia:0 "Discordia"
+
+    #witch goddess
+    imperial_cult_witchgodname_trivia:0 "Trivia"
+    imperial_cult_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Devil god   
+    imperial_cult_devil_name:0 "Orcus" 
+    imperial_cult_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    imperial_cult_death_deity_name:0 "Pluto"
+    imperial_cult_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+    imperial_cult_good_god_juno:0 "Juno" 
+    imperial_cult_good_god_augustus:0 "Augustus" 
+    imperial_cult_good_god_minerva:0 "Minerva" 
+    imperial_cult_good_god_hadrianus:0 "Hadrianus" 
+    imperial_cult_good_god_neptune:0 "Neptune" 
+    imperial_cult_good_god_mars:0 "Mars" 
+    imperial_cult_good_god_trajanus:0 "Trajanus" 
+    imperial_cult_good_god_Venus:0 "Venus"
+
+    #Imperial Cult priest flamen vestals
+
+    #Imperial Cult priest 
+    imperial_cult_priest_male:0 "Priest"
+    imperial_cult_priest_male_plural:0 "Priest"
+
+    #Imperial Cult vestals 
+    imperial_cult_priest_female:0 "Vestal" 
+    imperial_cult_priest_female_plural:0 "Vestals" 
+
+    #Imperial Cult flamen  
+    imperial_cult_bishop_male:0 "flamen" 
+    imperial_cult_bishop_male_plural:0 "flamens" 
+
+    #holy order Imperial cult
+    holy_order_protectors_of_divus_augusti:0 "Protectors of Divus Augusti"
+    
+    #Julians Polytheism
+    julians_polytheism:0 "Greco Roman"
+    julians_polytheism_adj:0 "Greco Roman"
+    julians_polytheism_adherent:0 "Greco Roman"
+    julians_polytheism_adherent_plural:0 "Greco Roman followers"
+    #julians_polytheism_desc:0 "Emperor Julians Quest to restore the old Polytheistic ways was a combination of Cultus Deorum and Hellenismos. Deii Consentes (counsel of the gods) honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance." 
+    julians_polytheism_desc:0 "Greco Roman Polytheism is a combination between Cultus Deorum, Hellenismos, Sol Invictus and 3 cults( Mithras, Imperial and Isis cult) with Sol Invictus as most important god. Reformed after the ideas of Emperor Julian the philosopher (Julian the apostate in christian writings)"
+    julians_polytheism_religious_head_title:0 "Pontifex Maximus"
+    julians_polytheism_divine_realm:0 "Deii Consentes"
+    julians_polytheism_religious_symbol:0 "Offer altar"
+    julians_polytheism_religious_text:0 "Ritus and Caerimoniae"
+    spiritual_head_of_faith_name:0 "Pontifex Maximus"
+    temporal_head_of_faith_name:0 "Pontifex Maximus"
+
+
+#jupiter Localization
+    julians_polytheism_high_god_name:0 "Sol Invictus"
+    julians_polytheism_high_god_name_possessive:0 "Sol invictus's"
+    julians_polytheism_high_god_name_alternate:0 "Pater Iupiter"
+    julians_polytheism_high_god_name_alternate_possessive:0 "Pater Iupiter's"
+    julians_polytheism_high_god_shehe:0 "He"
+    julians_polytheism_high_god_herselfhimself:0 "Himself"
+    julians_polytheism_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    julians_polytheism_creator_god_name:0 "kháos"
+    julians_polytheism_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    julians_polytheism_health_god_name:0 "Bona Dea"
+    julians_polytheism_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Ceres Localization
+    julians_polytheism_fertility_god_name:0 "Ceres"
+    julians_polytheism_fertility_god_name_possessive:0 "Ceres's"
+
+    #Wealth god Mercurius Localization
+    julians_polytheism_wealth_god_name:0 "Mercurius"
+    julians_polytheism_wealth_god_name_possessive:0 "Mercurius's"
+
+    #Household god Lares 
+    julians_polytheism_household_god_name:0 "Lares"
+    julians_polytheism_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    julians_polytheism_fate_god_name:0 "Janus"
+    julians_polytheism_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    julians_polytheism_knowledge_god_name:0 "Hestea"
+    julians_polytheism_knowledge_god_name_possessive:0 "Hestea's"
+
+    #War god Mars Localization
+    julians_polytheism_war_god_name:0 "Mithras"
+    julians_polytheism_war_god_name_possessive:0 "Mirthras's"
+
+    #Trickster god Mendacius Localization
+    julians_polytheism_trickster_god_name:0 "Mendacius"
+    julians_polytheism_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Latona Localization
+    julians_polytheism_night_god_name:0 "Latona"
+    julians_polytheism_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    julians_polytheism_water_god_name:0 "Poseidon"
+    julians_polytheism_water_god_name_possessive:0 "Poseidon's"
+
+    #evil gods names 
+    julians_polytheism_evil_god_trivia:0 "Trivia" 
+    julians_polytheism_evil_god_discordia:0 "Discordia"
+
+    #witch goddess
+    julians_polytheism_witchgodname_trivia:0 "Trivia"
+    julians_polytheism_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Devil god   
+    julians_polytheism_devil_name:0 "Orcus" 
+    julians_polytheism_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    julians_polytheism_death_deity_name:0 "Pluto"
+    julians_polytheism_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+    julians_polytheism_good_god_juno:0 "Juno" 
+    julians_polytheism_good_god_jupiter:0 "Jupiter" 
+    julians_polytheism_good_god_athena:0 "Athena" 
+    julians_polytheism_good_god_mercury:0 "Mercurius" 
+    julians_polytheism_good_god_poseidon:0 "Poseidon" 
+    julians_polytheism_good_god_mars:0 "Mars" 
+    julians_polytheism_good_god_apollo:0 "Apollo" 
+    julians_polytheism_good_god_Venus:0 "Venus"
+
+    #julians priest flamen vestals
+
+    #julians priest 
+    julians_polytheism_priest_male:0 "Priest"
+    julians_polytheism_priest_male_plural:0 "Priest"
+
+    #julians vestals 
+    julians_polytheism_priest_female:0 "Vestal" 
+    julians_polytheism_priest_female_plural:0 "Vestals" 
+
+    #julians flamen  
+    julians_polytheism_bishop_male:0 "flamen" 
+    julians_polytheism_bishop_male_plural:0 "flamens" 
+
+    #roman names
+    #males
+    reserved_male_names:0 "Greco Roman male names"
+    #Female 
+    reserved_female_names:0 "Greco Roman female names"

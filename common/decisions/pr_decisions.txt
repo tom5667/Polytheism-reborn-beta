@@ -1,0 +1,350 @@
+return_polytheism_decision={
+	picture = "gfx/interface/illustrations/decisions/constantinople.dds"
+	major = yes
+	is_shown ={
+		is_adult = yes
+		is_imprisoned = no
+ 		is_at_war = no
+		OR={
+			culture = culture:latin
+			culture = culture:roman
+			culture = culture:greek
+			culture = culture:dalmatian
+			culture = culture:cisalpine
+			culture = culture:italian
+			culture = culture:sardinian
+			culture = culture:sicilian
+			culture = culture:butr
+			culture = culutre:baranis
+			culture = culutre:zaghawa
+			culture = culture:nubian
+			culture = culutre:egyptian
+			culture = culutre:beja
+			culture = culutre:coptic
+			culture = culture:irish
+			culture = culture:pictish
+			culture = culture:gaelic
+			culture = culture:welsh
+			culture = culture:breton
+			culture = culture:cornish
+			culture = culture:cumbrian
+			culture = culture:french
+			culture = culture:occitan
+			culture = culture:castilian
+			culture = culture:catalan
+			culture = culture:portuguese
+			culture = culture:catalan
+			culture = culture:galician
+			culture = culture:asturleonese 
+			culture = culture:aragonese
+			culture = culture:frankish
+			culture = culture:franconian
+			culture = culture:swabian
+			culture = culture:bavarian
+			culture = culture:frisian
+			culture = culture:dutch 
+			culture = culture:anglo_saxon
+			culture = culture:old_saxon
+			culture = culture:saxon 
+		}
+		AND={
+			OR={			
+			has_religion = religion:christianity_religion
+			has_religion = religion:islam_religion
+			}
+		}
+	}
+	is_valid ={
+		OR={
+			has_religion = religion:christianity_religion
+			has_religion = religion:islam_religion
+
+			#faith = faith:catholic
+		}
+	}
+	cost = {
+		piety = 500
+		prestige = 25
+		gold = 20
+	}
+	effect = {
+		
+		if ={
+			limit={
+					OR={
+						culture = culture:latin
+						culture = culture:roman
+						culture = culture:greek
+						culture = culture:dalmatian
+						culture = culture:cisalpine
+						culture = culture:italian
+						culture = culture:sardinian
+						culture = culture:sicilian
+					}
+			}
+			trigger_event = hellenismos.001
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					
+					culture = culture:butr
+					culture = culutre:baranis
+					culture = culutre:zaghawa
+				}
+			}
+			trigger_event = punic.001
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					
+					culture = culture:nubian
+					culture = culutre:egyptian
+					culture = culutre:beja
+					culture = culutre:coptic
+				}
+			}
+			trigger_event = kemetic.001 
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					culture = culture:irish
+					culture = culture:pictish
+					culture = culture:gaelic
+				}
+			}
+			trigger_event = gp.001
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					culture = culture:welsh
+					culture = culture:breton
+					culture = culture:cornish
+					culture = culture:cumbrian
+				}
+			}
+			trigger_event = bp.001
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					culture = culture:french
+					culture = culture:occitan
+				}
+			}
+			trigger_event = gl.001
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					culture = culture:castilian
+					culture = culture:catalan
+					culture = culture:portuguese
+					culture = culture:catalan
+					culture = culture:galician
+					culture = culture:asturleonese 
+					culture = culture:aragonese
+				}
+			}
+			trigger_event = ci.001
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					culture = culture:anglo_saxon
+					culture = culture:old_saxon
+					culture = culture:saxon 
+				}
+			}
+			trigger_event = anglo_saxon_return.001 
+			add_trait = pilgrim
+		}
+		else_if={
+			limit={
+				OR={
+					culture = culture:frankish
+					culture = culture:franconian
+					culture = culture:swabian
+					culture = culture:bavarian
+					culture = culture:frisian
+					culture = culture:dutch 
+				}
+			}
+			trigger_event = g_r.001 
+			add_trait = pilgrim
+		}
+		ai_potential = {
+			faith={
+				fervor <= 50
+			}
+		}
+		#Needs testing and further defining for ai when to start decision, for time being no Ai
+		ai_check_interval = 90
+		ai_chance={
+			base = 100
+		}
+	}
+}
+#Decision for fast conversion 
+return_polytheism_short_decision={
+	is_shown ={
+		is_adult = yes
+		is_imprisoned = no
+ 		is_at_war = no
+	}
+	is_valid ={ }
+
+	effect={
+		trigger_event = rps.001
+	}
+	ai_potential = {
+	
+	}
+	#Ai doesn't need this decision
+	ai_check_interval = 0
+	ai_chance={
+		base = 0
+	}
+}
+####################################################################################################################################
+#Update decision from infromation from link below -> engough information to make a decision for the earliest bookmark of bookmarks+
+#https://forum.paradoxplaza.com/forum/threads/the-sassanids-in-charlemagne-one-final-love-letter.1429937/
+#dynasty id of the sassanids 1029100 
+####################################################################################################################################
+ invite_sassanid_relatives_decision ={
+	picture = "gfx/interface/illustrations/decisions/Sassanid.dds"
+ 	is_shown ={
+ 		is_adult = yes
+		is_landed = yes
+ 		is_imprisoned = no
+  		is_at_war = no
+		major = yes
+ 		culture = { has_cultural_pillar = heritage_iranian }
+		current_date <= 790.1.1
+		NOR={
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions_invite_relative
+				target = flag:flag_restored_pr_invite_relative
+			}
+		}
+ 	}	
+ 	is_valid ={
+		custom_description = {
+			text = invite_sassanid_relatives_decision_before_last_date
+			current_date <= 790.1.1
+		}
+		#exists = character:180643
+		# AND={
+		# 	scope:mahrzad={
+		# 		character = character:180643
+		# 	}
+		# 	is_alive = yes
+		# }
+		has_religion = religion:zoroastrianism_religion
+ 		OR={	
+			dynasty = dynasty:1042112
+			dynasty = dynasty:7331
+ 		}
+ 	}
+	cost={#The remaining sassanids are already above 50 so no to high costs 
+		piety = 100
+		gold = 25
+	}
+	effect={
+		trigger_event = prsr.001
+
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions_invite_relative
+				target = flag:flag_restored_pr_invite_relative
+			}
+		}
+	}
+ }
+
+ #Decisions to make the reconquest of the sassanid empire more fun, Keeping in mind the age of the last recorded Sassanids 
+ #If Mehrzad get's children who can continue the reconquest will be fine. 
+ sassanid_reconquest={
+	picture = "gfx/interface/illustrations/decisions/Sassanid.dds"
+	is_shown={
+		dynasty = dynasty:1029100
+		NOR={
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions_reconquest
+				target = flag:flag_restored_pr_reconquest
+			}
+		}
+	}
+	is_valid={
+		dynasty = dynasty:1029100
+	    OR={
+			has_title = title:d_merv
+			has_title = title:d_guzgan
+		}
+	} # Note needs some more work, if this doesn't work more decisions are needed.
+	effect={
+		if={
+			limit={#First reconquest goal
+				has_title = title:d_merv
+				has_title = title:d_guzgan 
+			}
+			trigger_event = sassanid_reconquest.001
+			hidden_effect = {
+				add_to_global_variable_list = {
+					name = unavailable_unique_decisions_reconquest
+					target = flag:flag_restored_pr_reconquest
+				}
+			}
+		}
+	}
+	
+ }
+
+ close_temple_of_vesta_decision ={
+	picture = "gfx/interface/illustrations/decisions/temple_of_vesta.dds"
+	is_shown={
+		OR={
+			religion = religion:christianity_religion
+			religion = religion:islam_religion
+		}
+		AND={ 
+			title:c_roma = {has_county_modifier = open_temple_of_vesta }
+			has_title = title:c_roma
+		} 
+		NOR={
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions_close_temple_of_vesta
+				target = flag:flag_restored_prctv
+			}
+		}
+	}
+	is_valid={}
+	effect={
+		trigger_event = {
+			id = prctv.001
+		}
+		hidden_effect={
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions_close_temple_of_vesta
+				target = flag:flag_restored_prctv
+			}
+		}
+	}
+ }
+ #Religious freedom decision ? 
+
+ #Inspire other countries to return to their old Polytheistic ways
+ #It's a bit of a far fetch as polytheistic religions didn't realy send religious emissaries to others(as far as I know) 
+ #just to make the game play more fun and with lower religious fervor it could happen just like the neo polytheistic(pagan) religions 4
+
+

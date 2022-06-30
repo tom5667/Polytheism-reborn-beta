@@ -1,0 +1,55 @@
+#Etruscan polytheism decission return to Etruscan polytheism 
+#changes to secret religion when paradox includes secret religions 
+etc_return_decision = {
+		picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+		major = yes
+		desc =  etc_return_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		culuture_group = culture_group:latin_group 
+		OR = { 
+			has_religion = religion:christianity_religion
+			
+		}
+		NOR = {
+			has_faith = faith:etc_polytheism
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions_etc
+				target = flag:flag_restored_etc_religion
+				}
+		}
+	}
+
+	is_valid = {
+		is_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		NOR = {
+			has_trait = possessed_1
+			has_trait = lunatic_1
+			has_trait = cynical
+			has_trait = zealous
+			has_religion = religion:etruscan_religion 
+		}
+	}
+	cost = {
+		piety = 500
+		gold = 500
+	}
+	effect = {
+		trigger_event = etc.001 
+		save_scope_as = actor
+		add_trait = pilgrim 
+
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions_etc
+				target = flag:flag_restored_etc_religion
+			}
+		}
+	}
+} 
+
+
+

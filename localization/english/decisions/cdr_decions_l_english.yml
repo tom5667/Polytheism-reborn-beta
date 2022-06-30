@@ -1,0 +1,89 @@
+﻿l_english:
+#####################
+#Made by tom5667 in coorparation with romanrepublic.org
+#V0.1 added religious family and cdr
+#V0.2 integrated more religous doctrines by scarelos, Added Eluesinian Mysteries
+#V0.3 Added cult of isis, serapis and mithras. Added some missing localization
+#V0.4 Added beta version of return roman polytheism decision. 
+######################
+
+# Return Cultus Deorum Decision 
+# cdr_return_decision:0 "Return Cultus Deorum"
+# cdr_return_decision_desc:0 "I'm wondering what the old roman religion looked like"
+# cdr_return_decision_tooltip:1 "How did the ancient religion work" 
+# cdr_return_decision_confirm:1 "Travel to Athens"
+
+#Make Cultus deorum state religion
+cdr_sr_decision:0 "Make Cultus Deorum state religion"
+cdr_sr_decision_desc:0 "It's time to make Cultus Deorum ones again our state religion"
+cdr_sr_decision_tooltip:1 "Making Cultus deorum state religion again would be great"
+cdr_sr_decision_confirm:1 "Let's do this"
+
+#choose your main deity 
+choose_main_deity_cdr_decision:0 "Choose your main deity"
+cdr_cmd_decision_desc:0 "For most of the old roman polytheists there was one particualar god who was important for their family, for farmer Ceres, Mars for soldiers."
+choose_main_deity_cdr_decision_tooltip:1 "this can only be done once in a lifetime so choose wisely"
+choose_main_deity_cdr_decision_confirm:1 "Let's see"
+
+#choose your main deity hellenic
+choose_main_deity_h_decision:0 "Choose your main deity"
+h_cmd_decision_desc:0 "For most of the old hellenic polytheists there was one particualar god who was important for their family, for farmer Demeter, Ares for soldiers."
+choose_main_deity_h_decision_tooltip:1 "this can only be done once in a lifetime so choose wisely"
+choose_main_deity_h_decision_confirm:1 "Let's see"
+
+#reinstate gladiator games
+cdr_rgg_decision:0 "Reinstate gladiator games" 
+cdr_rgg_decision_desc:0 "After bringing back Cultus deorum as state religion, I can finaly bring back some of the old glory like real gladiator fights. Hope the plebians will like it"
+cdr_rgg_decision_tooltip:1 "On the old scrolls it realy looks like a big happening."
+cdr_rgg_decision_confirm:1 "Explore options"
+
+#Cultus Deorum ritual 
+cdr_r_decision:0 "Perform ritual"
+cdr_r_decision_desc:0 "Perform a ritual, the rituals are linked to the main deity you choose. Jupiter has two options one to skip the walktrough and one to follow it, 
+it gives you an insight in how the a real ritual works, if you are interested make sure to take a look sometime."
+cdr_r_decision_tooltip:1 "Perform a ritual, only once in 12 months aviable."
+cdr_r_decision_confirm:1 "collect items to offer"
+
+#choose your main deity Mithraic Mysteries
+choose_main_deity_mm_decision:0 "Choose your main deity"
+mm_cmd_decision_desc:0 "as i proceed, like most of the old cultus followers there was one particualar god who was important for their family."
+choose_main_deity_mm_decision_tooltip:1 "this can only be done once in a lifetime so choose wisely"
+choose_main_deity_mm_decision_confirm:1 "Let's see"
+
+#Embrace roman culture 
+cdr_erc_decision:0 "Embrace Roman culture"
+cdr_erc_decision_desc:0 "We have our old religion back now it's time reintroduce the roman virtues"
+cdr_erc_decision_tooltip:0 "Return roman culture"
+cdr_erc_decision_confirm:0 "confirm"
+
+#Restore Cultus Deorum Priesthood
+cdr_restore_high_priesthood_decision:0 "Restore Cultus Deorum Priesthood"
+cdr_restore_high_priesthood_decision_confirm:0 "Establish a new religious head"
+cdr_restore_high_priesthood_decision_desc:0 "If the [ROOT.Char.GetFaith.GetAdjective] faith gains a foothold in Greece, the time will be ripe for the reinstitution of a proper Cultus Deorum Priesthood."
+cdr_restore_high_priesthood_decision_tooltip:0 "The [ROOT.Char.GetFaith.GetAdjective] priesthood is established."
+cdr_restore_high_priesthood_decision_effect_tooltip:0 "The [THIS.Char.GetFaith.GetAdjective] priesthood is established"
+
+
+# Return Hellenismos Decision 
+hellenismos_return_decision:0 "Return one of the Old faiths of the Roman Empire"
+hellenismos_return_decision_desc:0 "I'm wondering what the old religion looked like"
+hellenismos_return_decision_tooltip:1 "How did the ancient religion work" 
+hellenismos_return_decision_confirm:1 "Travel to Athens"
+
+#Make Hellenismos state religion
+hellenismos_sr_decision:0 "Make Hellenismos state religion"
+hellenismos_sr_decision_desc:0 "It's time to make Hellenismos ones again our state religion"
+hellenismos_sr_decision_tooltip:1 "Making Hellenismos state religion again would be great"
+hellenismos_sr_decision_confirm:1 "Let's do this"
+
+#Open the temple of Vesta
+cdr_open_temple_of_vesta_decision:0 "Open the temple of Vesta"
+cdr_open_temple_of_vesta_decision_desc:0 "The temple of Vesta, unknown to many but it was one of the most important temples in the roman empire. If the flame was out only the worst could happen to Rome"
+cdr_open_temple_of_vesta_decision_tooltip:1 "Rebuild and open the temple of Vesta"
+cdr_open_temple_of_vesta_decision_confirm:1 "Open the temple of Vesta"
+
+#Saturnalia
+saturnalia_decision:0 "Celebrate Saturnalia"
+saturnalia_decision_tooltip:1 "Celebrate Saturnalia"
+saturnalia_decision_desc:0 "The weather gets colder, the harvest season is done and now it's time to honor Saturnus and thank the gods for the harvest within the [ROOT.Char.GetPrimaryTitle.GetName]"
+saturnalia_decision_confirm:1 "Prepare the Realm"

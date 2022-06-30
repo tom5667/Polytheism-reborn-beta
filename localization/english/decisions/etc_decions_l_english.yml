@@ -1,0 +1,17 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+######################
+
+# Return Etruscan polytheism Decision 
+etc_return_decision:0 "Etruscan Polytheism"
+etc_return_decision_desc:0 "I'm wondering what the old etruscan religion looked like"
+etc_return_decision_tooltip:1 "How did the ancient religion work" 
+etc_return_decision_confirm:1 "Travel to "
+
+#Make Etruscan polytheism state religion
+etc_sr_decision:0 "Make Etruscan polytheism state religion"
+etc_sr_decision_desc:0 "It's time to make Etruscan polytheism ones again our state religion"
+etc_sr_decision_tooltip:1 "Making Etruscan polytheismstate religion again would be great"
+etc_sr_decision_confirm:1 "Let's do this"
+

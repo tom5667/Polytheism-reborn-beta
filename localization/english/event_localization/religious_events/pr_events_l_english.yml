@@ -1,0 +1,76 @@
+﻿l_english:
+
+#quick menu change religon
+rps.001.t:0 ""
+rps.001.desc:0 "Quick menu change religion"
+rps.001.a:0 "Greek-Roman"
+rps.001.b:0 "Etruscan"
+rps.001.c:0 "Egyptian"
+rps.001.d:0 "Celtic"
+rps.001.e:0 "German"
+rps.001.f:0 "Punic"
+rps.001.g:0 "Exit"
+
+#Greek-Roman
+rps.002.t:0 ""
+rps.002.desc:0 " "
+rps.002.a:0 "Cultus Deorum"
+rps.002.b:0 "Hellenismos"
+rps.002.c:0 "Greaco Roman"
+rps.002.d:0 "Mithraic mysteries"
+rps.002.e:0 "Eluesinian mysteries"
+rps.002.f:0 "Cult of Serapis"
+rps.002.g:0 "Sol Invictus cult"
+rps.002.h:0 "Mysteries of Isis"
+rps.002.i:0 "Back"
+
+#Etruscan
+rps.003.t:0 ""
+rps.003.desc:0 " "
+rps.003.a:0 "Etruscan Polytheism"
+rps.003.b:0 "Back"
+
+#Egyptian
+rps.004.t:0 ""
+rps.004.desc:0 " "
+rps.004.a:0 "Kemetic Polytheism"
+rps.004.b:0 "Atenism"
+rps.004.c:0 "Back"
+
+#Celtic
+rps.005.t:0 ""
+rps.005.desc:0 " "
+rps.005.a:0 "Gaelic Polytheism"
+rps.005.b:0 "Brythonic Poltheism"
+rps.005.c:0 "Gaulish Polytheism"
+rps.005.d:0 "Celtic Iberian Polytheism"
+rps.005.e:0 "Back"
+
+#Germanic
+rps.006.t:0 ""
+rps.006.desc:0 " "
+rps.006.a:0 "Anglo Saxon Polytheism"
+rps.006.b:0 "German Polytheism"
+rps.006.c:0 "Back"
+
+#Punic
+rps.007.t:0 ""
+rps.007.desc:0 " "
+rps.007.a:0 "Punic Polytheism"
+rps.007.b:0 "Back"
+
+
+#Invite relatives
+prsr.001.t:0 "The Sassanid Relatives"
+prsr.001.desc:0 "They are finally here, first we gave them food and drinks to get back to strength after their long travel.\nAfter some time we came to buissness, can we help them back on the throne. Yes our families are from the same bloodline, but we still need soldiers to fight with us and remove those abbasids from persia as the chinese troops don't want to help we are on our own. It's up to us do we help them or do we send them back ?"
+prsr.001.a:0 "Invite them to stay"
+prsr.001.b:0 "Send them back"
+
+#Sassanid Reconquest
+sassanid_reconquest.001.t:0 "Start of the reconquest"
+sassanid_reconquest.001_desc:0 "Finaly years after the conquest of Persia by the Arabs, we finally have a bridge from Afrighids lands to Tokharistan. From now on we are a fors to be reconed with again. Search for we can search for extra allies or go on like we do now."
+sassanid_reconquest.001.a:0 "Praise Ahura Mazda"
+
+prctv.001.t:0 "Close the temple of Vesta"
+prctv.001.desc:0 "Closed once by Christians now soldiers of the [ROOT.Char.GetFaith.GetAdjective] religion close it once more and hopefully for good now."
+prctv.001.a:0 "Close the heathen temple"

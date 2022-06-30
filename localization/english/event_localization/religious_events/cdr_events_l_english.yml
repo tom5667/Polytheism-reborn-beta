@@ -1,0 +1,245 @@
+﻿l_english:
+
+#Return Cultus deorum event localization 
+# cdr.001.t:0 "Travel to Athens"
+# cdr.001.desc:0 "After reaching the library of athens i started reading old scriptures with information about the so named pagan romans"
+# cdr.001.a:0 "Interesting"
+
+# cdr.002.t:0 "Library of Athens"
+# cdr.002.desc:0 "You have read the finding. So the Romans did offer to god's like Iupiter and Iuno via rituals and ceremonies? and did have a pontifex maximus. the pope? hmm strange"
+# cdr.002.a:0 "I need to know more"
+# cdr.002.b:0 "Great but this is al I want to know"
+
+# cdr.003.t:0 "Study tempels within the empire"
+# cdr.003.desc:0 "Gather a team of historians and workers to search ancient temples in the realm, And study their texts, artifacts and burried offers"
+# cdr.003.a:0 "Let's go"
+
+# cdr.004.t:0 "Return of the historians"
+# cdr.004.desc:0 "In the evening the team of historians returned with their findings." 
+# cdr.004.a:0 "Proceed" 
+
+# cdr.005.t:0 "Findings"
+# cdr.005.desc:0 "Their findings are realy interesting, The offerings if not burned where stored underneath the tempels. So what now?"
+# cdr.005.a:0 "Make first private offer"
+# cdr.005.b:0 "Let's stop before anyone finds out (last chance)"
+
+# cdr.006.t:0 "Final Preparations"
+# cdr.006.desc:0 "Let's start my first ritual at my newly created lararium, Most important thing of this first ritual is inviting them via this ritual in my household. and ask them to guide me in de comming days"
+# cdr.006.a:0 "Convert to Cultus Deorum"
+
+
+
+#Cultus Deorum state religion event localization
+cdr_sr.001.t:0 "Change state religion"
+
+cdr_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Cultus Deorum as state religion. After a day of debating in the senate it's done"
+cdr_sr.001.a:0 "Proclaim the new state religion"
+
+cdr_sr.002.t:0 "State religion changed"
+
+cdr_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+cdr_sr.002.desc.vassals:0 "test vassals desc"
+cdr_sr.002.desc_vanilla:0 "test vanilla desc"
+cdr_sr.002.b:0 "Convert willing vassals"
+cdr_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+cdr_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_cdr_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+
+#choose your main deity event localization 
+cdr_cmd.001.t:0 "Choose main deity"
+cdr_cmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+cdr_cmd.001.a:0 "Iupiter"
+cdr_cmd.001.b:0 "Iuno"
+cdr_cmd.001.c:0 "Mars"
+cdr_cmd.001.d:0 "Venus"
+cdr_cmd.001.e:0 "the house lares"
+cdr_cmd.001.f:0 "Mercurius"
+cdr_cmd.001.g:0 "Maybe now isn't the right time"
+
+#choose your main deity hellenic event localization 
+h_cmd.001.t:0 "Choose main deity"
+h_cmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+h_cmd.001.a:0 "Zeus"
+h_cmd.001.b:0 "Hera"
+h_cmd.001.c:0 "Ares"
+h_cmd.001.d:0 "Aphrodite"
+h_cmd.001.e:0 "Hermes"
+h_cmd.001.f:0 "Maybe now isn't the right time"
+
+
+#Choose your main deity Mithraic Mysteries
+mm_cmd.001.t:0 "Choose main deity"
+mm_cmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+mm_cmd.001.a:0 "I choose Mithras"
+mm_cmd.001.b:0 "Maybe this isn't the right time"
+
+#reinstate gladiator games event localization
+cdr_rgg.001.t:0 "So how to begin ?"
+cdr_rgg.001.desc:0 "It will be a lot of work and gold to rebuild the lost glory of gladiator games, but it will be worth it. let's see first we need to build a arena"
+cdr_rgg.001.a:0 "it's a lot of gold hmm maybe a small arena"
+cdr_rgg.001.b:0 "Just rebuild it like in roman way no extra's"
+cdr_rgg.001.c:0 "Let's rebuild it just like the romans did wel maybe some extra's"
+cdr_rgg.001.d:0 "Maybe this isn't the right time"
+
+cdr_rgg.001.t:0 "Rebuilt first arena"
+cdr_rgg.001.desc:0 "Now i need to gather a team and build the arena, it wil take a few years but after that we can finaly start."
+cdr_rgg.001.a.tt:0 "Building the arena will take 2 years"
+cdr_rgg.001.a:0 "Start building"
+
+cdr_rgg.002.t:0 "finaly ready"
+cdr_rgg.002.desc:0 "After two years of work the arena is finaly ready, once again we can host gladiator games"
+cdr_rgg.002.a:0 "Great!"
+
+
+#Cultus Deorum ritual 
+cdr_r.001.t:0 "Preperations"
+cdr_r.001.desc:0 "First of al i need to collect everything i need, let's start with the toga to cover my head. after that i can collect a bowl with water. Wine, milk and some other things offer like fruit and last but not least two glases and a plate.\n\nsecond option is for players who don't want the walkthrough"
+cdr_r.001.a:0 "Let's do this step by step"
+cdr_r.001.b:0 "Skip the step by step"
+
+cdr_r.009.t:0 "The ritual begins"
+cdr_r.009.desc:0 "Today I'm going to honor Iuno goddess of merriage, protector of woman and wife of Iupiter.\nAfter the preparations are done I'm ready to start the ritual.\nAs the ritual progresses it's time to offer to Iuno, I say concrete what I offer and to wich god(dess) and after that I put the figs on the plate and sprinkle it with some watter.\n\nAs last part I observe the room for any signs and offer to Vesta and Janus and as safety offer one last time to Iuno to apologize for any inconviance during the ritual.\nNow the ritual is done I hope Iuno heared my prayer and accepts my offer, You Eat the figgs or give them back to nature."
+cdr_r.009.a:0 "Clean up and hope for the best."
+
+cdr_r.011.t:0 "The ritual begins"
+cdr_r.011.desc:0 "Today I'm going to honor Venus goddess of love, beauty and desire.\nAfter the preparations are done I'm ready to start the ritual.\nAs the ritual progresses it's time to offer to Venus, I say concrete what I offer and to wich god(dess) and after that I put the roses on the plate and sprinkle it with some watter.\n\nAs last part I observe the room for any signs and offer to Vesta and Janus and as safety offer one last time to Venus to apologize for any inconviance during the ritual.\nNow the ritual is done I hope Venus heared my prayer and accepts my offer, You give the roses back to nature."
+cdr_r.011.a:0 "Clean up and hope for the best."
+
+cdr_r.010.t:0 "The ritual begins"
+cdr_r.010.desc:0 "Today I'm going to honor Mars god of war.\nAfter the preparations are done I'm ready to start the ritual.\nAs the ritual progresses it's time to offer to Mars, I say concrete what I offer and to wich god(dess) and after that I put the cakes/pastries on the plate and sprinkle it with some watter.\n\nAs last part I observe the room for any signs and offer to Vesta and Janus and as safety offer one last time to Mars to apologize for any inconviance during the ritual.\nNow the ritual is done I hope Mars heared my prayer and accepts my offer, You Eat the cakes/pastries or give them back to nature."
+cdr_r.010.a:0 "Clean up and hope for the best."
+
+cdr_r.012.t:0 "The ritual begins"
+cdr_r.012.desc:0 "Today I'm going to honor Lares, protector of households.\nAfter the preparations are done I'm ready to start the ritual.\nAs the ritual progresses it's time to offer to the Lares, I say concrete what I offer and to wich god(dess) and after that I put the figs on the plate and sprinkle it with some watter.\n\nAs last part I observe the room for any signs and offer to Vesta and Janus and as safety offer one last time to the Lares to apologize for any inconviance during the ritual.\nNow the ritual is done I hope the Lares heared my prayer and accepts my offer, You Eat the figgs or give them back to nature."
+cdr_r.012.a:0 "Clean up and hope for the best."
+
+cdr_r.013.t:0 "The ritual begins"
+cdr_r.013.desc:0 "Today I'm going to honor Mercurius god of trade.\nAfter the preparations are done I'm ready to start the ritual.\nAs the ritual progresses it's time to offer to Mercurius, I say concrete what I offer and to wich god(dess) and after that I put the flowering plants on the plate and sprinkle it with some watter.\n\nAs last part I observe the room for any signs and offer to Vesta and Janus and as safety offer one last time to Mercurius to apologize for any inconviance during the ritual.\nNow the ritual is done I hope Mercurius heared my prayer and accepts my offer, You give the flowering plants back to nature."
+cdr_r.013.a:0 "Clean up and hope for the best."
+
+
+cdr_r.002.t:0 "Purificatio (Purification)"
+cdr_r.002.desc:0 "I cover head with the toga, and wash my hands and face (this is a sign of respect and piety to the gods) with syaing a simple prayer."
+cdr_r.002.a:0 "Proceed"
+
+cdr_r.003.t:0 "Praefatio (Start communication)"
+cdr_r.003.desc:0 "Now i'm purifight i can start the ritual, first i need to light a candle and greet mother Vesta with a prayer. next go through with saying a prayer to janus the two faced god an give him a welcome offer of incense. last offer to Vesta thanking her for the flame for the ritual."
+cdr_r.003.a:0 "Proceed"
+
+cdr_r.004.t:0 "Salutatio (Greeting and asking the gods to attend in the ritual)"
+cdr_r.004.desc:0 "Iupiter Optimus Maximus (Jupiter best and greatest) god of the sky and protector of the people of Rome or wathever name you prefer, may you attend to this ritual. And may you accept this offer of fruit (after speaking the words put it on the bowl. and sprinkel some water on it."
+cdr_r.004.a:0 "Proceed"
+
+cdr_r.005.t:0 "Precatio (Prayer)"
+cdr_r.005.desc:0 "For the Precatio i will offer my main offer to Iupiter (but first the main reason formally stated). Iupiter optimus maximus may you favour my familie and the people of my realm. Now pour a libation of wine in the cup and i say the words Iupiter May you  favour my familie and people of my realm with power and victory to overcome our ennemies."
+cdr_r.005.a:0 "Proceed"
+
+cdr_r.006.t:0 "Immolatio (Sacrifice)"
+cdr_r.006.desc:0 "Iupiter optimus maximus god of thunder and protector of the people of Rome, accept this labation of wine and may you favour my familie and the people of my realm. Now pour a libation of wine in the cup and i say the words Iupiter May you  favour my familie and people of my realm with power and victory to overcome our ennemies."
+cdr_r.006.a:0 "Proceed"
+
+cdr_r.007.t:0 "Litatio (Observance)"
+cdr_r.007.desc:0 "Observe the room for signs"
+cdr_r.007.a:0 "Proceed"
+
+cdr_r.008.t:0 "Piaculum (Atonement)"
+cdr_r.008.desc:0 "Now for if there are made any errors int the ritual, i wil offer incense to Ianus, Vesta and as safety offer one last time to Iupiter to apologize for any inconviance during the ritual."
+cdr_r.008.a:0 "Proceed"
+
+
+
+
+#Embrace roman culture 
+cdr_erc.001.t:0 "Embrace Roman Culture"
+cdr_erc.001.desc:0 "For far to long we lost the old virtues of the roman empire."
+cdr_erc.001.a:0 "Embrace the roman culture"
+
+#Restore cultus deorum Priesthood
+ cdr_rph_decisions.0001.t:0 "The New [scoped_ruler.GetFaith.GetAdjective] Priesthood"
+ cdr_rph_decisions.0001.desc:0 "After the interlude of exile and persecution following the Christian conquests, Cultus deorum has been accepted by the people of Europe as the one true path to righteousness. [scoped_ruler.GetTitledFirstName] has ordered the institution of the office of the [new_priest.GetTitleTierName], a Priest of Priests to rule over a restored clerical hierarchy.\n\nThe [new_priest.GetTitleTierName] will serve as the highest religious authority in the [scoped_ruler.GetFaith.GetAdjective] world, with powers ranging from the blessing of future military expeditions to the granting of divorces to married couples."
+ cdr_rph_decisions.0001.a:0 "The eternal flame of Mother Vesta burns once more!"
+ cdr_rph_decisions.0002.desc.orthodox:0 "The accursed followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough land and influence to re-establish a blasphemous priesthood under the protection of [scoped_ruler.GetTitledFirstName].\n\nIf not soon stopped, these demon-worshiping pagans might turn the tide of Christian expansion in Europe, polluting the mind of their unaware subjects with lies and perversions."
+ cdr_rph_decisions.0002.desc.others:0 "The strange, Cultus Deorum followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough of their ancestral Roman territories to re-establish a functional Priesthood.\n\nIf not stopped soon, they might turn the tide of Christian expansion and restore Europe under the protection of their old gods."
+ cdr_rph_decisions.0002.a:0 "Glory to [scoped_ruler.GetFaith.HighGodName]!"
+ cdr_rph_decisions.0002.b:0 "Their demons will not shield them from the might of [ROOT.Char.GetFaith.HighGodName]!"
+ cdr_rph_decisions.0002.c:0 "... Pantheon worshiping?"
+
+ #Hellenismos
+ 
+ hellenismos.001.t:0 "Travel to Athens" 
+ hellenismos.001.desc:0 "You are on the point to travel to the old library of Athens where the old scrols of Emperor Julian are stored"
+ hellenismos.001.a:0 "Interesting"
+
+ hellenismos.002.t:0 "Library of Athens Part1"
+ hellenismos.002.desc:0 "You arived at the old library of Athens where the old scrolls lay under a thick layer of dust you take them up clean them and start studying them, luckily you know greek so that's no problem"
+ hellenismos.002.a:0 "I need to know more"
+ hellenismos.002.b:0 "Great but this is al I want to know"
+
+ hellenismos.003.t:0 "After studying the first scroll you decide to take them home Part2"
+ hellenismos.003.desc:0 "you return back home with the all the scrols of Emperor Julian"
+ hellenismos.003.a:0 "proceed"
+
+ hellenismos.004.t:0 "How did Emperor Jullian think about polytheism Part3"
+ hellenismos.004.desc:0 "Although Emperor Jullian didn't want to bring back Hellenismos or Cultus Deorum in the way the romans and greeks new it before him. He has written how it was and how he wanted to change it so it would be sustainable against christianity, luckily he has also described how the rituals worked for both the old and the new." 
+ hellenismos.004.a:0 "study the rest of the scrolls" 
+
+ hellenismos.005.t:0 "Thoughts Part 4"
+ hellenismos.005.desc:0 "So now i know the basics of how hellenismos and Cultus Deorum must have looked like, for example the Romans did offer to god's like Iupiter and Iuno via rituals (head coverd by roman gods and by greek gods not) and ceremonies they even did have a pontifex maximus. the pope? hmm strange and than we have Hellenismos no religious leader how did they even oranize the religion without one?"
+ hellenismos.005.a:0 "Do some more research"
+ hellenismos.005.b:0 "Let's stop before anyone finds out (last chance)"
+
+ hellenismos.006.t:0 "Final"
+ hellenismos.006.desc:0 "Now i learned about the three religions I have to decide where my heart really lies"
+ hellenismos.006.a:0 "Convert to Hellenismos"
+ hellenismos.006.b:0 "Convert to Cultus Deorum"
+ hellenismos.006.c:0 "Convert to Julians Polytheism"
+
+ #Hellenismos state religion event localization
+ hellenismos_sr.001.t:0 "Change state religion"
+
+ hellenismos_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Hellenismos as state religion. After a day of debating in the senate it's done"
+ hellenismos_sr.001.a:0 "Proclaim the new state religion"
+
+ hellenismos_sr.002.t:0 "State religion changed"
+
+ hellenismos_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+ hellenismos_sr.002.desc.vassals:0 "test vassals desc"
+ hellenismos_sr.002.desc_vanilla:0 "test vanilla desc"
+ hellenismos_sr.002.b:0 "Convert willing vassals"
+ hellenismos_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+ hellenismos_sr.002.d:0 "There will be people who just dont care"
+ #event modifier 
+ return_hellenismos_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+ #Greco Roman state religion event localization
+ julian_sr.001.t:0 "Change state religion"
+
+ julian_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Greco Roman polytheism as state religion. After a day of debating in the senate it's done"
+ julian_sr.001.a:0 "Proclaim the new state religion"
+
+ julian_sr.002.t:0 "State religion changed"
+
+ julian_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+ julian_sr.002.desc.vassals:0 "test vassals desc"
+ julian_sr.002.desc_vanilla:0 "test vanilla desc"
+ julian_sr.002.b:0 "Convert willing vassals"
+ julian_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+ julian_sr.002.d:0 "There will be people who just dont care"
+ #event modifier 
+ return_julian_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+ rejected_to_join_vestal_vergins.001.desc:0 "Your suggestion for me to uproot my entire life and scurry off to the temple of Vesta is ludicrous. I am happy where I am, and I have no plans to change that."
+
+  accepted_to_join_vestal_vergins.001.desc:0 "I will answer the call to serve a higher power, and I thank you for setting me on this path of righteousness."
+  accepted_to_join_vestal_vergins.001.a:0 "I am sure you will serve Mother Vesta well!"
+
+
+  cdr_otv.001.t:0 "Temple of Vesta opened"
+  cdr_otv.001.desc:0 "After centuries of closure the temple of vesta is open again, the flame is burning and the new vestal virgins are doing everything they can to keep the flame burning "
+  cdr_otv.001.a:0 "Finaly the ethernal flame burns again"
+
+  saturnalia.001.t:0 "Saturnalia"
+  saturnalia.001.desc:0 "The 17th of december has finally come, all businesses are closed and all harvests are in. Today we honer Saturn and do we thank the gods for the harvest of this year. After we held the rituals we exchanged gifts with eachother and is it time for the festivities"
+  saturnalia.001.a:0 "Gather the realm for Saturnalia"

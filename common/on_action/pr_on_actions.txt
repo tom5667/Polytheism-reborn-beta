@@ -1,0 +1,19 @@
+# check_roma_owner = {
+# 	on_actions ={
+#  		check_temple_of_vesta_owner_roma
+#  	}
+#  }
+
+check_temple_of_vesta_owner_roma = {
+	trigger ={ 
+		has_title = title:c_roma
+		title:c_roma = {has_county_modifier = open_temple_of_vesta }
+		NOR ={
+			has_character_modifier = burning_flame_of_vesta
+		}	
+	}	
+	effect ={
+		add_character_modifier = burning_flame_of_vesta
+	}
+} 		
+

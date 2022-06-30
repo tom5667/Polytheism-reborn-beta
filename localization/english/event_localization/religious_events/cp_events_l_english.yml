@@ -1,0 +1,221 @@
+﻿l_english:
+
+#Return Gaelic polytheism event localization 
+gp.001.t:0 "Travel trough realm"
+gp.001.desc:0 "it's difficult to get to the true Gaelic polytheism because much is incorparated in christianity, Only thing i can do is travel trough ireland. and visit old sacred groves."
+gp.001.a:0 "let's go"
+
+gp.002.t:0 "After visiting some sacred groves"
+gp.002.desc:0 "After visiting some groves i ended up by hill of Tara, It sounds strange but i feel like there is some kind of strange power here. there is even a strange monument with the name Mound of the Hostages"
+gp.002.a:0 "I need to know more"
+gp.002.b:0 "Great but this is al I want to know"
+
+gp.003.t:0 "Study monuments at hill of Tara"
+gp.003.desc:0 "After some time spended on hill of Tara and exploring the mound of the hostages. at that time group of people came to me and asked if would be interested in knowing the history and rituals "
+gp.003.a:0 "Let's hear what they have to say"
+gp.003.b:0 "Great but this is al I want to know"
+
+gp.004.t:0 "after talking with the group"
+gp.004.desc:0 "They talked about Tuatha de Danann an ancient race who lived here before us with father god The Daghda. After some time they asked me if i would like to follow a ritual for their gods ?"
+gp.004.a:0 "Watch their ritual"
+
+gp.005.t:0 "Final"
+gp.005.desc:0 "After watching the ritual, they asked me if would like to "
+gp.005.a:0 "Hold ritual and make choice convert"
+gp.005.b:0 "Let's stop before anyone finds out (last chance)"
+
+
+#Return Brythonic polytheism event localization 
+bp.001.t:0 "Travel trough realm"
+bp.001.desc:0 "it's difficult to get to the true Brythonic polytheism because much is incorparated in christianity, Only thing i can do is travel trough Enlgand. and visit old sacred groves and the stonehenge."
+bp.001.a:0 "let's go"
+
+bp.002.t:0 "After visiting some sacred groves"
+bp.002.desc:0 "After visiting some groves i ended up by the stonehenge, It sounds strange but i feel like there is some kind of strange power here."
+bp.002.a:0 "I need to know more"
+bp.002.b:0 "Great but this is al I want to know"
+
+bp.003.t:0 "Study the stonehenge"
+bp.003.desc:0 "After some time spended by the stonehenge. After some time a group of people came to me and asked if would be interested in knowing the history and rituals "
+bp.003.a:0 "Let's hear what they have to say"
+bp.003.b:0 "Great but this is al I want to know"
+
+bp.004.t:0 "after talking with the group"
+bp.004.desc:0 "They talked about Tuatha de Danann an ancient race who lived here before us with father god The Daghda. After some time they asked me if i would like to follow a ritual for their gods ?"
+bp.004.a:0 "Watch their ritual"
+
+bp.005.t:0 "Final"
+bp.005.desc:0 "After watching the ritual, they asked me if would like to "
+bp.005.a:0 "Hold ritual and make choice convert"
+bp.005.b:0 "Let's stop before anyone finds out (last chance)"
+
+#Return Gaulish polytheism event localization 
+gl.001.t:0 "Travel trough realm"
+gl.001.desc:0 "it's difficult to get to the true gaulish polytheism because they had a lot of syncrtism with the roman religion, Only thing i can do is travel trough France. and visit old sacred groves and maybe even visit outside the realm the place aachen in roman times aquis granum"
+gl.001.a:0 "let's go"
+
+gl.002.t:0 "After visiting some sacred groves"
+gl.002.desc:0 "After visiting some groves i ended up in aachen, It sounds strange but i feel like there is some kind of strange power here. there is an underearth water spring that was holy for the old celts alth"
+gl.002.a:0 "I need to know more"
+gl.002.b:0 "Great but this is al I want to know"
+
+gl.003.t:0 "Walk trough aachen"
+gl.003.desc:0 "After some time spended in aachen. litle later a group of people came to me and asked if would be interested in knowing the history the celts who lived here and rituals they held for granus"
+gl.003.a:0 "Let's hear what they have to say"
+gl.003.b:0 "Great but this is al I want to know"
+
+gl.004.t:0 "after talking with the group"
+gl.004.desc:0 "They talked about Lugh, Tautatis and Granus the last god gave aachen the old name of aquis granum. It's evening and time for eating but there something strange going on they don't pray to god but make offers to more than one god"
+gl.004.a:0 "Watch their ritual"
+
+gl.005.t:0 "Final"
+gl.005.desc:0 "After watching the ritual, they asked me if would like to "
+gl.005.a:0 "Hold ritual and make choice convert"
+gl.005.b:0 "Let's stop before anyone finds out (last chance)"
+
+#change state religion 
+
+#Gaelic state religion event localization
+gp_sr.001.t:0 "Change state religion"
+
+gp_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Gaelic polytheism as state religion. After a day of debating in the kings hall"
+gp_sr.001.a:0 "Proclaim the new state religion"
+
+gp_sr.002.t:0 "State religion changed"
+
+gp_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+gp_sr.002.desc.vassals:0 "test vassals desc"
+gp_sr.002.desc_vanilla:0 "test vanilla desc"
+gp_sr.002.b:0 "Convert willing vassals"
+gp_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+gp_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_gp_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+
+
+#Brythonic state religion event localization
+bp_sr.001.t:0 "Change state religion"
+
+bp_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Brythonic polytheism as state religion. After a day of debating in the kings hall"
+bp_sr.001.a:0 "Proclaim the new state religion"
+
+bp_sr.002.t:0 "State religion changed"
+
+bp_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+bp_sr.002.desc.vassals:0 "test vassals desc"
+bp_sr.002.desc_vanilla:0 "test vanilla desc"
+bp_sr.002.b:0 "Convert willing vassals"
+bp_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+bp_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_bp_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+#Gaulish state religion event localization
+gl_sr.001.t:0 "Change state religion"
+
+gl_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Brythonic polytheism as state religion. After a day of debating in the kings hall"
+gl_sr.001.a:0 "Proclaim the new state religion"
+
+gl_sr.002.t:0 "State religion changed"
+
+gl_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+gl_sr.002.desc.vassals:0 "test vassals desc"
+gl_sr.002.desc_vanilla:0 "test vanilla desc"
+gl_sr.002.b:0 "Convert willing vassals"
+gl_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+gl_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_gl_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+#Celtic Iberian state religion event localization
+ci_sr.001.t:0 "Change state religion"
+ci_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Celtic Iberian polytheism as state religion. After a day of debating in the kings hall"
+ci_sr.001.a:0 "Proclaim the new state religion"
+ci_sr.002.t:0 "State religion changed"
+
+ci_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+ci_sr.002.desc.vassals:0 "test vassals desc"
+ci_sr.002.desc_vanilla:0 "test vanilla desc"
+ci_sr.002.b:0 "Convert willing vassals"
+ci_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+ci_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_ci_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+
+#Return Celtic Iberian polytheism event localization 
+ci.001.t:0 "Travel trough realm"
+ci.001.desc:0 "it's difficult to get to the true celtic iberian polytheism because they had a lot of syncrtism with the roman religion, Only thing i can do is travel trough Iberia. and visit old sacred groves"
+ci.001.a:0 "let's go"
+
+ci.002.t:0 "After visiting some sacred groves"
+ci.002.desc:0 "After visiting some groves, It sounds strange but i feel like there is some kind of strange power here. there is an underearth water spring that was holy for the old celts"
+ci.002.a:0 "I need to know more"
+ci.002.b:0 "Great but this is al I want to know"
+
+ci.003.t:0 "Walk trough the sacred grove"
+ci.003.desc:0 "After some time spended by the sacred grover. some time later a group of people came to me and asked if would be interested in knowing the history of the celts who lived here and rituals they held for Lugh and other gods and godesses"
+ci.003.a:0 "Let's hear what they have to say"
+ci.003.b:0 "Great but this is al I want to know"
+
+ci.004.t:0 "after talking with the group"
+ci.004.desc:0 "They talked about Lugh, Tautatis and Granus the last god gave aachen the old name of aquis granum. It's evening and time for eating but there something strange going on they don't pray to god but make offers to more than one god"
+ci.004.a:0 "Watch their ritual"
+
+ci.005.t:0 "Final"
+ci.005.desc:0 "After watching the ritual, they asked me if would like to "
+ci.005.a:0 "Hold ritual and make choice convert"
+ci.005.b:0 "Let's stop before anyone finds out (last chance)"
+
+
+#choose your main deity event localization 
+#gp_cmd.001.t:0 "Choose main deity"
+#gp_cmd.001.desc:0 "It's time to choose, I need to choose for the god or godess who can help to proceed beter in life further bonding will be important even as making proper offers to all the other gods and godesses"
+#gp_cmd.001.a:0 "I choose Iupiter"
+#gp_cmd.001.b:0 "I choose Iuno"
+#gp_cmd.001.c:0 "I choose Mars"
+#gp_cmd.001.d:0 "I choose Venus"
+#gp_cmd.001.e:0 "I choose the house lares"
+#gp_cmd.001.f:0 "I choose Lugh"
+#gp_cmd.001.g:0 "Maybe this isn't the right time"
+
+#Restore celtic Priesthood
+ cp_rph_decisions.0001.t:0 "The New [scoped_ruler.GetFaith.GetAdjective] Priesthood"
+ cp_rph_decisions.0001.desc:0 "After the interlude of exile and persecution following the Christian conquests, Celtic Polytheism has been accepted by the people of Europe as the one true path to righteousness. [scoped_ruler.GetTitledFirstName] has ordered the institution of the office of the [new_priest.GetTitleTierName], a Priest of Priests to rule over a restored clerical hierarchy.\n\nThe [new_priest.GetTitleTierName] will serve as the highest religious authority in the [scoped_ruler.GetFaith.GetAdjective] world, with powers ranging from the blessing of future military expeditions to the granting of divorces to married couples."
+ cp_rph_decisions.0001.a:0 "The power of An Dagda strengthens the celts once more!"
+ cp_rph_decisions.0002.desc.catholic:0 "The accursed followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough land and influence to re-establish a blasphemous priesthood under the protection of [scoped_ruler.GetTitledFirstName].\n\nIf not soon stopped, these demon-worshiping pagans might turn the tide of Christian expansion in Europe, polluting the mind of their unaware subjects with lies and perversions."
+ cp_rph_decisions.0002.desc.others:0 "The strange, Celtic polytheism followers of [scoped_ruler.GetFaith.HighGodName] have reclaimed enough of their ancestral Roman territories to re-establish a functional Priesthood.\n\nIf not stopped soon, they might turn the tide of Christian expansion and restore Europe under the protection of their old gods."
+ cp_rph_decisions.0002.a:0 "Glory to [scoped_ruler.GetFaith.HighGodName]!"
+ cp_rph_decisions.0002.b:0 "Their demons will not shield them from the might of [ROOT.Char.GetFaith.HighGodName]!"
+ cp_rph_decisions.0002.c:0 "... Celtic gods worshiping?"
+
+
+ rhk.001.t:0 "Creating kingdom"
+ rhk.001.desc:0 "After years of fighting between all the Irish tribes and keeping out invidaders, It's finnaly time to Restore Ardrí na hÉireann also known as The Irish high kingdom."
+ rhk.001.a:0 "Ardrí na hÉireann is once more"
+ccmd.001.t:0 "Choose main deity"
+ccmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ccmd.001.an_dagda:0 "An Dagda"
+ccmd.001.lugh:0 "Lugh"
+ccmd.001.brigid:0 "Brigid"
+ccmd.001.the_morrighan:0 "The Morrighan"
+ccmd.001.ecna:0 "Ecna"
+ccmd.001.optout:0 "Maybe now isn't the right time"
+
+ccmd.002.t:0 "Choose main deity"
+ccmd.002.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ccmd.002.taranis:0 "Taranis"
+ccmd.002.lugus:0 "Lugus"
+ccmd.002.arianrhod:0 "Arianrhod"
+ccmd.002.andraste:0 "Andraste"
+ccmd.002.brigantia:0 "Brigantia"
+ccmd.002.optout:0 "Maybe now isn't the right time"
+
+ccmd.003.t:0 "Choose main deity"
+ccmd.003.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ccmd.003.toutatis:0 "Toutatis"
+ccmd.003.lughus:0 "Lughus"
+ccmd.003.rosmerta:0 "Rosmerta"
+ccmd.003.cicolluis:0 "Cicolluis"
+ccmd.003.belisama:0 "Belisama"
+ccmd.003.optout:0 "Maybe now isn't the right time"

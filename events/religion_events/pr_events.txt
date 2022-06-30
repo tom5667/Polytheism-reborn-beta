@@ -1,0 +1,239 @@
+namespace = rps
+namespace = prsr
+namespace = sassanid_reconquest
+namespace = prctv
+#all return events religions are put here 
+#Polytheism reborn short religion change events
+rps.001={
+	type = character_event
+	title = rps.001.t
+	desc = rps.001.desc
+	theme = learning_scholarship_focus
+	option={ #Hellenic/Roman
+		name = rps.001.a
+		trigger_event = rps.002
+	}
+	option={ #Etruscan
+	name = rps.001.b
+	trigger_event = rps.003
+	}
+	option={ #Egyptian
+	name = rps.001.c
+	trigger_event = rps.004
+	}
+	option={ #Celtic
+	name = rps.001.d
+	trigger_event = rps.005
+	}
+	option={ #German
+	name = rps.001.e
+	trigger_event = rps.006
+	}
+	option={ #Punic
+	name = rps.001.f
+	trigger_event = rps.007
+	}
+	option={
+		name = rps.001.g
+	}
+}
+#Hellenic/Roman
+rps.002={
+	type = character_event
+	title = rps.002.t
+	desc = rps.002.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.002.a
+		set_character_faith = faith:cdr_polytheism
+	}
+	option={
+		name = rps.002.b
+		set_character_faith = faith:hellenic_pagan
+	}
+	option={
+		name = rps.002.c
+		set_character_faith = faith:julians_polytheism
+	}
+	option={
+		name = rps.002.d
+		set_character_faith = faith:mithraic_mysteries
+	}
+	option={
+		name = rps.002.e
+		set_character_faith = faith:eluesinian_mysteries
+	}
+	option={
+		name = rps.002.f
+		set_character_faith = faith:cult_of_serapis
+	}
+	option={
+		name = rps.002.g
+		set_character_faith = faith:sol_invictus_cult
+	}
+	option={
+		name = rps.002.h
+		set_character_faith = faith:mysteries_of_isis
+	}
+	option={
+		name = rps.002.i
+		trigger_event = rps.001
+	}
+}
+#Etruscan
+rps.003={
+	type = character_event
+	title = rps.003.t
+	desc = rps.003.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.003.a
+		set_character_faith = faith:etc_polytheism
+	}
+	option={
+		name = rps.003.b
+		trigger_event = rps.001
+	}
+}
+#Egyptian
+rps.004={
+	type = character_event
+	title = rps.004.t
+	desc = rps.004.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.004.a
+		set_character_faith = faith:kemetic_polytheism
+	}
+	option={
+		name = rps.004.b
+		set_character_faith = faith:atenism
+	}
+	option={
+		name = rps.004.c
+		trigger_event = rps.001
+	}
+}
+#Celtic
+rps.005={
+	type = character_event
+	title = rps.005.t
+	desc = rps.005.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.005.a
+		set_character_faith = faith:gaelic_polytheism
+	}
+	option={
+		name = rps.005.b
+		set_character_faith = faith:brythonic_polytheism
+	}
+	option={
+		name = rps.005.c
+		set_character_faith = faith:gaulish_polytheism
+	}
+	option={
+		name = rps.005.d
+		set_character_faith = faith:celtic_iberian_polytheism
+	}
+	option={
+		name = rps.005.e
+		trigger_event = rps.001
+	}
+}
+#Germanic
+rps.006={
+	type = character_event
+	title = rps.006.t
+	desc = rps.006.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.006.a
+		set_character_faith = faith:anglo_saxon_polytheism
+	}
+	option={
+		name = rps.006.b
+		set_character_faith = faith:german_polytheism
+	}
+	option={
+		name = rps.006.c
+		trigger_event = rps.001
+	}
+}
+#Punic
+rps.007={
+	type = character_event
+	title = rps.007.t
+	desc = rps.007.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.007.a
+		set_character_faith = faith:punic_polytheism
+	}
+	option={
+		name = rps.007.b
+		trigger_event = rps.001
+	}
+}
+
+#Polytheism reborn sassanid relative
+prsr.001 ={
+	type = character_event
+	title = prsr.001.t
+	desc = prsr.001.desc
+	theme = learning_scholarship_focus
+	lower_center_portrait = {
+		character = root
+		animation = idle
+	}
+	lower_left_portrait = {
+		character = character:180643
+		animation = idle
+	}
+	lower_right_portrait = {
+		character = character:180642
+		animation = idle
+	}
+	option={
+		name = prsr.001.a
+		add_courtier = character:180643
+		add_courtier = character:180642
+	}
+	option={
+		name = prsr.001.b
+		ai_chance={
+			base=0
+		}
+	}
+}
+
+sassanid_reconquest.001={
+	type = character_event
+	title = sassanid_reconquest.001.t
+	desc = sassanid_reconquest.001.desc
+	theme = learning_scholarship_focus
+	right_portrait ={
+		character = root
+		animation = idle
+	}
+	option={
+		name = sassanid_reconquest.001.a
+		add_prestige = 100
+	}
+}
+prctv.001={
+	type = character_event
+	title = prctv.001.t
+	desc = prctv.001.desc
+	theme = faith
+	
+	option={
+		name = prctv.001.a 
+		title:c_roma ={
+			remove_county_modifier = open_temple_of_vesta
+		}
+		remove_character_modifier = burning_flame_of_vesta
+		clear_global_variable_list = unavailable_unique_decisions_open_temple_of_vesta
+	}
+}
+

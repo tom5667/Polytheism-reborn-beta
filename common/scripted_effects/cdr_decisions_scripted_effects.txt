@@ -1,0 +1,208 @@
+return_cdr_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Roman polytheism.
+
+	set_character_faith_with_conversion = faith:cdr_polytheism
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored Cultus deorum as state religion trait
+	add_trait = cdr_state_religion
+	add_trait = zealous 
+	remove_trait = pilgrim 
+	clear_global_variable_list = unavailable_unique_decisions_cdr
+
+	#byzantine_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_cdr_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:world_europe_south_italy
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#Greek remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:greek }
+					random = {
+						chance = 45
+						set_county_faith = faith:cdr_polytheism
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:cdr_polytheism
+					}
+				}
+				#Other byzantine_group cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:cdr_polytheism
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:cdr_polytheism
+			}
+			custom = roman_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = roman_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:cdr_polytheism = { change_fervor = 100 }
+	}
+}
+
+return_hellenismos_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Roman polytheism.
+
+	set_character_faith_with_conversion = faith:hellenic_pagan
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored Cultus deorum as state religion trait
+	add_trait = hellenismos_state_religion
+	add_trait = zealous 
+	remove_trait = pilgrim 
+	clear_global_variable_list = unavailable_unique_decisions_hellenismos
+	#byzantine_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_hellenismos_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:byzantine_group
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#Greek remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:greek }
+					random = {
+						chance = 45
+						set_county_faith = faith:hellenic_pagan
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:hellenic_pagan
+					}
+				}
+				#Other byzantine_group cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:hellenic_pagan
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:hellenic_pagan
+			}
+			custom = greek_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = greek_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:hellenic_pagan = { change_fervor = 100 }
+	}
+}
+
+#Greco Roman
+return_julian_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Roman polytheism.
+
+	set_character_faith_with_conversion = faith:julians_polytheism
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored Cultus deorum as state religion trait
+	add_trait = julian_state_religion
+	add_trait = zealous 
+	remove_trait = pilgrim 
+	clear_global_variable_list = unavailable_unique_decisions_julian
+	#byzantine_group counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_julian_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:byzantine_group
+					exists = scope:old_faith
+					religion = scope:old_faith.religion
+				}
+				#Greek remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:greek }
+					random = {
+						chance = 45
+						set_county_faith = faith:julians_polytheism
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:julians_polytheism
+					}
+				}
+				#Other byzantine_group cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:julians_polytheism
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:julians_polytheism
+			}
+			custom = greek_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = greek_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:julians_polytheism = { change_fervor = 100 }
+	}
+}

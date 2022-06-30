@@ -1,0 +1,1084 @@
+
+#Restore celtic Priesthood
+cp_restore_high_priesthood_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	desc = cp_restore_high_priesthood_decision_desc
+	selection_tooltip = cp_restore_high_priesthood_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		NOR = {  #Can be redone if somehow the High Priest title is destroyed
+			exists = faith.religious_head
+			faith = { has_doctrine = doctrine_no_head } #Only if Faith is meant to have one.
+		}
+		OR = {
+			faith = faith:gaelic_polytheism
+			faith = faith:brythonic_polytheism
+			faith = faith:gaulish_polytheism
+			faith = faith:celtic_iberian_polytheism
+		}
+	}
+
+	is_valid = {
+		piety_level >= high_piety_level
+		custom_description = {
+			text = "restore_high_priesthood_holy_sites"
+			faith = {
+				any_holy_site = {
+					OR = {
+						county.holder = root
+						county.holder.top_liege = { this = root }
+					}
+					count >= 3
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = restore_high_priesthood_decision_effect_tooltip
+		trigger_event = {
+			id = cp_rph_decisions.0001
+		}
+	}
+	
+	ai_potential = {
+	#	always = yes #TO_DO_FLAVIO: Reactivate once the trigger has been implemented.
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+#Gaelic restore Irish High Kingdom decision
+restore_high_kingdom ={
+	picture = "gfx/interface/illustrations/decisions/celtic_fort.dds"
+	major = yes
+	desc =  restore_high_kingdom_desc
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		faith = faith:gaelic_polytheism
+		culture = culture:irish
+		is_imprisoned = no	
+		is_at_war = no
+		NOR = {
+			has_title = title:k_high_kingdom_of_ireland
+		}
+		AND ={
+			NOT ={
+				exists = title:k_high_kingdom_of_ireland.holder
+			}
+		}
+		
+	}
+
+	is_valid = {
+		completely_controls = title:d_ulster
+		completely_controls = title:d_meath
+		completely_controls = title:d_connacht		
+		completely_controls = title:d_leinster
+		completely_controls = title:d_munster
+		faith = faith:gaelic_polytheism
+						
+	}
+	effect = {
+		custom_tooltip = restore_high_kingdom_of_ireland_effect_tooltip
+		trigger_event = {
+			id = rhk.001
+		}
+	}
+	ai_check_interval = 0
+}
+
+set_capital_dublin_decision = {
+	picture = "gfx/interface/illustrations/decisions/celtic_fort.dds"
+
+	desc = set_capital_dublin_decision_desc
+	selection_tooltip = set_capital_dublin_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:k_high_kingdom_of_ireland
+		NOT = { capital_county = { this = title:c_dublin } }
+		OR = {
+			title:c_dublin.holder = { 	
+				any_liege_or_above = { this = root }
+			}
+			title:c_dublin.holder = { this = root }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		if = { #Usurp if not held personally.
+			limit = {
+				NOT = { title:c_dublin.holder = { this = root } }
+			}
+			create_title_and_vassal_change = {
+				type = returned
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:c_dublin = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+
+		}
+		set_realm_capital = title:c_dublin
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = { #Do it always, for coherence.
+		base = 100
+	}
+}
+#Reopen Celtic Sacred Groves
+
+
+#Restore the stone henge 
+
+#Choose main deity Celtic Polytheism 
+choose_main_deity_celtic_decision = {
+	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
+
+	#desc = choose_main_deity_celtic_decision_desc
+	desc = select_personal_deity_germanic_decision_desc
+	selection_tooltip = choose_main_deity_celtic_decision_tooltip
+
+	is_shown = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Following a valid religion & faith.
+		religion = religion:celtic_religion
+		
+	}
+
+	is_valid = {
+	}
+
+	is_valid_showing_failures_only = {
+		# Have to at _least_ not be in piety debt.
+		piety >= 0
+	}
+
+	cooldown = { years = 1 }
+
+	effect = {
+		# Show the possible options.
+
+		if ={
+			limit={
+				faith = faith:gaelic_polytheism
+			}
+			show_as_tooltip = {
+				random_list = {
+					desc = choose_main_deity_celtic_decision_tt
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_an_dagda
+						add_character_modifier = gaelic_an_dagda
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_lugh
+						add_character_modifier = gaelic_lugh
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_brigid
+						add_character_modifier = gaelic_brigid
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_the_morrighan
+						add_character_modifier = gaelic_the_morrighan
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_ecna
+						add_character_modifier = gaelic_ecna
+					}
+				}
+			}
+			trigger_event = ccmd.001
+		}
+		else_if ={
+			limit ={
+				faith = faith:brythonic_polytheism
+			}
+			show_as_tooltip = {
+				random_list = {
+					desc = choose_main_deity_celtic_decision_tt
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_taranis
+						add_character_modifier = brythonic_taranis
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_lugus_brythonic
+						add_character_modifier = brythonic_lugus
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_arianrhod
+						add_character_modifier = brythonic_arianrhod
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_andraste
+						add_character_modifier = brythonic_andraste
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_brigantia
+						add_character_modifier = brythonic_brigantia
+					}
+				}
+			}
+			trigger_event = ccmd.002
+		}
+		else_if = {
+			limit ={
+				faith = faith:gaulish_polytheism
+			}
+			show_as_tooltip = {
+				random_list = {
+					desc = choose_main_deity_celtic_decision_tt
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_toutatis
+						add_character_modifier = gaulish_toutatis
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_lughus
+						add_character_modifier = gaulish_lughus
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_rosmerta 
+						add_character_modifier = gaulish_rosmerta 
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_cicolluis 
+						add_character_modifier = gaulish_cicolluis 
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_celtic_decision.select_belisama
+						add_character_modifier = gaulish_belisama
+					}
+				}
+			}
+			trigger_event = ccmd.003
+		}
+	}
+
+	ai_check_interval = 96
+	
+	ai_potential = {
+		piety >= minor_piety_value
+		NOR = {
+			has_character_modifier = gaelic_an_dagda
+			has_character_modifier = gaelic_lugh
+			has_character_modifier = gaelic_brigid
+			has_character_modifier = gaelic_the_morrighan
+			has_character_modifier = gaelic_beira
+			has_character_modifier = brythonic_taranis 
+			has_character_modifier = brythonic_lugus
+			has_character_modifier = brythonic_arianrhod
+			has_character_modifier = brythonic_andraste
+			has_character_modifier = brythonic_brigantia
+			has_character_modifier = gaulish_toutatis
+			has_character_modifier = gaulish_lughus
+			has_character_modifier = gaulish_rosmerta
+			has_character_modifier = gaulish_cicolluis 
+			has_character_modifier = gaulish_belisama
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+# summer solstice 
+ #Solstice's winter and summer decision 
+#For game play 21 days to use the decision
+#Winter 1-12 - 21-12 
+#Summer 1-6  - 21 - 6 
+celtic_solstice_winter_decision = {
+	picture = "gfx/interface/illustrations/decisions/celtic_solstice.dds"
+	desc = celtic_solstice_winter_decision_desc
+	selection_tooltip = celtic_solstice_winter_decision_tooltip
+	is_shown ={
+			time_of_year = {
+				min = 12.1
+				max = 12.21
+			}
+		AND = {
+			religion = religion:celtic_religion
+		}
+	}
+	
+	valid = {
+
+	}
+	cooldown = { months = 11 }
+	cost = {
+		gold = feast_activity_cost
+	}
+
+	effect = {
+		trigger_event = solstice.003
+		capital_province = {
+			spawn_activity = {
+				type = activity_feast
+				owner = root
+				#days = 2
+			}
+		}
+		custom_tooltip = host_feast_decision_desc_vassals
+		if = {
+			limit = {
+				is_independent_ruler = no
+			}
+			custom_tooltip = host_feast_decision_desc_liege_opinion
+		}
+		if = {
+			limit = {
+				employs_court_position = court_musician_court_position
+				any_court_position_holder = {
+			        type = court_musician_court_position
+			        is_physically_able = yes
+			    }
+			}
+			custom_tooltip = host_feast_decision_desc_court_musician_opinion
+		}
+
+		#Piety gain
+		if = {
+			limit = {
+				faith = {
+					OR = {
+						has_doctrine_parameter = piety_from_feasts_active
+						AND = {
+							has_doctrine_parameter = summer_festivals_active
+							# Only during 'summer' (May 1st through July 31st).
+							current_month >= 5
+							current_month <= 7
+						}
+					}
+				}
+			}
+			add_piety = {
+				value = 0
+
+				faith = {
+					if = {
+						limit = {
+							has_doctrine_parameter = summer_festivals_active
+							# Only during 'summer' (May 1st through July 31st).
+							current_month >= 5
+							current_month <= 7
+						}
+						add = major_piety_value
+					}
+					if = {
+						limit = {
+							has_doctrine = tenet_ritual_celebrations
+						}
+						add = medium_piety_value
+					}
+					if = {
+						limit = {
+							has_doctrine = tenet_hedonistic
+						}
+						add = medium_piety_value
+					}
+				}
+				if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 5 }
+					}
+					multiply = 2.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 4 }
+					}
+					multiply = 2
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 3 }
+					}
+					multiply = 1.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 2 }
+					}
+					multiply = 1
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value <= 1 }
+					}
+					multiply = 0.5
+				}
+
+				min = medium_piety_value # Always give some piety, even if we don't have any of the specified tenets.
+			}
+		}
+
+		#Prestige gain from Tradition or Struggle
+		if = {
+			limit = {
+				OR = {
+					culture = {
+						has_cultural_parameter = refined_feasts
+					}
+					any_character_struggle = {
+						involvement = involved
+						is_struggle_type = iberian_struggle
+						has_struggle_phase_parameter = struggle_prestige_from_feast
+					}
+				}
+			}
+			add_prestige = {
+				value = medium_prestige_value
+				if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 5 }
+					}
+					multiply = 2.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 4 }
+					}
+					multiply = 2
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 3 }
+					}
+					multiply = 1.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 2 }
+					}
+					multiply = 1
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value <= 1 }
+					}
+					multiply = 0.5
+				}
+				if = {
+					limit = {
+						any_character_struggle = {
+							involvement = involved
+							is_struggle_type = iberian_struggle
+							has_struggle_phase_parameter = struggle_prestige_from_feast
+						}
+					}
+					multiply = 1.25
+				}
+			}
+		}
+
+		#Stress loss
+		if = {
+			limit = {
+				OR = {
+					has_trait = shy
+				}
+			}
+			custom_tooltip = host_feast_decision_desc_shy
+		}
+		else = {
+			if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value >= 5 }
+				}
+				stress_impact = {
+					base = exotic_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else_if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value >= 4 }
+				}
+				stress_impact = {
+					base = lavish_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else_if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value >= 3 }
+				}
+				stress_impact = {
+					base = medium_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else_if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value <= 1 }
+				}
+				stress_impact = {
+					base = meager_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else = {
+				stress_impact = {
+					base = feast_stress_loss_value
+					gluttonous = activity_stress_loss_impact
+					gregarious = activity_stress_loss_impact
+					reveler_1 = activity_stress_loss_impact
+					reveler_2 = activity_stress_loss_impact
+					reveler_3 = activity_stress_loss_impact
+					drunkard = activity_stress_loss_impact
+					comfort_eater = activity_stress_loss_impact
+					generous = activity_stress_loss_impact
+					greedy = activity_stress_gain_impact
+				}
+			}
+		}
+		if = {
+			limit = { exists = var:protected_alcohol_stores }
+			set_variable = {
+				name = protected_alcohol_stores
+				value = 0
+			}
+		}
+	}
+
+	ai_potential = {
+		short_term_gold > standard_activity_cost
+		NOT = {
+			has_trait = reclusive
+		}
+	}
+
+	ai_will_do = {
+		base = 35
+
+		ai_value_modifier = {
+			ai_sociability = 1
+			ai_greed = -0.5
+		}
+
+		modifier = {
+			add = 30 # Has Greed of 20, so this is only (-10 + 30 = +20)
+			has_trait = gluttonous
+		}
+		modifier = {
+			add = 12.5 # Has Greed of 5, so this is only (-2.5 + 12.5 = +10)
+			has_trait = comfort_eater
+		}
+		modifier = {
+			add = 47.5 # Has Greed of 75, so this is only (-37.5 + 45 = +10)
+			has_trait = ambitious
+		}
+
+		modifier = {
+			add = 35
+			stress > low_stress
+		}
+
+		modifier = {
+			add = 35
+			faith = {
+				has_doctrine = tenet_ritual_celebrations
+			}
+		}
+
+		modifier = {
+			add = 35
+			faith = {
+				has_doctrine = tenet_hedonistic
+			}
+		}
+		
+		modifier = {
+			any_character_struggle = {
+				involvement = involved
+				phase_has_catalyst = catalyst_invite_diff_faith_culture_to_feast
+			}
+			add = {
+				value = 0
+				if = {
+					limit = {
+						has_character_flag = agenda_towards_escalation
+					}
+					add = -25
+				}
+				else_if = {
+					limit = {
+						has_character_flag = agenda_towards_deescalation
+					}
+					add = 50
+				}
+			}
+		}
+	}
+}
+
+celtic_solstice_summer_decision ={
+	picture = "gfx/interface/illustrations/decisions/celtic_solstice.dds"
+	desc = celtic_solstice_summer_decision_desc
+	selection_tooltip = celtic_solstice_summer_decision_tooltip
+	is_shown = {
+		time_of_year = {
+			min = 6.1
+			max = 6.21
+		}
+		AND = {
+			religion = religion:celtic_religion
+		}
+	} 
+	cost = {
+		gold = feast_activity_cost
+	}
+
+	valid ={
+
+	}
+	cooldown = { months = 11 }
+	effect = {
+		trigger_event = solstice.004
+		capital_province = {
+			spawn_activity = {
+				type = activity_feast
+				owner = root
+				#days = 2
+			}
+		}
+		custom_tooltip = host_feast_decision_desc_vassals
+		if = {
+			limit = {
+				is_independent_ruler = no
+			}
+			custom_tooltip = host_feast_decision_desc_liege_opinion
+		}
+		if = {
+			limit = {
+				employs_court_position = court_musician_court_position
+				any_court_position_holder = {
+			        type = court_musician_court_position
+			        is_physically_able = yes
+			    }
+			}
+			custom_tooltip = host_feast_decision_desc_court_musician_opinion
+		}
+
+		#Piety gain
+		if = {
+			limit = {
+				faith = {
+					OR = {
+						has_doctrine_parameter = piety_from_feasts_active
+						AND = {
+							has_doctrine_parameter = summer_festivals_active
+							# Only during 'summer' (May 1st through July 31st).
+							current_month >= 5
+							current_month <= 7
+						}
+					}
+				}
+			}
+			add_piety = {
+				value = 0
+
+				faith = {
+					if = {
+						limit = {
+							has_doctrine_parameter = summer_festivals_active
+							# Only during 'summer' (May 1st through July 31st).
+							current_month >= 5
+							current_month <= 7
+						}
+						add = major_piety_value
+					}
+					if = {
+						limit = {
+							has_doctrine = tenet_ritual_celebrations
+						}
+						add = medium_piety_value
+					}
+					if = {
+						limit = {
+							has_doctrine = tenet_hedonistic
+						}
+						add = medium_piety_value
+					}
+				}
+				if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 5 }
+					}
+					multiply = 2.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 4 }
+					}
+					multiply = 2
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 3 }
+					}
+					multiply = 1.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 2 }
+					}
+					multiply = 1
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value <= 1 }
+					}
+					multiply = 0.5
+				}
+
+				min = medium_piety_value # Always give some piety, even if we don't have any of the specified tenets.
+			}
+		}
+
+		#Prestige gain from Tradition or Struggle
+		if = {
+			limit = {
+				OR = {
+					culture = {
+						has_cultural_parameter = refined_feasts
+					}
+					any_character_struggle = {
+						involvement = involved
+						is_struggle_type = iberian_struggle
+						has_struggle_phase_parameter = struggle_prestige_from_feast
+					}
+				}
+			}
+			add_prestige = {
+				value = medium_prestige_value
+				if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 5 }
+					}
+					multiply = 2.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 4 }
+					}
+					multiply = 2
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 3 }
+					}
+					multiply = 1.5
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value >= 2 }
+					}
+					multiply = 1
+				}
+				else_if = {
+					limit = {
+						has_royal_court = yes
+						amenity_level = { type = court_food_quality value <= 1 }
+					}
+					multiply = 0.5
+				}
+				if = {
+					limit = {
+						any_character_struggle = {
+							involvement = involved
+							is_struggle_type = iberian_struggle
+							has_struggle_phase_parameter = struggle_prestige_from_feast
+						}
+					}
+					multiply = 1.25
+				}
+			}
+		}
+
+		#Stress loss
+		if = {
+			limit = {
+				OR = {
+					has_trait = shy
+				}
+			}
+			custom_tooltip = host_feast_decision_desc_shy
+		}
+		else = {
+			if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value >= 5 }
+				}
+				stress_impact = {
+					base = exotic_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else_if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value >= 4 }
+				}
+				stress_impact = {
+					base = lavish_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else_if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value >= 3 }
+				}
+				stress_impact = {
+					base = medium_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else_if = {
+				limit = {
+					has_royal_court = yes
+					amenity_level = { type = court_food_quality value <= 1 }
+				}
+				stress_impact = {
+					base = meager_feast_stress_loss_value
+					gluttonous = feast_stress_loss_value
+					gregarious = feast_stress_loss_value
+					reveler_1 = feast_stress_loss_value
+					reveler_2 = feast_stress_loss_value
+					reveler_3 = feast_stress_loss_value
+					drunkard = feast_stress_loss_value
+					comfort_eater = feast_stress_loss_value
+					generous = feast_stress_loss_value
+					greedy = activity_stress_gain_impact
+				}
+			}
+			else = {
+				stress_impact = {
+					base = feast_stress_loss_value
+					gluttonous = activity_stress_loss_impact
+					gregarious = activity_stress_loss_impact
+					reveler_1 = activity_stress_loss_impact
+					reveler_2 = activity_stress_loss_impact
+					reveler_3 = activity_stress_loss_impact
+					drunkard = activity_stress_loss_impact
+					comfort_eater = activity_stress_loss_impact
+					generous = activity_stress_loss_impact
+					greedy = activity_stress_gain_impact
+				}
+			}
+		}
+		if = {
+			limit = { exists = var:protected_alcohol_stores }
+			set_variable = {
+				name = protected_alcohol_stores
+				value = 0
+			}
+		}
+	}
+
+	ai_potential = {
+		short_term_gold > standard_activity_cost
+		NOT = {
+			has_trait = reclusive
+		}
+	}
+
+	ai_will_do = {
+		base = 35
+
+		ai_value_modifier = {
+			ai_sociability = 1
+			ai_greed = -0.5
+		}
+
+		modifier = {
+			add = 30 # Has Greed of 20, so this is only (-10 + 30 = +20)
+			has_trait = gluttonous
+		}
+		modifier = {
+			add = 12.5 # Has Greed of 5, so this is only (-2.5 + 12.5 = +10)
+			has_trait = comfort_eater
+		}
+		modifier = {
+			add = 47.5 # Has Greed of 75, so this is only (-37.5 + 45 = +10)
+			has_trait = ambitious
+		}
+
+		modifier = {
+			add = 35
+			stress > low_stress
+		}
+
+		modifier = {
+			add = 35
+			faith = {
+				has_doctrine = tenet_ritual_celebrations
+			}
+		}
+
+		modifier = {
+			add = 35
+			faith = {
+				has_doctrine = tenet_hedonistic
+			}
+		}
+		
+		modifier = {
+			any_character_struggle = {
+				involvement = involved
+				phase_has_catalyst = catalyst_invite_diff_faith_culture_to_feast
+			}
+			add = {
+				value = 0
+				if = {
+					limit = {
+						has_character_flag = agenda_towards_escalation
+					}
+					add = -25
+				}
+				else_if = {
+					limit = {
+						has_character_flag = agenda_towards_deescalation
+					}
+					add = 50
+				}
+			}
+		}
+	}
+}
+
+
+# hold ritual 
