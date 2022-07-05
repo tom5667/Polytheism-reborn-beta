@@ -737,9 +737,102 @@ saturnalia_decision ={
 		}
 	}
 }
-#Settle old grievance, alliance with Zoroastrian kingdom if one exists. 
-#Not sure
+#In this version it's going to be a bit different the cult religions can be joined when starting the join cult decision 
+#It will be defined by wether you're skils are high enough, you will be able to extualy join the specific religion 
+#Note proceding in a cult will still be unavaible, In the hope that paradox will re add the cult mechanic from CKII
+#This can be temporarly fixed by giving a trait or ask to procede via decision 
 
+join_cult_decision = {
+	picture = "gfx/interface/illustrations/decisions/roman_temple.dds"
+	desc = join_cult_decision_desc
+	selection_tooltip = join_cult_decision_tooltip
+	is_shown = {
+		religion = religion:hellenism_religion
+		is_adult = yes
+		NOR = {
+			faith = faith:mithraic_mysteries
+			faith = faith:mysteries_of_isis
+			faith = faith:cult_of_serapis
+			faith = faith:eluesinian_mysteries
+			faith = faith:imperial_cult
+			faith = faith:sol_invictus_cult
+			has_trait = isis_cult
+			has_trait = mithras_cult
+			has_trait = serapis_cult
+			has_trait = eleusinian_cult
+			has_trait = sol_invictus_cult
+			has_trait = imperial_cult
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions_join_cult
+				target = flag:flag_join_cult
+			}
+		}
+		NOT = {
+			has_character_flag = turned_down_by_cult
+		}
+	}
+	
+	is_valid = {
 
+	}
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+	effect = {
+		show_as_tooltip = {
+			random_list = {
+				desc = join_cult_decision_tt
+				100 = {
+					show_chance = no
+					desc = join_cult_decision.mithraic_mysteries
+					add_trait = mithras_cult
+				}
+				100 = {
+					show_chance = no
+					desc = join_cult_decision.isis_mysteries
+					add_trait = isis_cult
+				}
+				100 = {
+					show_chance = no
+					desc = join_cult_decision.serapis_cult
+					add_trait = serapis_cult
+				}
+				100 = {
+					show_chance = no
+					desc = join_cult_decision.eluesinian_mysteries
+					add_trait = eleusinian_cult
+				}
+				100 = {
+					show_chance = no
+					desc = join_cult_decision.sol_invictus_cult
+					add_trait = sol_invictus_cult
+				}
+				100 = {
+					show_chance = no
+					desc = join_cult_decision.imperial_cult
+					add_trait = imperial_cult
+				}
+			}
+		}
+		trigger_event = cult.001
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions_join_cult
+				target = flag:flag_join_cult
+			}
+		}
+	}
+	ai_will_do = {
+		base = 65
+	}
+}
+#There are no historical evidence that this happened, but for game play fun its a nice addition
+#normaly this would mean severe penalties for the one who try's to leave 
+# exit_cult_decision = { 
+# 	is_shown ={
+		
+# 	}
+# }
 
 

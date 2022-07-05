@@ -61,6 +61,10 @@ kemetic_cmd1_religion = {
 	same_faith_opinion = 10
 	monthly_prestige = 0.2
 	monthly_piety = 0.3
+	diplomacy = 2
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
 
 	icon = {
 		first_valid = {
@@ -88,6 +92,9 @@ kemetic_cmd2_religion = {
 	monthly_piety = 0.3
 	martial = 1
 
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
 	icon = {
 		first_valid = {
 			triggered_desc = {
@@ -113,6 +120,10 @@ kemetic_cmd3_religion = {
 	same_faith_opinion = 5
 	monthly_prestige = 0.3
 	monthly_piety = 0.5
+	learning = 2
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
 
 	icon = {
 		first_valid = {
@@ -139,8 +150,11 @@ kemetic_cmd4_religion = {
 	same_faith_opinion = 5
 	monthly_prestige = 0.3
 	monthly_piety = 0.2
-	martial = 1
+	martial = 2
 
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+	
 	icon = {
 		first_valid = {
 			triggered_desc = {

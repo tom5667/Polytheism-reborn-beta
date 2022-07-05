@@ -114,6 +114,12 @@ punic_astarte_desc:0 "Devotee of Astarte goddess of fertility"
 punic_tanit:0 "Devoted to Tanit"
 punic_tanit_desc:0 "Devotee of Tanit Goddess of war and invassions"
 
+punic_kusor:0 "Devoted to Kusor"
+punic_kusor_desc:0 "Devotee of Kusor god of Knowledge"
+
+punic_melqart:0 "Devoted to Melqart"
+punic_melqart_desc:0 "Devotee of Melqart god of trade and military"
+
 summer_solstice:0 "Held Summer Solstice"
 winter_solstice:0 "Held Winter Solstice"
 saturnalia:0 "Celebrated Saturnalia"

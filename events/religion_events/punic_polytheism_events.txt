@@ -259,14 +259,14 @@ pcmd.001 = {
 		set_bhakti_effect = { BHAKTI = punic_baal }
 	}
 
-	# # Lugh
-	# option = {
-	# 	name = pcmd.001.lugh
-	# 	trigger = {
-	# 		NOT = { has_character_modifier = gaelic_lugh }
-	# 	}
-	# 	set_bhakti_effect = { BHAKTI = gaelic_lugh}
-	# }
+	 #Kusor
+	 option = {
+	 	name = pcmd.001.kusor
+	 	trigger = {
+	 		NOT = { has_character_modifier = punic_kusor }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = punic_kusor}
+	 }
 
 	#Astarte
 	option = {
@@ -287,14 +287,14 @@ pcmd.001 = {
 	}
 
 
-	# # Ecna
-	# option = {
-	# 	name = pcmd.001.ecna
-	# 	trigger = {
-	# 		NOT = { has_character_modifier = gaelic_ecna }
-	# 	}
-	# 	set_bhakti_effect = { BHAKTI = gaelic_ecna }
-	# }
+	 # Melqart
+	 option = {
+	 	name = pcmd.001.melqart
+	 	trigger = {
+	 		NOT = { has_character_modifier = punic_melqart }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = punic_melqart }
+	 }
 
 	# Opt-Out
 	option = {

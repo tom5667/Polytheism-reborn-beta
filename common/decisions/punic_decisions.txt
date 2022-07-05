@@ -147,6 +147,16 @@ choose_main_deity_punic_decision = {
 						desc = select_main_deity_punic_decision.select_tanit
 						add_character_modifier = punic_tanit
 					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_punic_decision.select_kusor
+						add_character_modifier = punic_kusor
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_punic_decision.select_melqart
+						add_character_modifier = punic_melqart
+					}
 				}
 			}
 			trigger_event = pcmd.001
@@ -159,8 +169,9 @@ choose_main_deity_punic_decision = {
 		 	has_character_modifier = punic_baal
 		 	has_character_modifier = punic_astarte
 		 	has_character_modifier = punic_tanit
-		 	#has_character_modifier = gaelic_the_morrighan
-		 	#has_character_modifier = gaelic_beira
+			has_character_modifier = punic_kusor
+			has_character_modifier = punic_melqart
+			
 		 }
 	}
 

@@ -142,7 +142,7 @@ cdr_cmd5_religion = {
 	same_faith_opinion = 5
 	monthly_prestige = 0.3
 	monthly_piety = 0.5
-	opinion_of_liege = 10
+	close_relative_opinion = 10
 	#dynasty_house_opinion = 10
 	christianity_religion_opinion = -5
 	islam_religion_opinion  = -5
@@ -172,7 +172,7 @@ cdr_cmd6_religion = {
 	same_faith_opinion = 5
 	monthly_income = 0.1
 	monthly_piety = 0.5
-	stewardship = 1
+	stewardship = 2
 	christianity_religion_opinion = -5
 	islam_religion_opinion  = -5
 
@@ -414,6 +414,201 @@ julian_state_religion = {
 		opinion_modifier = opinion_modifier_key	
 		same_faith = yes
 		ignore_opinion_value_if_same_trait = yes
+		
+	}
+}
+
+
+#Cult traits
+#Means that we can add negative modifier if someone can't join the cult 
+#ToDo like in ck2 we need some decisions to get further in the cult 
+
+mithras_cult = {
+	index = 60000
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.2
+	monthly_piety = 0.2
+	inherit_chance = 0 
+	inherit_from_real_father = no
+	martial = 1 
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = mithras_cult.dds
+			}
+			desc = mithras_cult.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = no 
+		
+	}
+}
+
+isis_cult = { 
+	index = 60001
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.2
+	monthly_piety = 0.2
+	inherit_chance = 0
+	inherit_from_real_father = no 
+	health = 0.5
+	negate_health_penalty_add = 0.25
+	learning = 1
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = isis_cult.dds
+			}
+			desc = isis_cult.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = no 
+		
+	}
+}
+
+serapis_cult = {
+	index = 60002
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.2
+	monthly_piety = 0.2
+	inherit_chance = 0
+	inherit_from_real_father = no 
+	stewardship = 1 
+	monthly_income_mult = 0.1
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = serapis_cult.dds
+			}
+			desc = serapis_cult.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = no 
+		
+	}
+}
+
+ eleusinian_cult = {
+	index = 60003
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.2
+	monthly_piety = 0.2
+	inherit_chance = 0
+	inherit_from_real_father = no 
+	stress_gain_mult = -0.2
+	tax_mult = 0.15
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = eluesinian_cult.dds
+			}
+			desc = eluesinian_cult.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = no 
+		
+	}
+}
+
+sol_invictus_cult = {
+	index = 60004
+	fame = yes 
+	same_faith_opinion = 5
+	monthly_prestige = 0.2
+	monthly_piety = 0.2
+	inherit_chance = 0
+	inherit_from_real_father = no 
+	martial = 1
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = sol_invictus_cult.dds
+			}
+			desc = sol_invictus_cult.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = no 
+		
+	}
+}
+
+imperial_cult = {
+	index = 60005
+	fame = yes 
+	inherit_chance = 0
+	same_faith_opinion = 5
+	monthly_prestige = 0.2
+	monthly_piety = 0.2
+	inherit_from_real_father = no 
+	vassal_opinion = 10
+
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = imperial_cult.dds
+			}
+			desc = imperial_cult.dds
+		}
+	}
+
+	triggered_opinion = {
+		opinion_modifier = opinion_modifier_key	
+		same_faith = yes
+		ignore_opinion_value_if_same_trait = no 
 		
 	}
 }

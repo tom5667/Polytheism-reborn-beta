@@ -23,8 +23,8 @@
     #punic gods/goddesses Localization
 
     #An El Localization
-    punic_polytheism_high_god_name:0 "Baal"
-    punic_polytheism_high_god_name_possessive:0 "Baal's"
+    punic_polytheism_high_god_name:0 "Baal Hammon"
+    punic_polytheism_high_god_name_possessive:0 "Baal Hammon's"
     punic_polytheism_high_god_name_alternate:0 "Baal Hammon"
     punic_polytheism_high_god_name_alternate_possessive:0 "Baal Hammon's"
     punic_polytheism_high_god_shehe:0 "He"
@@ -39,13 +39,13 @@
     punic_polytheism_health_god_name:0 "Eshmun"
     punic_polytheism_health_god_name_possessive:0 "Eshmun's"
 
-    #Fertility Goddess Astarte Localization
-    punic_polytheism_fertility_god_name:0 "Astarte"
-    punic_polytheism_fertility_god_name_possessive:0 "Astarte's"
+    #Fertility Goddess Tanit Localization
+    punic_polytheism_fertility_god_name:0 "Tanit"
+    punic_polytheism_fertility_god_name_possessive:0 "Tanit's"
 
     #Wealth god Lugh Localization
-    punic_polytheism_wealth_god_name:0 "Baal Hammon"
-    punic_polytheism_wealth_god_name_possessive:0 "Baal Hammon's"
+    punic_polytheism_wealth_god_name:0 "Melqart"
+    punic_polytheism_wealth_god_name_possessive:0 "Melqart's"
 
     #Household god 
     punic_polytheism_household_god_name:0 "Tanit"
@@ -56,8 +56,8 @@
     punic_polytheism_fate_god_name_possessive:0 "Mór-Ríoghain's"
 
     #knowledge god ecnaLocalization
-    punic_polytheism_knowledge_god_name:0 "El"
-    punic_polytheism_knowledge_god_name_possessive:0 "El's"
+    punic_polytheism_knowledge_god_name:0 "Kusor"
+    punic_polytheism_knowledge_god_name_possessive:0 "Kusor's"
 
     #War god Tanit Localization
     punic_polytheism_war_god_name:0 "Tanit"
@@ -67,13 +67,13 @@
     punic_polytheism_trickster_god_name:0 "a god"
     punic_polytheism_trickster_god_name_possessive:0 "a god's"
 
-    #Night goddess Nanna Localization
-    punic_polytheism_night_god_name:0 "Nanna"
-    punic_polytheism_night_god_name_possessive:0 "Nanna's"
+    #Night goddess 
+    punic_polytheism_night_god_name:0 "Hudis"
+    punic_polytheism_night_god_name_possessive:0 "Hudis's"
 
 
-    punic_polytheism_water_god_name:0 "Yamm"
-    punic_polytheism_water_god_name_possessive:0 "Yamm's"
+    punic_polytheism_water_god_name:0 "Yam"
+    punic_polytheism_water_god_name_possessive:0 "Yam's"
 
     #evil gods names 
     punic_polytheism_evil_god_resjef:0 "Resjef" 
@@ -82,22 +82,22 @@
     punic_polytheism_witchgodname_resjef:0 "Resjef"
 
     #Devil god   
-    punic_polytheism_devil_name:0 "Melqart" 
-    punic_polytheism_devil_name_possessive:0 "Melqart's"
+    punic_polytheism_devil_name:0 "Hawot" 
+    punic_polytheism_devil_name_possessive:0 "Hawot's"
 
-    #Death god Aed
-    punic_polytheism_death_deity_name:0 "Mot"
-    punic_polytheism_death_deity_name_possessive:0 "Mot's"
+    #Death god 
+    punic_polytheism_death_deity_name:0 "Hawot"
+    punic_polytheism_death_deity_name_possessive:0 "Hawot's"
 
     #Good gods names 
     punic_polytheism_good_god_baal:0 "Baal Hammon" 
-    punic_polytheism_good_god_dagan:0 "Dagan" 
-    punic_polytheism_good_god_anath:0 "Anath" 
-    punic_polytheism_good_god_Melqart:0 "Melqart" 
-    punic_polytheism_good_god_kotharoth:0 "Kotharoth" 
-    punic_polytheism_good_god_nana:0 "Nanna" 
+    punic_polytheism_good_god_reshef:0 "Reshef" 
+    punic_polytheism_good_god_kusor:0 "Kusor" 
+    punic_polytheism_good_god_melqart:0 "Melqart" 
+    punic_polytheism_good_god_eshum:0 "Eshmun" 
+    punic_polytheism_good_god_yam:0 "Yam" 
     punic_polytheism_good_god_tanit:0 "Tanit" 
-    punic_polytheism_good_god_asherah:0 "Asherah"
+    punic_polytheism_good_god_semes:0 "Semes"
 
     
 

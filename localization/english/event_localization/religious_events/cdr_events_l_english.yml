@@ -243,3 +243,127 @@ cdr_erc.001.a:0 "Embrace the roman culture"
   saturnalia.001.t:0 "Saturnalia"
   saturnalia.001.desc:0 "The 17th of december has finally come, all businesses are closed and all harvests are in. Today we honer Saturn and do we thank the gods for the harvest of this year. After we held the rituals we exchanged gifts with eachother and is it time for the festivities"
   saturnalia.001.a:0 "Gather the realm for Saturnalia"
+
+  cult.001.t:0 "Cults"
+  cult.001.desc:0 "In Roman times there where many cults and with the reestablishment of the [ROOT.Char.GetFaith.GetAdjective] Those cults also flourished again.\nThe question is do I want to be part of one the cults ?"
+  cult.001.mithras:0 "Mithras Cult"
+  cult.001.isis:0 "Isis Cult"
+  cult.001.serapis:0 "Serapis Cult"
+  cult.001.eluesinian:0 "Eluesinian Cult"
+  cult.001.sol_invictus:0 "Sol Invictus cult"
+  cult.001.imperial:0 "Imperial cult"
+  cult.001.optout:0 "Maybe now isn't the right time"
+
+  #Join Mithras cult 
+  cult.002.t:0 "The application"
+  cult.002.desc:0 "After reading how to get in contact with the cult I wrote a letter on why I would be a valueble asset to the cult\nAfter that I left the letter in the secret place by the well. Now I need to wait a few day's before I get an answer"
+  cult.002.a:0 "Let's wait and hope for the best"
+
+  cult.003.t:0 "The answer"
+  cult.003.desc:0 "Some days later I returned to the place where I left the letter, between the stones sad a small letter with a text and\na location on where I will meet with them for the initiation into the cult"
+  cult.003.a:0 "Go to the meeting place"
+
+  cult.004.t:0 "The hidden location"
+  cult.004.desc:0 "Welcome welcome, so you are the one who send the application, great. Mithras god of war is beloved by the soldiers and many of them are part of this cult\nWe you too made some name for yourself so we are happy to say we can start the initiation "
+  cult_0004.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction./nWhat is known that it was a initiation proces of 7 degrees"
+  cult.004.a:0 "Start the initiation"
+
+  cult.005.t:0 "The initiation"
+  cult.005.desc:0 "We stand before the statue of Mithras, after following the 7 degrees of initiations now take this knife and make a cut in your hand. After that let some drops of blood fall on the plate\n and say the following words, I swear I will always follow the ways of mithras and will never betray my brothers and sisters. A few moments later it's all done"
+  cult.005.trait:0 "Finaly I'm part of the Mithras cult"
+  cult.005.religion:0 "Finaly I'm part of the Mithras cult"
+ 
+  #Standard decline answer 
+  cult.006.t:0 "The answer"
+  cult.006.desc:0 "Some days later I returned to the place where I left the letter, between the stones sad a small letter with a text.\nWe have to decline the application you're not yet worthy of joining our cult"
+  cult.006.a:0 "It's a shame"
+
+  #Isis cult
+  cult.007.t:0 "The dream"
+  cult.007.desc:0 "Some days ago I had a dream about a goddess, She told me to travel to Tithorea a city in greece. When I to go to the Isis temple there"
+  cult.007.a:0 "Travel to Tithorea"
+
+  cult.008.t:0 "Arriving at Tithorea"
+  cult.008.desc:0 "I Finaly arrived in Tithorea and managed to find the temple of Isis there"
+  cult.008.a:0 "Enter the temple"
+
+  cult.009.t:0 "Temple of Isis"
+  cult.009.desc:0 "Welcome to the temple of The great mother goddess Isis./nAs you know she is goddess of healing and magic, So you say you saw the goddess in your dream and she told you to go here? good, after paying 100 gold you may proceed you will need to undergo the initiation. I want you to know that you still may honor other gods and goddesses next to Isis and this initiation will take 10 days. When you're ready we can start, follow me downstars further into the temple"
+  cult_009.a.tt:0 "Historical context, the real initiation has not been preserved, there are sources that say a initiation wasn't necessary.So it's a bit guessing and pure fiction."
+  cult.009.a:0 "start the initiation"
+
+  cult.010.t:0 "The initiation"
+  cult.010.desc:0 "Let's start the initiation, First we start with ritual purifications, in the meantime the priest asks for forgifness for my sins and sprinkels water on me./nAfter that I had to wait 10 days and abstraining from meat and wine, in the evening of the tenth day I got unspecified gifts from fellow devotees of Isis before donning a clean linen robe and entering the deepest part of the temple. After some rituals and swearing the following words\nI swear I will always follow the ways of Isis and will never betray my brothers and sisters.\nThe next day I left the temple and traveled back home"
+  cult.010.trait:0 "Finaly I'm part of the Isis cult"
+  cult.010.religion:0 "Finaly I'm part of the Isis cult"
+
+  #Serapis Cult
+  cult.011.t:0 "Preparations"
+  cult.011.desc:0 "Travel to a nearby Serapeum to get in contact with the priest to get your initiation into the cult"
+  cult.011.a:0 "Travel to the Serapeum"
+
+  cult.012.t:0 "Arriving at serapeum"
+  cult.012.desc:0 "I Finaly arrived the local Serapeum"
+  cult.012.a:0 "Enter the Serapeum"
+
+  cult.013.t:0 "The Serapeum"
+  cult.013.desc:0 "Welcome to the temple of Serapis, you want to get initiated into the cult, great follow me downstairs you will be amased by the prosperty Serapis brings to his true followers"
+  cult.013.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction."
+  cult.013.a:0 "Start the initiation"
+
+  cult.014.t:0 "The initiation"
+  cult.014.desc:0 "We stand before the statue of Serapis,Now ofer in a proper way to Serapis and say the following words, I swear I will always follow the ways of Serapis and will never betray my brothers and sisters. A few moments later it's all done"
+  cult.014.trait:0 "Finaly I'm part of the Serapis cult"
+  cult.014.religion:0 "Finaly I'm part of the Serapis cult"
+
+
+  #Eluesinian mysteries 
+  cult.015.t:0 "Prepartion"
+  cult.015.desc:0 "Since the GreacoRoman religions are back the elusinian mysteries are growing fast in numbers, it's time i'm to take a closer look at it"
+  cult.015.a:0 "Travel to Eleusis"
+
+  cult.016.t:0 "Arriving at Eleusís"
+  cult.016.desc:0 "Once I got to Eleusis there where festivities going on, after watching the it for a few minutes a priestess came to me"
+  cult.016.a:0 "Talk with the priestess"
+
+  cult.017.t:0 "Eluesinian priestess"
+  cult.017.desc:0 "Greetings, it seems you're interested in the festivities ? If you like I could tell you more about it.\nSome time later, you asked the priestess if you could do the initiation"
+  cult_017.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction."
+  cult.017.a:0 "start the initiation"
+
+  cult.018.t:0 "The initiation"
+  cult.018.desc:0 "We stand before the statue of Persephone and Demeter,Now ofer in a proper way to both and say the following words, I swear I will always follow the ways of Demeter and Persephone and will never betray my brothers and sisters. A few moments later it's all done"
+  cult.018.trait:0 "Finaly I'm part of the Eleusinian cult"
+  cult.018.religion:0 "Finaly I'm part of the Eleusinian cult"
+  
+  #Sol invictus cult
+  cult.019.t:0 "Prepartion"
+  cult.019.desc:0 "The cult of Sol is one of the oldest cults of the Roman empire, given a new popularity boost by Emperor Aurelian in 274 CE.\nI realy want to know more about it"
+  cult.019.a:0 "Travel to local temple of Sol"
+
+  cult.020.t:0 "Arriving at temple of sol"
+  cult.020.desc:0 "When arriving at the local temple there is a major difference between the traditional temples and the one for sol (Invictus), it's an open air temple"
+  cult.020.a:0 "enter the temple"
+
+  cult.021.t:0 "Sol Priest"
+  cult.021.desc:0 "Greetings, what brings you here today? you want to know more about this cult, sure. after some time the priest asked, If you want you can join me in a  offer to the Unconquered Sun. After you have done this you can name yourself part of the Sol cult,"
+  cult_021.a.tt:0 "Historical context, Couldn't find any info about an initiation so this event is fictional, if someone has some more info let me know on steam or discord"
+  cult.021.trait:0 "Finaly I'm part of the Sol cult"
+  cult.021.religion:0 "Finaly I'm part of the Sol cult"
+
+
+  #Imperial cult 
+  cult.022.t:0 "Prepartion"
+  cult.022.desc:0 "Since the GreacoRoman religions are back the Imperial cult of couldn't stay behind of course, It's not only a religion but also a way to pay respect to a emperor and empress./n Everyone can join so it shouldn't be a problem"
+  cult.022.a:0 "Travel to local Imperial temple"
+
+  cult.023.t:0 "Arriving at Imeprial temple"
+  cult.023.desc:0 "It's bussy in front of the temple almost like there is some kind of meeting. you walk pass the people and enter the temple"
+  cult.023.a:0 "enter the temple"
+
+  cult.024.t:0 "Sacerdos Augustales"
+  cult.024.desc:0 "Greetings, what brings you here today? you want to know more about this cult, sure. after some time the Augustales asked If you want to offer to the passed away emperors and empresses. After you have done this you can name yourself part of the Imperial cult, honor the emperors as you honor your ancestors and the gods"
+  cult_024.a.tt:0 "Historical context, Couldn't find any info about an initiation so this event is fictional, if someone has some more info let me know on steam or discord"
+  cult.024.trait:0 "Finaly I'm part of the imperial cult"
+  cult.024.religion:0 "Finaly I'm part of the imperial cult"
+

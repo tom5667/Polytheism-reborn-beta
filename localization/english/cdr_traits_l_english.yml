@@ -56,3 +56,32 @@
   #Greco Roman State religion
   trait_julian_state_religion:0 "State religion Greco Roman"
   trait_julian_state_religion_desc:0 "Reinstated state religion Greco Roman"
+
+  #cult traits 
+  trait_mithras_cult:0 "Mithras cultist"
+  trait_mithras_cult_desc:0 "Roman mysterie cult popular by the roman army from 1st till 4th century CE and mostly worshiped by roman soldiers"
+
+  trait_isis_cult:0 "Isis cultist"
+  trait_isis_cult_desc:0 "With roots in Kemetic Polytheism, the cult of isis mysteries where one of the most famous mysterie cults in rome"
+
+  trait_serapis_cult:0 "Serapis cultist"
+  trait_serapis_cult_desc:0 "The cult of Serapis was pushed forward during the third century BCE on the orders of Greek Pharaoh Ptolemy I Soter of the Ptolemaic Kingdom and made him patron of the ptolomic dynasty and Alexandria. In roman times Serapis continued to increase in popularity"
+
+  trait_eleusinian_cult:0 "Eluesinian cultist"
+  trait_eleusinian_cult_desc:0 "The Eluesinian mysteries was one of the most famous mysterie cults of Greece and later The Roman republic and Empire. It represented the myth of the abduction of Persephone from her mother Demeter by the king of the underworld Hades. Rites were performed at Eleusis near Athens"
+
+  trait_sol_invictus_cult:0 "Sol Invictus cultist"
+  trait_sol_invictus_cult_desc:0 "Sol Invictus (Unconquerable Sun) is a continuation of the old sol cult, established in 274 CE by Emperor Aurelian he made it one of the most important cults, the cult was mostly gone by 387 CE"
+
+  trait_imperial_cult:0 "Emperor cultist"
+  trait_imperial_cult_desc:0 "In the Imperial cult Emperors are honored by ritus and Caerimoniae. Established in 28 BCE by Augustus was a honored emperor or empress who obtained this status posthumously and by human agency (divus) and not full god never human (Deus) "
+
+  #Cult proceding 
+  #lvl's of initiation mithras cult
+  #Corax
+  #BrideGroom
+  #Soldier
+  #Lion
+  #Perses
+  #Heliodromus
+  #Pater

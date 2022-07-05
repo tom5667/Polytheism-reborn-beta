@@ -155,7 +155,7 @@ punic_religion ={
 
                 PantheonTerm = punic_pantheon_the_gods
                 PantheonTermHasHave = pantheon_term_have
-                GoodGodNames = {punic_polytheism_good_god_baal punic_polytheism_good_god_dagan punic_polytheism_good_god_anath punic_polytheism_good_god_Melqart unic_polytheism_good_god_kotharoth punic_polytheism_good_god_nana punic_polytheism_good_god_tanit punic_polytheism_good_god_asherah}
+                GoodGodNames = {punic_polytheism_good_god_baal punic_polytheism_good_god_reshef punic_polytheism_good_god_kusor punic_polytheism_good_god_melqart punic_polytheism_good_god_eshum punic_polytheism_good_god_yam punic_polytheism_good_god_tanit punic_polytheism_good_god_semes}
                 DevilName = punic_polytheism_devil_name
                 DevilNamePossessive = punic_devil_name_possessive
                 DevilSheHe = CHARACTER_SHEHE_HE

@@ -11,6 +11,7 @@ namespace = cdr_otv
 namespace = rejected_to_join_vestal_vergins
 namespace = accepted_to_join_vestal_vergins
 namespace = saturnalia
+namespace = cult
 #mithras mysteries namespace 
 namespace = mm_cmd
 
@@ -674,3 +675,646 @@ saturnalia.001 = {
 	}
 	
 }
+
+cult.001 = {
+	type = character_event
+	title = cult.001.t
+	desc = cult.001.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.001.mithras
+		trigger_event = cult.002
+	}
+	option = {
+		name = cult.001.isis
+		trigger_event = cult.007
+	}
+	option = {
+		name = cult.001.serapis
+		trigger_event = cult.011
+	}
+	option = {
+		name = cult.001.eluesinian
+		trigger_event = cult.015
+	}
+	option = { 
+		name = cult.001.sol_invictus
+		trigger_event = cult.019
+	}
+	option = { 
+		name = cult.001.imperial
+		trigger_event = cult.023
+	}
+	option ={ 
+		name = cult.001.optout
+		clear_global_variable_list = unavailable_unique_decisions_join_cult
+	}
+}
+#Join Mithras Cult events 
+cult.002 = {#application
+	type = character_event
+	title = cult.002.t
+	desc = cult.002.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.002.a
+		if ={
+			limit ={
+				martial >= 18
+			}
+			trigger_event ={
+				id = cult.003
+				days = 5
+			} 
+		}
+		else_if = {
+			limit = {
+				martial < 18 
+			}
+			trigger_event = { 
+				id = cult.006
+				days = 5
+			}
+		}
+	}
+}
+
+cult.003 = {#answer 
+	type = character_event
+	title = cult.003.t
+	desc = cult.003.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.003.a
+		trigger_event = cult.004
+	}
+
+}
+
+cult.004 = {#meeting at secret place Mithras
+	type = character_event
+	title = cult.004.t
+	desc = cult.004.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = scope:cult_leader_mithras
+		animation = personality_content
+	}
+	
+	option = {
+		name = cult.004.a
+		trigger_event = cult.005
+		custom_tooltip = cult_0004.a.tt
+	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				employer = root
+				template = religious_leader_character
+				random_traits = no
+				save_scope_as = cult_leader_mithras
+				martial = 25
+				gender = male
+				trait = mithras_cult
+				trait = zealous
+				dynasty = generate
+			}
+		}
+	}
+
+}
+
+cult.005 = {#Initiation 
+	type = character_event
+	title = cult.005.t
+	desc = cult.005.desc
+	theme = learning
+	left_portrait = {
+		character = scope:cult_leader_mithras
+		animation = personality_content
+	}
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.005.trait
+		#set_character_faith = faith:mithraic_mysteries
+		add_trait = mithras_cult
+	}
+	option = {
+		name = cult.005.religion
+		set_character_faith = faith:mithraic_mysteries
+	}
+}
+
+
+cult.006 = {
+	type = character_event
+	title = cult.006.t
+	desc = cult.006.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.006.a
+
+	}
+	immediate ={
+		add_character_flag = {
+			flag = turned_down_by_cult
+			years = 2
+		}
+		clear_global_variable_list = unavailable_unique_decisions_join_cult
+	}
+}
+#Cult of Isis
+cult.007 = {#application
+	type = character_event
+	title = cult.007.t
+	desc = cult.007.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.007.a
+
+			trigger_event ={
+				id = cult.008
+				days = 5
+			} 
+			
+	}
+
+
+}
+
+cult.008 = {#answer 
+	type = character_event
+	title = cult.008.t
+	desc = cult.008.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.008.a
+		trigger_event = cult.009
+		
+	}
+
+}
+
+cult.009 = {#Meeting place Isis Cult
+	type = character_event
+	title = cult.009.t
+	desc = cult.009.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = scope:cult_leader_isis
+		animation = personality_content
+	}
+
+	option = {
+		name = cult.009.a
+		trigger_event = cult.010
+		custom_tooltip = cult_0009.a.tt
+		remove_short_term_gold = medium_gold_value
+	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				employer = root
+				template = religious_leader_character
+				random_traits = no
+				save_scope_as = cult_leader_isis
+				learning = 25
+				gender = male
+				trait = isis_cult
+				trait = zealous
+				dynasty = generate
+			}
+		}
+	}
+}
+
+cult.010 = {#Initiation 
+	type = character_event
+	title = cult.010.t
+	desc = cult.010.desc
+	theme = learning
+	left_portrait = {
+		character = scope:cult_leader_mithras
+		animation = personality_content
+	}
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.010.trait
+		add_trait = isis_cult
+	}
+	option = {
+		name = cult.010.religion
+		set_character_faith = faith:mysteries_of_isis 
+	}
+}
+
+#Serapis Cult
+
+cult.011 = {
+	type = character_event
+	title = cult.011.t
+	desc = cult.011.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.011.a
+			trigger_event ={
+				id = cult.012
+				days = 5
+			} 
+	
+	}
+}
+
+cult.012 = {#answer 
+	type = character_event
+	title = cult.012.t
+	desc = cult.012.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.012.a
+		trigger_event = cult.013
+	}
+
+}
+
+cult.013 = {#Meeting place Serapis Cult
+	type = character_event
+	title = cult.013.t
+	desc = cult.013.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = scope:cult_leader_serapis
+		animation = personality_content
+	}
+
+	option = {
+		name = cult.013.a
+		trigger_event = cult.014
+		custom_tooltip = cult.013.a.tt
+		add_piety = medium_piety_loss
+	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				employer = root
+				template = religious_leader_character
+				random_traits = no
+				save_scope_as = cult_leader_serapis
+				learning = 25
+				gender = male
+				trait = serapis_cult
+				trait = zealous
+				dynasty = generate
+			}
+		}
+	}
+}
+
+cult.14 = {#Initiation 
+	type = character_event
+	title = cult.014.t
+	desc = cult.014.desc
+	theme = learning
+	left_portrait = {
+		character = scope:cult_leader_serapis
+		animation = personality_content
+	}
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.014.trait
+		add_trait = serapis_cult
+	}
+	option = {
+		name = cult.014.religion
+		set_character_faith = faith:cult_of_serapis
+	}
+}
+
+# Eluesinian Cult
+
+cult.015 = {
+	type = character_event
+	title = cult.015.t
+	desc = cult.015.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.015.a
+			trigger_event ={
+				id = cult.016
+				days = 5
+			}
+		}
+}
+
+cult.016 = {#answer 
+	type = character_event
+	title = cult.016.t
+	desc = cult.016.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.016.a
+		trigger_event = cult.017
+	}
+
+}
+
+cult.017 = {#Meeting place Serapis Cult
+	type = character_event
+	title = cult.017.t
+	desc = cult.017.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = scope:cult_leader_eleusinian
+		animation = personality_content
+	}
+
+	option = {
+		name = cult.017.a
+		trigger_event = cult.018
+		custom_tooltip = cult_0017.a.tt
+	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				employer = root
+				template = religious_leader_character
+				random_traits = no
+				save_scope_as = cult_leader_eleusinian
+				learning = 25
+				gender = female
+				trait = eleusinian_cult
+				trait = zealous
+				dynasty = generate
+			}
+		}
+	}
+}
+
+cult.018 = {#Initiation 
+	type = character_event
+	title = cult.018.t
+	desc = cult.018.desc
+	theme = learning
+	left_portrait = {
+		character = scope:cult_leader_serapis
+		animation = personality_content
+	}
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.018.trait
+		add_trait = eluesinian_cult
+	}
+	option = {
+		name = cult.018.religion
+		set_character_faith = faith:eluesinian_mysteries
+	}
+}
+
+# Sol invictusCult
+
+cult.019 = {
+	type = character_event
+	title = cult.019.t
+	desc = cult.019.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+	name = cult.019.a
+		trigger_event ={
+			id = cult.020
+			days = 5
+		} 
+	}
+}
+
+cult.020 = {#answer 
+	type = character_event
+	title = cult.020.t
+	desc = cult.020.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.020.a
+		trigger_event = cult.021
+	}
+
+}
+
+cult.021 = {#Meeting place Sol invictus Cult
+	type = character_event
+	title = cult.021.t
+	desc = cult.021.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = scope:cult_leader_sol_invictus
+		animation = personality_content
+	}
+	option = {
+		name = cult.021.trait
+		add_trait = sol_invictus_cult
+	}
+	option = {
+	name = cult.021.religion
+	set_character_faith = faith:sol_invictus_cult
+	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				employer = root
+				template = religious_leader_character
+				random_traits = no
+				save_scope_as = cult_leader_sol_invictus
+				martial = 25
+				gender = male
+				trait = sol_invictus_cult
+				trait = zealous
+				dynasty = generate
+			}
+		}
+	}
+}
+
+
+# Imperial Cult
+
+cult.022 = {
+	type = character_event
+	title = cult.022.t
+	desc = cult.022.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.022.a
+			trigger_event ={
+				id = cult.023
+				days = 5
+		} 
+	}
+}
+
+cult.023 = {#answer 
+	type = character_event
+	title = cult.023.t
+	desc = cult.023.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cult.023.a
+		trigger_event = cult.024
+	}
+
+}
+
+cult.024 = {#Meeting Augustalis
+	type = character_event
+	title = cult.024.t
+	desc = cult.024.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = scope:cult_leader_imperial
+		animation = personality_content
+	}
+
+	option = {
+		name = cult.024.trait
+		add_trait = imperial_cult
+	}
+	option = {
+		name = cult.024.religion
+		set_character_faith = faith:imperial_cult
+	}
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				employer = root
+				template = religious_leader_character
+				random_traits = no
+				save_scope_as = cult_leader_imperial
+				learning = 26
+				gender = male
+				trait = imperial_cult
+				trait = zealous
+				dynasty = generate
+			}
+		}
+	}
+}
+
+
+#Cult proceding 
+#lvl's of initiation mithras cult
+#Corax
+#Nymphus
+#Soldier
+#Lion
+#Perses
+#Heliodromus
+#Pater
