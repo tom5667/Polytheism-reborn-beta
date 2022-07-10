@@ -244,8 +244,55 @@ augsburg ={
 	}
 	flag = augsburg_conversion_bonus # +20% County Conversion
 }
+#############
+#Mesopotamian 
+#############
 
+ur = {
+	county = c_ubulla
+	barony = b_matara-iraq
 
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	flag = augsburg_conversion_bonus # +20% County Conversion
+}
 
+ninive = { 
+	county = c_ninive
 
+	character_modifier = {
+		name = holy_site_ninive_effect_name
+		diplomacy = 1
+		martial = 1
+	}
+}
 
+wassukanni = {
+	county = c_upper_khabur
+	barony = b_mardin
+
+	character_modifier = {
+		name = holy_site_wassukani_effect_name
+		clergy_opinion = 5
+	}
+}
+
+susa = {
+	county = c_tustar
+	barony = b_as-sus
+
+	character_modifier = {
+	   monthly_piety_gain_mult = 0.1
+   }
+   flag = susa_conversion_bonus # +5% County Conversion
+}
+
+ebla = { 
+	county = c_aleppo
+
+	character_modifier = {
+		name = holy_site_ebla_effect_name
+		stewardship = 2
+	}
+}

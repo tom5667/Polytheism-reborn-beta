@@ -265,11 +265,11 @@ cdr_erc.001.a:0 "Embrace the roman culture"
 
   cult.004.t:0 "The hidden location"
   cult.004.desc:0 "Welcome welcome, so you are the one who send the application, great. Mithras god of war is beloved by the soldiers and many of them are part of this cult\nWe you too made some name for yourself so we are happy to say we can start the initiation "
-  cult_0004.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction./nWhat is known that it was a initiation proces of 7 degrees"
+  cult_0004.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction./nWhat is known that it was a initiation proces of 7 the names of them are known so I will build on that"
   cult.004.a:0 "Start the initiation"
 
   cult.005.t:0 "The initiation"
-  cult.005.desc:0 "We stand before the statue of Mithras, after following the 7 degrees of initiations now take this knife and make a cut in your hand. After that let some drops of blood fall on the plate\n and say the following words, I swear I will always follow the ways of mithras and will never betray my brothers and sisters. A few moments later it's all done"
+  cult.005.desc:0 "We stand before the statue of Mithras, after following the 1st degree of initiations now take this knife and make a cut in your hand. After that let some drops of blood fall on the plate\n and say the following words, I swear I will always follow the ways of mithras and will never betray my brothers and sisters. A few moments later it's all done.\n\nYou're now part of the cult you start at the beginning as Corax"
   cult.005.trait:0 "Finaly I'm part of the Mithras cult"
   cult.005.religion:0 "Finaly I'm part of the Mithras cult"
  
@@ -366,4 +366,8 @@ cdr_erc.001.a:0 "Embrace the roman culture"
   cult_024.a.tt:0 "Historical context, Couldn't find any info about an initiation so this event is fictional, if someone has some more info let me know on steam or discord"
   cult.024.trait:0 "Finaly I'm part of the imperial cult"
   cult.024.religion:0 "Finaly I'm part of the imperial cult"
+
+  restore_altar.001.t:0 "Go to the senate"
+  restore_altar.001.desc:0 "I take a deep breath when i stand before the senate doors. Inside a senate who is more devided than ever christians, polytheists who accept or not accept others beliefs and here i am with a proposition to bring back the altar of Victoria to the senate building."
+  restore_altar.001.a:0 "Enter the senate"
 

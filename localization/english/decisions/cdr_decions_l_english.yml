@@ -100,3 +100,10 @@ join_cult_decision.eluesinian_mysteries:0 "Eluesinian mysteries"
 join_cult_decision.sol_invictus_cult:0 "Sol Invictus cult"
 join_cult_decision.imperial_cult:0 "Imperial cult"
 join_cult_decision_confirm:1 "Take a look at the avaible cults"
+
+
+#Restore altar of victoria decision
+restore_altar_of_victoria:0 "Restore the altar of Victoria"
+restore_altar_of_victoria_desc:0 "Bring back the altar of victoria to the senate building."
+restore_altar_of_victoria_tooltip:1 "I have only one chance at this"
+restore_altar_of_victoria_confirm:1 "Go to the senate"

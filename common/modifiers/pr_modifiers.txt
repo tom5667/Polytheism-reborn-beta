@@ -72,7 +72,6 @@ gaelic_lugh ={
 	icon = economy_positive
 	same_faith_opinion = 5
 	martial = 1
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 	stewardship = 1
 	christianity_religion_opinion = -5
@@ -103,7 +102,6 @@ gaelic_ecna = {
 	icon = learning_positive
 	learning = 2
 	same_faith_opinion = 5
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 
 	christianity_religion_opinion = -5
@@ -124,7 +122,6 @@ brythonic_taranis={
 brythonic_lugus={
 	icon = economy_positive
 	same_faith_opinion = 5
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 	stewardship = 2
 	christianity_religion_opinion = -5
@@ -155,7 +152,6 @@ brythonic_brigantia ={
 	icon = learning_positive
 	learning = 2
 	same_faith_opinion = 5
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 
 	christianity_religion_opinion = -5
@@ -175,7 +171,6 @@ gaulish_toutatis={
 gaulish_lughus={
 	icon = economy_positive
 	same_faith_opinion = 5
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 	stewardship = 2
 	christianity_religion_opinion = -5
@@ -203,14 +198,61 @@ gaulish_belisama={
 	icon = learning_positive
 	learning = 2
 	same_faith_opinion = 5
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 	christianity_religion_opinion = -5
 	islam_religion_opinion  = -5
 }
 
 #Celtic Iberian 
-#Will be added later on it's part of a decision so no worry about letting users start new campaigns
+celtic_iberian_reue = {
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+celtic_iberian_arentius = {
+	icon = health_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	health = 0.5
+	negate_health_penalty_add = 0.25
+	
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+celtic_iberian_nabia = {
+	icon = love_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+}
+
+celtic_iberian_lugus = {
+	icon = economy_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	stewardship = 2
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+celtic_iberian_bandua = {
+	icon = martial_positive
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
 
 #Anglo Saxon Polytheism
 anglo_saxon_woden ={ 
@@ -225,7 +267,6 @@ anglo_saxon_woden ={
 anglo_saxon_njord ={
 	icon = economy_positive
 	same_faith_opinion = 5
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 	stewardship = 2
 	christianity_religion_opinion = -5
@@ -266,6 +307,7 @@ german_wotan = {
 	same_faith_opinion = 5
 	monthly_prestige = 0.3
 	monthly_piety = 0.5
+	
 	christianity_religion_opinion = -5
 	islam_religion_opinion  = -5
 }
@@ -273,7 +315,6 @@ german_wotan = {
 german_njordr = {
 	icon = economy_positive
 	same_faith_opinion = 5
-	monthly_prestige = 0.3
 	monthly_piety = 0.5
 	stewardship = 2
 	christianity_religion_opinion = -5
@@ -310,17 +351,28 @@ german_mimir ={
 #Solstice's 
 summer_solstice ={
 	icon = magic_positive
-
+	monthly_income_mult = 0.2
 	monthly_piety = 0.3
+	monthly_prestige = 0.2
 }
 winter_solstice = {
 	icon = magic_positive
 	monthly_piety = 0.3
+	monthly_prestige = 0.2
 }
+
+summer_solstice_celtic ={
+	icon = magic_positive
+	monthly_income_mult = 0.2
+	fertility = 0.1
+	monthly_piety = 0.3
+	monthly_prestige = 0.2
+}
+
 
 saturnalia = {
 	icon = magic_positive
-
+	monthly_prestige = 0.2
 	monthly_piety = 0.3
 }
 #Etruscan Polytheism
@@ -359,6 +411,7 @@ punic_tanit = {
 
 punic_kusor = {
 	icon = learning_positive
+	same_faith_opinion = 5
 	monthly_piety = 0.5
 	same_faith_opinion = 5
 	learning = 2
@@ -367,7 +420,9 @@ punic_kusor = {
 }
 
 punic_melqart = {
-	icon = magic_positive 
+	icon = magic_positive
+	same_faith_opinion = 5 
+	monthly_piety = 0.5
 	prowess = 1
 	monthly_income_mult = 0.2
 	christianity_religion_opinion = -5

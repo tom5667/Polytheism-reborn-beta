@@ -14,6 +14,7 @@ namespace = saturnalia
 namespace = cult
 #mithras mysteries namespace 
 namespace = mm_cmd
+namespace = restore_altar
 
 
 #choose your main deity events
@@ -716,6 +717,7 @@ cult.001 = {
 	}
 }
 #Join Mithras Cult events 
+#will be edited when the other 6 levels of initiation are added 
 cult.002 = {#application
 	type = character_event
 	title = cult.002.t
@@ -730,7 +732,7 @@ cult.002 = {#application
 		name = cult.002.a
 		if ={
 			limit ={
-				martial >= 18
+				martial >= 5
 			}
 			trigger_event ={
 				id = cult.003
@@ -739,7 +741,7 @@ cult.002 = {#application
 		}
 		else_if = {
 			limit = {
-				martial < 18 
+				martial < 5 
 			}
 			trigger_event = { 
 				id = cult.006
@@ -1318,3 +1320,53 @@ cult.024 = {#Meeting Augustalis
 #Perses
 #Heliodromus
 #Pater
+
+
+# restore_altar.001={
+# 	type = character_event
+# 	title = restore_altar.001.t
+# 	desc = restore_altar.001.desc
+# 	theme = realm
+# 	right_portrait = {
+# 		character = root
+# 		animation = personality_content
+# 	}
+# 	immediate = {
+# 		hidden_effect = {
+# 		 create_character = {
+# 			employer = root
+# 			template = senatenator_character
+# 			random_traits = no 
+# 			faith = faith:chalcedonian
+# 			gender = male
+# 			age = 30
+# 			save_scope_as = roman_senator
+# 		 		}
+# 			}
+# 		}
+# 		option = {
+# 			name = restore_altar.001.a
+# 			trigger_event = restore_altar.002
+# 	}
+# }
+
+# restore_altar.002 ={
+# 	type = character_event
+# 	title = restore_altar.002.t
+# 	desc = restore_altar.002.desc
+# 	theme = realm
+# 	right_portrait = {
+# 		character = root
+# 		animation = personality_content
+# 	}
+# 	left_portrait ={
+# 		character = scope:roman_senator
+# 		animation = anger
+# 	} 
+# 	option = {
+# 		name = restore_altar.002.a
+# 	}
+# 	option = {
+# 		name = restore_altar.002.b
+# 	}
+# }

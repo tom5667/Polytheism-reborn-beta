@@ -100,6 +100,12 @@ select_main_deity_celtic_decision.select_rosmerta:0 "Rosmerta goddess of fertili
 select_main_deity_celtic_decision.select_cicolluis:0 "Cicolluis God of war"
 select_main_deity_celtic_decision.select_belisama:0 "Belisama goddess of wisdom"
 
+select_main_deity_celtic_decision.select_reue:0 "Reue high god and god of thunder"
+select_main_deity_celtic_decision.select_arentius:0 "Arentius goddess of health"
+select_main_deity_celtic_decision.select_nabia:0 "Nabia goddess of fertility"
+select_main_deity_celtic_decision.select_lugus:0 "Lugus god of trade and wealth"
+select_main_deity_celtic_decision.select_bandua:0 "Bandua god of war"
+
 celtic_solstice_summer_decision:0 "Hold Summer Solstice"
 celtic_solstice_summer_decision_tooltip:1 "Hold Summer Solstice"
 celtic_solstice_summer_decision_desc:0 "As the winds begin to chill and the Seas begin to rise, A stormy Horizon looks to the people of the [ROOT.Char.GetPrimaryTitle.GetName], In order to ensure a bountiful harvest and for keeping the realm united, I must convene an audience with the gods before the Winter-Spirits arrive and Snow covers the land."

@@ -70,6 +70,20 @@ gaulish_belisama:0 "Devoted to Belisama"
 gaulish_belisama_desc:0 "Devotee of Belisama goddess of wisdom"
 
 #Celtic Iberian
+celtic_iberian_reue:0 "Devoted to Reue"
+celtic_iberian_reue_desc:0 "Devotee of Reue high god and god of thunder"
+
+celtic_iberian_arentius:0 "Devoted to Arentius"
+celtic_iberian_arentius_desc:0 "Devotee of Arentius goddess of health"
+
+celtic_iberian_nabia:0 "Devoted to Nabia"
+celtic_iberian_nabia_desc:0 "Devotee of Nabia goddess of fertility"
+
+celtic_iberian_lugus:0 "Devoted to Lugus"
+celtic_iberian_lugus_desc:0 "Devotee of Lugus god of trade and wealth"
+
+celtic_iberian_bandua:0 "Devoted to Bandua"
+celtic_iberian_bandua_desc:0 "Devotee of Bandua god of war"
 
 #Germanic
 #Anglo Saxon
@@ -122,4 +136,6 @@ punic_melqart_desc:0 "Devotee of Melqart god of trade and military"
 
 summer_solstice:0 "Held Summer Solstice"
 winter_solstice:0 "Held Winter Solstice"
+summer_solstice_celtic:0 "Held Summer Solstice"
+winter_solstice_celtic:0 "Held Winter Solstice"
 saturnalia:0 "Celebrated Saturnalia"

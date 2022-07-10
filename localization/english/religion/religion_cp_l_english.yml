@@ -12,7 +12,7 @@
     gaelic_polytheism_adj:0 "Gaelic Polytheism"
     gaelic_polytheism_adherent:0 "Gaelic Polytheism follower"
     gaelic_polytheism_adherent_plural:0 "Gaelic Polytheism followers"
-    gaelic_polytheism_desc:0 "the Gaelic gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
+    gaelic_polytheism_desc:0 "The Gaelic gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
     gaelic_polytheism_religious_head_title:0 "Head Druid"
     gaelic_polytheism_divine_realm:0 "Tuath Dé"
     gaelic_polytheism_religious_symbol:0 "Celtic knot"
@@ -91,7 +91,7 @@
     gaelic_polytheism_good_god_anu:0 "Anu" 
     gaelic_polytheism_good_god_cernunnos:0 "Cernunnos" 
     gaelic_polytheism_good_god_ecna:0 "Ecna" 
-    gaelic_polytheism_good_god_lugh:0 "Lugh" 
+    gaelic_polytheism_good_god_etain:0 "Étaín" 
     gaelic_polytheism_good_god_manannán:0 "Manannán" 
     gaelic_polytheism_good_god_neit:0 "Neit" 
     gaelic_polytheism_good_god_dianus:0 "Dianus" 
@@ -119,7 +119,7 @@
     brythonic_polytheism_adj:0 "Brythonic Polytheism"
     brythonic_polytheism_adherent:0 "Brythonic Polytheism follower"
     brythonic_polytheism_adherent_plural:0 "Brythonic Polytheism followers"
-    brythonic_polytheism_desc:0 "the Brythonic gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
+    brythonic_polytheism_desc:0 "The Brythonic gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
     brythonic_polytheism_divine_realm:0 "Tuath Dé"
     brythonic_polytheism_religious_symbol:0 "Celtic knot"
     brythonic_polytheism_religious_text:0 "rituals, passage tombs"
@@ -221,7 +221,7 @@
     gaulish_polytheism_adj:0 "Gaulish Polytheism"
     gaulish_polytheism_adherent:0 "Gaulish Polytheism follower"
     gaulish_polytheism_adherent_plural:0 "Gaulish Polytheism followers"
-    gaulish_polytheism_desc:0 "the Gaulish gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
+    gaulish_polytheism_desc:0 "The Gaulish gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
     gaulish_polytheism_divine_realm:0 "Other World"
     gaulish_polytheism_religious_symbol:0 "wild boar"
     gaulish_polytheism_religious_text:0 "rituals"
@@ -324,7 +324,7 @@
     celtic_iberian_polytheism_adj:0 "Celtic Iberian Polytheism"
     celtic_iberian_polytheism_adherent:0 "Celtic Iberian Polytheism follower"
     celtic_iberian_polytheism_adherent_plural:0 "Celtic Iberian Polytheism followers"
-    celtic_iberian_polytheism_desc:0 "the Celtic Iberian gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
+    celtic_iberian_polytheism_desc:0 "The Celtic Iberian gods honored by rites and ceremonies to bond with the gods, and get their help or guidance." 
     celtic_iberian_polytheism_divine_realm:0 "Other world"
     celtic_iberian_polytheism_religious_symbol:0 "wild boar"
     celtic_iberian_polytheism_religious_text:0 "rituals"
@@ -361,9 +361,9 @@
     celtic_iberian_polytheism_household_god_name:0 "Lugus"
     celtic_iberian_polytheism_household_god_name_possessive:0 "Lugus 's"
 
-    #Fate god Alaunus Localization
-    celtic_iberian_polytheism_fate_god_name:0 "Alaunus"
-    celtic_iberian_polytheism_fate_god_name_possessive:0 "Alaunus's"
+    #Fate god Endovelicus Localization historical correct
+    celtic_iberian_polytheism_fate_god_name:0 "Endovelicus"
+    celtic_iberian_polytheism_fate_god_name_possessive:0 "Endovelicus's"
 
     #knowledge god belisama Localization check Needs more research scare information
     celtic_iberian_polytheism_knowledge_god_name:0 "Belisama"
@@ -382,8 +382,8 @@
     celtic_iberian_polytheism_night_god_name_possessive:0 "no god"
 
     #Celtiberian water goddess 
-    celtic_iberian_polytheism_water_god_name:0 "Nabia"
-    celtic_iberian_polytheism_water_god_name_possessive:0 "Nabia's"
+    celtic_iberian_polytheism_water_god_name:0 "Durius"
+    celtic_iberian_polytheism_water_god_name_possessive:0 "Durius's"
 
     #evil gods names  gods of the underword 
     celtic_iberian_polytheism_evil_god_ataecina:0 "Ataecina" 
@@ -401,7 +401,7 @@
 
     #Good gods names 
     celtic_iberian_polytheism_good_god_dea_brigo:0 "Brigo" 
-    celtic_iberian_polytheism_good_god_nabia :0 "Nabia" 
+    celtic_iberian_polytheism_good_god_durius :0 "Durius" 
     celtic_iberian_polytheism_good_god_alaunus:0 "Alaunus" 
     celtic_iberian_polytheism_good_god_lugus:0 "Lugus" 
     celtic_iberian_polytheism_good_god_endovelicus:0 "Endovelicus" 

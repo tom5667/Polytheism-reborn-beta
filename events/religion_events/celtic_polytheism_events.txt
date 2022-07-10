@@ -1258,7 +1258,76 @@ ccmd.003 = {
 	}
 }
 
+#Celtic Iberian
+ccmd.004 = {
+	type = character_event
+	title = ccmd.004.t
+	desc = ccmd.004.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Reue
+	option = {
+		name = ccmd.004.reue
+		trigger = {
+			NOT = { has_character_modifier = celtic_iberian_reue }
+		}
+		set_bhakti_effect = { BHAKTI = celtic_iberian_reue }
+	}
+
+	# Arentius
+	option = {
+		name = ccmd.004.arentius
+		trigger = {
+			NOT = { has_character_modifier = celtic_iberian_arentius }
+		}
+		set_bhakti_effect = { BHAKTI = celtic_iberian_arentius }
+	}
+
+	#Nabia
+	option = {
+		name = ccmd.004.nabia 
+		trigger = {
+			NOT = { has_character_modifier = celtic_iberian_nabia }
+		}
+		set_bhakti_effect = { BHAKTI = celtic_iberian_nabia }
+	}
+
+	#Lugus
+	option = {
+		name = ccmd.004.lugus
+		trigger = {
+			NOT = { has_character_modifier =  celtic_iberian_lugus }
+		}
+		set_bhakti_effect = { BHAKTI = celtic_iberian_lugus }
+	}
+
+
+	#Bandua
+	option = {
+		name = ccmd.004.bandua
+		trigger = {
+			NOT = { has_character_modifier = celtic_iberian_bandua }
+		}
+		set_bhakti_effect = { BHAKTI = celtic_iberian_bandua }
+	}
+
+	# Opt-Out
+	option = {
+		name = ccmd.004.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+
 #solstice
+#Gaelic
 solstice.003 = {
 	type = character_event
 	title = solstice.003.t
@@ -1276,16 +1345,52 @@ solstice.003 = {
 		}
 	}
 }
-
-solstice.004 ={ 
+#Brythonic
+solstice.004 = {
 	type = character_event
 	title = solstice.004.t
 	desc = solstice.004.desc
 	theme = feast_activity
-	
+
 	option = {
 		name = solstice.004.a
-		add_character_modifier = { modifier = summer_solstice months = 3 }
+		add_character_modifier = {  modifier = winter_solstice  months = 3 }
+		faith = scope:root.faith
+		faith ={ 
+			change_fervor = {
+				value = 5
+			}
+		}
+	}
+}
+#Gaulish
+solstice.005 = {
+	type = character_event
+	title = solstice.005.t
+	desc = solstice.005.desc
+	theme = feast_activity
+
+	option = {
+		name = solstice.005.a
+		add_character_modifier = {  modifier = winter_solstice  months = 3 }
+		faith = scope:root.faith
+		faith ={ 
+			change_fervor = {
+				value = 5
+			}
+		}
+	}
+}
+#Gaelic
+solstice.006 ={ 
+	type = character_event
+	title = solstice.006.t
+	desc = solstice.006.desc
+	theme = feast_activity
+	
+	option = {
+		name = solstice.006.a
+		add_character_modifier = { modifier = summer_solstice_celtic months = 3 }
 		faith = scope:root.faith
 		faith ={ 
 			change_fervor = {
@@ -1296,4 +1401,43 @@ solstice.004 ={
 	}
 	
 }
-
+#Brythonic
+solstice.007 ={ 
+	type = character_event
+	title = solstice.007.t
+	desc = solstice.007.desc
+	theme = feast_activity
+	
+	option = {
+		name = solstice.007.a
+		add_character_modifier = { modifier = summer_solstice_celtic months = 3 }
+		faith = scope:root.faith
+		faith ={ 
+			change_fervor = {
+				value = 5
+				
+			}
+		}
+	}
+	
+}
+#Gaulish
+solstice.008 ={ 
+	type = character_event
+	title = solstice.008.t
+	desc = solstice.008.desc
+	theme = feast_activity
+	
+	option = {
+		name = solstice.008.a
+		add_character_modifier = { modifier = summer_solstice_celtic months = 3 }
+		faith = scope:root.faith
+		faith ={ 
+			change_fervor = {
+				value = 5
+				
+			}
+		}
+	}
+	
+}

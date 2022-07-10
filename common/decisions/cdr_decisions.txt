@@ -737,6 +737,9 @@ saturnalia_decision ={
 		}
 	}
 }
+#Vestalia
+
+
 #In this version it's going to be a bit different the cult religions can be joined when starting the join cult decision 
 #It will be defined by wether you're skils are high enough, you will be able to extualy join the specific religion 
 #Note proceding in a cult will still be unavaible, In the hope that paradox will re add the cult mechanic from CKII
@@ -836,3 +839,46 @@ join_cult_decision = {
 # }
 
 
+
+# restore_altar_of_victoria = {
+#     picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+# 	major =  yes
+# 	desc = restore_altar_of_victoria_desc
+# 	is_shown = {
+# 		is_ai = no
+# 		is_landed = yes
+# 		has_religion = religion:hellenism_religion
+# 		has_culture = culture:roman
+# 		NOR = { 
+# 			is_target_in_global_variable_list = {
+# 					name = unavailable_unique_decisions
+# 					target = flag:flag_restored_altar_ra	
+# 				}
+# 			}
+# 	}
+# 	is_valid = {
+# 		completely_controls = title:c_roma
+# 		has_religion = religion:hellenism_religion
+
+# 	}
+# 	is_valid_showing_failures_only = {
+# 		is_capable_adult = yes
+# 		is_imprisoned = no
+# 		is_at_war = no
+# 		is_independent_ruler = yes
+# 	}
+# 	cost = {
+# 		gold = 1000
+# 	}
+# 	effect = {
+# 		trigger_event = restore_altar.001
+# 		save_scope_as = actor
+# 		hidden_effect = {
+# 			add_to_global_variable_list = {
+# 				name = unavailable_unique_decisions
+# 				target = flag:flag_restored_altar_ra
+# 			}
+# 		}
+# 	}
+#   ai_check_interval = 0
+# }

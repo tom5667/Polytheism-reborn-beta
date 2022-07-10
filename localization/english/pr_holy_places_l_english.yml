@@ -99,6 +99,21 @@
  holy_site_augsburg_name:0 "Augsburg"
  holy_site_augsburg_effect_name:0 "From [holy_site|E]"
 
+ holy_site_ur_name:0 "Ur"
+ holy_site_ur_effect_name:0 "From [holy_site|E]"
+
+ holy_site_ninive_name:0 "Ninive"
+ holy_site_ninive_effect_name:0 "From [holy_site|E] #weak ($holy_site_ninive_name$)#!
+
+ holy_site_wassukanni_name:0 "Waššukanni"
+ holy_site_wassukanni_effect_name:0 "From [holy_site|E]"
+
+ holy_site_susa_name:0 "Susa"
+ holy_site_susa_effect_name:0 "From [holy_site|E]"
+
+ holy_site_ebla_name:0 "Ebla"
+ holy_site_ebla_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"
+
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Polytheistic"
  rf_eastern:0 "Eastern"
