@@ -38,7 +38,7 @@ punic.002 = {
 	option = { #Stop
 		name = punic.002.b
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_punic
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -64,7 +64,7 @@ punic.003 = {
 		trigger_event = punic.004
 		add_piety = 500 
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_punic
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}	
@@ -107,7 +107,7 @@ punic.005 = {
 		add_trait = zealous
 		add_piety = 500
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_punic
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}

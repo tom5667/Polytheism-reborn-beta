@@ -26,9 +26,14 @@ gp.001 = {
 			character = root
 			animation = personality_content
 	}
+
 	option = {
 		name = gp.001.a
 		trigger_event = gp.002
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions_convert
+			target = flag:flag_restored_convert
+		}
 	}
 }
 
@@ -47,6 +52,8 @@ gp.002 = {
 	}
 	option = { #Stop
 		name = gp.002.b
+		remove_trait = pilgrim
+		clear_global_variable_list = unavailable_unique_decisions_convert
 	}
 }
 
@@ -70,7 +77,7 @@ gp.003 = {
 		trigger_event = gp.004
 		add_piety = 500 
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_gp
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}	
@@ -113,7 +120,7 @@ gp.005 = {
 		add_trait = zealous
 		add_piety = 500
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_gp
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -151,7 +158,7 @@ bp.002 = {
 	option = { #Stop
 		name = bp.002.b
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_bp
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -177,7 +184,7 @@ bp.003 = {
 		trigger_event = bp.004
 		add_piety = 500 
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_bp
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}	
@@ -221,7 +228,7 @@ bp.005 = {
 		add_trait = zealous
 		add_piety = 500
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_bp
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -259,7 +266,7 @@ gl.002 = {
 	option = { #Stop
 		name = gl.002.b
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_gl
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -324,7 +331,7 @@ gl.005 = {
 		add_trait = zealous
 		add_piety = 500
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_gl
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -362,7 +369,7 @@ ci.002 = {
 	option = { #Stop
 		name = ci.002.b
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_ci
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -388,7 +395,7 @@ ci.003 = {
 		trigger_event = ci.004
 		add_piety = 500 
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_ci
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}	
@@ -431,7 +438,7 @@ ci.005 = {
 		add_trait = zealous
 		add_piety = 500
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_ci
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}

@@ -67,7 +67,7 @@ anglo_saxon_return.002 = {
 	option = { #Stop
 		name = anglo_saxon_return.002.b
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_anglo_saxon
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -132,7 +132,7 @@ anglo_saxon_return.005 = {
 	option = {
 		name = anglo_saxon_return.005.b
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_anglo_saxon
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}

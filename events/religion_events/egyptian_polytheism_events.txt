@@ -36,7 +36,7 @@ kemetic.002 = {
 	option = { #Stop
 		name = kemetic.002.b
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_kemetic
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}
@@ -62,7 +62,7 @@ kemetic.003 = {
 		trigger_event = kemetic.004
 		add_piety = 500 
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_kemetic
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}	
@@ -114,7 +114,7 @@ kemetic.005 = {
 		add_trait = zealous
 		add_piety = 500
 		hidden_effect ={
-			clear_global_variable_list = unavailable_unique_decisions_kemetic
+			clear_global_variable_list = unavailable_unique_decisions_convert
 			remove_trait = pilgrim 
 		}
 	}

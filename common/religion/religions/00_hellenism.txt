@@ -1613,8 +1613,8 @@
             holy_site = rome
             holy_site = ravenna
 			holy_site = alexandria
-            holy_site = carthage # change to palmyra/tadmor
-            holy_site = athens #change to constantinople
+            holy_site = constantinople 
+            holy_site = siffa
 
             reserved_male_names = {
                 Hadrianus Trajanus Comedus Cicero Julius Octavianus Agrippina Romulus Remus Felix Marcellus Nerva Brutus 
@@ -1628,7 +1628,7 @@
             doctrine = tenet_ritual_celebrations
 
             #Main Group
-            doctrine = doctrine_no_head
+            doctrine = doctrine_temporal_head
             doctrine = doctrine_gender_male_dominated
             doctrine = doctrine_pluralism_pluralistic
             doctrine = doctrine_theocracy_lay_clergy

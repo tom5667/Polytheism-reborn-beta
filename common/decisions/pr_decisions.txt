@@ -46,6 +46,7 @@ return_polytheism_decision={
 			culture = culture:anglo_saxon
 			culture = culture:old_saxon
 			culture = culture:saxon 
+			culture = culture:persian
 		}
 		AND={
 			OR={			
@@ -53,13 +54,20 @@ return_polytheism_decision={
 			has_religion = religion:islam_religion
 			}
 		}
+		NOR = {
+			OR = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions_convert
+					target = flag:flag_restored_convert
+				}
+			}
+
+		}
 	}
 	is_valid ={
 		OR={
 			has_religion = religion:christianity_religion
 			has_religion = religion:islam_religion
-
-			#faith = faith:catholic
 		}
 	}
 	cost = {
@@ -120,6 +128,7 @@ return_polytheism_decision={
 			}
 			trigger_event = gp.001
 			add_trait = pilgrim
+			
 		}
 		else_if={
 			limit={
@@ -183,17 +192,31 @@ return_polytheism_decision={
 			trigger_event = g_r.001 
 			add_trait = pilgrim
 		}
-		ai_potential = {
-			faith={
-				fervor <= 50
+		else_if={
+			limit={
+				culture = culture:persian
 			}
-		}
-		#Needs testing and further defining for ai when to start decision, for time being no Ai
-		ai_check_interval = 90
-		ai_chance={
-			base = 100
+			trigger_event = m_r.001 
+			add_trait = pilgrim
 		}
 	}
+	hidden_effect = {
+		add_to_global_variable_list ={
+			name = unavailable_unique_decisions_convert
+			target = flag:flag_restored_convert
+		}
+	}
+	ai_potential = {
+		faith={
+			fervor <= 50
+		}
+	}
+	#Needs testing and further defining for ai when to start decision, for time being no Ai
+	ai_check_interval = 90
+	ai_chance={
+		base = 100
+	}
+	
 }
 #Decision for fast conversion 
 return_polytheism_short_decision={

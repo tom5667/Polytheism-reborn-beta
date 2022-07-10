@@ -9,7 +9,7 @@ return_kemetic_sr_decision_scripted_effect = {
 	add_trait = kemetic_state_religion
 	add_trait = zealous
 	remove_trait = pilgrim
-	clear_global_variable_list = unavailable_unique_decisions_kemetic
+	clear_global_variable_list = unavailable_unique_decisions_convert
 	#berbergroup counties of your old religion may defect back to the old ways.
 	custom_tooltip = return_kemetic_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
@@ -77,7 +77,7 @@ return_atenism_sr_decision_scripted_effect = {
 	add_trait = atenism_state_religion
 	add_trait = zealous
 	remove_trait = pilgrim
-	clear_global_variable_list = unavailable_unique_decisions_atenism
+	clear_global_variable_list = unavailable_unique_decisions_convert
 	#berbergroup counties of your old religion may defect back to the old ways.
 	custom_tooltip = return_atenism_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {

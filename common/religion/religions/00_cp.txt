@@ -70,8 +70,14 @@ celtic_religion ={
                 #doctrine = unreformed_faith_doctrine
     
                 doctrine = tenet_ancestor_worship
-                doctrine = tenet_ritual_celebrations
                 doctrine = tenet_sanctity_of_nature
+                doctrine = tenet_megaliths
+                #To be added with more tenets mod active
+                #First test run 
+                #doctrine = tenet_communal_identity
+                #doctrine = tenet_ritual_celebrations
+                #doctrine = tenet_astrology 
+
                 #test doctrine 
                 #doctrine = doctrine_venerated_ancestors  
                 
@@ -105,7 +111,7 @@ celtic_religion ={
                     
                     #FertilityGod
                     FertilityGodName = gaelic_polytheism_fertility_god_name
-                    FertilityGodNamePossessive = gaelic_fertility_god_name_possessive
+                    FertilityGodNamePossessive = gaelic_polytheism_fertility_god_name_possessive
                     FertilityGodSheHe = CHARACTER_SHEHE_SHE
                     FertilityGodHerHis = CHARACTER_HERHIS_HER
                     FertilityGodHerHim = CHARACTER_HERHIM_HER
@@ -275,8 +281,8 @@ celtic_religion ={
                 #doctrine = unreformed_faith_doctrine
     
                 doctrine = tenet_ancestor_worship
-                doctrine = tenet_ritual_celebrations
                 doctrine = tenet_sanctity_of_nature
+                doctrine = tenet_megaliths
             #doctrine = doctrine_venerated_ancestors  
             
             #religious_head = k_pontifex 
@@ -475,7 +481,7 @@ celtic_religion ={
             doctrine = doctrine_monk_not_clergy_enforced
 
             doctrine = tenet_ancestor_worship
-            doctrine = tenet_ritual_celebrations
+            doctrine = tenet_megaliths
             doctrine = tenet_sanctity_of_nature
             #test doctrine 
             #doctrine = doctrine_venerated_ancestors  

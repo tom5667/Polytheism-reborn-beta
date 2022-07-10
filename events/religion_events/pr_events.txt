@@ -2,6 +2,7 @@ namespace = rps
 namespace = prsr
 namespace = sassanid_reconquest
 namespace = prctv
+
 #all return events religions are put here 
 #Polytheism reborn short religion change events
 rps.001={
@@ -234,6 +235,7 @@ prctv.001={
 		}
 		remove_character_modifier = burning_flame_of_vesta
 		clear_global_variable_list = unavailable_unique_decisions_open_temple_of_vesta
+		
 	}
 }
 

@@ -36,7 +36,7 @@ hellenismos.002 = {
 	option = { #Stop
 		name = hellenismos.002.b
 		hidden_effect ={
-		   clear_global_variable_list = unavailable_unique_decisions_hellenismos
+			clear_global_variable_list = unavailable_unique_decisions_convert
 		   remove_trait = pilgrim 
 	   }
 	}
@@ -88,6 +88,8 @@ hellenismos.005 = {
 	}
 	option = {
 		name = hellenismos.005.b
+		clear_global_variable_list = unavailable_unique_decisions_convert
+		remove_trait = pilgrim
 	}
 }
 hellenismos.006 = {

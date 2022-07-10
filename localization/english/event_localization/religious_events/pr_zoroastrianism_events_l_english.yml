@@ -1,0 +1,27 @@
+﻿l_english:
+
+#Return zoroastrianism polytheism event localization 
+z_r.001.t:0 "Conversion"
+z_r.001.desc:0 "Days of research in the fire temple and meeting a local priest gave us much more insight of the old religion of the Persians. That night followed another vision this time without striking my head, again, It was no dream it was a real vision"
+z_r.001.a:0 "Convert to Zoroastrianism"
+
+
+#change state religion 
+
+#zoroastrianism state religion event localization
+z_sr.001.t:0 "Change state religion"
+
+z_sr.001.desc:0 "As i proceded with my rituals. it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion."
+z_sr.001.a:0 "Proclaim the new state religion"
+
+z_sr.002.t:0 "State religion changed"
+
+z_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+z_sr.002.desc.vassals:0 "test vassals desc"
+z_sr.002.desc_vanilla:0 "test vanilla desc"
+z_sr.002.b:0 "Convert willing vassals"
+z_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+z_sr.002.d:0 "There will be people who just dont care"
+#event modifier 
+return_z_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
+

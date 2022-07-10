@@ -9,7 +9,7 @@ return_anglo_saxon_sr_decision_scripted_effect = {
 	add_trait = anglo_saxon_state_religion
 	add_trait = zealous 
 	remove_trait = pilgrim 
-	clear_global_variable_list = unavailable_unique_decisions_anglo_saxon
+	clear_global_variable_list = unavailable_unique_decisions_convert
 	
 	#byzantine_group counties of your old religion may defect back to the old ways.
 	custom_tooltip = return_anglo_saxon_sr_decision_scripted_effect.county_conversions.tt
@@ -79,7 +79,7 @@ return_g_sr_decision_scripted_effect = {
 	add_trait = german_state_religion
 	add_trait = zealous 
 	remove_trait = pilgrim 
-	clear_global_variable_list = unavailable_unique_decisions_german
+	clear_global_variable_list = unavailable_unique_decisions_convert
 	
 	#byzantine_group counties of your old religion may defect back to the old ways.
 	custom_tooltip = return_german_sr_decision_scripted_effect.county_conversions.tt

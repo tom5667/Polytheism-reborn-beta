@@ -19,6 +19,7 @@ giza = {
 	flag = giza_conversion_bonus # +10% County Conversion
 }
 
+
 #############
 # gaelic polytheism
 #############

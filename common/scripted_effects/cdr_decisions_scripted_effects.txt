@@ -9,7 +9,7 @@ return_cdr_sr_decision_scripted_effect = {
 	add_trait = cdr_state_religion
 	add_trait = zealous 
 	remove_trait = pilgrim 
-	clear_global_variable_list = unavailable_unique_decisions_cdr
+	clear_global_variable_list = unavailable_unique_decisions_convert
 
 	#byzantine_group counties of your old religion may defect back to the old ways.
 	custom_tooltip = return_cdr_sr_decision_scripted_effect.county_conversions.tt
@@ -79,7 +79,7 @@ return_hellenismos_sr_decision_scripted_effect = {
 	add_trait = hellenismos_state_religion
 	add_trait = zealous 
 	remove_trait = pilgrim 
-	clear_global_variable_list = unavailable_unique_decisions_hellenismos
+	clear_global_variable_list = unavailable_unique_decisions_convert
 	#byzantine_group counties of your old religion may defect back to the old ways.
 	custom_tooltip = return_hellenismos_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
@@ -149,7 +149,7 @@ return_julian_sr_decision_scripted_effect = {
 	add_trait = julian_state_religion
 	add_trait = zealous 
 	remove_trait = pilgrim 
-	clear_global_variable_list = unavailable_unique_decisions_julian
+	clear_global_variable_list = unavailable_unique_decisions_convert
 	#byzantine_group counties of your old religion may defect back to the old ways.
 	custom_tooltip = return_julian_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
