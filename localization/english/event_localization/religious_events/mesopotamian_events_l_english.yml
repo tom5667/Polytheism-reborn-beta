@@ -1,8 +1,8 @@
 ﻿l_english:
 
 #Return mesopotamian polytheism event localization 
-m_r.001.t:0 "Travel excavation site"
-m_r.001.desc:0 "A few days ago my some of my friends found an ancient temple of Ishta, they asked me if I would come and join them in exploring the temple. After we arrived and doing some minor searching around the temple we decided to eat something first"
+m_r.001.t:0 "Travel to excavation site"
+m_r.001.desc:0 "A few days ago some of my friends found an ancient temple of Ishta, they asked me if I would come and join them in exploring the temple. After we arrived and doing some minor searching around the temple we decided to eat something first"
 m_r.001.a:0 "Eat dinner"
 
 m_r.002.t:0 "The dream"

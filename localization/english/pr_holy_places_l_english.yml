@@ -18,7 +18,7 @@
  #Holy Sites: Gaelic polytheism
  holy_site_dublin_name:0 "Dublin"
  holy_site_dublin_effect_name:0 "From [holy_site|E] #weak ($holy_site_dublin_name$)#!"
- holy_site_dublin_effects:0 "County Conversion Speed: #P +20%#!"
+
 
  holy_site_ailech_name:0 "ailech"
  holy_site_ailech_effect_name:0 "From [holy_site|E] #weak ($holy_site_ailech_name$)#!"
@@ -37,7 +37,6 @@
 
  holy_site_glammorgan_name:0 "Glammorgan"
  holy_site_glammorgan_effect_name:0 "From [holy_site|E] #weak ($holy_site_glammorgan_name$)#!"
- holy_site_glammorgan_effects:0 "County Conversion Speed: #P +5%#!"
  
  holy_site_vannes_name:0 "Vannes"
  holy_site_vannes_effect_name:0 "From [holy_site|E] #weak ($holy_site_vannes_name$)#!"
@@ -113,6 +112,21 @@
 
  holy_site_ebla_name:0 "Ebla"
  holy_site_ebla_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"
+
+ holy_site_sarmizegetusa_name:0 "Sarmizegetusa"
+ holy_site_sarmizegetusa_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!
+
+ holy_site_aidava_name:0 "Aidava"
+ holy_site_aidava_effect_name:0 "From [holy_site|E]"
+
+ holy_site_capidava_name:0 "Capidava"
+ holy_site_capidava_effect_name:0 "From [holy_site|E]"
+
+ holy_site_zargidava_name:0 "Zargidava"
+ holy_site_zargidava_effect_name:0 "From [holy_site|E]"
+ 
+ holy_site_philippopolis_name:0 "Philippopolis"
+ holy_site_philippopolis_effect_name:0 "From [holy_site|E]"
 
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Polytheistic"

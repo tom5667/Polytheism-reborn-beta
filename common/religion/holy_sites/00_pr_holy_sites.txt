@@ -27,10 +27,12 @@ dublin = {
 	county = c_dublin
 	
 	character_modifier = {
-		monthly_piety_gain_mult = 0.2
+		name = holy_site_dublin_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_change_factor = 0.05
 	}
-	flag = dublin_conversion_bonus # +20% County Conversion
 }
+
 ailech = {
 	county = c_ailech
 	
@@ -81,12 +83,12 @@ cornwall = {
 
 glammorgan = {
 	county = c_glamorgan
-
+	
 	character_modifier = {
-		monthly_piety_gain_mult = 0.1
+		name = holy_site_glammorgan_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_change_factor = 0.05
 	}
-	flag = glammorgan_conversion_bonus # +5% County Conversion
-
 }
 
 vannes = {
@@ -256,7 +258,7 @@ ur = {
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
 	}
-	flag = augsburg_conversion_bonus # +20% County Conversion
+	flag = ur_conversion_bonus # +20% County Conversion
 }
 
 ninive = { 
@@ -295,5 +297,57 @@ ebla = {
 	character_modifier = {
 		name = holy_site_ebla_effect_name
 		stewardship = 2
+	}
+}
+
+#############
+#Dacian
+#############
+
+sarmizegetusa = {
+	county = c_hunyad
+
+	character_modifier = {
+		name = holy_site_sarmizegetusa_effect_name
+		martial = 2
+	}
+}
+
+aidava = {
+	county = c_naissus
+	barony = b_pirot
+
+	character_modifier = {
+	   monthly_piety_gain_mult = 0.1
+   }
+   flag = aidava_conversion_bonus # +5% County Conversion
+}
+
+capidava = {
+	county = c_constanta
+
+	character_modifier = {
+		name = holy_site_capidava_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+	}
+}
+
+zargidava = {
+	county = c_stoenesti
+	barony = b_bacau
+
+	character_modifier = {
+		name = holy_site_zargidava_effect_name
+		direct_vassal_opinion = 5
+	}
+}
+
+philippopolis = { 
+	county = c_philippopolis
+
+	character_modifier = {
+		name = holy_site_wassukani_effect_name
+		clergy_opinion = 5
 	}
 }

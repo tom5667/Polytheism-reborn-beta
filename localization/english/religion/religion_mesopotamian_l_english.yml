@@ -39,7 +39,7 @@
 
     #Health Goddess Ninisina
     mesopotamian_polytheism_health_god_name:0 "Ninisina"
-    mesopotamian_polytheism_health_god_name_possessive:0 "Ninisina"
+    mesopotamian_polytheism_health_god_name_possessive:0 "Ninisina's"
 
     #Fertility Goddess Ishtar Localization
     mesopotamian_polytheism_fertility_god_name:0 "Ishtar"
@@ -49,9 +49,9 @@
     mesopotamian_polytheism_wealth_god_name:0 "Bogu"
     mesopotamian_polytheism_wealth_god_name_possessive:0 "Bogu's"
 
-    #Household god Lares 
-    mesopotamian_polytheism_household_god_name:0 "Lares"
-    mesopotamian_polytheism_household_god_name_possessive:0 "Lares's"
+    #Household god Ishtar 
+    mesopotamian_polytheism_household_god_name:0 "Ishtar"
+    mesopotamian_polytheism_household_god_name_possessive:0 "Ishtar's"
 
     #Fate god Namtar Localization
     mesopotamian_polytheism_fate_god_name:0 "Namtar"
@@ -63,7 +63,7 @@
 
     #War god Nergal Localization
     mesopotamian_polytheism_war_god_name:0 "Nergal"
-    mesopotamian_polytheism_war_god_name_possessive:0 "Nergal"
+    mesopotamian_polytheism_war_god_name_possessive:0 "Nergal's"
 
     #Trickster god Enki Localization
     mesopotamian_polytheism_trickster_god_name:0 "Enki"
@@ -75,7 +75,7 @@
 
     #Water god Enki Localization
     mesopotamian_polytheism_water_god_name:0 "Enki"
-    mesopotamian_polytheism_water_god_name_possessive:0 "Enki"
+    mesopotamian_polytheism_water_god_name_possessive:0 "Enki's"
 
     #evil gods names 
     mesopotamian_polytheism_evil_god_lamashtu:0 "Lamashtu" 
@@ -94,14 +94,14 @@
     mesopotamian_polytheism_death_deity_name_possessive:0 "Nergal's"
 
     #Good gods names 
-    mesopotamian_polytheism_good_god_juno:0 "Juno" 
-    mesopotamian_polytheism_good_god_bona_dea:0 "Bona Dea" 
-    mesopotamian_polytheism_good_god_minerva:0 "Minerva" 
-    mesopotamian_polytheism_good_god_mercury:0 "Mercurius" 
-    mesopotamian_polytheism_good_god_neptune:0 "Neptune" 
-    mesopotamian_polytheism_good_god_mars:0 "Mars" 
-    mesopotamian_polytheism_good_god_apollo:0 "Apollo" 
-    mesopotamian_polytheism_good_god_Venus:0 "Venus"
+    mesopotamian_polytheism_good_god_marduk:0 "Marduk" 
+    mesopotamian_polytheism_good_god_enkimdu:0 "Enkimdu" 
+    mesopotamian_polytheism_good_god_geshtinanna:0 "Geshtinanna" 
+    mesopotamian_polytheism_good_god_ninsun:0 "Ninsun" 
+    mesopotamian_polytheism_good_god_ishtar:0 "Ishtar" 
+    mesopotamian_polytheism_good_god_nabu:0 "Nabu" 
+    mesopotamian_polytheism_good_god_enki:0 "Enki" 
+    mesopotamian_polytheism_good_god_nergal:0 "Nergal"
 
     #mesopotamian priest flamen vestals
 
@@ -119,9 +119,9 @@
 
     #roman names
     #males
-    reserved_male_names:0 "Cultus Deorum male names"
+    reserved_male_names:0 "Mesopotamian male names"
     #Female 
-    reserved_female_names:0 "Cultus Deorum female names"
+    reserved_female_names:0 "Mesopotamian female names"
 
     #holy orders: 
     holy_order_sons_of_nergal:0 "Sons of Nergal"

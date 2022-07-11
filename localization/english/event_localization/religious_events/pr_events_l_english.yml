@@ -9,7 +9,9 @@ rps.001.c:0 "Egyptian"
 rps.001.d:0 "Celtic"
 rps.001.e:0 "German"
 rps.001.f:0 "Punic"
-rps.001.g:0 "Exit"
+rps.001.g:0 "Mesopotamian"
+rps.001.h:0 "Dacian"
+rps.001.i:0 "Exit"
 
 #Greek-Roman
 rps.002.t:0 ""
@@ -58,6 +60,19 @@ rps.007.t:0 ""
 rps.007.desc:0 " "
 rps.007.a:0 "Punic Polytheism"
 rps.007.b:0 "Back"
+
+#Mesopotamian
+rps.008.t:0 ""
+rps.008.desc:0 " "
+rps.008.a:0 "Mesopotamian Polytheism"
+rps.008.b:0 "Back"
+
+#Dacian
+rps.009.t:0 ""
+rps.009.desc:0 " "
+rps.009.a:0 "Dacian Polytheism"
+rps.009.b:0 "Back"
+
 
 
 #Invite relatives

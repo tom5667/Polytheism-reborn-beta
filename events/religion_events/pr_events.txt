@@ -34,8 +34,16 @@ rps.001={
 	name = rps.001.f
 	trigger_event = rps.007
 	}
+	option={ #Mesopotamian
+	name = rps.001.g
+	trigger_event = rps.008
+	}
+	option = {  #Dacian 
+	name = rps.001.h
+	trigger_event = rps.009
+	}
 	option={
-		name = rps.001.g
+		name = rps.001.i
 	}
 }
 #Hellenic/Roman
@@ -176,6 +184,39 @@ rps.007={
 		trigger_event = rps.001
 	}
 }
+#Mesopotamian
+rps.008={
+	type = character_event
+	title = rps.008.t
+	desc = rps.008.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.008.a
+		set_character_faith = faith:mesopotamian_polytheism
+	}
+	option={
+		name = rps.008.b
+		trigger_event = rps.001
+	}
+}
+
+#Dacian
+rps.009={
+	type = character_event
+	title = rps.009.t
+	desc = rps.009.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.009.a
+		set_character_faith = faith:dacian_polytheism
+	}
+	option={
+		name = rps.009.b
+		trigger_event = rps.001
+	}
+}
+
+
 
 #Polytheism reborn sassanid relative
 prsr.001 ={

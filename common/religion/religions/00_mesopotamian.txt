@@ -169,7 +169,7 @@ mesopotamian_religion = {
 		
 				PantheonTerm = religion_the_gods
 				PantheonTermHasHave = pantheon_term_have
-				GoodGodNames = { mesopotamian_polytheism_good_god_poseidon mesopotamian_polytheism_good_god_athena mesopotamian_polytheism_good_god_ares mesopotamian_polytheism_good_god_hera mesopotamian_polytheism_good_god_apollo mesopotamian_polytheism_good_god_artemis mesopotamian_polytheism_good_god_hermes mesopotamian_polytheism_good_god_aphrodite }
+				GoodGodNames = {mesopotamian_polytheism_good_god_nergal mesopotamian_polytheism_good_god_enki mesopotamian_polytheism_good_god_nabu mesopotamian_polytheism_good_god_ishtar mesopotamian_polytheism_good_god_ninsun mesopotamian_polytheism_good_god_geshtinanna mesopotamian_polytheism_good_god_enkimdu mesopotamian_polytheism_good_god_marduk }
 				DevilName = mesopotamian_polytheism_devil_name
 				DevilNamePossessive = mesopotamian_polytheism_devil_name_possessive
 				DevilSheHe = CHARACTER_SHEHE_HE

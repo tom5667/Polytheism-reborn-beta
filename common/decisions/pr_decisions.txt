@@ -47,6 +47,7 @@ return_polytheism_decision={
 			culture = culture:old_saxon
 			culture = culture:saxon 
 			culture = culture:persian
+			culture = culture:bulgarian
 		}
 		AND={
 			OR={			
@@ -199,11 +200,19 @@ return_polytheism_decision={
 			trigger_event = m_r.001 
 			add_trait = pilgrim
 		}
-	}
-	hidden_effect = {
-		add_to_global_variable_list ={
-			name = unavailable_unique_decisions_convert
-			target = flag:flag_restored_convert
+		else_if={
+			limit = {
+				culture = culture:bulgarian
+			}
+			trigger_event = d_r.001 
+			add_trait = pilgrim
+		}
+	
+		hidden_effect = {
+			add_to_global_variable_list ={
+				name = unavailable_unique_decisions_convert
+				target = flag:flag_restored_convert
+			}
 		}
 	}
 	ai_potential = {
