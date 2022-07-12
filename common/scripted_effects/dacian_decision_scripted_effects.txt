@@ -53,9 +53,9 @@ return_d_sr_decision_scripted_effect = {
 				tier = tier_county
 				faith = faith:dacian_polytheism
 			}
-			custom = mesopotamian_resettlement.every_converted_province
+			custom = dacian_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = mesopotamian_appreciation_modifier
+				modifier = dacian_appreciation_modifier
 				years = 25
 			}
 		}
@@ -63,5 +63,75 @@ return_d_sr_decision_scripted_effect = {
 	#Finally, give kemetic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
 	hidden_effect = {
 		faith:dacian_polytheism = { change_fervor = 100 }
+	}
+}
+
+#Zalmoxism
+
+return_zalmoxism_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Gaelic polytheism.
+
+	set_character_faith_with_conversion = faith:zalmoxism
+	
+	#Gain nickname for your troubles.
+	give_nickname = nick_the_apostate
+	#give trait restored Gaelic polytheism as state religion trait
+	#add_trait = mesopotamian_state_religion
+	add_trait = zealous
+	remove_trait = pilgrim
+	clear_global_variable_list = unavailable_unique_decisions_convert
+	#berbergroup counties of your old religion may defect back to the old ways.
+	custom_tooltip = return_zalmoxism_sr_decision_scripted_effect.county_conversions.tt
+	hidden_effect = {
+		primary_title = {
+			every_in_de_facto_hierarchy = {
+				limit = {
+					tier = tier_county
+					culture_group = culture_group:west_slavic
+					religion = scope:old_faith.religion
+				}
+				#egyptian remember the old ways best, and have a high chance to flip.
+				if = {
+					limit = { culture = culture:bulgarian}
+					random = {
+						chance = 45
+						set_county_faith = faith:zalmoxism
+					}
+				}
+				#Slightly up the chances for the apostate.
+				else_if = {
+					limit = { holder = root }
+					random = {
+						chance = 35
+						set_county_faith = faith:zalmoxism
+					}
+				}
+				#Other berber cultures still have a moderate chance to flip.
+				else = {
+					random = {
+						chance = 15
+						set_county_faith = faith:zalmoxism
+					}
+				}
+			}
+		}
+	}
+	#Make flipping counties deliriously happy about the whole affair.
+	primary_title = {
+		every_in_de_facto_hierarchy = {
+			limit = {
+				tier = tier_county
+				faith = faith:zalmoxism
+			}
+			custom = zalmoxis_resettlement.every_converted_province
+			add_county_modifier = {
+				modifier = zalmoxis_appreciation_modifier
+				years = 25
+			}
+		}
+	}
+	#Finally, give kemetic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	hidden_effect = {
+		faith:zalmoxism= { change_fervor = 100 }
 	}
 }

@@ -13,7 +13,7 @@ d_r.002.optout:0 "My faith is stronger than strange dreams"
 d_r.003.t:0 "Conversion"
 d_r.003.desc:0 "That night back home I fell a sleep as always but again I got that strange dream"
 d_r.003.a:0 "Now I know it for sure"
-#d_r.003.zalmoxism:0 "There is only one god Zalmoxis"
+d_r.003.zalmoxism:0 "There is only one god Zalmoxis"
 
 
 #change state religion 
@@ -32,6 +32,22 @@ d_sr.002.desc_vanilla:0 "test vanilla desc"
 d_sr.002.b:0 "Convert willing vassals"
 d_sr.002.c:0 "Those who aren't polytheist are probably horrified"
 d_sr.002.d:0 "There will be people who just dont care"
+
+#Zalmoxism
+zalmoxism_sr.001.t:0 "Change state religion"
+
+zalmoxism_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion"
+zalmoxism_sr.001.a:0 "Proclaim the new state religion"
+
+zalmoxism_sr.002.t:0 "State religion changed"
+
+zalmoxism_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+zalmoxism_sr.002.desc.vassals:0 "test vassals desc"
+zalmoxism_sr.002.desc_vanilla:0 "test vanilla desc"
+zalmoxism_sr.002.b:0 "Convert willing vassals"
+zalmoxism_sr.002.c:0 "Those who aren't polytheist are probably horrified"
+zalmoxism_sr.002.d:0 "There will be people who just dont care"
+
 #event modifier 
 return_d_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
 

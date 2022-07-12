@@ -21,7 +21,7 @@ z_r.001 = {
 }
 
 #Reinstate Cultus Deorum as state religion 
-scripted_effect m_sr_notify_players_effectt = {
+scripted_effect z_sr_notify_players_effectt = {
 	every_player = {
 		limit = {
 			Not = {this = root}  
