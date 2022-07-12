@@ -120,7 +120,9 @@ kemetic_cmd3_religion = {
 	same_faith_opinion = 5
 	monthly_prestige = 0.3
 	monthly_piety = 0.5
-	learning = 2
+	learning = 1
+	health = 0.5
+	negate_health_penalty_add = 0.25
 
 	christianity_religion_opinion = -5
 	islam_religion_opinion  = -5

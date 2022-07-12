@@ -1,5 +1,6 @@
 namespace = d_r
 namespace = d_sr
+namespace = dcmd
 
 d_r.001 = {
 	type = character_event
@@ -153,5 +154,72 @@ d_sr.002 = {
 	#And, as a fallback, some people just won't care.
 	option = { 
 		name = d_sr.002.d 
+	}
+}
+
+dcmd.001 = {
+	type = character_event
+	title = dcmd.001.t
+	desc = dcmd.001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Gebeleizis
+	option = {
+		name = dcmd.001.gebeleizis
+		trigger = {
+			NOT = { has_character_modifier = dacian_gebeleizis}
+		}
+		set_bhakti_effect = { BHAKTI = dacian_gebeleizis }
+	}
+
+	 #Zalmoxis
+	 option = {
+	 	name = dcmd.001.zalmoxis
+	 	trigger = {
+	 		NOT = { has_character_modifier = dacian_zalmoxis }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = dacian_zalmoxis}
+	 }
+
+	#Dionysus
+	option = {
+		name = dcmd.001.dionysus
+		trigger = {
+			NOT = { has_character_modifier = dacian_dionysus }
+		}
+		set_bhakti_effect = { BHAKTI = dacian_dionysus }
+	}
+
+	# Pleistoros
+	option = {
+		name = dcmd.001.pleistoros
+		trigger = {
+			NOT = { has_character_modifier = dacian_pleistoros }
+		}
+		set_bhakti_effect = { BHAKTI = dacian_pleistoros }
+	}
+
+
+	 # Derzelas
+	 option = {
+	 	name = dcmd.001.derzelas
+	 	trigger = {
+	 		NOT = { has_character_modifier = dacian_derzelas }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = dacian_derzelas }
+	 }
+
+	# Opt-Out
+	option = {
+		name = dcmd.001.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
 	}
 }

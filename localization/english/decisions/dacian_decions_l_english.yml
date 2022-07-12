@@ -1,0 +1,15 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+######################
+
+# Choose main deity
+choose_main_deity_dacian_decision:0 "Choose your main deity"
+choose_main_deity_dacian_decision_tt:0 "You begin to live your life according to the values of"
+select_main_deity_dacian_decision.select_gebeleizis:0 "Gebeleizis high god of the dacians"
+select_main_deity_dacian_decision.select_zalmoxis:0 "Zalmoxis god of afterlife and wisdom"
+select_main_deity_dacian_decision.select_dionysus:0 "Dionysus god of fertility and harvest"
+select_main_deity_dacian_decision.select_pleistoros:0 "Pleistoros god of war"
+select_main_deity_dacian_decision.select_derzelas:0 "Derzales god of health"
+choose_main_deity_dacian_decision_tooltip:1 "Choose main god(dess)"
+choose_main_deity_dacian_decision_confirm:1 "Choose main god(dess)"

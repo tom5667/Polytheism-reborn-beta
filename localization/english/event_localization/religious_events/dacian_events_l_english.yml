@@ -1,6 +1,6 @@
 ﻿l_english:
 
-#Return Dacia polytheism event localization 
+#Return Dacian polytheism event localization 
 d_r.001.t:0 "Travel to Kogaionon"
 d_r.001.desc:0 "A few days ago me and some of my friends where travaling to Kogaionon near Sarmizegetusa where Zalmoxis had emerged.\nWe walked the whole day trough nature and after that we decided to set up camp on the Kogaionon"
 d_r.001.a:0 "spend the night at the Kogaionon"
@@ -18,7 +18,7 @@ d_r.003.a:0 "Now I know it for sure"
 
 #change state religion 
 
-#mesopotamian state religion event localization
+#Dacian state religion event localization
 d_sr.001.t:0 "Change state religion"
 
 d_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion"
@@ -36,5 +36,13 @@ d_sr.002.d:0 "There will be people who just dont care"
 return_d_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
 
 
+dcmd.001.t:0 "Choose main deity"
+dcmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+dcmd.001.gebeleizis:0 "Gebeleizis"
+dcmd.001.zalmoxis:0 "Zalmoxis"
+dcmd.001.dionysus:0 "Dionysus"
+dcmd.001.pleistoros:0 "Pleistoros"
+dcmd.001.derzelas:0 "Derzelas"
+dcmd.001.optout:0 "Maybe now isn't the right time"
 
 

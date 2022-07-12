@@ -134,6 +134,21 @@ punic_kusor_desc:0 "Devotee of Kusor god of Knowledge"
 punic_melqart:0 "Devoted to Melqart"
 punic_melqart_desc:0 "Devotee of Melqart god of trade and military"
 
+dacian_gebeleizis:0 "Devoted Gebeleizis"
+dacian_gebeleizis_desc:0 "Devotee of Gebeleizis high god and god of the sky"
+
+dacian_zalmoxis:0 "Devoted to Zalmoxis"
+dacian_zalmoxis_desc:0 "Devotee of Zalmoxis god of afterlife and wisdom"
+
+dacian_dionysus:0 "Devoted to Dionysus"
+dacian_dionysus_desc:0 "Devotee of Dionysus god of fertility and agriculture"
+
+dacian_pleistoros:0 "Devoted to Pleistoros"
+dacian_pleistoros_desc:0 "Devotee of Pleistoros god of war"
+
+dacian_derzelas:0 "Devoted to Derzelas"
+dacian_derzelas_desc:0 "Devotee of Deezelas god of health"
+
 summer_solstice:0 "Held Summer Solstice"
 winter_solstice:0 "Held Winter Solstice"
 summer_solstice_celtic:0 "Held Summer Solstice"
