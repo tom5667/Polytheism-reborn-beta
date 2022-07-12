@@ -1,6 +1,7 @@
 namespace = m_r
 namespace = m_sr
 namespace = z_r
+namespace = mcmd
 #Return Cultus Deorum
 m_r.001 = {
 	type = character_event
@@ -162,3 +163,69 @@ m_sr.002 = {
 	}
 }
 
+mcmd.001 = {
+	type = character_event
+	title = mcmd.001.t
+	desc = mcmd.001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Anu
+	option = {
+		name = mcmd.001.anu
+		trigger = {
+			NOT = { has_character_modifier = mesopotamian_anu}
+		}
+		set_bhakti_effect = { BHAKTI = mesopotamian_anu }
+	}
+
+	 #Ninisina
+	 option = {
+	 	name = mcmd.001.ninisina
+	 	trigger = {
+	 		NOT = { has_character_modifier = mesopotamian_ninisina }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = mesopotamian_ninisina }
+	 }
+
+	#Bogu
+	option = {
+		name = mcmd.001.bogu
+		trigger = {
+			NOT = { has_character_modifier = mesopotamian_bogu }
+		}
+		set_bhakti_effect = { BHAKTI = mesopotamian_bogu }
+	}
+
+	# Nergal
+	option = {
+		name = mcmd.001.nergal
+		trigger = {
+			NOT = { has_character_modifier = mesopotamian_nergal }
+		}
+		set_bhakti_effect = { BHAKTI = mesopotamian_nergal }
+	}
+
+
+	 # Ishtar
+	 option = {
+	 	name = mcmd.001.ishtar
+	 	trigger = {
+	 		NOT = { has_character_modifier = mesopotamian_ishtar }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = mesopotamian_ishtar }
+	 }
+
+	# Opt-Out
+	option = {
+		name = mcmd.001.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}

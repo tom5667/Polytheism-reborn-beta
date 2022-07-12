@@ -35,6 +35,17 @@ m_sr.002.d:0 "There will be people who just dont care"
 #event modifier 
 return_m_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
 
+mcmd.001.t:0 "Choose main deity"
+mcmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+mcmd.001.anu:0 "Anu"
+mcmd.001.ninisina:0 "Ninisina"
+mcmd.001.bogu:0 "Bogu"
+mcmd.001.nergal:0 "Nergal"
+mcmd.001.ishtar:0 "Ishtar"
+mcmd.001.optout:0 "Maybe now isn't the right time"
+
+
+
 
 
 

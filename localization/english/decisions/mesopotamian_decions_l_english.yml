@@ -3,12 +3,12 @@
 #Made by tom5667 
 ######################
 
-# choose_main_deity_mesopotamian_decision:0 "Choose your main deity"
-# choose_main_deity_mesopotamian_decision_tt:0 "You begin to live your life according to the values of"
-# select_main_deity_mesopotamian_decision.select_baal:0 "Baal Hammon High god of the Carthagenians"
-# select_main_deity_mesopotamian_decision.select_tanit:0 "Tanit goddess of war and invassion"
-# select_main_deity_mesopotamian_decision.select_astarte:0 "Astarte goddess of fertility"
-# select_main_deity_mesopotamian_decision.select_kusor:0 "Kusor god of Wisdom"
-# select_main_deity_mesopotamian_decision.select_melqart:0 "Melqart god of trade and military"
-# choose_main_deity_mesopotamian_decision_tooltip:1 "Choose main god(dess)"
-# choose_main_deity_mesopotamian_decision_confirm:1 "Choose main god(dess)"
+ choose_main_deity_mesopotamian_decision:0 "Choose your main deity"
+ choose_main_deity_mesopotamian_decision_tt:0 "You begin to live your life according to the values of"
+ select_main_deity_mesopotamian_decision.select_anu:0 "Anu High god of the Mesopotamians"
+ select_main_deity_mesopotamian_decision.select_ninisina:0 "Ninisina goddess of health"
+ select_main_deity_mesopotamian_decision.select_bogu:0 "Bogu god of wealth"
+ select_main_deity_mesopotamian_decision.select_nergal:0 "Nergal god of war"
+ select_main_deity_mesopotamian_decision.select_ishtar:0 "Ishtar Queen of heavan "
+ choose_main_deity_mesopotamian_decision_tooltip:1 "Choose main god(dess)"
+ choose_main_deity_mesopotamian_decision_confirm:1 "Choose main god(dess)"

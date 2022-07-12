@@ -134,6 +134,7 @@ punic_kusor_desc:0 "Devotee of Kusor god of Knowledge"
 punic_melqart:0 "Devoted to Melqart"
 punic_melqart_desc:0 "Devotee of Melqart god of trade and military"
 
+#Dacian
 dacian_gebeleizis:0 "Devoted Gebeleizis"
 dacian_gebeleizis_desc:0 "Devotee of Gebeleizis high god and god of the sky"
 
@@ -148,6 +149,22 @@ dacian_pleistoros_desc:0 "Devotee of Pleistoros god of war"
 
 dacian_derzelas:0 "Devoted to Derzelas"
 dacian_derzelas_desc:0 "Devotee of Deezelas god of health"
+
+#Mesopotamian
+mesopotamian_anu:0 "Devoted to Anu" 
+mesopotamian_anu_desc:0 "Devotee of Anu god of the sky and king of the gods"
+
+mesopotamian_ninisina:0 "Devoted to Ninisina"
+mesopotamian_ninisina_desc:0 "Devotee of Ninisina goddess of health"
+
+mesopotamian_bogu:0 "Devoted to Bogu"
+mesopotamian_bogu_desc:0 "Devotee of Bogu god of wealth"
+
+mesopotamian_nergal:0 "Devoted to Nergal"
+mesopotamian_nergal_desc:0 "Devotee of Nergal god of war"
+
+mesopotamian_ishtar:0 "Devoted to Ishtar"
+mesopotamian_ishtar_desc:0 "Devotee of Ishtar goddess of fertility and queen of heaven"
 
 summer_solstice:0 "Held Summer Solstice"
 winter_solstice:0 "Held Winter Solstice"
