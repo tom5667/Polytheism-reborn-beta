@@ -53,8 +53,8 @@ choose_main_deity_mm_decision_confirm:1 "Let's see"
 #Embrace roman culture 
 cdr_erc_decision:0 "Embrace Roman culture"
 cdr_erc_decision_desc:0 "We have our old religion back now it's time reintroduce the roman virtues"
-cdr_erc_decision_tooltip:0 "Return roman culture"
-cdr_erc_decision_confirm:0 "confirm"
+cdr_erc_decision_tooltip:0 "Return Roman culture"
+cdr_erc_decision_confirm:0 "Confirm"
 
 #Restore Cultus Deorum Priesthood
 cdr_restore_high_priesthood_decision:0 "Restore Cultus Deorum Priesthood"

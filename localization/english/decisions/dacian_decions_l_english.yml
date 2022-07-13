@@ -13,3 +13,8 @@ select_main_deity_dacian_decision.select_pleistoros:0 "Pleistoros god of war"
 select_main_deity_dacian_decision.select_derzelas:0 "Derzales god of health"
 choose_main_deity_dacian_decision_tooltip:1 "Choose main god(dess)"
 choose_main_deity_dacian_decision_confirm:1 "Choose main god(dess)"
+
+dacian_edc_decision:0 "Embrace Dacian Culture"
+dacian_edc_decision_desc:0 "We have our old religion back now it's time reintroduce the roman virtues"
+dacian_edc_decision_tooltip:0 "Return Dacian culture"
+dacian_edc_decision_confirm:0 "confirm"

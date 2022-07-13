@@ -151,7 +151,7 @@
     
     eluesinian_mysteries:0 "Eluesinian Mysteries"
     eluesinian_mysteries_adj:0 "Eluesinian Mysteries"
-    eluesinian_mysteries_adherent:0 "Eluesinian"
+    eluesinian_mysteries_adherent:0 "Eluesinian Follower"
     eluesinian_mysteries_adherent_plural:0 "Eluesinian Mysteries followers"
     eluesinian_mysteries_desc:0 "The Eluesinian mysteries was one of the most famous mysterie cults of Greece and later The Roman republic and Empire. It represented the myth of the abduction of Persephone from her mother Demeter by the king of the underworld Hades. Rites were performed at Eleusis near Athens" 
     eluesinian_mysteries_divine_realm:0 "Deii Consentes"
@@ -252,7 +252,7 @@
     #Mithras Mysteries 
     mithraic_mysteries:0 "Mithraic Mysteries"
     mithraic_mysteries_adj:0 "Mithraic Mysteries"
-    mithraic_mysteries_adherent:0 "Mithraic"
+    mithraic_mysteries_adherent:0 "Mithraic Follower"
     mithraic_mysteries_adherent_plural:0 "syndexioi"
     mithraic_mysteries_desc:0 "Roman mysterie cult popular by the roman army from 1st till 4th century ad and mostly worshiped by roman soldiers" 
     mithraic_mysteries_divine_realm:0 "Deii Consentes"
@@ -353,7 +353,7 @@
     #Isis Mysteries 
     mysteries_of_isis:0 "Mysteries of Isis"
     mysteries_of_isis_adj:0 "Mysteries of Isis"
-    mysteries_of_isis_adherent:0 "Isis Mysteries"
+    mysteries_of_isis_adherent:0 "Isis Mysteries Follower"
     mysteries_of_isis_adherent_plural:0 "followers of mysterie cult of Isis"
     mysteries_of_isis_desc:0 "With roots in Kemetic Polytheism, the cult of isis mysteries where one of the most famous mysterie cults in rome" 
     mysteries_of_isis_divine_realm:0 "Deii Consentes"
@@ -454,8 +454,8 @@
     #Serapis Cult
     cult_of_serapis:0 "Serapis Cult"
     cult_of_serapis_adj:0 "Serapis Cult"
-    cult_of_serapis_adherent:0 "Serapis Cult"
-    cult_of_serapis_adherent_plural:0 "followers of Serapis cult"
+    cult_of_serapis_adherent:0 "Serapis Cult follower"
+    cult_of_serapis_adherent_plural:0 "Followers of Serapis cult"
     cult_of_serapis_desc:0 "The cult of Serapis was pushed forward during the third century BC on the orders of Greek Pharaoh Ptolemy I Soter of the Ptolemaic Kingdom and made him patron of the ptolomic dynasty and Alexandria. In roman times Serapis continued to increase in popularity " 
     cult_of_serapis_divine_realm:0 "Deii Consentes"
     cult_of_serapis_religious_head_title:0 "Hierophantes"
@@ -555,8 +555,8 @@
     #Sol invictus Cult
     sol_invictus_cult:0 "Sol Invictus cult"
     sol_invictus_cult_adj:0 "Sol Invictus cult"
-    sol_invictus_cult_adherent:0 "Sol Invictus cult"
-    sol_invictus_cult_adherent_plural:0 "followers of Sol Invictus cult"
+    sol_invictus_cult_adherent:0 "Sol Invictus cult follower"
+    sol_invictus_cult_adherent_plural:0 "Followers of Sol Invictus cult"
     sol_invictus_cult_desc:0 "Sol Invictus (Unconquerable Sun) is a continuation of the old sol cult, established in 274 CE by Emperor Aurelian he made it one of the most important cults, the cult was mostly gone by 387 CE" 
     sol_invictus_cult_divine_realm:0 "Deii Consentes"
     sol_invictus_cult_religious_head_title:0 "Hierophantes"
@@ -766,7 +766,7 @@
     #Julians Polytheism
     julians_polytheism:0 "Greco Roman"
     julians_polytheism_adj:0 "Greco Roman"
-    julians_polytheism_adherent:0 "Greco Roman"
+    julians_polytheism_adherent:0 "Greco Roman follower"
     julians_polytheism_adherent_plural:0 "Greco Roman followers"
     #julians_polytheism_desc:0 "Emperor Julians Quest to restore the old Polytheistic ways was a combination of Cultus Deorum and Hellenismos. Deii Consentes (counsel of the gods) honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance." 
     julians_polytheism_desc:0 "Greco Roman Polytheism is a combination between Cultus Deorum, Hellenismos, Sol Invictus and 3 cults( Mithras, Imperial and Isis cult) with Sol Invictus as most important god. Reformed after the ideas of Emperor Julian the philosopher (Julian the apostate in christian writings)"

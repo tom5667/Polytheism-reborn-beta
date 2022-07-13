@@ -2,6 +2,7 @@ namespace = d_r
 namespace = d_sr
 namespace = dcmd
 namespace = zalmoxism_sr
+namespace = dacian
 d_r.001 = {
 	type = character_event
 	title = d_r.001.t
@@ -326,4 +327,22 @@ dcmd.001 = {
 			base = 0
 		}		
 	}
+}
+
+#Embrace Dacian culture
+dacian.001 = {
+	type = character_event
+	title =dacian.001.t
+	desc =dacian.001.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name =dacian.001.a
+		set_culture = culture:dacian
+	}
+
 }

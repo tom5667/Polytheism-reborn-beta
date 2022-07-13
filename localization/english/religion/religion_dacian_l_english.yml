@@ -4,11 +4,11 @@
 # #Made by tom5667
 # ###################### 
 
-    dacian_religion:0 "Dacian"
-    dacian_religion_adj:2 "Dacian"
-    dacian_religion_adherent:2 "Dacian"
-    dacian_religion_adherent_plural:2 "Dacian"
-    dacian_religion_desc:0 "The old religion of the mighty Dacian tribe. The religion had two fazes one as polytheistic and one as monotheistic with Zalmoxis as supreme god"
+    daco_thracian_religion:0 "Daco Thracian"
+    daco_thracian_religion_adj:2 "Daco Thracian"
+    daco_thracian_religion_adherent:2 "Daco Thracian"
+    daco_thracian_religion_adherent_plural:2 "Daco Thracian"
+    daco_thracian_religion_desc:0 "The old religions of the mighty Dacian and Thracian tribes. With the Thracians more monotheistic Zalmoxism and the Dacians Polytheistic"
 
     #dacian
     dacian_polytheism:0 "Dacian Polytheism"
@@ -133,7 +133,7 @@
     zalmoxism_adj:0 "Zalmoxism"
     zalmoxism_adherent:0 "Zalmoxism follower"
     zalmoxism_adherent_plural:0 "Dacian Polytheism followers"
-    zalmoxism_desc:0 "After years of being a Polytheistic religion, the Dacians eventualy became monotheistic with Zalmoxis as Supreme and only deity" 
+    zalmoxism_desc:0 "The Thracians where mostly monotheistic with Zalmoxis as Supreme and only deity" 
     zalmoxism_religious_head_title:0 "Supreme priest"
     zalmoxism_divine_realm:0 "Zalmoxis Realm"
     zalmoxism_religious_symbol:0 "Dacian draco"

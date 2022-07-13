@@ -212,6 +212,10 @@ rps.009={
 	}
 	option={
 		name = rps.009.b
+		set_character_faith = faith:zalmoxism
+	}
+	option={
+		name = rps.009.c
 		trigger_event = rps.001
 	}
 }

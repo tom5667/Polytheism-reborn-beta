@@ -62,3 +62,9 @@ dcmd.001.derzelas:0 "Derzelas"
 dcmd.001.optout:0 "Maybe now isn't the right time"
 
 
+#Embrace Dacian culture 
+dacian.001.t:0 "Embrace Dacian Culture"
+dacian.001.desc:0 "For far to long we lost the old virtues of the dacian tribes."
+dacian.001.a:0 "Embrace the Dacian culture"
+
+

@@ -10,7 +10,7 @@
     #etc
     etc_polytheism:0 "Etruscan Polytheism"
     etc_polytheism_adj:0 "Etruscan Polytheism"
-    etc_polytheism_adherent:0 "Etruscan Polytheist"
+    etc_polytheism_adherent:0 "Etruscan Polytheist follower"
     etc_polytheism_adherent_plural:0 "Etruscan Polytheism followers"
     etc_polytheism_desc:0 "Etruscan gods honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance." 
     #etc_polytheism_religious_head_title:0 "Pontifex Maximus"

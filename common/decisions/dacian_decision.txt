@@ -76,3 +76,48 @@ choose_main_deity_dacian_decision = {
 		base = 100
 	}
 }
+
+#embrace Dacian culture 
+dacian_edc_decision = {
+	picture = "gfx/interface/illustrations/decisions/dacian.dds"
+	major = yes
+	desc =  cdr_erc_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		is_adult = yes
+		is_imprisoned = no
+		AND = {
+			religion = religion:daco_thracian_religion 
+		}
+	NOR = { 
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_restored_dacian_edc
+			}
+		}
+	}
+	is_valid = {
+		completely_controls = title:c_hunyad
+		religion = religion:daco_thracian_religion 
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	effect = {
+		trigger_event = dacian.001  
+		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_dacian_edc
+			}
+		}
+	} 
+}
