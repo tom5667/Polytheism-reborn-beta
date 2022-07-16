@@ -1,3 +1,3 @@
-heritage_dacian = {
+﻿heritage_daco_thracian = {
 	type = heritage
 }

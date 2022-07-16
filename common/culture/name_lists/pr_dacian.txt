@@ -1,4 +1,4 @@
-name_list_dacian = {
+﻿name_list_dacian = {
 
 	cadet_dynasty_names = {
 		"dynn_Basarab"
