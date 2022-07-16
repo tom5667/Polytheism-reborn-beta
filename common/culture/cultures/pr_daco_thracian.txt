@@ -28,7 +28,7 @@
 }
 
 thracian = {
-	color = { 187 142 65 }
+	color = { 160 208 222 }
 	created = 100.1.1
 
 	ethos = ethos_stoic
@@ -43,8 +43,8 @@ thracian = {
 		tradition_zealous_people
 	}
 	
-	name_list = name_list_vlach
-	#name_list = name_list_dacian
+	#name_list = name_list_vlach
+	name_list = name_list_thracian
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }

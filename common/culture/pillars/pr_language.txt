@@ -31,5 +31,5 @@ language_thracian = {
 		}
 	}
 	
-	color = { 187 142 65 }
+	color = { 187 142 60 }
 }
