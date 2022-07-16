@@ -33,7 +33,7 @@ thracian = {
 
 	ethos = ethos_stoic
 	heritage = heritage_daco_thracian
-	language = language_dacian
+	language = language_thracian
 	martial_custom = martial_custom_male_only
 
 	traditions = {
