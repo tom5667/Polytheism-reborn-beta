@@ -33,3 +33,22 @@ language_thracian = {
 	
 	color = { 187 142 60 }
 }
+
+language_gaulish = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_gaulish
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gaulish }
+			multiply = 10
+		}
+	}
+	
+	color = { 187 142 60 }
+}
+

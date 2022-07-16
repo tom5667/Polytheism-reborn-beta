@@ -1,3 +1,6 @@
 ﻿heritage_daco_thracian = {
 	type = heritage
 }
+heritage_gaulish = {
+	type = heritage
+}
