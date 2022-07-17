@@ -1,4 +1,4 @@
-daco_thracian_religion = {
+﻿daco_thracian_religion = {
 	family = rf_pagan
 
 	pagan_roots = yes

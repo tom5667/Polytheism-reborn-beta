@@ -7,9 +7,10 @@
 	language = language_gaulish
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
+		tradition_forest_fighters
 		tradition_hereditary_hierarchy
-		tradition_stand_and_fight
+		tradition_hit_and_run
+		tradition_martial_admiration
 	}
 	
 	name_list = name_list_gaulish
@@ -28,7 +29,7 @@
 }
 
 eburones = {
-	color = { 39 219 44 }
+	color = { 39 215 44 }
 	created = 101.1.1
 	parents = { gaulish }
 
@@ -37,10 +38,10 @@ eburones = {
 	language = language_gaulish
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
+		tradition_forest_fighters
 		tradition_hereditary_hierarchy
-		tradition_stand_and_fight
-		#tradition_culture_in_the_forest
+		tradition_hit_and_run
+		tradition_martial_admiration
 	}
 	
 	name_list = name_list_gaulish

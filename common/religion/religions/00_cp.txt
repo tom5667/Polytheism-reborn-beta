@@ -1,4 +1,4 @@
-#####################
+﻿#####################
 #Made by tom5667 
 #V0.6 added religious family and Gaelic polytheism
 #v0.7 added brythonic, gaulish and celtic iberian polytheism

@@ -1,4 +1,4 @@
-mesopotamian_religion = {
+﻿mesopotamian_religion = {
 	family = rf_pagan
 
 	pagan_roots = yes
