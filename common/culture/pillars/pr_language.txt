@@ -49,6 +49,6 @@ language_gaulish = {
 		}
 	}
 	
-	color = { 187 142 60 }
+	color = { 39 219 44 }
 }
 

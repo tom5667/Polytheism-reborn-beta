@@ -1,8 +1,8 @@
 ﻿gaulish = {
-	color = frankish
+	color = { 39 219 44 }
 	created = 100.1.1
 
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_gaulish
 	language = language_gaulish
 	martial_custom = martial_custom_male_only
@@ -12,7 +12,7 @@
 		tradition_stand_and_fight
 	}
 	
-	name_list = name_list_frankish
+	name_list = name_list_gaulish
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
