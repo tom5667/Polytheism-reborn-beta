@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 #####################
 #Made by tom5667 
 ######################
@@ -15,3 +15,7 @@
  gaulish:0 "Gaulish"
  gaulish_prefix:0 "Gaulish"
  gaulish_collective_noun:0 "Gauls"
+#Eburones
+ eburones:0 "Eburones"
+ eburones_prefix:0 "Eburone"
+ eburones_collective_noun:0 "Eburones"
