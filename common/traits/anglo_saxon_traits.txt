@@ -1,4 +1,4 @@
-anglo_saxon_state_religion = {
+﻿anglo_saxon_state_religion = {
 	index = 58000
 	fame = yes 
 	inherit_chance = 0

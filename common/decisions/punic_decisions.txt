@@ -1,4 +1,4 @@
-
+﻿
 restore_carthago ={
 	picture = "gfx/interface/illustrations/decisions/carthago.dds"
 	major = yes

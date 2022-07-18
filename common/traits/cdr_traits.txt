@@ -1,4 +1,4 @@
-cdr_state_religion = {
+﻿cdr_state_religion = {
 	index = 57421
 	fame = yes 
 	inherit_chance = 0

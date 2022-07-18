@@ -1,4 +1,4 @@
-return_punic_sr_decision_scripted_effect = {
+﻿return_punic_sr_decision_scripted_effect = {
 	#Change yourself, and any willing vassals/family, over to Gaelic polytheism.
 
 	set_character_faith_with_conversion = faith:punic_polytheism

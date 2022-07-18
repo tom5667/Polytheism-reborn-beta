@@ -1,4 +1,4 @@
-namespace = d_r
+﻿namespace = d_r
 namespace = d_sr
 namespace = dcmd
 namespace = zalmoxism_sr

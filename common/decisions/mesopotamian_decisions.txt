@@ -1,4 +1,4 @@
-#Choose main deity Mesopotamian Polytheism 
+﻿#Choose main deity Mesopotamian Polytheism 
 choose_main_deity_mesopotamian_decision = {
 	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
 

@@ -1,4 +1,4 @@
-etc_state_religion = {
+﻿etc_state_religion = {
 	index = 61000
 	fame = yes 
 	inherit_from_real_father = no

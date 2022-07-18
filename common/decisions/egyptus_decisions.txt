@@ -1,4 +1,4 @@
-
+﻿
 restore_egyptus ={
 	picture = "gfx/interface/illustrations/decisions/Memphis.dds"
 	major = yes

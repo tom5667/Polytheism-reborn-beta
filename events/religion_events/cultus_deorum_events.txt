@@ -1,4 +1,4 @@
-namespace = cdr_cmd
+﻿namespace = cdr_cmd
 namespace = cdr_rgg
 namespace = cdr_r
 namespace = cdr_erc

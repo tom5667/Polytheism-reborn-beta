@@ -1,4 +1,4 @@
-#Celtic
+﻿#Celtic
 namespace = gp
 namespace = gp_sr
 namespace = gp_cmd

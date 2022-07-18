@@ -1,4 +1,4 @@
-punic_state_religion = {
+﻿punic_state_religion = {
 	index = 71000
 	fame = yes 
 	inherit_from_real_father = no

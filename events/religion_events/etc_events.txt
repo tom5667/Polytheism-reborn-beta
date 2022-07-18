@@ -1,4 +1,4 @@
-namespace = etc
+﻿namespace = etc
 namespace = etc_sr
 
 

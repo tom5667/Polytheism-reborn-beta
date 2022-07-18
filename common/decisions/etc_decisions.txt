@@ -1,4 +1,4 @@
-#Etruscan polytheism decission return to Etruscan polytheism 
+﻿#Etruscan polytheism decission return to Etruscan polytheism 
 #changes to secret religion when paradox includes secret religions 
 etc_return_decision = {
 		picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"

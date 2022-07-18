@@ -1,4 +1,4 @@
-namespace = m_r
+﻿namespace = m_r
 namespace = m_sr
 namespace = z_r
 namespace = mcmd

@@ -1,4 +1,4 @@
-namespace = anglo_saxon_return
+﻿namespace = anglo_saxon_return
 namespace = anglo_saxon_sr
 namespace = g_r
 namespace = g_sr

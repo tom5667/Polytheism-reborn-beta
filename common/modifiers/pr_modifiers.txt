@@ -1,4 +1,4 @@
-#Cultus Deorum 
+﻿#Cultus Deorum 
 held_ritual_for_jupiter = {
 	icon = jupiter_positive
 	monthly_piety = 0.2

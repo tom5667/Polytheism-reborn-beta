@@ -1,4 +1,4 @@
-gp_state_religion = {
+﻿gp_state_religion = {
 	index = 58421
 	fame = yes 
 	inherit_from_real_father = no

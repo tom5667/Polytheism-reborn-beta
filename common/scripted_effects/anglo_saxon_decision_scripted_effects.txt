@@ -1,4 +1,4 @@
-return_anglo_saxon_sr_decision_scripted_effect = {
+﻿return_anglo_saxon_sr_decision_scripted_effect = {
 	
 	#Change yourself, and any willing vassals/family, over to Roman polytheism.
 	set_character_faith_with_conversion = faith:anglo_saxon_polytheism

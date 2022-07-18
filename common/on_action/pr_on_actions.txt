@@ -1,4 +1,4 @@
-# check_roma_owner = {
+﻿# check_roma_owner = {
 # 	on_actions ={
 #  		check_temple_of_vesta_owner_roma
 #  	}

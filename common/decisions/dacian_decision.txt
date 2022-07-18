@@ -1,4 +1,4 @@
-#Choose main deity Dacian Polytheism 
+﻿#Choose main deity Dacian Polytheism 
 choose_main_deity_dacian_decision = {
 	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
 

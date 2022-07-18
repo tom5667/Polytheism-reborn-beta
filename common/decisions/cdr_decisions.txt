@@ -1,4 +1,4 @@
-#choose your main deity decision
+﻿#choose your main deity decision
 choose_main_deity_cdr_decision = {
 	picture = "gfx/interface/illustrations/decisions/roman_temple.dds"
 	desc = cdr_cmd_decision_desc
@@ -666,7 +666,7 @@ saturnalia_decision ={
 			}
 		}
 	}
-
+	ai_check_interval = 95
 	ai_potential = {
 		short_term_gold > standard_activity_cost
 		NOT = {
@@ -826,6 +826,7 @@ join_cult_decision = {
 			}
 		}
 	}
+	ai_check_interval = 65
 	ai_will_do = {
 		base = 65
 	}
