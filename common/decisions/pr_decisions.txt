@@ -80,7 +80,7 @@ return_polytheism_decision={
 		
 		if ={
 			limit={
-					OR={
+					OR = {
 						culture = culture:latin
 						culture = culture:roman
 						culture = culture:greek
@@ -93,10 +93,11 @@ return_polytheism_decision={
 			}
 			trigger_event = hellenismos.001
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
-				OR={
+				OR = {
 					
 					culture = culture:butr
 					culture = culutre:baranis
@@ -105,10 +106,11 @@ return_polytheism_decision={
 			}
 			trigger_event = punic.001
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
-				OR={
+				OR = {
 					
 					culture = culture:nubian
 					culture = culutre:egyptian
@@ -118,10 +120,11 @@ return_polytheism_decision={
 			}
 			trigger_event = kemetic.001 
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
-				OR={
+				OR = {
 					culture = culture:irish
 					culture = culture:pictish
 					culture = culture:gaelic
@@ -129,7 +132,7 @@ return_polytheism_decision={
 			}
 			trigger_event = gp.001
 			add_trait = pilgrim
-			
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
@@ -142,6 +145,7 @@ return_polytheism_decision={
 			}
 			trigger_event = bp.001
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
@@ -152,6 +156,7 @@ return_polytheism_decision={
 			}
 			trigger_event = gl.001
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
@@ -167,6 +172,7 @@ return_polytheism_decision={
 			}
 			trigger_event = ci.001
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
@@ -178,6 +184,7 @@ return_polytheism_decision={
 			}
 			trigger_event = anglo_saxon_return.001 
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit={
@@ -199,6 +206,7 @@ return_polytheism_decision={
 			}
 			trigger_event = m_r.001 
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 		else_if={
 			limit = {
@@ -206,6 +214,7 @@ return_polytheism_decision={
 			}
 			trigger_event = d_r.001 
 			add_trait = pilgrim
+			save_scope_as = actor
 		}
 	
 		hidden_effect = {

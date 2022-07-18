@@ -128,6 +128,22 @@
  holy_site_philippopolis_name:0 "Philippopolis"
  holy_site_philippopolis_effect_name:0 "From [holy_site|E]"
 
+  #Georgian
+ holy_site_mtskheta_name:0 "Mtskheta"
+ holy_site_mtskheta_effect_name:0 "From [holy_site|E]"
+ 
+ holy_site_dvin_name:0 "Dvin"
+ holy_site_dvin_effect_name:0 "From [holy_site|E]"
+ 
+ holy_site_kutaisi_name:0 "Kutaisi"
+ holy_site_kutaisi_effect_name:0 "From [holy_site|E]"
+
+ holy_site_tortomi_name:0 "Tortomi"
+ holy_site_tortomi_effect_name:0 "From [holy_site|E] #weak ($holy_site_tortomi_name$)#!"
+
+ holy_site_hereti_name:0 "Hereti"
+ holy_site_hereti_effect_name:0 "From [holy_site|E]"
+
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Polytheistic"
  rf_eastern:0 "Eastern"
