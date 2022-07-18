@@ -2,7 +2,7 @@
 	color = { 39 219 44 }
 	created = 100.1.1
 
-	ethos = ethos_stoic
+	ethos = ethos_bellicose
 	heritage = heritage_gaulish
 	language = language_gaulish
 	martial_custom = martial_custom_male_only
@@ -29,11 +29,11 @@
 }
 
 eburones = {
-	color = { 39 215 44 }
+	color = { 39 219 44 }
 	created = 101.1.1
 	parents = { gaulish }
 
-	ethos = ethos_stoic
+	ethos = ethos_bellicose
 	heritage = heritage_gaulish
 	language = language_gaulish
 	martial_custom = martial_custom_male_only

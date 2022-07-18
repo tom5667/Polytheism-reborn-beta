@@ -252,3 +252,18 @@ ci.005.b:0 "Let's stop before anyone finds out (last chance)"
  solstice.008.t:0 "Summer Solstice"
  solstice.008.desc:0 "Finaly mid-summer, time to start festivities for the goddess of the sun Epona to banish the demons and evil spirits from the land.\nMay her warmth grant us good harvest and may relationships be blessed"
  solstice.008.a:0 "Gather the realm for the solstice"
+
+ #Embrace Manx culture 
+ celtic.001.t:0 "Embrace Manx Culture"
+ celtic.001.desc:0 "For far to long we lost the old virtues of the isle of Man."
+ celtic.001.a:0 "Embrace the Manx culture"
+ 
+ #Embrace Eburones culture 
+ celtic.002.t:0 "Embrace Eburones Culture"
+ celtic.002.desc:0 "For far to long we lost the old virtues of the old Eburones Like Ambiorix and Cativolcus."
+ celtic.002.a:0 "Embrace the Eburones culture"
+
+ #Embrace Gaulish culture 
+ celtic.003.t:0 "Embrace Gaulish Culture"
+ celtic.003.desc:0 "For far to long we lost the old virtues of the Gauls."
+ celtic.003.a:0 "Embrace the Gaulish culture"

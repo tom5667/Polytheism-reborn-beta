@@ -15,6 +15,7 @@ namespace = ccmd
 namespace = solstice
 namespace = feast_main_befriend
 namespace = cult
+namespace = celtic 
 
 #Return Gaelic polytheism
 gp.001 = {
@@ -1447,4 +1448,56 @@ solstice.008 ={
 		}
 	}
 	
+}
+
+#Manx
+celtic.001 = {
+	type = character_event
+	title = celtic.001.t
+	desc = celtic.001.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = celtic.001.a
+		set_culture = culture:manx
+	}
+
+}
+#Eburones
+celtic.002 = {
+	type = character_event
+	title = celtic.002.t
+	desc = celtic.002.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = celtic.002.a
+		set_culture = culture:eburones
+	}
+
+}
+#Gaulish
+celtic.003 = {
+	type = character_event
+	title = celtic.003.t
+	desc = celtic.003.desc
+	theme = learning
+
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = celtic.003.a
+		set_culture = culture:gaulish
+	}
+
 }

@@ -39,8 +39,7 @@ cdr_rgg_decision_confirm:1 "Explore options"
 
 #Cultus Deorum ritual 
 cdr_r_decision:0 "Perform ritual"
-cdr_r_decision_desc:0 "Perform a ritual, the rituals are linked to the main deity you choose. Jupiter has two options one to skip the walktrough and one to follow it, 
-it gives you an insight in how the a real ritual works, if you are interested make sure to take a look sometime."
+cdr_r_decision_desc:0 "Perform a ritual, the rituals are linked to the main deity you choose. Jupiter has two options one to skip the walktrough and one to follow, it gives you an insight in how the a real ritual works, if you are interested make sure to take a look sometime."
 cdr_r_decision_tooltip:1 "Perform a ritual, only once in 12 months aviable."
 cdr_r_decision_confirm:1 "collect items to offer"
 
@@ -52,7 +51,7 @@ choose_main_deity_mm_decision_confirm:1 "Let's see"
 
 #Embrace roman culture 
 cdr_erc_decision:0 "Embrace Roman culture"
-cdr_erc_decision_desc:0 "We have our old religion back now it's time reintroduce the roman virtues"
+cdr_erc_decision_desc:0 "We have our old religion back now it's time reintroduce the Roman virtues"
 cdr_erc_decision_tooltip:0 "Return Roman culture"
 cdr_erc_decision_confirm:0 "Confirm"
 

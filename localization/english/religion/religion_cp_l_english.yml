@@ -195,7 +195,7 @@
 
     #Good gods names 
     brythonic_polytheism_good_god_rigantona:0 "Rigantona" 
-    brythonic_polytheism_good_god_taranis :0 "Taranis " 
+    brythonic_polytheism_good_god_taranis:0 "Taranis " 
     brythonic_polytheism_good_god_matrona:0 "Matrona" 
     brythonic_polytheism_good_god_lugus:0 "Lugus" 
     brythonic_polytheism_good_god_belisama:0 "Belisama" 
@@ -297,7 +297,7 @@
 
     #Good gods names 
     gaulish_polytheism_good_god_dea_Matrona:0 "Dea Matrona" 
-    gaulish_polytheism_good_god_cicolluiss :0 "Cicolluis" 
+    gaulish_polytheism_good_god_cicolluiss:0 "Cicolluis" 
     gaulish_polytheism_good_god_arausio:0 "Arausio" 
     gaulish_polytheism_good_god_lugus:0 "Lugus" 
     gaulish_polytheism_good_god_belisama:0 "Belisama" 

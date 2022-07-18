@@ -102,7 +102,7 @@
  holy_site_ur_effect_name:0 "From [holy_site|E]"
 
  holy_site_ninive_name:0 "Ninive"
- holy_site_ninive_effect_name:0 "From [holy_site|E] #weak ($holy_site_ninive_name$)#!
+ holy_site_ninive_effect_name:0 "From [holy_site|E] #weak ($holy_site_ninive_name$)#!"
 
  holy_site_wassukanni_name:0 "Waššukanni"
  holy_site_wassukanni_effect_name:0 "From [holy_site|E]"
@@ -114,7 +114,7 @@
  holy_site_ebla_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"
 
  holy_site_sarmizegetusa_name:0 "Sarmizegetusa"
- holy_site_sarmizegetusa_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!
+ holy_site_sarmizegetusa_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"
 
  holy_site_aidava_name:0 "Aidava"
  holy_site_aidava_effect_name:0 "From [holy_site|E]"

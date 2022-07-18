@@ -372,7 +372,7 @@ cdr_r.008 = {
 
 
 
-
+#Embrace roman culture
 
 cdr_erc.001 = {
 	type = character_event

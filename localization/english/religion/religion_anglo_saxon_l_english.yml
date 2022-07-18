@@ -102,7 +102,7 @@
     #Good gods names 
     anglo_saxon_good_god_fri:0 "Frī" 
     anglo_saxon_good_god_asteron:0 "Āsteron" 
-    anglo_saxon_good_god_seaxneat :0 "Seaxnēat" 
+    anglo_saxon_good_god_seaxneat:0 "Seaxnēat" 
     anglo_saxon_good_god_fricco:0 "Fricco" 
     anglo_saxon_good_god_tuisto:0 "Tuïsto" 
     anglo_saxon_good_god_ingwaz:0 "Ingwaz" 
@@ -220,7 +220,7 @@
     #Good gods names 
     german_good_god_frija:0 "Frīja" 
     german_good_god_mimir:0 "Mímir" 
-    german_good_god_njord :0 "Nerthus" 
+    german_good_god_njord:0 "Nerthus" 
     german_good_god_eir:0 "Eir" 
     german_good_god_woden:0 "Wotan" 
     german_good_god_donar:0 "Donar" 
