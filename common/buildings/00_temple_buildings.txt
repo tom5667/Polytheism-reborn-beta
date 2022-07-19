@@ -179,103 +179,16 @@ temple_01 = {
 		graphical_regions = { "graphical_mena" }
 	}
 	
-	
-	
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-		barony_cannot_construct_holding = no
-	}
-	
-	can_construct = {
-		culture = {
-			has_innovation = innovation_city_planning
-		}
-	}
-	
-	can_construct_showing_failures_only = {
-		building_requirement_tribal_holding_in_county = no
-	}
-	cost_gold = main_building_tier_1_cost
-	next_building = temple_02
-	
-	levy = small_building_levy_tier_2
-	garrison = normal_building_garrison_tier_1
-	province_modifier = {
-		monthly_income = normal_building_tax_tier_2
-	}
-
-	flag = temple
-
-	type_icon = "icon_building_monastic_schools.dds"
-
-	on_complete = {
-		county.holder = { add_piety = massive_piety_gain }
-		county.holder.faith = { change_fervor = 1 }
-
-		#to give follow-up to the vassal.1001 event
-		hidden_effect = {
-			province_owner = {
-				save_scope_as = owner_of_province
-				
-				scope:owner_of_province = {
-					if = { #Religious liege asked me to build a temple
-						limit = {
-							exists = var:promised_to_build_temple
-							has_character_flag = promised_liege_temple
-						}
-						trigger_event = {
-							id = vassal.1010
-							days = 3
-						}
-					}
-					if = { #Religious vassal asked me to build a temple
-						limit = {
-							exists = var:promised_to_build_temple
-							has_character_flag = promised_vassal_temple
-						}
-						trigger_event = {
-							id = vassal.1110
-							days = 3
-						}
-					}
-				}
-			}
-		}
-	}
-	
-	ai_value = {
-		base = 100
-		modifier = {
-			factor = 0
-			scope:holder = {
-				NOT = { has_government = theocracy_government }
-			}
-		}
-		modifier = {
-			add = 50
-			county = {
-				NOT = {
-					any_county_province = {
-						has_building_or_higher = temple_01
-					}
-				}
-			}
-		}
-	}
-}
-
-### HELLENISM ###
+	### HELLENISM ###
 	asset = {
 		type = pdxmesh
-		name = {
+		names = {
 			"building_mediterranean_temple_pagan_01_a_mesh"
 			"building_mediterranean_temple_pagan_01_b_mesh"
 		}
 		illustration = @illustration_generic_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "hellenism_gfx" }
-		graphical_regions = { "graphical_mediterranean" }
 	}
 	
 	
@@ -350,8 +263,7 @@ temple_01 = {
 			}
 		}
 	}
-
-
+}
 
 temple_02 = {
 	construction_time = slow_construction_time
@@ -525,35 +437,7 @@ temple_02 = {
 		graphical_regions = { "graphical_mena" }
 	}
 
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	can_construct = {
-		culture = {
-			has_innovation = innovation_manorialism
-		}
-	}
-	cost_gold = main_building_tier_2_cost
-	next_building = temple_03
-	
-	levy = small_building_levy_tier_4
-	garrison = normal_building_garrison_tier_3
-	province_modifier = {
-		monthly_income = normal_building_tax_tier_4
-	}
-
-	flag = temple
-	
-	ai_value = {
-		base = 6		
-		modifier = {
-			factor = 2
-			scope:holder.capital_province = this
-		}
-	}
-}
-
-### HELLENISM ###
+	### HELLENISM ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -563,7 +447,6 @@ temple_02 = {
 		illustration = @illustration_generic_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "hellenism_gfx" }
-		graphical_regions = { "graphical_mediterranean" }
 	}
 
 	can_construct_potential = {
@@ -766,37 +649,7 @@ temple_03 = {
 		graphical_regions = { "graphical_mena" }
 	}
 	
-	
-
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	can_construct = {
-		culture = {
-			has_innovation = innovation_windmills
-		}
-	}
-	cost_gold = main_building_tier_3_cost
-	next_building = temple_04
-	
-	levy = small_building_levy_tier_6
-	garrison = normal_building_garrison_tier_5
-	province_modifier = {
-		monthly_income = normal_building_tax_tier_6
-	}
-
-	flag = temple
-	
-	ai_value = {
-		base = 5		
-		modifier = {
-			factor = 2
-			scope:holder.capital_province = this
-		}
-	}
-}
-
-### HELLENISM ###
+	### HELLENISM ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -806,7 +659,6 @@ temple_03 = {
 		illustration = @illustration_generic_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "hellenism_gfx" }
-		graphical_regions = { "graphical_mediterranean" }
 	}
 
 	can_construct_potential = {
@@ -1009,35 +861,7 @@ temple_04 = {
 		graphical_regions = { "graphical_mena" }
 	}
 	
-	
-	can_construct_potential = {
-		building_requirement_tribal = no
-	}
-	can_construct = {
-		culture = {
-			has_innovation = innovation_cranes
-		}
-	}
-	cost_gold = main_building_tier_4_cost
-	
-	levy = small_building_levy_tier_8
-	garrison = normal_building_garrison_tier_7
-	province_modifier = {
-		monthly_income = normal_building_tax_tier_8
-	}
-
-	flag = temple
-	
-	ai_value = {
-		base = 4		
-		modifier = {
-			factor = 2
-			scope:holder.capital_province = this
-		}
-	}
-}
-
-### HELLENISM ###
+	### HELLENISM ###
 	asset = {
 		type = pdxmesh
 		names = {
@@ -1047,7 +871,6 @@ temple_04 = {
 		illustration = @illustration_generic_grass
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/generic_temple" soundparameter = { "Tier" = 1 } }
 		graphical_faiths = { "hellenism_gfx" }
-		graphical_regions = { "graphical_mediterranean" }
 	}
 	
 	can_construct_potential = {

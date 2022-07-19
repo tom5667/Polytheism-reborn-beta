@@ -1,4 +1,4 @@
-#Patron deity decision from vanilla game, override: removed needing the personal deity doctrine 
+﻿#Patron deity decision from vanilla game, override: removed needing the personal deity doctrine 
 select_personal_deity_germanic_decision = {
 	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
 

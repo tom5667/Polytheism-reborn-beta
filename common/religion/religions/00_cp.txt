@@ -174,7 +174,7 @@ celtic_religion ={
     
                     PantheonTerm = celtic_pantheon_the_gods
                     PantheonTermHasHave = pantheon_term_have
-                    GoodGodNames = {gaelic_polytheism_good_god_anu gaelic_polytheism_good_god_beira gaelic_polytheism_good_god_ecna gaelic_polytheism_good_god_etain gaelic_polytheism_good_god_manannán  gaelic_polytheism_good_god_neit  gaelic_polytheism_good_god_dianus gaelic_polytheism_good_god_cernunnos}
+                    GoodGodNames = { gaelic_polytheism_good_god_anu gaelic_polytheism_good_god_beira gaelic_polytheism_good_god_ecna gaelic_polytheism_good_god_etain gaelic_polytheism_good_god_manannan gaelic_polytheism_good_god_neit gaelic_polytheism_good_god_dianus gaelic_polytheism_good_god_cernunnos }
                     DevilName = gaelic_polytheism_devil_name
                     DevilNamePossessive = gaelic_devil_name_possessive
                     DevilSheHe = CHARACTER_SHEHE_HE

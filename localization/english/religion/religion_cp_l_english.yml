@@ -92,7 +92,7 @@
     gaelic_polytheism_good_god_cernunnos:0 "Cernunnos" 
     gaelic_polytheism_good_god_ecna:0 "Ecna" 
     gaelic_polytheism_good_god_etain:0 "Étaín" 
-    gaelic_polytheism_good_god_manannán:0 "Manannán" 
+    gaelic_polytheism_good_god_manannan:0 "Manannán" 
     gaelic_polytheism_good_god_neit:0 "Neit" 
     gaelic_polytheism_good_god_dianus:0 "Dianus" 
     gaelic_polytheism_good_god_angus_og:0 "Angus Og"
@@ -402,7 +402,7 @@
 
     #Good gods names 
     celtic_iberian_polytheism_good_god_dea_brigo:0 "Brigo" 
-    celtic_iberian_polytheism_good_god_durius :0 "Durius" 
+    celtic_iberian_polytheism_good_god_durius:0 "Durius" 
     celtic_iberian_polytheism_good_god_alaunus:0 "Alaunus" 
     celtic_iberian_polytheism_good_god_lugus:0 "Lugus" 
     celtic_iberian_polytheism_good_god_endovelicus:0 "Endovelicus" 
