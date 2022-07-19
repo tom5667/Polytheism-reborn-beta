@@ -63,9 +63,9 @@
 		}
 	}
 	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:anglo_saxon_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:anglo_saxon_polytheism = { change_fervor = 100 }
+	# }
 }
 
 return_g_sr_decision_scripted_effect = {
@@ -133,7 +133,7 @@ return_g_sr_decision_scripted_effect = {
 		}
 	}
 	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:anglo_saxon_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:anglo_saxon_polytheism = { change_fervor = 100 }
+	# }
 }

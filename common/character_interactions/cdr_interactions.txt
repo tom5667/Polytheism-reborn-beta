@@ -1,4 +1,4 @@
-join_vestal_virgins_interaction = {
+﻿join_vestal_virgins_interaction = {
 	category = interaction_category_friendly
 
 	ai_maybe = yes

@@ -61,9 +61,9 @@
 		}
 	}
 	#Finally, give kemetic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:dacian_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:dacian_polytheism = { change_fervor = 100 }
+	# }
 }
 
 #Zalmoxism
@@ -131,7 +131,7 @@ return_zalmoxism_sr_decision_scripted_effect = {
 		}
 	}
 	#Finally, give kemetic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:zalmoxism= { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:zalmoxism= { change_fervor = 100 }
+	# }
 }

@@ -62,9 +62,9 @@
 		}
 	}
 	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:gaelic_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:gaelic_polytheism = { change_fervor = 100 }
+	# }
 }
 
 #Brythonic polytheism
@@ -132,9 +132,9 @@ return_bp_sr_decision_scripted_effect = {
 		}
 	}
 	#Finally, give brythonic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:brythonic_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:brythonic_polytheism = { change_fervor = 100 }
+	# }
 }
 
 #Gaulish polytheism
@@ -202,9 +202,9 @@ return_gl_sr_decision_scripted_effect = {
 		}
 	}
 	#Finally, give gaulish_polytheism a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:gaulish_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:gaulish_polytheism = { change_fervor = 100 }
+	# }
 }
 
 #Celtic Iberian polytheism
@@ -272,9 +272,9 @@ return_ci_sr_decision_scripted_effect = {
 		}
 	}
 	#Finally, give celtic_iberian_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:celtic_iberian_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:celtic_iberian_polytheism = { change_fervor = 100 }
+	# }
 }
 
 

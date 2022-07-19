@@ -62,7 +62,7 @@
 	}
 	
 	#Finally, give kemetic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:mazdayasna = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:mazdayasna = { change_fervor = 100 }
+	# }
 }

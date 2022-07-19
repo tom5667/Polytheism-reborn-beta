@@ -14,7 +14,7 @@
 
 
 	custom_faith_icons = {
-		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_pr custom_pr1  custom_pr4 custom_pr5 custom_pr6 custom_pr7 custom_pr8 custom_pr9 custom_pr10 custom_pr11 custom_pr12 custom_pr13 custom_pr14 custom_pr15 custom_pr16 custom_pr17 custom_pr18 custom_pr19 custom_pr20 custom_pr21 custom_pr22 custom_pr23 custom_pr24 custom_pr26 custom_pr27
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
 	}
 
 
@@ -47,20 +47,7 @@
 			doctrine = doctrine_pluralism_pluralistic
 			doctrine = doctrine_theocracy_temporal
 
-			doctrine = doctrine_oral_tradition
-			doctrine = doctrine_polytheistic
-			doctrine = doctrine_aeonic
-			doctrine = doctrine_eternal
-			doctrine = doctrine_spirits
-			doctrine = doctrine_divine_guidance_none
-			doctrine = doctrine_apocalypse
-			doctrine = doctrine_eternal_feast
-			doctrine = doctrine_heroes
-			doctrine = doctrine_recommended
-			doctrine = doctrine_no_restrictions
-			doctrine = doctrine_monk_not_clergy_enforced
-			doctrine = doctrine_atonement_none
-			doctrine = doctrine_almsgiving_none
+
 			doctrine = doctrine_concubines
 			doctrine = doctrine_monogamy
 			doctrine = doctrine_divorce_allowed
@@ -262,27 +249,13 @@
 			doctrine = doctrine_theocracy_temporal
 
 			doctrine = unreformed_faith_doctrine
-			
-			doctrine = doctrine_oral_tradition
-			doctrine = doctrine_polytheistic
-			doctrine = doctrine_spiritual
-			doctrine = doctrine_eternal
-			doctrine = doctrine_spirits
-			doctrine = doctrine_divine_guidance_none
-			doctrine = doctrine_apocalypse
-			doctrine = doctrine_eternal_feast
-			doctrine = doctrine_heroes
-			doctrine = doctrine_recommended
-			doctrine = doctrine_no_restrictions
-			doctrine = doctrine_monk_not_clergy_enforced
-			doctrine = doctrine_atonement_none
-			doctrine = doctrine_almsgiving_none
+
 			doctrine = doctrine_concubines
 			doctrine = doctrine_monogamy
 			doctrine = doctrine_divorce_allowed
 			doctrine = doctrine_bastardry_legitimization
 			doctrine = doctrine_consanguinity_cousins
-			doctrine = doctrine_none_marriage
+
 			#Crimes
 			doctrine = doctrine_homosexuality_crime
 			doctrine = doctrine_adultery_men_crime
@@ -478,18 +451,8 @@
 
 				doctrine = unreformed_faith_doctrine
 				
-				doctrine = doctrine_oral_tradition
-				doctrine = doctrine_polytheistic
-				doctrine = doctrine_spiritual
-				doctrine = doctrine_eternal
-				doctrine = doctrine_spirits
-				doctrine = doctrine_divine_guidance_none
-				doctrine = doctrine_apocalypse
-				doctrine = doctrine_eternal_feast
-				doctrine = doctrine_heroes
-				doctrine = doctrine_recommended
+
 				doctrine = doctrine_no_restrictions
-				doctrine = doctrine_monk_not_clergy_enforced
 				doctrine = doctrine_atonement_none
 				doctrine = doctrine_almsgiving_none
 				doctrine = doctrine_concubines

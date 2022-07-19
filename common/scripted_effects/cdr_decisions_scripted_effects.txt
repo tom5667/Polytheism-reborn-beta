@@ -63,9 +63,9 @@
 		}
 	}
 	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:cdr_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:cdr_polytheism = { change_fervor = 100 }
+	# }
 }
 
 return_hellenismos_sr_decision_scripted_effect = {
@@ -202,7 +202,7 @@ return_julian_sr_decision_scripted_effect = {
 		}
 	}
 	#Finally, give cdr_polytheist a hefty fervour boost, just so that they don't immediately convert back.
-	hidden_effect = {
-		faith:julians_polytheism = { change_fervor = 100 }
-	}
+	# hidden_effect = {
+	# 	faith:julians_polytheism = { change_fervor = 100 }
+	# }
 }

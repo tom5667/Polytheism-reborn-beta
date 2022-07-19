@@ -88,7 +88,7 @@ dacian_edc_decision = {
 		is_adult = yes
 		is_imprisoned = no
 		AND = {
-			religion = religion:daco_thracian_religion 
+			religion = religion:paleo_balkan_religion
 		}
 	NOR = { 
 		is_target_in_global_variable_list = {
@@ -99,7 +99,7 @@ dacian_edc_decision = {
 	}
 	is_valid = {
 		completely_controls = title:c_hunyad
-		religion = religion:daco_thracian_religion 
+		religion = religion:paleo_balkan_religion 
 	}
 	is_valid_showing_failures_only = {
 		is_capable_adult = yes
