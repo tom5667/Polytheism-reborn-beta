@@ -144,6 +144,23 @@
  holy_site_hereti_name:0 "Hereti"
  holy_site_hereti_effect_name:0 "From [holy_site|E]"
 
+
+ #Albania 
+ holy_site_buthrotum_name:0 "Buthrotum "
+ holy_site_buthrotum_effect_name:0 "From [holy_site|E] #weak ($holy_site_buthrotum_name$)#!"
+ 
+ holy_site_dyrrachion_name:0 "Dyrrachion"
+ holy_site_dyrrachion_effect_name:0 "From [holy_site|E]"
+ 
+ holy_site_arbanon_name:0 "Arbanon"
+ holy_site_arbanon_effect_name:0 "From [holy_site|E]"
+
+ holy_site_pomorje_name:0 "Pomorje"
+ holy_site_pomorje_effect_name:0 "From [holy_site|E] #weak ($holy_site_pomorje_name$)#!"
+
+ holy_site_hvosno_name:0 "Hvosno"
+ holy_site_hvosno_effect_name:0 "From [holy_site|E]"
+
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Polytheistic"
  rf_eastern:0 "Eastern"

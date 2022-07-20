@@ -38,12 +38,16 @@ rps.001={
 	name = rps.001.g
 	trigger_event = rps.008
 	}
-	option = {  #Dacian 
+	option = {  #Paleo Balkan
 	name = rps.001.h
 	trigger_event = rps.009
 	}
+	option = {  #Caucasus
+	name = rps.001.i
+	trigger_event = rps.010
+	}
 	option={
-		name = rps.001.i
+		name = rps.001.optout
 	}
 }
 #Hellenic/Roman
@@ -200,26 +204,45 @@ rps.008={
 	}
 }
 
-#Dacian
+#Paleo Balkan
 rps.009={
 	type = character_event
 	title = rps.009.t
 	desc = rps.009.desc
 	theme = learning_scholarship_focus
 	option={
-		name = rps.009.a
+		name = rps.009.dacian
 		set_character_faith = faith:dacian_polytheism
 	}
 	option={
-		name = rps.009.b
+		name = rps.009.zalmoxism
 		set_character_faith = faith:zalmoxism
 	}
 	option={
-		name = rps.009.c
+		name = rps.009.albanian
+		set_character_faith = faith:albanian_polytheism
+	}
+	option={
+		name = rps.009.back
 		trigger_event = rps.001
 	}
 }
 
+#Caucasus
+rps.010={
+	type = character_event
+	title = rps.010.t
+	desc = rps.010.desc
+	theme = learning_scholarship_focus
+	option={
+		name = rps.010.georgian
+		set_character_faith = faith:georgian_polytheism
+	}
+	option={
+		name = rps.010.back
+		trigger_event = rps.001
+	}
+}
 
 
 #Polytheism reborn sassanid relative

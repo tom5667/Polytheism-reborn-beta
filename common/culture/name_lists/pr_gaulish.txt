@@ -14,7 +14,7 @@
 		Ambiorix Catuvolcus Abbo Acco Adietumarus Argiotalus Ariogaisos Arleno Atebodwos Attalus Axtrotalus Bilius Brennos Brogimaros Camulos Camulus 
 		Carantus Carmanos Carmo Caturix Celunno Cerdo Cilurnos Contessilo Corius Cudius Dagodubnos Dagodurnos Dagomarus Damos Dosso Drutalos Dubnorix
 		Dunnius Garomaros Garos Iantumaros Iestinus Katumaros Kintugenos Kintugnatos Lascius Leno Leucus Lukotorix Lutumaros Maguno Magurix 
-		Oclinos Oclinos Samo Samorix Scottus Segomaros Talos Tanisius Tasco Tinus Toccus Uercassiuellaunos Urus Wirogalos
+		Oclinos Samo Samorix Scottus Segomaros Talos Tanisius Tasco Tinus Toccus Uercassiuellaunos Urus Wirogalos
 	}
 	female_names = {
 		Abrexta Acaunissa Acaunissa Aculia Adbugissa Banna Banna Baulia Blanda Boudia Boudicca Abbula Cantismerta boudilatis Carata Cauaria Cloustria 

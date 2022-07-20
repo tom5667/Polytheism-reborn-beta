@@ -10,8 +10,9 @@ rps.001.d:0 "Celtic"
 rps.001.e:0 "German"
 rps.001.f:0 "Punic"
 rps.001.g:0 "Mesopotamian"
-rps.001.h:0 "Dacian"
-rps.001.i:0 "Exit"
+rps.001.h:0 "Paleo Balkan"
+rps.001.i:0 "Caucasus"
+rps.001.optout:0 "Exit"
 
 #Greek-Roman
 rps.002.t:0 ""
@@ -70,9 +71,16 @@ rps.008.b:0 "Back"
 #Dacian
 rps.009.t:0 ""
 rps.009.desc:0 " "
-rps.009.a:0 "Dacian Polytheism"
-rps.009.b:0 "Zalmoxism"
-rps.009.c:0 "Back"
+rps.009.dacian:0 "Dacian Polytheism"
+rps.009.zalmoxism:0 "Zalmoxism"
+rps.009.albanian:0 "Albanian Polytheism"
+rps.009.back:0 "Back"
+
+#Caucasus
+rps.007.t:0 ""
+rps.007.desc:0 " "
+rps.007.georgian:0 "Georgian Polytheism"
+rps.007.back:0 "Back"
 
 
 
