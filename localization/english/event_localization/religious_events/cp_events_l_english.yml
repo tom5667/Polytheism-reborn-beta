@@ -2,11 +2,11 @@
 
 #Return Gaelic polytheism event localization 
 gp.001.t:0 "Travel trough realm"
-gp.001.desc:0 "it's difficult to get to the true Gaelic polytheism because much is incorparated in christianity, Only thing i can do is travel trough ireland. and visit old sacred groves."
+gp.001.desc:0 "It's difficult to get to the true Gaelic polytheism because much is incorparated in christianity, Only thing I can do is travel trough ireland. and visit old Sacred Groves."
 gp.001.a:0 "let's go"
 
 gp.002.t:0 "After visiting some sacred groves"
-gp.002.desc:0 "After visiting some groves i ended up by hill of Tara, It sounds strange but i feel like there is some kind of strange power here. there is even a strange monument with the name Mound of the Hostages"
+gp.002.desc:0 "After some time spent on the Hill of Tara and exploring the Mound of the Hostages, a group of people came to me and asked if I would be interested in learning their history and rituals."
 gp.002.a:0 "I need to know more"
 gp.002.b:0 "Great but this is al I want to know"
 
