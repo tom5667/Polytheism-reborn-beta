@@ -2395,7 +2395,7 @@ celtic_solstice_summer_decision ={
 
 #Embrace ancient local celtic culture
 celtic_culture_decision = {
-	picture = "gfx/interface/illustrations/decisions/dacian.dds"
+	picture = "gfx/interface/illustrations/decisions/celts.dds"
 	major = yes
 	desc =  celtic_culture_decision_desc
 	is_shown = {
@@ -2453,3 +2453,4 @@ celtic_culture_decision = {
 		base = 0 
 	}
 }
+

@@ -1,0 +1,97 @@
+promote_gaelic_settlement_decision_scripted_effect = {
+	# if = {
+	# 	limit = {
+	# 		culture = culture:mogyer
+	# 	}
+
+	# 	# Convert my culture to Hungarian Culture
+	# 	set_culture = culture:hungarian
+	# 	culture:hungarian = {
+	# 		reset_culture_creation_date = yes
+	# 		get_all_innovations_from = culture:mogyer
+	# 	}
+
+	# 	# Convert my courtiers to Hungarian 
+	# 	hidden_effect = {
+	# 		every_courtier = {
+	# 			limit = {
+	# 				culture = culture:mogyer
+	# 			}
+	# 			set_culture = culture:hungarian
+	# 		}
+	# 	}
+
+	# 	# Convert my vassals to Hungarian
+	# 	every_vassal_or_below = {
+	# 		limit = {
+	# 			culture = culture:mogyer
+	# 		}
+
+	# 		custom = promote_hungarian_settlement_decision_every_vassal_custom
+	# 		set_culture = culture:hungarian
+
+	# 		# Convert their courtiers as well
+	# 		hidden_effect = {
+	# 			every_courtier = {
+	# 				limit = {
+	# 					culture = culture:mogyer
+	# 				}
+	# 				set_culture = culture:hungarian
+	# 			}
+	# 		}
+	# 	}
+	# }
+
+	root.primary_title = {
+		every_in_de_jure_hierarchy = {
+			limit = {
+				tier = tier_county
+				#culture = culture:mogyer
+				#title_province = { geographical_region = custom_hungary }
+				holder = {
+					OR = {
+						this = root
+						target_is_liege_or_above = root
+					}
+				}
+			}
+			#set_county_culture = culture:hungarian
+			# add_county_modifier = {
+			# 	modifier = hungarian_resettlement_modifier
+			# 	years = 100
+			# }
+			#custom_tooltip = promote_hungarian_settlement_decision_increased_development
+			custom_tooltip = promote_gaelic_settlement_decision_convert_county
+			hidden_effect = {
+				random_list = {
+					30 = {
+						# Nothing happens
+					}
+					30 = {
+						trigger = {
+								religion = religion:christianity_religion
+						}
+						set_county_faith = faith:gaelic_polytheism
+					}
+					30 = {
+						trigger = {
+
+							faith = faith:gaelic_polytheism
+							
+							any_neighboring_county = {
+								faith = faith:gaelic_polytheism
+							}
+						}
+						random_neighboring_county = {
+							limit = {
+								faith = faith:gaelic_polytheism
+							}
+							save_scope_as = neighboring_county
+						}
+						set_county_faith = scope:neighboring_county.faith
+					}
+				}
+			}
+		}
+	}
+}

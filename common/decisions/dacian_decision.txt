@@ -81,14 +81,17 @@ choose_main_deity_dacian_decision = {
 dacian_edc_decision = {
 	picture = "gfx/interface/illustrations/decisions/dacian.dds"
 	major = yes
-	desc =  dacian_erc_decision_desc
+	desc =  dacian_edc_decision_desc
 	is_shown = {
 		is_ai = no
 		is_landed = yes
 		is_adult = yes
 		is_imprisoned = no
 		AND = {
-			religion = religion:paleo_balkan_religion
+			OR = {
+				faith = faith:dacian_polytheism
+				faith = faith:zalmoxims
+			}
 		}
 	NOR = { 
 		is_target_in_global_variable_list = {
@@ -99,7 +102,10 @@ dacian_edc_decision = {
 	}
 	is_valid = {
 		completely_controls = title:c_hunyad
-		religion = religion:paleo_balkan_religion 
+		OR = {
+			faith = faith:dacian_polytheism
+			faith = faith:zalmoxism
+		}
 	}
 	is_valid_showing_failures_only = {
 		is_capable_adult = yes

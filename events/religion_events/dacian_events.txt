@@ -344,5 +344,9 @@ dacian.001 = {
 		name =dacian.001.a
 		set_culture = culture:dacian
 	}
-
+	option = {
+		name =dacian.001.b
+		set_culture = culture:thracian
+	}
 }
+
