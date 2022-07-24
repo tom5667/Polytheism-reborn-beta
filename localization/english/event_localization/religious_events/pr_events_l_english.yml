@@ -8,11 +8,17 @@ rps.001.b:0 "Etruscan"
 rps.001.c:0 "Egyptian"
 rps.001.d:0 "Celtic"
 rps.001.e:0 "German"
-rps.001.f:0 "Punic"
-rps.001.g:0 "Mesopotamian"
-rps.001.h:0 "Daco-Thracian"
-rps.001.i:0 "Caucasus"
+rps.001.next:0 "Next"
 rps.001.optout:0 "Exit"
+
+rps.011.t:0 ""
+rps.011.desc:0 "Quick menu change religion"
+rps.011.a:0 "Punic"
+rps.011.b:0 "Mesopotamian"
+rps.011.c:0 "Daco-Thracian"
+rps.011.d:0 "Caucasus"
+rps.011.back:0 "Back"
+rps.011.optout:0 "Exit"
 
 #Greek-Roman
 rps.002.t:0 ""
@@ -25,7 +31,8 @@ rps.002.e:0 "Eluesinian mysteries"
 rps.002.f:0 "Cult of Serapis"
 rps.002.g:0 "Sol Invictus cult"
 rps.002.h:0 "Mysteries of Isis"
-rps.002.i:0 "Back"
+rps.002.i:0 "Roman Illyrian"
+rps.002.back:0 "Back"
 
 #Etruscan
 rps.003.t:0 ""
@@ -76,10 +83,11 @@ rps.009.zalmoxism:0 "Zalmoxism"
 rps.009.back:0 "Back"
 
 #Caucasus
-rps.007.t:0 ""
-rps.007.desc:0 " "
-rps.007.georgian:0 "Georgian Polytheism"
-rps.007.back:0 "Back"
+rps.010.t:0 ""
+rps.010.desc:0 " "
+rps.010.georgian:0 "Georgian Polytheism"
+rps.010.armenian:0 "Armenian Polytheism"
+rps.010.back:0 "Back"
 
 
 

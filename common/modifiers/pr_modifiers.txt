@@ -529,3 +529,87 @@ mesopotamian_ishtar = {
 	christianity_religion_opinion = -10
 	islam_religion_opinion  = -10
 }
+
+#Georgian
+georgian_armzi ={
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+georgian_adgilis_deda = {
+	icon = fertility_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+}
+
+georgian_kopala = {
+	icon = martial_positive
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+georgian_the_barbale = {
+	icon = magic_positive
+	monthly_piety = 0.5
+	same_faith_opinion = 5
+	health = 0.5
+	negate_health_penalty_add = 0.25
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+#armenian
+armenian_aramazd ={
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+armenian_astlik = {
+	icon = fertility_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+}
+
+armenian_nane = {
+	icon = martial_positive
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+armenian_nvard = {
+	icon = magic_positive
+	monthly_piety = 0.5
+	same_faith_opinion = 5
+	health = 0.5
+	negate_health_penalty_add = 0.25
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}

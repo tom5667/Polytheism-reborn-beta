@@ -31,26 +31,44 @@ rps.001={
 	name = rps.001.e
 	trigger_event = rps.006
 	}
-	option={ #Punic
-	name = rps.001.f
-	trigger_event = rps.007
-	}
-	option={ #Mesopotamian
-	name = rps.001.g
-	trigger_event = rps.008
-	}
-	option = {  #Paleo Balkan
-	name = rps.001.h
-	trigger_event = rps.009
-	}
-	option = {  #Caucasus
-	name = rps.001.i
-	trigger_event = rps.010
+	option={
+		name = rps.001.next
+		trigger_event = rps.011
 	}
 	option={
 		name = rps.001.optout
 	}
 }
+rps.011={
+	type = character_event
+	title = rps.011.t
+	desc = rps.011.desc
+	theme = learning_scholarship_focus
+	option={ #Punic
+	name = rps.011.a
+	trigger_event = rps.007
+	}
+	option={ #Mesopotamian
+	name = rps.011.b
+	trigger_event = rps.008
+	}
+	option = {  #Daco Thracian
+	name = rps.011.c
+	trigger_event = rps.009
+	}
+	option = {  #Caucasus
+	name = rps.011.d
+	trigger_event = rps.010
+	}
+	option={
+		name = rps.011.back
+		trigger_event = rps.001
+	}
+	option={
+		name = rps.011.optout
+	}
+}
+
 #Hellenic/Roman
 rps.002={
 	type = character_event
@@ -91,6 +109,10 @@ rps.002={
 	}
 	option={
 		name = rps.002.i
+		set_character_faith = faith:roman_illyrian_polytheism
+	}
+	option={
+		name = rps.002.back
 		trigger_event = rps.001
 	}
 }
@@ -234,6 +256,10 @@ rps.010={
 	option={
 		name = rps.010.georgian
 		set_character_faith = faith:georgian_polytheism
+	}
+	option = {
+		name = rps.010.armenian
+		set_character_faith = faith:armenian_polytheism
 	}
 	option={
 		name = rps.010.back

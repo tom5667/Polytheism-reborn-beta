@@ -1799,4 +1799,210 @@
             }    
         }
     }
+    faiths = {
+        roman_illyrian_polytheism ={
+            #color
+            color = { 222 44 87 }
+            icon = roman_illyrian
+            religious_head = d_pontifex1 
+            holy_site = rome
+            holy_site = dyrrachion
+			holy_site = split
+            holy_site = venice
+            holy_site = ragusa
+
+
+            reserved_male_names = {
+                Hadrianus Trajanus Comedus Cicero Julius Octavianus Agrippina Romulus Remus Felix Marcellus Nerva Brutus 
+            }
+            reserved_female_names = {
+                Hadriana Trajana Sabine Octavia Agrippina Domitia Hortensia Antonia Augusta Camilla Aurellia Sabina Junia
+            }
+
+            #Main Group
+            #doctrine = doctrine_temporal_head
+            doctrine = doctrine_spiritual_head
+            doctrine = doctrine_gender_male_dominated
+            doctrine = doctrine_pluralism_pluralistic
+            doctrine = doctrine_theocracy_lay_clergy
+
+            #mariage 
+            doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+            doctrine = doctrine_bastardry_legitimization
+            doctrine = doctrine_monogamy
+            doctrine = doctrine_divorce_allowed
+
+            #Crimes
+            doctrine = doctrine_homosexuality_accepted
+            doctrine = doctrine_adultery_men_crime
+            doctrine = doctrine_adultery_women_crime
+            doctrine = doctrine_kinslaying_close_kin_crime
+            doctrine = doctrine_deviancy_accepted
+            doctrine = doctrine_witchcraft_shunned
+
+            #Clerical Functions
+            doctrine = doctrine_clerical_function_taxation
+            doctrine = doctrine_clerical_gender_either
+            doctrine = doctrine_clerical_marriage_allowed
+            doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+            doctrine = doctrine_curtailed 
+            doctrine = doctrine_monk_not_clergy_enforced
+
+            #doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_esotericism
+			doctrine = tenet_warmonger
+            doctrine = tenet_ritual_celebrations
+            #test doctrine 
+            #doctrine = doctrine_venerated_ancestors  
+            
+            # religious_head = 
+            
+            
+            holy_order_names = {
+                { name = "holy_order_sons_of_mars" }
+                { name = "holy_order_Protectors_of_dei_consentes" }
+                }
+            localization = {
+                #High God Name
+                HighGodName = roman_illyrian_polytheism_high_god_name
+                HighGodNamePossessive = roman_illyrian_polytheism_high_god_name_possessive
+                HighGodNameSheHe = CHARACTER_SHEHE_HE
+                HighGodHerselfHimself = CHARACTER_HIMSELF
+                HighGodHerHis = CHARACTER_HERHIS_HIS
+                HighGodNameAlternate = roman_illyrian_polytheism_high_god_name_alternate
+                HighGodNameAlternatePossessive = roman_illyrian_polytheism_high_god_name_alternate_possessive
+
+                #Creator
+                CreatorName = roman_illyrian_polytheism_creator_god_name
+                CreatorNamePossessive = roman_illyrian_polytheism_creator_god_name_possessive
+                CreatorSheHe = CHARACTER_SHEHE_SHE
+                CreatorHerHis = CHARACTER_HERHIS_HER
+                CreatorHerHim = CHARACTER_HERHIM_HER
+        
+                #HealthGod
+                HealthGodName = roman_illyrian_polytheism_health_god_name
+                HealthGodNamePossessive = roman_illyrian_polytheism_health_god_name_possessive
+                HealthGodSheHe = CHARACTER_SHEHE_HE
+                HealthGodHerHis = CHARACTER_HERHIS_HIS
+                HealthGodHerHim = CHARACTER_HERHIM_HIM
+                
+                #FertilityGod
+                FertilityGodName = roman_illyrian_polytheism_fertility_god_name
+                FertilityGodNamePossessive = roman_illyrian_polytheism_fertility_god_name_possessive
+                FertilityGodSheHe = CHARACTER_SHEHE_SHE
+                FertilityGodHerHis = CHARACTER_HERHIS_HER
+                FertilityGodHerHim = CHARACTER_HERHIM_HER
+        
+                #WealthGod
+                WealthGodName = roman_illyrian_polytheism_wealth_god_name
+                WealthGodNamePossessive = roman_illyrian_polytheism_wealth_god_name_possessive
+                WealthGodSheHe = CHARACTER_SHEHE_HE
+                WealthGodHerHis = CHARACTER_HERHIS_HIS
+                WealthGodHerHim = CHARACTER_HERHIM_HIM
+        
+                #HouseholdGod
+                HouseholdGodName = roman_illyrian_polytheism_household_god_name
+                HouseholdGodNamePossessive = roman_illyrian_polytheism_household_god_name_possessive
+                HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+                HouseholdGodHerHis = CHARACTER_HERHIS_HER
+                HouseholdGodHerHim = CHARACTER_HERHIM_HER
+        
+                #FateGod
+                FateGodName = roman_illyrian_polytheism_fate_god_name
+                FateGodNamePossessive = roman_illyrian_polytheism_fate_god_name_possessive
+                FateGodSheHe = CHARACTER_SHEHE_THEY
+                FateGodHerHis = CHARACTER_HERHIS_THEIR
+                FateGodHerHim = CHARACTER_HERHIM_THEM
+        
+                #KnowledgeGod
+                KnowledgeGodName = roman_illyrian_polytheism_knowledge_god_name
+                KnowledgeGodNamePossessive = roman_illyrian_polytheism_knowledge_god_name_possessive
+                KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+                KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+                KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+        
+                #WarGod
+                WarGodName = roman_illyrian_polytheism_war_god_name
+                WarGodNamePossessive = roman_illyrian_polytheism_war_god_name_possessive
+                WarGodSheHe = CHARACTER_SHEHE_HE
+                WarGodHerHis = CHARACTER_HERHIS_HIS
+                WarGodHerHim = CHARACTER_HERHIM_HIM
+        
+                #TricksterGod
+                TricksterGodName = roman_illyrian_polytheism_trickster_god_name
+                TricksterGodNamePossessive = roman_illyrian_polytheism_trickster_god_name_possessive
+                TricksterGodSheHe = CHARACTER_SHEHE_HE
+                TricksterGodHerHis = CHARACTER_HERHIS_HIS
+                TricksterGodHerHim = CHARACTER_HERHIM_HIM
+        
+                #NightGod
+                NightGodName = roman_illyrian_polytheism_night_god_name
+                NightGodNamePossessive = roman_illyrian_polytheism_night_god_name_possessive
+                NightGodSheHe = CHARACTER_SHEHE_SHE
+                NightGodHerHis = CHARACTER_HERHIS_HER
+                NightGodHerHim = CHARACTER_HERHIM_HER
+        
+                #WaterGod
+                WaterGodName = roman_illyrian_polytheism_water_god_name
+                WaterGodNamePossessive = roman_illyrian_polytheism_water_god_name_possessive
+                WaterGodSheHe = CHARACTER_SHEHE_HE
+                WaterGodHerHis = CHARACTER_HERHIS_HIS
+                WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+                PantheonTerm = roman_pantheon_the_gods
+                PantheonTermHasHave = pantheon_term_have
+                GoodGodNames = {roman_illyrian_polytheism_good_god_juno roman_illyrian_polytheism_good_god_venus roman_illyrian_polytheism_good_god_minerva roman_illyrian_polytheism_good_god_mercury roman_illyrian_polytheism_good_god_neptune roman_illyrian_polytheism_good_god_bona_dea roman_illyrian_polytheism_good_god_mars  roman_illyrian_polytheism_good_god_apollo roman_illyrian_polytheism_good_god_diana}
+                DevilName = roman_illyrian_polytheism_devil_name
+                DevilNamePossessive = roman_illyrian_devil_name_possessive
+                DevilSheHe = CHARACTER_SHEHE_HE
+                DevilHerHis = CHARACTER_HERHIS_HIS
+                DevilHerselfHimself = CHARACTER_HIMSELF
+                EvilGodNames = { roman_illyrian_polytheism_evil_god_trivia roman_illyrian_polytheism_evil_god_discordia }
+                HouseOfWorship = paganism_house_of_worship
+                HouseOfWorshipPlural = paganism_house_of_worship_plural
+                ReligiousSymbol = roman_illyrian_polytheism_polytheism_religious_symbol
+                ReligiousText = roman_illyrian_polytheism_religious_text
+                ReligiousHeadName = roman_illyrian_polytheism_religious_head_title
+                ReligiousHeadTitleName = dualism_religious_head_title_name
+                DevoteeMale = paganism_devotee
+                DevoteeMalePlural = paganism_devoteeplural
+                DevoteeFemale = paganism_devotee
+                DevoteeFemalePlural = paganism_devoteeplural
+                DevoteeNeuter = paganism_devotee
+                DevoteeNeuterPlural = paganism_devoteeplural
+                PriestMale = roman_illyrian_polytheism_priest_male
+                PriestMalePlural = roman_illyrian_polytheism_priest_male_plural
+                PriestFemale = roman_illyrian_polytheism_priest_female
+                PriestFemalePlural = roman_illyrian_polytheism_priest_female_plural
+                PriestNeuter = roman_illyrian_polytheism_priest_male
+                PriestNeuterPlural = roman_illyrian_polytheism_priest_male_plural
+                AltPriestTermPlural = roman_illyrian_polytheism_priest_alternate_plural
+                BishopMale = roman_illyrian_polytheism_bishop_male
+                BishopMalePlural = roman_illyrian_polytheism_bishop_male_plural
+                BishopFemale = roman_illyrian_polytheism_priest_female
+                BishopFemalePlural = roman_illyrian_polytheism_priest_female_plural
+                BishopNeuter = roman_illyrian_polytheism_priest_male
+                BishopNeuterPlural = roman_illyrian_polytheism_priest_male_plural
+                DivineRealm = divine_realm
+                PositiveAfterLife = roman_illyrian_polytheism_death_deity_name
+                NegativeAfterLife = roman_illyrian_polytheism_death_deity_name
+                DeathDeityName = roman_illyrian_polytheism_death_deity_name
+                DeathDeityNamePossessive = roman_illyrian_polytheism_death_deity_name_possessive
+                DeathDeitySheHe = CHARACTER_SHEHE_HE
+                DeathDeityHerHis = CHARACTER_HERHIS_HIS
+                WitchGodName = roman_illyrian_polytheism_witchgodname_trivia
+                WitchGodHerHis = CHARACTER_HERHIS_HER
+                WitchGodSheHe = CHARACTER_SHEHE_HE
+                WitchGodHerHim = CHARACTER_HERHIM_HER
+                WitchGodMistressMaster = mistress
+                WitchGodMotherFather = mother
+                
+                GHWName = ghw_great_holy_war
+                GHWNamePlural = ghw_great_holy_wars
+
+                }
+            }
+
+        }
 }

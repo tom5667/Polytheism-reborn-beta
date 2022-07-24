@@ -2393,29 +2393,24 @@ celtic_solstice_summer_decision ={
 
 # hold ritual 
 
-#Embrace ancient local celtic culture
-celtic_culture_decision = {
+#Embrace ancient local gaulish culture
+gaulish_culture_decision = {
 	picture = "gfx/interface/illustrations/decisions/celts.dds"
 	major = yes
-	desc =  celtic_culture_decision_desc
+	desc =  gaulish_culture_decision_desc
 	is_shown = {
 		is_ai = no
 		is_landed = yes
 		is_adult = yes
 		is_imprisoned = no
-		AND = {
-			religion = religion:celtic_religion 
-		}
+		faith = faith:gaulish_polytheism
 	NOR = { 
-		OR = {
-			culture = culture:eburones
 			culture = culture:gaulish
-			culture = culture:manx
-			}
 		}		
 	}
 	is_valid = {
-		religion = religion:celtic_religion 
+		faith = faith:gaulish_polytheism
+		completely_controls = title:c_ile_de_france
 	}
 	is_valid_showing_failures_only = {
 		is_capable_adult = yes
@@ -2427,30 +2422,84 @@ celtic_culture_decision = {
 		prestige = 1000 
 	}
 	effect = {
-		if ={ 
-			limit = {
-				completely_controls = title:c_isle_of_man
-			}
-			trigger_event = celtic.001  
-			save_scope_as = actor
-		}
-		else_if = {
-			limit={ 
-				completely_controls = title:c_aachen
-			}
-			trigger_event = celtic.002  
-			save_scope_as = actor
-		}
-		else_if = {
-			limit ={
-				completely_controls = title:c_ile_de_france
-			}
 			trigger_event = celtic.003  
 			save_scope_as = actor
-		}
 	} 
 	ai_chance ={ 
 		base = 0 
 	}
 }
 
+#Embrace ancient local eburones culture
+eburones_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/celts.dds"
+	major = yes
+	desc =  eburones_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		is_adult = yes
+		is_imprisoned = no
+		faith = faith:gaulish_polytheism
+
+	NOR = { 
+			culture = culture:eburones
+		}		
+	}
+	is_valid = {
+		faith = faith:gaulish_polytheism
+		completely_controls = title:c_aachen
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	effect = {
+			trigger_event = celtic.002  
+			save_scope_as = actor
+	} 
+	ai_chance ={ 
+		base = 0 
+	}
+}
+#Embrace ancient local manx culture
+manx_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/celts.dds"
+	major = yes
+	desc =  manx_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		is_adult = yes
+		is_imprisoned = no
+		faith = faith:gaelic_polytheism
+	NOR = { 
+			culture = culture:manx
+		}		
+	}
+	is_valid = {
+		faith = faith:gaelic_polytheism
+		completely_controls = title:c_isle_of_man
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	effect = {
+			trigger_event = celtic.001  
+			save_scope_as = actor
+	} 
+	ai_chance ={ 
+		base = 0 
+	}
+}

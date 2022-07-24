@@ -166,6 +166,32 @@ mesopotamian_nergal_desc:0 "Devotee of Nergal god of war"
 mesopotamian_ishtar:0 "Devoted to Ishtar"
 mesopotamian_ishtar_desc:0 "Devotee of Ishtar goddess of fertility and queen of heaven"
 
+#Georgian
+georgian_armzi:0 "Devoted to Armzi"
+georgian_armzi_desc:0 "Devotee of Armzi high god of the Georgians"
+
+georgian_adgilis_deda:0 "Devoted to Adgilis Deda"
+georgian_adgilis_deda_desc:0 "Devotee of Adgilis Deda goddess of love and firtility"
+
+georgian_kopala:0 "Devoted to Kopala"
+georgian_kopala_desc:0 "Devotee of Kopala god of war"
+
+georgian_the_barbale:0 "Devoted to Barbale"
+georgian_the_barbale_desc:0 "Devotee of Barbale goddess"
+
+#Armenian
+armenian_aramazd:0 "Devoted to Aramazd"
+armenian_aramazd_desc:0 "Devotee of Aramazd high god of the armenians"
+
+armenian_astlik:0 "Devoted to Astlik"
+armenian_astlik_desc:0 "Devotee of Astlik goddes of love and fertility"
+
+armenian_nane:0 "Devoted to Nane"
+armenian_nane_desc:0 "Devotee of Nane God of war"
+
+armenian_nvard:0 "Devoted to Nvard"
+armenian_nvard_desc:0 "Devotee of Nvard goddess of health"
+
 summer_solstice:0 "Held Summer Solstice"
 winter_solstice:0 "Held Winter Solstice"
 summer_solstice_celtic:0 "Held Summer Solstice"

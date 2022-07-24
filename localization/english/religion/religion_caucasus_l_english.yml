@@ -25,7 +25,7 @@
     #Georgian gods/goddesses Localization
 
     #Anu Localization
-    georgian_polytheism_high_god_name:0 "Armzi"
+    georgian_polytheism_high_god_name:0 "Armazi"
     georgian_polytheism_high_god_name_possessive:0 "Armazi's"
     georgian_polytheism_high_god_name_alternate:0 "Armazi"
     georgian_polytheism_high_god_name_alternate_possessive:0 "Armazi's"
@@ -170,7 +170,7 @@
     armenian_polytheism_household_god_name_possessive:0 "The Shahapet's"
 
     #Fate god Ghmerti Localization
-    armenian_polytheism_fate_god_name:0 "$armenian_polytheism_high_god_name_possessive$    
+    armenian_polytheism_fate_god_name:0 "$armenian_polytheism_high_god_name_possessive$"    
     armenian_polytheism_fate_god_name_possessive:0 "$armenian_polytheism_high_god_name_possessive$"
 
     #knowledge god Tir Localization
