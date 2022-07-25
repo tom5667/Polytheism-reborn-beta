@@ -43,6 +43,17 @@ cdr_r_decision_desc:0 "Perform a ritual, the rituals are linked to the main deit
 cdr_r_decision_tooltip:1 "Perform a ritual, only once in 12 months aviable."
 cdr_r_decision_confirm:1 "collect items to offer"
 
+#Roman Illyrian 
+choose_main_deity_roman_illyrian_decision:0 "Choose your main deity"
+choose_main_deity_roman_illyrian_decision_tt:0 "You begin to live your life according to the values of"
+select_main_deity_roman_illyrian_decision.select_jupiter_parthinus:0 "Jupiter Parthinus high god of the Roman Illyrians"
+select_main_deity_roman_illyrian_decision.select_anzotica:0 "Anzotica goddess of fertility"
+select_main_deity_roman_illyrian_decision.select_armatus:0 "Armatus god of war"
+select_main_deity_roman_illyrian_decision.select_bona_dea:0 "Bona Dea goddess of healing"
+select_main_deity_roman_illyrian_decision.select_latra:0 "Latra god of wealth"
+choose_main_deity_roman_illyrian_decision_tooltip:1 "Choose main god(dess)"
+choose_main_deity_roman_illyrian_decision_confirm:1 "Choose main god(dess)"
+
 #choose your main deity Mithraic Mysteries
 choose_main_deity_mm_decision:0 "Choose your main deity"
 mm_cmd_decision_desc:0 "as i proceed, like most of the old cultus followers there was one particualar god who was important for their family."

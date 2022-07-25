@@ -15,6 +15,7 @@ namespace = cult
 #mithras mysteries namespace 
 namespace = mm_cmd
 namespace = restore_altar
+namespace = roman_illyrian
 
 
 #choose your main deity events
@@ -1310,6 +1311,72 @@ cult.024 = {#Meeting Augustalis
 	}
 }
 
+roman_illyrian.001 = {
+	type = character_event
+	title = roman_illyrian.001.t
+	desc = roman_illyrian.001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Jupiter Parthinus
+	option = {
+		name = roman_illyrian.001.jupiter_parthinus
+		trigger = {
+			NOT = { has_character_modifier = roman_illyrian_jupiter_parthinus }
+		}
+		set_bhakti_effect = { BHAKTI = roman_illyrian_jupiter_parthinus }
+	}
+
+	 #Anzotica
+	 option = {
+	 	name = roman_illyrian.001.anzotica
+	 	trigger = {
+	 		NOT = { has_character_modifier = roman_illyrian_anzotica }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = roman_illyrian_anzotica }
+	 }
+
+	#Armatus
+	option = {
+		name = roman_illyrian.001.armatus
+		trigger = {
+			NOT = { has_character_modifier = roman_illyrian_armatus }
+		}
+		set_bhakti_effect = { BHAKTI = roman_illyrian_armatus }
+	}
+
+	# Bona Dea
+	option = {
+		name = roman_illyrian.001.bona_dea
+		trigger = {
+			NOT = { has_character_modifier = roman_illyrian_bona_dea }
+		}
+		set_bhakti_effect = { BHAKTI = roman_illyrian_bona_dea }
+	}
+
+
+	 # Latra
+	 option = {
+	 	name = roman_illyrian.001.latra
+	 	trigger = {
+	 		NOT = { has_character_modifier = roman_illyrian_latra }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = roman_illyrian_latra }
+	 }
+
+	# Opt-Out
+	option = {
+		name = roman_illyrian.001.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
 
 #Cult proceding 
 #lvl's of initiation mithras cult

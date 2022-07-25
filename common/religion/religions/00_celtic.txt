@@ -30,6 +30,7 @@ celtic_religion ={
                 holy_site = ailech
                 holy_site = isle_of_man
                 holy_site = gowrie 
+                holy_site = lough_gur
                 
                 reserved_male_names = {
                     Áedacán Áileachán Boidmal Brangen Caochlaoch Díomasach Dochartach Filtiarn Colla Irial
@@ -237,6 +238,7 @@ celtic_religion ={
 			holy_site = cornwall 	
             holy_site = glammorgan  
             holy_site = vannes     
+            holy_site = isle_of_man
 
             reserved_male_names = {
             Edern Cadwobri Catuvellaunus Conmarch Dumnagual Artognou 

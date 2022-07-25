@@ -11,7 +11,7 @@
  holy_site_ravenna_effect_name:0 "From [holy_site|E] #weak ($holy_site_ravenna_name$)#!"
  holy_site_ravenna_effects:0 "County Conversion Speed: #P +20%#!"
 
- holy_site_giza_name:0 "giza"
+ holy_site_giza_name:0 "Giza"
  holy_site_giza_effect_name:0 "From [holy_site|E] #weak ($holy_site_giza_name$)#!"
  holy_site_giza_effects:0 "County Conversion Speed: #P +10%#!"
  
@@ -19,8 +19,10 @@
  holy_site_dublin_name:0 "Dublin"
  holy_site_dublin_effect_name:0 "From [holy_site|E] #weak ($holy_site_dublin_name$)#!"
 
+ holy_site_lough_gur_name:0 "Lough Gur"
+ holy_site_lough_gur_effect_name:0 "From [holy_site|E]"
 
- holy_site_ailech_name:0 "ailech"
+ holy_site_ailech_name:0 "Ailech"
  holy_site_ailech_effect_name:0 "From [holy_site|E] #weak ($holy_site_ailech_name$)#!"
  holy_site_ailech_effects:0 "County Conversion Speed: #P +5%#!"
  
@@ -145,10 +147,7 @@
  holy_site_hereti_effect_name:0 "From [holy_site|E]"
 
 
- #Albania 
- holy_site_ragusa_name:0 "Ragusa"
- holy_site_ragusa_effect_name:0 "From [holy_site|E] #weak ($holy_site_buthrotum_name$)#!"
- 
+ #Illyrian
  holy_site_dyrrachion_name:0 "Dyrrachion"
  holy_site_dyrrachion_effect_name:0 "From [holy_site|E]"
 
@@ -157,6 +156,24 @@
 
  holy_site_venice_name:0 "Venice"
  holy_site_venice_effect_name:0 "From [holy_site|E]"
+
+ #holy sites anglo saxon
+ holy_site_london_name:0 "London"
+ holy_site_london_effect_name:0 "From [holy_site|E] #weak ($holy_site_buthrotum_name$)#!"
+ 
+ holy_site_suffolk_name:0 "Suffolk"
+ holy_site_suffolk_effect_name:0 "From [holy_site|E]"
+
+ holy_site_devon_name:0 "Devon"
+ holy_site_devon_effect_name:0 "From [holy_site|E]"
+
+ holy_site_york_name:0 "York"
+ holy_site_york_effect_name:0 "From [holy_site|E]"
+
+ holy_site_oxford_name:0 "Oxford"
+ holy_site_oxford_effect_name:0 "From [holy_site|E] #weak ($holy_site_oxford_name$)#!"
+ holy_site_oxford_effects:0 "County Conversion Speed: #P +20%#!"
+
 
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Polytheistic"

@@ -32,6 +32,15 @@ dublin = {
 		monthly_county_control_change_factor = 0.05
 	}
 }
+lough_gur = {
+	county = c_thomond
+
+	character_modifier = {
+		name = holy_site_venice_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
+ }
 
 ailech = {
 	county = c_ailech
@@ -58,6 +67,7 @@ gowrie = {
 		martial = 1
 	}
 }
+
 
 #############
 # brythonic polytheism
@@ -402,9 +412,9 @@ hereti = {
  		clergy_opinion = 5
  	}
  }
-
- #Albania #can be used for Illyrian later on 
-
+#############
+#Illyrian 
+#############
  dyrrachion = {
 	county = c_dyrrachion
 
@@ -415,22 +425,12 @@ hereti = {
 	}
  }
 
- ragusa = {
-	county = c_ragusa
-
-	character_modifier = {
-		name = holy_site_wassukani_effect_name
-		clergy_opinion = 5
-	}
- }
-
  venice = {
 	county = c_venezia
 
 	character_modifier = {
-		name = holy_site_venice_effect_name
-		development_growth_factor = 0.1
-		stewardship = 1
+		name = holy_site_wassukani_effect_name
+		clergy_opinion = 5
 	}
  }
 
@@ -444,3 +444,56 @@ hereti = {
 		martial = 1
 	}
  }
+
+#############
+#anglo saxon
+#############
+london = {
+	county = c_middlesex
+
+	character_modifier = {
+		name = holy_site_dyrrachion_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+	}
+ }
+
+
+ suffolk = {
+	county = c_suffolk
+
+	character_modifier = {
+		name = holy_site_wassukani_effect_name
+		clergy_opinion = 5
+	}
+ }
+
+ york = {
+	county = c_north_riding
+	barony = b_york
+
+	character_modifier = {
+		name = holy_site_spli_effect_name
+		diplomacy = 1
+		martial = 1
+	}
+ }
+
+ devon = {
+	county = c_devon
+
+	character_modifier = {
+		name = holy_site_venice_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
+ }
+
+ oxford = {
+	county = c_oxfordshire
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	flag = ur_conversion_bonus # +20% County Conversion
+}

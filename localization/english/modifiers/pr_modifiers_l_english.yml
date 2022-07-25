@@ -192,6 +192,23 @@ armenian_nane_desc:0 "Devotee of Nane God of war"
 armenian_nvard:0 "Devoted to Nvard"
 armenian_nvard_desc:0 "Devotee of Nvard goddess of health"
 
+#Roman Illyrian
+roman_illyrian_jupiter_parthinus:0 "Devoted to Jupiter Parthinus"
+roman_illyrian_jupiter_parthinus_desc:0 "Devotee of Jupiter Parthinus high god of the Roman Illyrians"
+
+roman_illyrian_anzotica:0 "Devoted to Anzotica"
+roman_illyrian_anzotica_desc:0 "Devotee of Anzotica goddess of fertility"
+
+roman_illyrian_armatus:0 "Devoted to Armatus"
+roman_illyrian_armatus_desc:0 "Devotee of Armatus god of war"
+
+roman_illyrian_bona_dea:0 "Devoted to Bona Dea"
+roman_illyrian_bona_dea_desc:0 "Devotee of Bona Dead goddess of healing"
+
+roman_illyrian_latra:0 "Devoted to Latra"
+roman_illyrian_latra_desc:0 "Devotee of Latra god of weatlth"
+
+
 summer_solstice:0 "Held Summer Solstice"
 winter_solstice:0 "Held Winter Solstice"
 summer_solstice_celtic:0 "Held Summer Solstice"

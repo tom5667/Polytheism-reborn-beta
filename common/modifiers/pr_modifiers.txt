@@ -613,3 +613,55 @@ armenian_nvard = {
 	christianity_religion_opinion = -5
 	islam_religion_opinion  = -5
 }
+
+
+#Roman Illyrian
+roman_illyrian_jupiter_parthinus ={
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+roman_illyrian_anzotica = {
+	icon = fertility_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+}
+
+roman_illyrian_armatus = {
+	icon = martial_positive
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+roman_illyrian_bona_dea = {
+	icon = magic_positive
+	monthly_piety = 0.5
+	same_faith_opinion = 5
+	health = 0.5
+	negate_health_penalty_add = 0.25
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+roman_illyrian_latra = {
+	icon = economy_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	stewardship = 2
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}

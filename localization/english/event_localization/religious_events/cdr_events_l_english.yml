@@ -68,6 +68,16 @@ h_cmd.001.d:0 "Aphrodite"
 h_cmd.001.e:0 "Hermes"
 h_cmd.001.f:0 "Maybe now isn't the right time"
 
+#Choose main deity Roman Illyrian
+roman_illyrian.001.t:0 "Choose main deity"
+roman_illyrian.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+roman_illyrian.001.jupiter_parthinus:0 "Jupiter Parthinus"
+roman_illyrian.001.anzotica:0 "Anzotica"
+roman_illyrian.001.armatus:0 "Armatus"
+roman_illyrian.001.bona_dea:0 "Bona Dea"
+roman_illyrian.001.latra:0 "Latra"
+roman_illyrian.001.optout:0 "Maybe now isn't the right time"
+
 
 #Choose your main deity Mithraic Mysteries
 mm_cmd.001.t:0 "Choose main deity"

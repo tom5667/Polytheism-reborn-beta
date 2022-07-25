@@ -153,7 +153,7 @@
 		}
 		else_if={
 			limit={
-				OR={
+				OR={#gaulish polytheism
 					culture = culture:french
 					culture = culture:occitan
 				}
@@ -164,7 +164,7 @@
 		}
 		else_if={
 			limit={
-				OR={
+				OR={ #Celtic Iberean
 					culture = culture:castilian
 					culture = culture:catalan
 					culture = culture:portuguese
@@ -180,10 +180,10 @@
 		}
 		else_if={
 			limit={
-				OR={
+				OR={ # anglo saxon polytheism
 					culture = culture:anglo_saxon
-					culture = culture:old_saxon
-					culture = culture:saxon 
+					culture = culture:old_saxon	
+					culture = culture:english 		
 				}
 			}
 			trigger_event = anglo_saxon_return.001 
@@ -191,7 +191,7 @@
 			save_scope_as = actor
 		}
 		else_if={
-			limit={
+			limit={ # german polytheism
 				OR={
 					culture = culture:frankish
 					culture = culture:franconian
@@ -199,6 +199,7 @@
 					culture = culture:bavarian
 					culture = culture:frisian
 					culture = culture:dutch 
+					culture = culture:saxon 
 				}
 			}
 			trigger_event = g_r.001 
