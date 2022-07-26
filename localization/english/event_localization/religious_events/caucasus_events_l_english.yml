@@ -18,3 +18,37 @@ caucasus.002.nvard:0 "Nvard"
 caucasus.002.optout:0 "Maybe now isn't the right time"
 
 
+#Return events
+caucasus.003.t:0 "Travel to Uplistsikhe"
+caucasus.003.desc:0 "A few days ago some of my friends found an ancient temple in Uplistsikhe, they asked me if I would come and join them in exploring the temple and the ancient city. After we arrived and doing some minor searching around the temple we decided to eat something first"
+caucasus.003.a:0 "Eat dinner"
+
+caucasus.004.t:0 "Temple remains Uplistsikhe"
+caucasus.004.desc:0 "After dinner, we go further look around the old ancient city. As the night came and we got to sleep I got a vision about god shape creatures could it be true they come to me in sleep and are they Georgian or Armenian ? Maybe we need to go to Garni after this or is this just a strange dream? On the other hand we can stay here from some more research"
+caucasus.004.georgian:0 "It were cleary the Georgian gods"
+caucasus.004.armenian:0 "Travel to the temple of Garni"
+caucasus.004.optout:0 "My faith is stronger than strange dreams"
+
+caucasus.005.t:0 "Conversion"
+caucasus.005.desc:0 "Days of research in the temple gave us much more insight of the old religion of the Georgians. That night followed another vision, It was no dream it was a real vision
+caucasus.005.georgian:0 "Now I know it for sure"
+
+caucasus.006.t:0 "Conversion"
+caucasus.006.desc:0 "Days of research in the temple of Garni gave us much more insight of the old religion of the Armenians. That night followed another vision th, again, It was no dream it was a real vision "
+caucasus.006.armenian:0 "Now I know it for sure"
+
+#Georgian state religion 
+caucasus.007.t:0 "Change state religion"
+
+caucasus.007.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion"
+caucasus.007.a:0 "Proclaim the new state religion"
+
+caucasus.007.t:0 "State religion changed"
+
+#Armenian state religion 
+caucasus.009.t:0 "Change state religion"
+
+caucasus.009.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion"
+caucasus.009.a:0 "Proclaim the new state religion"
+
+caucasus.009.t:0 "State religion changed"

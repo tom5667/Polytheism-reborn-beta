@@ -1,34 +1,5 @@
 ﻿l_english:
 
-#Return Cultus deorum event localization 
-# cdr.001.t:0 "Travel to Athens"
-# cdr.001.desc:0 "After reaching the library of athens i started reading old scriptures with information about the so named pagan romans"
-# cdr.001.a:0 "Interesting"
-
-# cdr.002.t:0 "Library of Athens"
-# cdr.002.desc:0 "You have read the finding. So the Romans did offer to god's like Iupiter and Iuno via rituals and ceremonies? and did have a pontifex maximus. the pope? hmm strange"
-# cdr.002.a:0 "I need to know more"
-# cdr.002.b:0 "Great but this is al I want to know"
-
-# cdr.003.t:0 "Study tempels within the empire"
-# cdr.003.desc:0 "Gather a team of historians and workers to search ancient temples in the realm, And study their texts, artifacts and burried offers"
-# cdr.003.a:0 "Let's go"
-
-# cdr.004.t:0 "Return of the historians"
-# cdr.004.desc:0 "In the evening the team of historians returned with their findings." 
-# cdr.004.a:0 "Proceed" 
-
-# cdr.005.t:0 "Findings"
-# cdr.005.desc:0 "Their findings are realy interesting, The offerings if not burned where stored underneath the tempels. So what now?"
-# cdr.005.a:0 "Make first private offer"
-# cdr.005.b:0 "Let's stop before anyone finds out (last chance)"
-
-# cdr.006.t:0 "Final Preparations"
-# cdr.006.desc:0 "Let's start my first ritual at my newly created lararium, Most important thing of this first ritual is inviting them via this ritual in my household. and ask them to guide me in de comming days"
-# cdr.006.a:0 "Convert to Cultus Deorum"
-
-
-
 #Cultus Deorum state religion event localization
 cdr_sr.001.t:0 "Change state religion"
 
@@ -381,3 +352,31 @@ cdr_erc.001.a:0 "Embrace the roman culture"
   restore_altar.001.desc:0 "I take a deep breath when i stand before the senate doors. Inside a senate who is more devided than ever christians, polytheists who accept or not accept others beliefs and here i am with a proposition to bring back the altar of Victoria to the senate building."
   restore_altar.001.a:0 "Enter the senate"
 
+  restore_altar.002.t:0 "The Senate"
+  restore_altar.002.desc:0 "As expected the Christians werren't verry fond of the idea of bringing back the altar. It's a shame they are so against bringing back something what placed here by Emperor Augustus himself, so we could offer to the gods for wealthfare of the empire It was even used to take oaths to the new emperors.\n\nAs the christians in the senate start to get engry, it's time to start the voting"
+  restore_altar.002.a:0 "Start the voting"
+
+  restore_altar.003.t:0 "The voting"
+  restore_altar.003.desc:0 "Of course this is creating new problems but at the verry least they voted. As the where counted most of the senate was for the return of the altar. Some of the Christian senators were so angry they start running towards me with daggers, have to say didn't know those things where allowed here... "
+  restore_altar.003.a:0 "Guards!!!"
+
+  restore_altar.004.t:0 "The voting"
+  restore_altar.004.desc:0 "Of course this is creating new problems but at the verry least they voted. As the where counted most of the senate was for the return of the altar. Some of the Christian senators were so angry they start running towards me with daggers, have to say didn't know those things where allowed here... "
+  restore_altar.004.a:0 "Guards!!!"
+
+
+  restore_altar.005.t:0 "Go to the senate"
+  restore_altar.005.desc:0 "I take a deep breath when i stand before the senate doors. Inside a senate who is more devided than ever christians, polytheists who accept or not accept others beliefs and here i am with a proposition to bring back the altar of Victoria to the senate building."
+  restore_altar.005.a:0 "Enter the senate"
+
+  restore_altar.006.t:0 "The Senate"
+  restore_altar.006.desc:0 "As expected the Christians werren't verry fond of the idea of bringing back the altar. It's a shame they are so against bringing back something what placed here by Emperor Augustus himself, so we could offer to the gods for wealthfare of the empire It was even used to take oaths to the new emperors.\n\nAs the christians in the senate start to get engry, it's time to start the voting"
+  restore_altar.006.a:0 "Start the voting"
+
+  restore_altar.007.t:0 "The voting"
+  restore_altar.007.desc:0 "Of course this is creating new problems but at the verry least they voted. As the where counted most of the senate was for the return of the altar. Some of the Christian senators were so angry they start running towards me with daggers, have to say didn't know those things where allowed here... "
+  restore_altar.007.a:0 "Guards!!!"
+
+  restore_altar.008.t:0 "The attack"
+  restore_altar.008.desc:0 "By $cdr_polytheism_high_god_name$ can we all calm down here! Now the guards have secured the senate, the christians calmed down. So where were we ah yeah as the voting has spoken the altar of victory will be returned to the senetal building effective emediatly"
+  restore_altar.008.a:0 "Bring back the altar"

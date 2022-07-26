@@ -665,3 +665,16 @@ roman_illyrian_latra = {
 	christianity_religion_opinion = -5
 	islam_religion_opinion  = -5
 }
+
+#Returned altar of victory
+returned_altar_of_victory = {
+	icon = outdoors_positive
+	prestige = 0.1
+	piety = 0.1
+	religious_head_opinion = 5
+	same_faith_opinion = 5
+	direct_vassal_opinion = 10
+
+	christianity_religion_opinion = -10
+	islam_religion_opinion = -10
+}

@@ -1389,51 +1389,218 @@ roman_illyrian.001 = {
 #Pater
 
 
-# restore_altar.001={
-# 	type = character_event
-# 	title = restore_altar.001.t
-# 	desc = restore_altar.001.desc
-# 	theme = realm
-# 	right_portrait = {
-# 		character = root
-# 		animation = personality_content
-# 	}
-# 	immediate = {
-# 		hidden_effect = {
-# 		 create_character = {
-# 			employer = root
-# 			template = senatenator_character
-# 			random_traits = no 
-# 			faith = faith:chalcedonian
-# 			gender = male
-# 			age = 30
-# 			save_scope_as = roman_senator
-# 		 		}
-# 			}
-# 		}
-# 		option = {
-# 			name = restore_altar.001.a
-# 			trigger_event = restore_altar.002
-# 	}
-# }
+ restore_altar.001={
+ 	type = character_event
+ 	title = restore_altar.001.t
+ 	desc = restore_altar.001.desc
+ 	theme = realm
+ 	right_portrait = {
+ 		character = root
+ 		animation = personality_content
+ 	}
+ 	immediate = {
+ 		hidden_effect = {
+ 		 create_character = {
+ 			employer = root
+ 			template = senatenator_character
+ 			random_traits = no 
+ 			faith = faith:chalcedonian
+ 			gender = male
+ 			age = 30
+ 			save_scope_as = roman_senator
+ 		 		}
+ 			}
+ 		}
+		 immediate = {
+			hidden_effect = {
+			 create_character = {
+				employer = root
+				template = senatenator_character
+				random_traits = no 
+				faith = faith:chalcedonian
+				gender = male
+				age = 25
+				save_scope_as = roman_senator_1
+					 }
+				}
+			}
+ 		option = {
+ 			name = restore_altar.001.a
+ 			trigger_event = restore_altar.002
+ 	}
+ }
 
-# restore_altar.002 ={
-# 	type = character_event
-# 	title = restore_altar.002.t
-# 	desc = restore_altar.002.desc
-# 	theme = realm
-# 	right_portrait = {
-# 		character = root
-# 		animation = personality_content
-# 	}
-# 	left_portrait ={
-# 		character = scope:roman_senator
-# 		animation = anger
-# 	} 
-# 	option = {
-# 		name = restore_altar.002.a
-# 	}
-# 	option = {
-# 		name = restore_altar.002.b
-# 	}
-# }
+ restore_altar.002 ={
+ 	type = character_event
+ 	title = restore_altar.002.t
+ 	desc = restore_altar.002.desc
+ 	theme = realm
+ 	right_portrait = {
+ 		character = root
+ 		animation = personality_content
+ 	}
+ 	left_portrait ={
+ 		character = scope:roman_senator
+ 		animation = anger
+ 	} 
+ 	option = {
+ 		name = restore_altar.002.a
+		 trigger_event = restore_altar.003
+ 	}
+
+ }
+ restore_altar.003 ={
+	type = character_event
+	title = restore_altar.003.t
+	desc = restore_altar.003.desc
+	theme = realm
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait ={
+		character = scope:roman_senator
+		animation = anger
+	} 
+	option = {
+		name = restore_altar.003.a
+		trigger_event = restore_altar.004
+		imprison_character_effect = {
+			TARGET = scope:roman_senator
+			IMPRISONER = root
+		}
+	}
+
+}
+
+restore_altar.004 ={
+	type = character_event
+	title = restore_altar.004.t
+	desc = restore_altar.004.desc
+	theme = realm
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	lower_left_portrait ={
+		character = scope:roman_senator
+		animation = anger
+	} 
+	lower_center_portrait = {
+		character = scope:roman_senator_1
+		animation = fear
+	}
+	option = {
+		name = restore_altar.004.a
+		add_character_modifier = returned_altar_of_victory
+	}
+
+}
+
+
+ restore_altar.005={
+	type = character_event
+	title = restore_altar.005.t
+	desc = restore_altar.005.desc
+	theme = realm
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	immediate = {
+		hidden_effect = {
+		 create_character = {
+			employer = root
+			template = senatenator_character
+			random_traits = no 
+			faith = faith:catholic
+			gender = male
+			trait = zealous
+			age = 30
+			save_scope_as = roman_senator
+				 }
+			}
+		}
+		immediate = {
+			hidden_effect = {
+			 create_character = {
+				employer = root
+				template = senatenator_character
+				random_traits = no 
+				faith = faith:catholic
+				gender = male
+				age = 25
+				save_scope_as = roman_senator_1
+					 }
+				}
+			}
+		option = {
+			name = restore_altar.005.a
+			trigger_event = restore_altar.006
+	}
+}
+
+restore_altar.006 ={
+	type = character_event
+	title = restore_altar.006.t
+	desc = restore_altar.006.desc
+	theme = realm
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait ={
+		character = scope:roman_senator
+		animation = anger
+	} 
+	option = {
+		name = restore_altar.006.a
+		trigger_event = restore_altar.007
+	}
+}
+
+restore_altar.007 ={
+	type = character_event
+	title = restore_altar.007.t
+	desc = restore_altar.007.desc
+	theme = realm
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait ={
+		character = scope:roman_senator
+		animation = anger
+	} 
+	option = {
+		name = restore_altar.007.a
+		trigger_event = restore_altar.008
+		imprison_character_effect = {
+			TARGET = scope:roman_senator
+			IMPRISONER = root
+		}
+	}
+}
+
+restore_altar.008 ={
+	type = character_event
+	title = restore_altar.008.t
+	desc = restore_altar.008.desc
+	theme = realm
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	lower_left_portrait ={
+		character = scope:roman_senator
+		animation = anger
+	} 
+	lower_center_portrait = {
+		character = scope:roman_senator_1
+		animation = fear
+	}
+	option = {
+		name = restore_altar.008.a
+		add_character_modifier = returned_altar_of_victory
+	}
+}

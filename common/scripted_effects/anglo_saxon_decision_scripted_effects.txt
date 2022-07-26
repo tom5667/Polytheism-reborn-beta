@@ -12,7 +12,7 @@
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	
 	#byzantine_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_anglo_saxon_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_anglo_saxon_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -55,9 +55,9 @@
 				tier = tier_county
 				faith = faith:anglo_saxon_polytheism
 			}
-			custom = germanic_resettlement.every_converted_province
+			custom = anglo_saxon_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = germanic_appreciation_modifier
+				modifier = anglo_saxon_appreciation_modifier
 				years = 25
 			}
 		}
@@ -82,7 +82,7 @@ return_g_sr_decision_scripted_effect = {
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	
 	#byzantine_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_german_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_german_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -125,9 +125,9 @@ return_g_sr_decision_scripted_effect = {
 				tier = tier_county
 				faith = faith:german_polytheism
 			}
-			custom = germanic_resettlement.every_converted_province
+			custom = german_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = germanic_appreciation_modifier
+				modifier = german_appreciation_modifier
 				years = 25
 			}
 		}

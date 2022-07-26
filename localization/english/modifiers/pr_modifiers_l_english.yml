@@ -214,3 +214,7 @@ winter_solstice:0 "Held Winter Solstice"
 summer_solstice_celtic:0 "Held Summer Solstice"
 winter_solstice_celtic:0 "Held Winter Solstice"
 saturnalia:0 "Celebrated Saturnalia"
+
+#altar of victory
+returned_altar_of_victory:0 "Returned altar of Victory"
+returned_altar_of_victory_desc:0 "Altar of victory commissioned by Emperor Augustus and placed in the senate building, The altar was used to bring offers for the welfare of the Roman Empire and make oath's to the Emperor\n\n" 

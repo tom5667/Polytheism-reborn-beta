@@ -917,47 +917,68 @@ choose_main_deity_roman_illyrian_decision = {
 # 	}
 # }
 
+ restore_altar_of_victoria = {
+     picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+ 	major =  yes
+ 	desc = restore_altar_of_victoria_desc
+ 	is_shown = {
+ 		is_ai = no
+ 		is_landed = yes
+ 		has_religion = religion:hellenism_religion
+ 		has_culture = culture:roman
+ 		NOR = { 
+ 			is_target_in_global_variable_list = {
+ 					name = unavailable_unique_decisions
+ 					target = flag:flag_restored_altar_ra	
+ 				}
+ 			}
+ 	}
+ 	is_valid = {
+ 		completely_controls = title:c_roma
+ 		has_religion = religion:hellenism_religion
 
+ 	}
+ 	is_valid_showing_failures_only = {
+ 		is_capable_adult = yes
+ 		is_imprisoned = no
+ 		is_at_war = no
+ 		is_independent_ruler = yes
+ 	}
+ 	cost = {
+ 		gold = 1000
+ 	}
+ 	effect = {
+		if = { 
+			limit = {
+				current_date <= 500.1.1
+			}
+ 		trigger_event = restore_altar.001
+ 		save_scope_as = actor
+			hidden_effect = {
+				add_to_global_variable_list = {
+					name = unavailable_unique_decisions
+					target = flag:flag_restored_altar_ra
+ 				}
+				
+ 			}
+		}
+		else_if ={
+			limit = {
+				current_date >= 500.1.1
+			}
+			trigger_event = restore_altar.005
+			save_scope_as = actor
+			   hidden_effect = {
+				   add_to_global_variable_list = {
+					   name = unavailable_unique_decisions
+					   target = flag:flag_restored_altar_ra
+					}
+				}
+		}
+ 	}
+	 ai_check_interval = 96
 
-# restore_altar_of_victoria = {
-#     picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
-# 	major =  yes
-# 	desc = restore_altar_of_victoria_desc
-# 	is_shown = {
-# 		is_ai = no
-# 		is_landed = yes
-# 		has_religion = religion:hellenism_religion
-# 		has_culture = culture:roman
-# 		NOR = { 
-# 			is_target_in_global_variable_list = {
-# 					name = unavailable_unique_decisions
-# 					target = flag:flag_restored_altar_ra	
-# 				}
-# 			}
-# 	}
-# 	is_valid = {
-# 		completely_controls = title:c_roma
-# 		has_religion = religion:hellenism_religion
-
-# 	}
-# 	is_valid_showing_failures_only = {
-# 		is_capable_adult = yes
-# 		is_imprisoned = no
-# 		is_at_war = no
-# 		is_independent_ruler = yes
-# 	}
-# 	cost = {
-# 		gold = 1000
-# 	}
-# 	effect = {
-# 		trigger_event = restore_altar.001
-# 		save_scope_as = actor
-# 		hidden_effect = {
-# 			add_to_global_variable_list = {
-# 				name = unavailable_unique_decisions
-# 				target = flag:flag_restored_altar_ra
-# 			}
-# 		}
-# 	}
-#   ai_check_interval = 0
-# }
+	 ai_will_do = {
+		base = 100
+	}
+ }

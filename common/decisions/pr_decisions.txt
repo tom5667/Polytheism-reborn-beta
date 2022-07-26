@@ -50,6 +50,8 @@
 			culture = culture:bulgarian
 			culture = culture:vlach
 			culture = culture:pecheneg
+			culture = culture:georgian
+			culture = culture:armenian
 		}
 		AND={
 			OR={			
@@ -215,15 +217,28 @@
 		}
 		else_if={
 			limit = {
-				culture = culture:bulgarian
-				culture = culture:vlach
-				culture = culture:pecheneg
+				OR ={
+					culture = culture:bulgarian
+					culture = culture:vlach
+					culture = culture:pecheneg
+				}
 			}
 			trigger_event = d_r.001 
 			add_trait = pilgrim
 			save_scope_as = actor
 		}
-	
+		else_if = {
+			limit = {
+				OR ={
+					culture = culture:georgian
+					culture = culture:armenian
+				}
+			}
+			trigger_event = caucasus.003
+			add_trait = pilgrim
+			save_scope_as = actor
+		}
+
 		hidden_effect = {
 			add_to_global_variable_list ={
 				name = unavailable_unique_decisions_convert

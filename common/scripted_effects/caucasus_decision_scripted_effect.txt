@@ -1,31 +1,32 @@
-﻿return_kemetic_sr_decision_scripted_effect = {
-	#Change yourself, and any willing vassals/family, over to Gaelic polytheism.
+﻿#Georgian scripted effect 
+return_georgian_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Georgian polytheism.
 
-	set_character_faith_with_conversion = faith:kemetic_polytheism
+	set_character_faith_with_conversion = faith:georgian_polytheism
 	
 	#Gain nickname for your troubles.
 	give_nickname = nick_the_apostate
 	#give trait restored Gaelic polytheism as state religion trait
-	add_trait = kemetic_state_religion
+	#add_trait = mesopotamian_state_religion
 	add_trait = zealous
 	remove_trait = pilgrim
 	clear_global_variable_list = unavailable_unique_decisions_convert
-	#berbergroup counties of your old religion may defect back to the old ways.
-	#custom_tooltip = return_kemetic_sr_decision_scripted_effect.county_conversions.tt
+	# counties of your old religion may defect back to the old ways.
+	#custom_tooltip = revive_magyar_paganism_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
 				limit = {
 					tier = tier_county
-					culture_group = culture_group:arabic_group
+					culture_group = culture_group:byzantine
 					religion = scope:old_faith.religion
 				}
 				#egyptian remember the old ways best, and have a high chance to flip.
 				if = {
-					limit = { culture = culture:egyptian }
+					limit = { culture = culture:georgian}
 					random = {
 						chance = 45
-						set_county_faith = faith:kemetic_polytheism
+						set_county_faith = faith:georgian_polytheism
 					}
 				}
 				#Slightly up the chances for the apostate.
@@ -33,14 +34,14 @@
 					limit = { holder = root }
 					random = {
 						chance = 35
-						set_county_faith = faith:kemetic_polytheism
+						set_county_faith = faith:georgian_polytheism
 					}
 				}
 				#Other berber cultures still have a moderate chance to flip.
 				else = {
 					random = {
 						chance = 15
-						set_county_faith = faith:kemetic_polytheism
+						set_county_faith = faith:georgian_polytheism
 					}
 				}
 			}
@@ -51,49 +52,50 @@
 		every_in_de_facto_hierarchy = {
 			limit = {
 				tier = tier_county
-				faith = faith:kemetic_polytheism
+				faith = faith:georgian_polytheism
 			}
-			custom = kemetic_resettlement.every_converted_province
+			custom = georgian_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = kemetic_appreciation_modifier
+				modifier = georgian_appreciation_modifier
 				years = 25
 			}
 		}
 	}
 	#Finally, give kemetic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
 	# hidden_effect = {
-	# 	faith:kemetic_polytheism = { change_fervor = 100 }
+	# 	faith:georgian_polytheism = { change_fervor = 100 }
 	# }
 }
 
-return_atenism_sr_decision_scripted_effect = {
-	#Change yourself, and any willing vassals/family, over to Gaelic polytheism.
+#Armenian scripted effect
+return_armenian_sr_decision_scripted_effect = {
+	#Change yourself, and any willing vassals/family, over to Georgian polytheism.
 
-	set_character_faith_with_conversion = faith:atenism
+	set_character_faith_with_conversion = faith:armenian_polytheism
 	
 	#Gain nickname for your troubles.
 	give_nickname = nick_the_apostate
 	#give trait restored Gaelic polytheism as state religion trait
-	add_trait = atenism_state_religion
+	#add_trait = mesopotamian_state_religion
 	add_trait = zealous
 	remove_trait = pilgrim
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	#berbergroup counties of your old religion may defect back to the old ways.
-	#custom_tooltip = return_atenism_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_armenian_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
 				limit = {
 					tier = tier_county
-					culture_group = culture_group:arabic_group
+					culture_group = culture_group:byzantine
 					religion = scope:old_faith.religion
 				}
 				#egyptian remember the old ways best, and have a high chance to flip.
 				if = {
-					limit = { culture = culture:egyptian }
+					limit = { culture = culture:armenian}
 					random = {
 						chance = 45
-						set_county_faith = faith:atenism
+						set_county_faith = faith:armenian_polytheism
 					}
 				}
 				#Slightly up the chances for the apostate.
@@ -101,14 +103,14 @@ return_atenism_sr_decision_scripted_effect = {
 					limit = { holder = root }
 					random = {
 						chance = 35
-						set_county_faith = faith:atenism
+						set_county_faith = faith:armenian_polytheism
 					}
 				}
 				#Other berber cultures still have a moderate chance to flip.
 				else = {
 					random = {
 						chance = 15
-						set_county_faith = faith:atenism
+						set_county_faith = faith:armenian_polytheism
 					}
 				}
 			}
@@ -119,25 +121,17 @@ return_atenism_sr_decision_scripted_effect = {
 		every_in_de_facto_hierarchy = {
 			limit = {
 				tier = tier_county
-				faith = faith:atenism
+				faith = faith:armenian_polytheism
 			}
-			custom = atenism_resettlement.every_converted_province
+			custom = armenian_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = atenism_appreciation_modifier
+				modifier = armenian_appreciation_modifier
 				years = 25
 			}
 		}
 	}
-	#Finally, give atenism_polytheist a hefty fervour boost, just so that they don't immediately convert back.
+	#Finally, give kemetic_polytheist a hefty fervour boost, just so that they don't immediately convert back.
 	# hidden_effect = {
-	# 	faith:atenism_polytheism = { change_fervor = 100 }
+	# 	faith:armenian_polytheism = { change_fervor = 100 }
 	# }
 }
-
-
-
-
-
-
-
-

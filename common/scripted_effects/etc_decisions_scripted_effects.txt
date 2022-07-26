@@ -11,7 +11,7 @@
 	remove_trait = pilgrim 
 	clear_global_variable_list = unavailable_unique_decisions_etc
 	#byzantine_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_etc_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_etc_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -56,7 +56,7 @@
 			}
 			custom = etruscan_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = roman_appreciation_modifier
+				modifier = etruscan_appreciation_modifier
 				years = 25
 			}
 		}

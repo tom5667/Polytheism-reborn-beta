@@ -12,7 +12,7 @@
 	clear_global_variable_list = unavailable_unique_decisions_convert
 
 	#byzantine_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_cdr_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_cdr_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -81,7 +81,7 @@ return_hellenismos_sr_decision_scripted_effect = {
 	remove_trait = pilgrim 
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	#byzantine_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_hellenismos_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_hellenismos_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -124,9 +124,9 @@ return_hellenismos_sr_decision_scripted_effect = {
 				tier = tier_county
 				faith = faith:hellenic_pagan
 			}
-			custom = greek_resettlement.every_converted_province
+			custom = hellenismos_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = greek_appreciation_modifier
+				modifier = hellenismos_appreciation_modifier
 				years = 25
 			}
 		}
@@ -151,7 +151,7 @@ return_julian_sr_decision_scripted_effect = {
 	remove_trait = pilgrim 
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	#byzantine_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_julian_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_julian_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -194,9 +194,9 @@ return_julian_sr_decision_scripted_effect = {
 				tier = tier_county
 				faith = faith:julians_polytheism
 			}
-			custom = greek_resettlement.every_converted_province
+			custom = greco_roman_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = greek_appreciation_modifier
+				modifier = greco_roman_appreciation_modifier
 				years = 25
 			}
 		}

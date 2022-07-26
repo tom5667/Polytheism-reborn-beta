@@ -11,7 +11,7 @@
 	remove_trait = pilgrim
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	#goidelic_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_gp_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_gp_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -81,7 +81,7 @@ return_bp_sr_decision_scripted_effect = {
 	remove_trait = pilgrim
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	#brythonic_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -151,7 +151,7 @@ return_gl_sr_decision_scripted_effect = {
 	remove_trait = pilgrim
     clear_global_variable_list = unavailable_unique_decisions_convert
 	#frankish_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -221,7 +221,7 @@ return_ci_sr_decision_scripted_effect = {
 	remove_trait = pilgrim
     clear_global_variable_list = unavailable_unique_decisions_convert
 	#brythonic_group counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_bp_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {

@@ -11,7 +11,7 @@
 	remove_trait = pilgrim
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	#berbergroup counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_d_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_d_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -81,7 +81,7 @@ return_zalmoxism_sr_decision_scripted_effect = {
 	remove_trait = pilgrim
 	clear_global_variable_list = unavailable_unique_decisions_convert
 	#berbergroup counties of your old religion may defect back to the old ways.
-	custom_tooltip = return_zalmoxism_sr_decision_scripted_effect.county_conversions.tt
+	#custom_tooltip = return_zalmoxism_sr_decision_scripted_effect.county_conversions.tt
 	hidden_effect = {
 		primary_title = {
 			every_in_de_facto_hierarchy = {
@@ -123,9 +123,9 @@ return_zalmoxism_sr_decision_scripted_effect = {
 				tier = tier_county
 				faith = faith:zalmoxism
 			}
-			custom = zalmoxis_resettlement.every_converted_province
+			custom = zalmoxism_resettlement.every_converted_province
 			add_county_modifier = {
-				modifier = zalmoxis_appreciation_modifier
+				modifier = zalmoxism_appreciation_modifier
 				years = 25
 			}
 		}
