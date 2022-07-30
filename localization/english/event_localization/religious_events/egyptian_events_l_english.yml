@@ -78,3 +78,10 @@ kemetic_cmd.001.e:0 "I choose Hathor"
 kemetic_cmd.001.f:0 "Maybe this isn't the right time"
 
 
+kemetic.006.t:0 "Shema"
+kemetic.006.desc:0 "Text will be added later"
+kemetic.006.a:0 "Create Shema"
+
+kemetic.007.t:0 "Mehu"
+kemetic.007.desc:0 "Text will be added later"
+kemetic.007.a:0 "Create Mehu"
