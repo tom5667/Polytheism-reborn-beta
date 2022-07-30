@@ -11,7 +11,7 @@ gp.002.a:0 "I need to know more"
 gp.002.b:0 "Great but this is al I want to know"
 
 gp.003.t:0 "Study monuments at hill of Tara"
-gp.003.desc:0 "After some time spended on hill of Tara and exploring the mound of the hostages. at that time group of people came to me and asked if would be interested in knowing the history and rituals "
+gp.003.desc:0 "After some time spended on hill of Tara and exploring the mound of the hostages. at that time group of people came to me and asked if would be interested in knowing the history and rituals."
 gp.003.a:0 "Let's hear what they have to say"
 gp.003.b:0 "Great but this is al I want to know"
 
@@ -20,7 +20,7 @@ gp.004.desc:0 "They talked about Tuatha de Danann an ancient race who lived here
 gp.004.a:0 "Watch their ritual"
 
 gp.005.t:0 "Final"
-gp.005.desc:0 "After watching the ritual, they asked me if would like to "
+gp.005.desc:0 "After watching the ritual, they asked me if would like to."
 gp.005.a:0 "Hold ritual and make choice convert"
 gp.005.b:0 "Let's stop before anyone finds out (last chance)"
 
@@ -37,7 +37,7 @@ bp.002.b:0 "Great but this is al I want to know"
 
 bp.003.t:0 "Study the stonehenge"
 bp.003.desc:0 "After some time spended by the stonehenge. After some time a group of people came to me and asked if would be interested in knowing the history and rituals "
-bp.003.a:0 "Let's hear what they have to say"
+bp.003.a:0 "Let's hear what they have to say."
 bp.003.b:0 "Great but this is al I want to know"
 
 bp.004.t:0 "after talking with the group"
@@ -45,31 +45,31 @@ bp.004.desc:0 "They talked about Tuatha de Danann an ancient race who lived here
 bp.004.a:0 "Watch their ritual"
 
 bp.005.t:0 "Final"
-bp.005.desc:0 "After watching the ritual, they asked me if would like to "
+bp.005.desc:0 "After watching the ritual, they asked me if would like to."
 bp.005.a:0 "Hold ritual and make choice convert"
 bp.005.b:0 "Let's stop before anyone finds out (last chance)"
 
 #Return Gaulish polytheism event localization 
 gl.001.t:0 "Travel trough realm"
-gl.001.desc:0 "it's difficult to get to the true gaulish polytheism because they had a lot of syncrtism with the roman religion, Only thing i can do is travel trough France. and visit old sacred groves and maybe even visit outside the realm the place aachen in roman times aquis granum"
+gl.001.desc:0 "it's difficult to get to the true gaulish polytheism because they had a lot of syncrtism with the roman religion, Only thing i can do is travel trough France. and visit old sacred groves and maybe even visit outside the realm the place aachen in roman times aquis granum."
 gl.001.a:0 "let's go"
 
 gl.002.t:0 "After visiting some sacred groves"
-gl.002.desc:0 "After visiting some groves i ended up in aachen, It sounds strange but i feel like there is some kind of strange power here. there is an underearth water spring that was holy for the old celts alth"
+gl.002.desc:0 "After visiting some groves i ended up in aachen, It sounds strange but i feel like there is some kind of strange power here. there is an underearth water spring that was holy for the old celts alth."
 gl.002.a:0 "I need to know more"
 gl.002.b:0 "Great but this is al I want to know"
 
 gl.003.t:0 "Walk trough aachen"
-gl.003.desc:0 "After some time spended in aachen. litle later a group of people came to me and asked if would be interested in knowing the history the celts who lived here and rituals they held for granus"
+gl.003.desc:0 "After some time spended in aachen. litle later a group of people came to me and asked if would be interested in knowing the history the celts who lived here and rituals they held for granus."
 gl.003.a:0 "Let's hear what they have to say"
 gl.003.b:0 "Great but this is al I want to know"
 
 gl.004.t:0 "after talking with the group"
-gl.004.desc:0 "They talked about Lugh, Tautatis and Granus the last god gave aachen the old name of aquis granum. It's evening and time for eating but there something strange going on they don't pray to god but make offers to more than one god"
+gl.004.desc:0 "They talked about Lugh, Tautatis and Granus the last god gave aachen the old name of aquis granum. It's evening and time for eating but there something strange going on they don't pray to god but make offers to more than one god."
 gl.004.a:0 "Watch their ritual"
 
 gl.005.t:0 "Final"
-gl.005.desc:0 "After watching the ritual, they asked me if would like to "
+gl.005.desc:0 "After watching the ritual, they asked me if would like to."
 gl.005.a:0 "Hold ritual and make choice convert"
 gl.005.b:0 "Let's stop before anyone finds out (last chance)"
 
@@ -78,12 +78,12 @@ gl.005.b:0 "Let's stop before anyone finds out (last chance)"
 #Gaelic state religion event localization
 gp_sr.001.t:0 "Change state religion"
 
-gp_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Gaelic polytheism as state religion. After a day of debating in the kings hall"
+gp_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Gaelic polytheism as state religion. After a day of debating in the kings hall."
 gp_sr.001.a:0 "Proclaim the new state religion"
 
 gp_sr.002.t:0 "State religion changed"
 
-gp_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+gp_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
 gp_sr.002.desc.vassals:0 "test vassals desc"
 gp_sr.002.desc_vanilla:0 "test vanilla desc"
 gp_sr.002.b:0 "Convert willing vassals"
@@ -97,12 +97,12 @@ return_gp_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassal
 #Brythonic state religion event localization
 bp_sr.001.t:0 "Change state religion"
 
-bp_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Brythonic polytheism as state religion. After a day of debating in the kings hall"
+bp_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Brythonic polytheism as state religion. After a day of debating in the kings hall."
 bp_sr.001.a:0 "Proclaim the new state religion"
 
 bp_sr.002.t:0 "State religion changed"
 
-bp_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+bp_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
 bp_sr.002.desc.vassals:0 "test vassals desc"
 bp_sr.002.desc_vanilla:0 "test vanilla desc"
 bp_sr.002.b:0 "Convert willing vassals"
@@ -114,12 +114,12 @@ return_bp_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassal
 #Gaulish state religion event localization
 gl_sr.001.t:0 "Change state religion"
 
-gl_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Brythonic polytheism as state religion. After a day of debating in the kings hall"
+gl_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Brythonic polytheism as state religion. After a day of debating in the kings hall."
 gl_sr.001.a:0 "Proclaim the new state religion"
 
 gl_sr.002.t:0 "State religion changed"
 
-gl_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+gl_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
 gl_sr.002.desc.vassals:0 "test vassals desc"
 gl_sr.002.desc_vanilla:0 "test vanilla desc"
 gl_sr.002.b:0 "Convert willing vassals"
@@ -130,11 +130,11 @@ return_gl_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassal
 
 #Celtic Iberian state religion event localization
 ci_sr.001.t:0 "Change state religion"
-ci_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Celtic Iberian polytheism as state religion. After a day of debating in the kings hall"
+ci_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Celtic Iberian polytheism as state religion. After a day of debating in the kings hall."
 ci_sr.001.a:0 "Proclaim the new state religion"
 ci_sr.002.t:0 "State religion changed"
 
-ci_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+ci_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
 ci_sr.002.desc.vassals:0 "test vassals desc"
 ci_sr.002.desc_vanilla:0 "test vanilla desc"
 ci_sr.002.b:0 "Convert willing vassals"
@@ -145,25 +145,25 @@ return_ci_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassal
 
 #Return Celtic Iberian polytheism event localization 
 ci.001.t:0 "Travel trough realm"
-ci.001.desc:0 "it's difficult to get to the true celtic iberian polytheism because they had a lot of syncrtism with the roman religion, Only thing i can do is travel trough Iberia. and visit old sacred groves"
+ci.001.desc:0 "it's difficult to get to the true celtic iberian polytheism because they had a lot of syncrtism with the roman religion, Only thing i can do is travel trough Iberia. and visit old sacred groves."
 ci.001.a:0 "let's go"
 
 ci.002.t:0 "After visiting some sacred groves"
-ci.002.desc:0 "After visiting some groves, It sounds strange but i feel like there is some kind of strange power here. there is an underearth water spring that was holy for the old celts"
+ci.002.desc:0 "After visiting some groves, It sounds strange but i feel like there is some kind of strange power here. there is an underearth water spring that was holy for the old celts."
 ci.002.a:0 "I need to know more"
 ci.002.b:0 "Great but this is al I want to know"
 
 ci.003.t:0 "Walk trough the sacred grove"
-ci.003.desc:0 "After some time spended by the sacred grover. some time later a group of people came to me and asked if would be interested in knowing the history of the celts who lived here and rituals they held for Lugh and other gods and godesses"
+ci.003.desc:0 "After some time spended by the sacred grover. some time later a group of people came to me and asked if would be interested in knowing the history of the celts who lived here and rituals they held for Lugh and other gods and godesses."
 ci.003.a:0 "Let's hear what they have to say"
 ci.003.b:0 "Great but this is al I want to know"
 
 ci.004.t:0 "after talking with the group"
-ci.004.desc:0 "They talked about Lugh, Tautatis and Granus the last god gave aachen the old name of aquis granum. It's evening and time for eating but there something strange going on they don't pray to god but make offers to more than one god"
+ci.004.desc:0 "They talked about Lugh, Tautatis and Granus the last god gave aachen the old name of aquis granum. It's evening and time for eating but there something strange going on they don't pray to god but make offers to more than one god."
 ci.004.a:0 "Watch their ritual"
 
 ci.005.t:0 "Final"
-ci.005.desc:0 "After watching the ritual, they asked me if would like to "
+ci.005.desc:0 "After watching the ritual, they asked me if would like to."
 ci.005.a:0 "Hold ritual and make choice convert"
 ci.005.b:0 "Let's stop before anyone finds out (last chance)"
 
@@ -194,7 +194,7 @@ ci.005.b:0 "Let's stop before anyone finds out (last chance)"
  rhk.001.desc:0 "After years of fighting between all the Irish tribes and keeping out invidaders, It's finnaly time to Restore Ardrí na hÉireann also known as The Irish high kingdom."
  rhk.001.a:0 "Ardrí na hÉireann is once more"
  ccmd.001.t:0 "Choose main deity"
- ccmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ ccmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
  ccmd.001.an_dagda:0 "An Dagda"
  ccmd.001.lugh:0 "Lugh"
  ccmd.001.brigid:0 "Brigid"
@@ -203,7 +203,7 @@ ci.005.b:0 "Let's stop before anyone finds out (last chance)"
  ccmd.001.optout:0 "Maybe now isn't the right time"
 
  ccmd.002.t:0 "Choose main deity"
- ccmd.002.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ ccmd.002.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
  ccmd.002.taranis:0 "Taranis"
  ccmd.002.lugus:0 "Lugus"
  ccmd.002.arianrhod:0 "Arianrhod"
@@ -212,7 +212,7 @@ ci.005.b:0 "Let's stop before anyone finds out (last chance)"
  ccmd.002.optout:0 "Maybe now isn't the right time"
 
  ccmd.003.t:0 "Choose main deity"
- ccmd.003.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ ccmd.003.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
  ccmd.003.toutatis:0 "Toutatis"
  ccmd.003.lughus:0 "Lughus"
  ccmd.003.rosmerta:0 "Rosmerta"
@@ -221,7 +221,7 @@ ci.005.b:0 "Let's stop before anyone finds out (last chance)"
  ccmd.003.optout:0 "Maybe now isn't the right time"
 
  ccmd.004.t:0 "Choose main deity"
- ccmd.004.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+ ccmd.004.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
  ccmd.004.reue:0 "Reue"
  ccmd.004.arentius:0 "Arentius"
  ccmd.004.nabia:0 "Nabia" 
@@ -242,15 +242,15 @@ ci.005.b:0 "Let's stop before anyone finds out (last chance)"
  solstice.005.a:0 "Gather the realm for the Solstice"
 
  solstice.006.t:0 "Tairisem"
- solstice.006.desc:0 "Finaly mid-summer, time to start festivities for the goddess of the sun Éatain Eachraidhe to banish the demons and evil spirits from the land.\nMay her warmth grant us good harvest and may relationships be blessed"
+ solstice.006.desc:0 "Finaly mid-summer, time to start festivities for the goddess of the sun Éatain Eachraidhe to banish the demons and evil spirits from the land.\nMay her warmth grant us good harvest and may relationships be blessed."
  solstice.006.a:0 "Gather the realm for the Grainstad"
 
  solstice.007.t:0 "Alban Hefin"
- solstice.007.desc:0 "Finaly mid-summe, time to start festivities for the goddess of the sun Rhiannon to banish the demons and evil spirits from the land.\nMay her warmth grant us good harvest and may relationships be blessed"
+ solstice.007.desc:0 "Finaly mid-summe, time to start festivities for the goddess of the sun Rhiannon to banish the demons and evil spirits from the land.\nMay her warmth grant us good harvest and may relationships be blessed."
  solstice.007.a:0 "Gather the realm for the solstice"
 
  solstice.008.t:0 "Summer Solstice"
- solstice.008.desc:0 "Finaly mid-summer, time to start festivities for the goddess of the sun Epona to banish the demons and evil spirits from the land.\nMay her warmth grant us good harvest and may relationships be blessed"
+ solstice.008.desc:0 "Finaly mid-summer, time to start festivities for the goddess of the sun Epona to banish the demons and evil spirits from the land.\nMay her warmth grant us good harvest and may relationships be blessed."
  solstice.008.a:0 "Gather the realm for the solstice"
 
  #Embrace Manx culture 
@@ -267,5 +267,4 @@ ci.005.b:0 "Let's stop before anyone finds out (last chance)"
  celtic.003.t:0 "Embrace Gaulish Culture"
  celtic.003.desc:0 "For far to long we lost the old virtues of the Gauls."
  celtic.003.a:0 "Embrace the Gaulish culture"
-
 

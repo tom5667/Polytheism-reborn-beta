@@ -15,6 +15,6 @@ choose_main_deity_dacian_decision_tooltip:1 "Choose main god(dess)"
 choose_main_deity_dacian_decision_confirm:1 "Choose main god(dess)"
 
 dacian_edc_decision:0 "Embrace Daciand or Thracian Culture"
-dacian_edc_decision_desc:0 "We have our old religion back now it's time reintroduce the Dacian or Thracian virtues"
+dacian_edc_decision_desc:0 "We have our old religion back now it's time reintroduce the Dacian or Thracian virtues."
 dacian_edc_decision_tooltip:0 "Return one of the cultures"
 dacian_edc_decision_confirm:0 "confirm"

@@ -81,7 +81,7 @@
 				#  	modifier = hungarian_resettlement_modifier
 				#  	years = 100
 				#  }
-				custom_tooltip = promote_hungarian_settlement_decision_increased_development
+				#custom_tooltip = promote_hungarian_settlement_decision_increased_development
 				custom_tooltip = promote_gaelic_settlement_decision_convert_county
 				hidden_effect = {
 					
@@ -140,7 +140,7 @@
 				#  	modifier = hungarian_resettlement_modifier
 				#  	years = 100
 				#  }
-				custom_tooltip = promote_hungarian_settlement_decision_increased_development
+				#custom_tooltip = promote_hungarian_settlement_decision_increased_development
 				custom_tooltip = promote_gaelic_settlement_decision_convert_county
 				hidden_effect = {
 					
@@ -178,5 +178,4 @@
 		}
 		
 	}
-
 }

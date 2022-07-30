@@ -3,12 +3,12 @@
 #Cultus Deorum state religion event localization
 cdr_sr.001.t:0 "Change state religion"
 
-cdr_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Cultus Deorum as state religion. After a day of debating in the senate it's done"
+cdr_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Cultus Deorum as state religion. After a day of debating in the senate it's done."
 cdr_sr.001.a:0 "Proclaim the new state religion"
 
 cdr_sr.002.t:0 "State religion changed"
 
-cdr_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+cdr_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
 cdr_sr.002.desc.vassals:0 "test vassals desc"
 cdr_sr.002.desc_vanilla:0 "test vanilla desc"
 cdr_sr.002.b:0 "Convert willing vassals"
@@ -41,7 +41,7 @@ h_cmd.001.f:0 "Maybe now isn't the right time"
 
 #Choose main deity Roman Illyrian
 roman_illyrian.001.t:0 "Choose main deity"
-roman_illyrian.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+roman_illyrian.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
 roman_illyrian.001.jupiter_parthinus:0 "Jupiter Parthinus"
 roman_illyrian.001.anzotica:0 "Anzotica"
 roman_illyrian.001.armatus:0 "Armatus"
@@ -59,7 +59,7 @@ mm_cmd.001.b:0 "Maybe this isn't the right time"
 #reinstate gladiator games event localization
 cdr_rgg.001.t:0 "So how to begin ?"
 cdr_rgg.001.desc:0 "It will be a lot of work and gold to rebuild the lost glory of gladiator games, but it will be worth it. let's see first we need to build a arena"
-cdr_rgg.001.a:0 "it's a lot of gold hmm maybe a small arena"
+cdr_rgg.001.a:0 "it's a lot of gold hmm maybe a small arena."
 cdr_rgg.001.b:0 "Just rebuild it like in roman way no extra's"
 cdr_rgg.001.c:0 "Let's rebuild it just like the romans did wel maybe some extra's"
 cdr_rgg.001.d:0 "Maybe this isn't the right time"
@@ -70,13 +70,13 @@ cdr_rgg.001.a.tt:0 "Building the arena will take 2 years"
 cdr_rgg.001.a:0 "Start building"
 
 cdr_rgg.002.t:0 "finaly ready"
-cdr_rgg.002.desc:0 "After two years of work the arena is finaly ready, once again we can host gladiator games"
+cdr_rgg.002.desc:0 "After two years of work the arena is finaly ready, once again we can host gladiator games."
 cdr_rgg.002.a:0 "Great!"
 
 
 #Cultus Deorum ritual 
 cdr_r.001.t:0 "Preperations"
-cdr_r.001.desc:0 "First of al i need to collect everything i need, let's start with the toga to cover my head. after that i can collect a bowl with water. Wine, milk and some other things offer like fruit and last but not least two glases and a plate.\n\nsecond option is for players who don't want the walkthrough"
+cdr_r.001.desc:0 "First of al i need to collect everything i need, let's start with the toga to cover my head. after that i can collect a bowl with water. Wine, milk and some other things offer like fruit and last but not least two glases and a plate.\n\nsecond option is for players who don't want the walkthrough."
 cdr_r.001.a:0 "Let's do this step by step"
 cdr_r.001.b:0 "Skip the step by step"
 
@@ -150,16 +150,16 @@ cdr_erc.001.a:0 "Embrace the roman culture"
  #Hellenismos
  
  hellenismos.001.t:0 "Travel to Athens" 
- hellenismos.001.desc:0 "You are on the point to travel to the old library of Athens where the old scrols of Emperor Julian are stored"
+ hellenismos.001.desc:0 "You are on the point to travel to the old library of Athens where the old scrols of Emperor Julian are stored."
  hellenismos.001.a:0 "Interesting"
 
  hellenismos.002.t:0 "Library of Athens Part1"
- hellenismos.002.desc:0 "You arived at the old library of Athens where the old scrolls lay under a thick layer of dust you take them up clean them and start studying them, luckily you know greek so that's no problem"
+ hellenismos.002.desc:0 "You arived at the old library of Athens where the old scrolls lay under a thick layer of dust you take them up clean them and start studying them, luckily you know greek so that's no problem."
  hellenismos.002.a:0 "I need to know more"
  hellenismos.002.b:0 "Great but this is al I want to know"
 
  hellenismos.003.t:0 "After studying the first scroll you decide to take them home Part2"
- hellenismos.003.desc:0 "you return back home with the all the scrols of Emperor Julian"
+ hellenismos.003.desc:0 "you return back home with the all the scrols of Emperor Julian."
  hellenismos.003.a:0 "proceed"
 
  hellenismos.004.t:0 "How did Emperor Jullian think about polytheism Part3"
@@ -172,20 +172,19 @@ cdr_erc.001.a:0 "Embrace the roman culture"
  hellenismos.005.b:0 "Let's stop before anyone finds out (last chance)"
 
  hellenismos.006.t:0 "Final"
- hellenismos.006.desc:0 "Now i learned about the three religions I have to decide where my heart really lies"
+ hellenismos.006.desc:0 "Now i learned about the three religions I have to decide where my heart really lies."
  hellenismos.006.a:0 "Convert to Hellenismos"
  hellenismos.006.b:0 "Convert to Cultus Deorum"
  hellenismos.006.c:0 "Convert to Julians Polytheism"
 
  #Hellenismos state religion event localization
  hellenismos_sr.001.t:0 "Change state religion"
-
- hellenismos_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Hellenismos as state religion. After a day of debating in the senate it's done"
+ hellenismos_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Hellenismos as state religion. After a day of debating in the senate it's done."
  hellenismos_sr.001.a:0 "Proclaim the new state religion"
 
  hellenismos_sr.002.t:0 "State religion changed"
 
- hellenismos_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+ hellenismos_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
  hellenismos_sr.002.desc.vassals:0 "test vassals desc"
  hellenismos_sr.002.desc_vanilla:0 "test vanilla desc"
  hellenismos_sr.002.b:0 "Convert willing vassals"
@@ -197,12 +196,12 @@ cdr_erc.001.a:0 "Embrace the roman culture"
  #Greco Roman state religion event localization
  julian_sr.001.t:0 "Change state religion"
 
- julian_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Greco Roman polytheism as state religion. After a day of debating in the senate it's done"
+ julian_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back Greco Roman polytheism as state religion. After a day of debating in the senate it's done."
  julian_sr.001.a:0 "Proclaim the new state religion"
 
  julian_sr.002.t:0 "State religion changed"
 
- julian_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+ julian_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
  julian_sr.002.desc.vassals:0 "test vassals desc"
  julian_sr.002.desc_vanilla:0 "test vanilla desc"
  julian_sr.002.b:0 "Convert willing vassals"
@@ -218,11 +217,11 @@ cdr_erc.001.a:0 "Embrace the roman culture"
 
 
   cdr_otv.001.t:0 "Temple of Vesta opened"
-  cdr_otv.001.desc:0 "After centuries of closure the temple of vesta is open again, the flame is burning and the new vestal virgins are doing everything they can to keep the flame burning "
+  cdr_otv.001.desc:0 "After centuries of closure the temple of vesta is open again, the flame is burning and the new vestal virgins are doing everything they can to keep the flame burning."
   cdr_otv.001.a:0 "Finaly the ethernal flame burns again"
 
   saturnalia.001.t:0 "Saturnalia"
-  saturnalia.001.desc:0 "The 17th of december has finally come, all businesses are closed and all harvests are in. Today we honer Saturn and do we thank the gods for the harvest of this year. After we held the rituals we exchanged gifts with eachother and is it time for the festivities"
+  saturnalia.001.desc:0 "The 17th of december has finally come, all businesses are closed and all harvests are in. Today we honer Saturn and do we thank the gods for the harvest of this year. After we held the rituals we exchanged gifts with eachother and is it time for the festivities."
   saturnalia.001.a:0 "Gather the realm for Saturnalia"
 
   cult.001.t:0 "Cults"
@@ -237,44 +236,44 @@ cdr_erc.001.a:0 "Embrace the roman culture"
 
   #Join Mithras cult 
   cult.002.t:0 "The application"
-  cult.002.desc:0 "After reading how to get in contact with the cult I wrote a letter on why I would be a valueble asset to the cult\nAfter that I left the letter in the secret place by the well. Now I need to wait a few day's before I get an answer"
+  cult.002.desc:0 "After reading how to get in contact with the cult I wrote a letter on why I would be a valueble asset to the cult\nAfter that I left the letter in the secret place by the well. Now I need to wait a few day's before I get an answer."
   cult.002.a:0 "Let's wait and hope for the best"
 
   cult.003.t:0 "The answer"
-  cult.003.desc:0 "Some days later I returned to the place where I left the letter, between the stones sad a small letter with a text and\na location on where I will meet with them for the initiation into the cult"
+  cult.003.desc:0 "Some days later I returned to the place where I left the letter, between the stones sad a small letter with a text and\na location on where I will meet with them for the initiation into the cult."
   cult.003.a:0 "Go to the meeting place"
 
   cult.004.t:0 "The hidden location"
-  cult.004.desc:0 "Welcome welcome, so you are the one who send the application, great. Mithras god of war is beloved by the soldiers and many of them are part of this cult\nWe you too made some name for yourself so we are happy to say we can start the initiation "
-  cult_0004.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction./nWhat is known that it was a initiation proces of 7 the names of them are known so I will build on that"
+  cult.004.desc:0 "Welcome welcome, so you are the one who send the application, great. Mithras god of war is beloved by the soldiers and many of them are part of this cult\nWe you too made some name for yourself so we are happy to say we can start the initiation."
+  cult_0004.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction./nWhat is known that it was a initiation proces of 7 the names of them are known so I will build on that."
   cult.004.a:0 "Start the initiation"
 
   cult.005.t:0 "The initiation"
-  cult.005.desc:0 "We stand before the statue of Mithras, after following the 1st degree of initiations now take this knife and make a cut in your hand. After that let some drops of blood fall on the plate\n and say the following words, I swear I will always follow the ways of mithras and will never betray my brothers and sisters. A few moments later it's all done.\n\nYou're now part of the cult you start at the beginning as Corax"
+  cult.005.desc:0 "We stand before the statue of Mithras, after following the 1st degree of initiations now take this knife and make a cut in your hand. After that let some drops of blood fall on the plate\n and say the following words, I swear I will always follow the ways of mithras and will never betray my brothers and sisters. A few moments later it's all done.\n\nYou're now part of the cult you start at the beginning as Corax."
   cult.005.trait:0 "Finaly I'm part of the Mithras cult"
   cult.005.religion:0 "Finaly I'm part of the Mithras cult"
  
   #Standard decline answer 
   cult.006.t:0 "The answer"
-  cult.006.desc:0 "Some days later I returned to the place where I left the letter, between the stones sad a small letter with a text.\nWe have to decline the application you're not yet worthy of joining our cult"
+  cult.006.desc:0 "Some days later I returned to the place where I left the letter, between the stones sad a small letter with a text.\nWe have to decline the application you're not yet worthy of joining our cult."
   cult.006.a:0 "It's a shame"
 
   #Isis cult
   cult.007.t:0 "The dream"
-  cult.007.desc:0 "Some days ago I had a dream about a goddess, She told me to travel to Tithorea a city in greece. When I to go to the Isis temple there"
+  cult.007.desc:0 "Some days ago I had a dream about a goddess, She told me to travel to Tithorea a city in greece. When I to go to the Isis temple there."
   cult.007.a:0 "Travel to Tithorea"
 
   cult.008.t:0 "Arriving at Tithorea"
-  cult.008.desc:0 "I Finaly arrived in Tithorea and managed to find the temple of Isis there"
+  cult.008.desc:0 "I Finaly arrived in Tithorea and managed to find the temple of Isis there."
   cult.008.a:0 "Enter the temple"
 
   cult.009.t:0 "Temple of Isis"
-  cult.009.desc:0 "Welcome to the temple of The great mother goddess Isis./nAs you know she is goddess of healing and magic, So you say you saw the goddess in your dream and she told you to go here? good, after paying 100 gold you may proceed you will need to undergo the initiation. I want you to know that you still may honor other gods and goddesses next to Isis and this initiation will take 10 days. When you're ready we can start, follow me downstars further into the temple"
+  cult.009.desc:0 "Welcome to the temple of The great mother goddess Isis./nAs you know she is goddess of healing and magic, So you say you saw the goddess in your dream and she told you to go here? good, after paying 100 gold you may proceed you will need to undergo the initiation. I want you to know that you still may honor other gods and goddesses next to Isis and this initiation will take 10 days. When you're ready we can start, follow me downstars further into the temple."
   cult_009.a.tt:0 "Historical context, the real initiation has not been preserved, there are sources that say a initiation wasn't necessary.So it's a bit guessing and pure fiction."
   cult.009.a:0 "start the initiation"
 
   cult.010.t:0 "The initiation"
-  cult.010.desc:0 "Let's start the initiation, First we start with ritual purifications, in the meantime the priest asks for forgifness for my sins and sprinkels water on me./nAfter that I had to wait 10 days and abstraining from meat and wine, in the evening of the tenth day I got unspecified gifts from fellow devotees of Isis before donning a clean linen robe and entering the deepest part of the temple. After some rituals and swearing the following words\nI swear I will always follow the ways of Isis and will never betray my brothers and sisters.\nThe next day I left the temple and traveled back home"
+  cult.010.desc:0 "Let's start the initiation, First we start with ritual purifications, in the meantime the priest asks for forgifness for my sins and sprinkels water on me./nAfter that I had to wait 10 days and abstraining from meat and wine, in the evening of the tenth day I got unspecified gifts from fellow devotees of Isis before donning a clean linen robe and entering the deepest part of the temple. After some rituals and swearing the following words\nI swear I will always follow the ways of Isis and will never betray my brothers and sisters.\nThe next day I left the temple and traveled back home."
   cult.010.trait:0 "Finaly I'm part of the Isis cult"
   cult.010.religion:0 "Finaly I'm part of the Isis cult"
 
@@ -284,67 +283,67 @@ cdr_erc.001.a:0 "Embrace the roman culture"
   cult.011.a:0 "Travel to the Serapeum"
 
   cult.012.t:0 "Arriving at serapeum"
-  cult.012.desc:0 "I Finaly arrived the local Serapeum"
+  cult.012.desc:0 "I Finaly arrived the local Serapeum."
   cult.012.a:0 "Enter the Serapeum"
 
   cult.013.t:0 "The Serapeum"
-  cult.013.desc:0 "Welcome to the temple of Serapis, you want to get initiated into the cult, great follow me downstairs you will be amased by the prosperty Serapis brings to his true followers"
+  cult.013.desc:0 "Welcome to the temple of Serapis, you want to get initiated into the cult, great follow me downstairs you will be amased by the prosperty Serapis brings to his true followers."
   cult.013.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction."
   cult.013.a:0 "Start the initiation"
 
   cult.014.t:0 "The initiation"
-  cult.014.desc:0 "We stand before the statue of Serapis,Now ofer in a proper way to Serapis and say the following words, I swear I will always follow the ways of Serapis and will never betray my brothers and sisters. A few moments later it's all done"
+  cult.014.desc:0 "We stand before the statue of Serapis,Now ofer in a proper way to Serapis and say the following words, I swear I will always follow the ways of Serapis and will never betray my brothers and sisters. A few moments later it's all done."
   cult.014.trait:0 "Finaly I'm part of the Serapis cult"
   cult.014.religion:0 "Finaly I'm part of the Serapis cult"
 
 
   #Eluesinian mysteries 
   cult.015.t:0 "Prepartion"
-  cult.015.desc:0 "Since the GreacoRoman religions are back the elusinian mysteries are growing fast in numbers, it's time i'm to take a closer look at it"
+  cult.015.desc:0 "Since the GreacoRoman religions are back the elusinian mysteries are growing fast in numbers, it's time i'm to take a closer look at it."
   cult.015.a:0 "Travel to Eleusis"
 
   cult.016.t:0 "Arriving at Eleusís"
-  cult.016.desc:0 "Once I got to Eleusis there where festivities going on, after watching the it for a few minutes a priestess came to me"
+  cult.016.desc:0 "Once I got to Eleusis there where festivities going on, after watching the it for a few minutes a priestess came to me."
   cult.016.a:0 "Talk with the priestess"
 
   cult.017.t:0 "Eluesinian priestess"
-  cult.017.desc:0 "Greetings, it seems you're interested in the festivities ? If you like I could tell you more about it.\nSome time later, you asked the priestess if you could do the initiation"
+  cult.017.desc:0 "Greetings, it seems you're interested in the festivities ? If you like I could tell you more about it.\nSome time later, you asked the priestess if you could do the initiation."
   cult_017.a.tt:0 "Historical context, the real initiation has not been preserved so it's a bit guessing and pure fiction."
   cult.017.a:0 "start the initiation"
 
   cult.018.t:0 "The initiation"
-  cult.018.desc:0 "We stand before the statue of Persephone and Demeter,Now ofer in a proper way to both and say the following words, I swear I will always follow the ways of Demeter and Persephone and will never betray my brothers and sisters. A few moments later it's all done"
+  cult.018.desc:0 "We stand before the statue of Persephone and Demeter,Now ofer in a proper way to both and say the following words, I swear I will always follow the ways of Demeter and Persephone and will never betray my brothers and sisters. A few moments later it's all done."
   cult.018.trait:0 "Finaly I'm part of the Eleusinian cult"
   cult.018.religion:0 "Finaly I'm part of the Eleusinian cult"
   
   #Sol invictus cult
   cult.019.t:0 "Prepartion"
-  cult.019.desc:0 "The cult of Sol is one of the oldest cults of the Roman empire, given a new popularity boost by Emperor Aurelian in 274 CE.\nI realy want to know more about it"
+  cult.019.desc:0 "The cult of Sol is one of the oldest cults of the Roman empire, given a new popularity boost by Emperor Aurelian in 274 CE.\nI realy want to know more about it."
   cult.019.a:0 "Travel to local temple of Sol"
 
   cult.020.t:0 "Arriving at temple of sol"
-  cult.020.desc:0 "When arriving at the local temple there is a major difference between the traditional temples and the one for sol (Invictus), it's an open air temple"
+  cult.020.desc:0 "When arriving at the local temple there is a major difference between the traditional temples and the one for sol (Invictus), it's an open air temple."
   cult.020.a:0 "enter the temple"
 
   cult.021.t:0 "Sol Priest"
   cult.021.desc:0 "Greetings, what brings you here today? you want to know more about this cult, sure. after some time the priest asked, If you want you can join me in a  offer to the Unconquered Sun. After you have done this you can name yourself part of the Sol cult,"
-  cult_021.a.tt:0 "Historical context, Couldn't find any info about an initiation so this event is fictional, if someone has some more info let me know on steam or discord"
+  cult_021.a.tt:0 "Historical context, Couldn't find any info about an initiation so this event is fictional, if someone has some more info let me know on steam or discord."
   cult.021.trait:0 "Finaly I'm part of the Sol cult"
   cult.021.religion:0 "Finaly I'm part of the Sol cult"
 
 
   #Imperial cult 
   cult.022.t:0 "Prepartion"
-  cult.022.desc:0 "Since the GreacoRoman religions are back the Imperial cult of couldn't stay behind of course, It's not only a religion but also a way to pay respect to a emperor and empress./n Everyone can join so it shouldn't be a problem"
+  cult.022.desc:0 "Since the GreacoRoman religions are back the Imperial cult of couldn't stay behind of course, It's not only a religion but also a way to pay respect to a emperor and empress./n Everyone can join so it shouldn't be a problem."
   cult.022.a:0 "Travel to local Imperial temple"
 
   cult.023.t:0 "Arriving at Imeprial temple"
-  cult.023.desc:0 "It's bussy in front of the temple almost like there is some kind of meeting. you walk pass the people and enter the temple"
+  cult.023.desc:0 "It's bussy in front of the temple almost like there is some kind of meeting. you walk pass the people and enter the temple."
   cult.023.a:0 "enter the temple"
 
   cult.024.t:0 "Sacerdos Augustales"
-  cult.024.desc:0 "Greetings, what brings you here today? you want to know more about this cult, sure. after some time the Augustales asked If you want to offer to the passed away emperors and empresses. After you have done this you can name yourself part of the Imperial cult, honor the emperors as you honor your ancestors and the gods"
-  cult_024.a.tt:0 "Historical context, Couldn't find any info about an initiation so this event is fictional, if someone has some more info let me know on steam or discord"
+  cult.024.desc:0 "Greetings, what brings you here today? you want to know more about this cult, sure. after some time the Augustales asked If you want to offer to the passed away emperors and empresses. After you have done this you can name yourself part of the Imperial cult, honor the emperors as you honor your ancestors and the gods."
+  cult_024.a.tt:0 "Historical context, Couldn't find any info about an initiation so this event is fictional, if someone has some more info let me know on steam or discord."
   cult.024.trait:0 "Finaly I'm part of the imperial cult"
   cult.024.religion:0 "Finaly I'm part of the imperial cult"
 
@@ -370,7 +369,7 @@ cdr_erc.001.a:0 "Embrace the roman culture"
   restore_altar.005.a:0 "Enter the senate"
 
   restore_altar.006.t:0 "The Senate"
-  restore_altar.006.desc:0 "As expected the Christians werren't verry fond of the idea of bringing back the altar. It's a shame they are so against bringing back something what placed here by Emperor Augustus himself, so we could offer to the gods for wealthfare of the empire It was even used to take oaths to the new emperors.\n\nAs the christians in the senate start to get engry, it's time to start the voting"
+  restore_altar.006.desc:0 "As expected the Christians werren't verry fond of the idea of bringing back the altar. It's a shame they are so against bringing back something what placed here by Emperor Augustus himself, so we could offer to the gods for wealthfare of the empire It was even used to take oaths to the new emperors.\n\nAs the christians in the senate start to get engry, it's time to start the voting."
   restore_altar.006.a:0 "Start the voting"
 
   restore_altar.007.t:0 "The voting"
@@ -378,5 +377,5 @@ cdr_erc.001.a:0 "Embrace the roman culture"
   restore_altar.007.a:0 "Guards!!!"
 
   restore_altar.008.t:0 "The attack"
-  restore_altar.008.desc:0 "By $cdr_polytheism_high_god_name$ can we all calm down here! Now the guards have secured the senate, the christians calmed down. So where were we ah yeah as the voting has spoken the altar of victory will be returned to the senetal building effective emediatly"
+  restore_altar.008.desc:0 "By $cdr_polytheism_high_god_name$ can we all calm down here! Now the guards have secured the senate, the christians calmed down. So where were we ah yeah as the voting has spoken the altar of victory will be returned to the senetal building effective emediatly."
   restore_altar.008.a:0 "Bring back the altar"

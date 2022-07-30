@@ -118,16 +118,16 @@ celtic_solstice_winter_decision_confirm:1 "Prepare the Realm"
 
 #Embrace Celtic culture 
 gaulish_culture_decision:0 "Embrace Gaulish culture"
-gaulish_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Gaulish virtues"
+gaulish_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Gaulish virtues."
 gaulish_culture_decision_tooltip:0 "Return Gaulish culture"
 gaulish_culture_decision_confirm:0 "Confirm"
 
 eburones_culture_decision:0 "Embrace Eburones culture"
-eburones_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Eburones virtues"
+eburones_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Eburones virtues."
 eburones_culture_decision_tooltip:0 "Return Eburones culture"
 eburones_culture_decision_confirm:0 "Confirm"
 
 manx_culture_decision:0 "Embrace Manx culture"
-manx_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Manx virtues"
+manx_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Manx virtues."
 manx_culture_decision_tooltip:0 "Return Manx culture"
 manx_culture_decision_confirm:0 "Confirm"

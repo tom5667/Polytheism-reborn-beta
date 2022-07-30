@@ -2,17 +2,17 @@
 
 #Return mesopotamian polytheism event localization 
 m_r.001.t:0 "Travel to excavation site"
-m_r.001.desc:0 "A few days ago some of my friends found an ancient temple of Ishta, they asked me if I would come and join them in exploring the temple. After we arrived and doing some minor searching around the temple we decided to eat something first"
+m_r.001.desc:0 "A few days ago some of my friends found an ancient temple of Ishta, they asked me if I would come and join them in exploring the temple. After we arrived and doing some minor searching around the temple we decided to eat something first."
 m_r.001.a:0 "Eat dinner"
 
 m_r.002.t:0 "The dream"
-m_r.002.desc:0 "After dinner, we go further look around and our torch is blown out. In the darkness, we stumbled and strike our head. As we lay in the night, Sin, Ishtar, and other gods appear with next to them Ahura Mazda. maybe we need to visit a fire temple after this or is this just a strange dream? On the other hand we can stay here from some more research"
+m_r.002.desc:0 "After dinner, we go further look around and our torch is blown out. In the darkness, we stumbled and strike our head. As we lay in the night, Sin, Ishtar, and other gods appear with next to them Ahura Mazda. maybe we need to visit a fire temple after this or is this just a strange dream? On the other hand we can stay here from some more research."
 m_r.002.mesopotamian:0 "It was clearly goddess Ishtar"
 m_r.002.zoroastrianism:0 "Go to a fire temple"
 m_r.002.optout:0 "My faith is stronger than strange dreams"
 
 m_r.003.t:0 "Conversion"
-m_r.003.desc:0 "Days of research in the temple gave us much more insight of the old religion of the Mesopotamians. That night followed another vision this time without striking my head, again, It was no dream it was a real vision"
+m_r.003.desc:0 "Days of research in the temple gave us much more insight of the old religion of the Mesopotamians. That night followed another vision this time without striking my head, again, It was no dream it was a real vision."
 m_r.003.a:0 "Now I know it for sure"
 
 
@@ -21,12 +21,12 @@ m_r.003.a:0 "Now I know it for sure"
 #mesopotamian state religion event localization
 m_sr.001.t:0 "Change state religion"
 
-m_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion"
+m_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion."
 m_sr.001.a:0 "Proclaim the new state religion"
 
 m_sr.002.t:0 "State religion changed"
 
-m_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+m_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
 m_sr.002.desc.vassals:0 "test vassals desc"
 m_sr.002.desc_vanilla:0 "test vanilla desc"
 m_sr.002.b:0 "Convert willing vassals"
@@ -36,7 +36,7 @@ m_sr.002.d:0 "There will be people who just dont care"
 return_m_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
 
 mcmd.001.t:0 "Choose main deity"
-mcmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+mcmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
 mcmd.001.anu:0 "Anu"
 mcmd.001.ninisina:0 "Ninisina"
 mcmd.001.bogu:0 "Bogu"

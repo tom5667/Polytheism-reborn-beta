@@ -2,12 +2,12 @@
 
 # Return Cultus Deorum Decision 
 anglo_saxon_return_decision:0 "Return Anglo Saxon Polytheism"
-anglo_saxon_return_decision_desc:0 "I'm wondering what the old Saxon religion looked like"
+anglo_saxon_return_decision_desc:0 "I'm wondering what the old Saxon religion looked like."
 anglo_saxon_return_decision_tooltip:1 "How did the ancient religion work" 
 anglo_saxon_return_decision_confirm:1 "Travel to Paderborn"
 
 german_return:0 "Return German Polytheism"
-german_return_desc:0 "Today a Volva of the old norse religion asked for audience "
+german_return_desc:0 "Today a Volva of the old norse religion asked for audience."
 german_return_tooltip:1 "Norse volva asking for audience" 
 german_return_confirm:1 "Decide fate Volva"
 
@@ -31,6 +31,6 @@ solstice_summer_decision_confirm:1 "Prepare the Realm"
 
 solstice_winter_decision:0 "Hold Winter Solstice"
 solstice_winter_decision_tooltip:1 "Hold Winter Solstice"
-solstice_winter_decision_desc:0 "The air has begun to warm slowly as the new year begins, A bright future looks to the people of the [ROOT.Char.GetPrimaryTitle.GetName] in order to ensure this future i must ask the gods and the spirits for their blessings before the new season begins. "
+solstice_winter_decision_desc:0 "The air has begun to warm slowly as the new year begins, A bright future looks to the people of the [ROOT.Char.GetPrimaryTitle.GetName] in order to ensure this future i must ask the gods and the spirits for their blessings before the new season begins."
 solstice_decision_confirm:0 "Gather the realm for the Solstice"
 solstice_winter_decision_confirm:1 "Prepare the Realm"

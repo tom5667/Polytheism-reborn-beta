@@ -423,18 +423,27 @@ return_polytheism_short_decision={
 		# 		target = flag:flag_promoted_gaelic_settlement
 		# 	}
 		# }
+		OR = {
+			root.primary_title.tier =  tier_empire
+			root.primary_title.tier =  tier_kingdom
+			root.primary_title.tier =  tier_duchy
+		}
 		any_neighboring_top_liege_realm_owner = { #There are same reli neighboring Realms/Empires to take people from.
 			religion = religion:celtic_religion
 			count >= 1
 		}
 	}
 	
-	is_valid = {
-		any_neighboring_top_liege_realm_owner = { #There are same reli neighboring Realms/Empires to take people from.
-		religion = religion:celtic_religion
-		count >= 1
+	 is_valid = {
+	 	#any_neighboring_top_liege_realm_owner = { #There are same reli neighboring Realms/Empires to take people from.
+	 	#religion = religion:celtic_religion
+	 	#count >= 1
+		
+	 #}
+
+		
 	}
-	}
+
 
 	is_valid_showing_failures_only = {
 		is_capable_adult = yes
@@ -453,7 +462,7 @@ return_polytheism_short_decision={
 			promote_gaelic_settlement_decision_scripted_effect = yes
 		}
 		trigger_event = {
-			id = pr.0001
+			id = pr.001
 		}
 		save_scope_as = actor
 		hidden_effect = {

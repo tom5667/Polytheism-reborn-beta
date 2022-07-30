@@ -331,10 +331,10 @@ prctv.001={
 }
 
 
-pr.0001 = { 
+pr.001 = { 
 	type = character_event
-	title = pr.0001.t
-	desc = pr.0001.desc
+	title = pr.001.t
+	desc = pr.001.desc
 	theme = faith
 	left_portrait = {
 		character = scope:scoped_ruler
@@ -348,19 +348,19 @@ pr.0001 = {
 	}
 	
 	option = {
-		name = pr.0001.a
+		name = pr.001.a
 		every_player = {
 			limit = {
 				NOT = { this = root }
 			}
-			trigger_event = pr.0002
+			trigger_event = pr.002
 		}
 	}
 }
 
-pr.0002 = { 
+pr.002 = { 
 	type = character_event
-	title = pr.0002.t
+	title = pr.002.t
 	desc = {
 		first_valid = {
 			# Vassal reaction.
@@ -368,9 +368,9 @@ pr.0002 = {
 				trigger = {
 					target_is_liege_or_above = scope:scoped_ruler
 				}
-				desc = pr.0002.desc.vassals
+				desc = pr.002.desc.vassals
 			}
-			desc = pr.0002.desc.others
+			desc = pr.002.desc.others
 		}
 	}
 	theme = faith
@@ -384,7 +384,7 @@ pr.0002 = {
 			trigger = {
 				target_is_liege_or_above = scope:scoped_ruler
 			}	
-			text = pr.0002.a
+			text = pr.002.a
 		}
 		name = {
 			trigger = {
@@ -392,7 +392,7 @@ pr.0002 = {
 					target_is_liege_or_above = scope:scoped_ruler
 				}
 			}
-			text = pr.0002.b
+			text = pr.002.b
 		}
 	}
 }

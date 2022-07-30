@@ -2,7 +2,7 @@
 
 #Return Dacian polytheism event localization 
 d_r.001.t:0 "Travel to Kogaionon"
-d_r.001.desc:0 "A few days ago me and some of my friends where travaling to Kogaionon near Sarmizegetusa where Zalmoxis had emerged.\nWe walked the whole day trough nature and after that we decided to set up camp on the Kogaionon"
+d_r.001.desc:0 "A few days ago me and some of my friends where travaling to Kogaionon near Sarmizegetusa where Zalmoxis had emerged.\nWe walked the whole day trough nature and after that we decided to set up camp on the Kogaionon."
 d_r.001.a:0 "spend the night at the Kogaionon"
 
 d_r.002.t:0 "Kogaionon"
@@ -11,7 +11,7 @@ d_r.002.dacia:0 "It was clearly Zalmoxis"
 d_r.002.optout:0 "My faith is stronger than strange dreams"
 
 d_r.003.t:0 "Conversion"
-d_r.003.desc:0 "That night back home I fell a sleep as always but again I got that strange dream"
+d_r.003.desc:0 "That night back home I fell a sleep as always but again I got that strange dream."
 d_r.003.a:0 "Now I know it for sure"
 d_r.003.zalmoxism:0 "There is only one god Zalmoxis"
 
@@ -22,7 +22,7 @@ d_r.003.zalmoxism:0 "There is only one god Zalmoxis"
 d_sr.001.t:0 "Change state religion"
 
 d_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion"
-d_sr.001.a:0 "Proclaim the new state religion"
+d_sr.001.a:0 "Proclaim the new state religion."
 
 d_sr.002.t:0 "State religion changed"
 
@@ -36,12 +36,12 @@ d_sr.002.d:0 "There will be people who just dont care"
 #Zalmoxism
 zalmoxism_sr.001.t:0 "Change state religion"
 
-zalmoxism_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion"
+zalmoxism_sr.001.desc:0 "As i proceded with my rituals and bonding with the gods, it got me thinking maybe it's time to bring back [ROOT.Char.GetFaith.GetAdjective] as state religion."
 zalmoxism_sr.001.a:0 "Proclaim the new state religion"
 
 zalmoxism_sr.002.t:0 "State religion changed"
 
-zalmoxism_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion"
+zalmoxism_sr.002.desc.intro:0 "This is our chance to bring the religion back to state religion."
 zalmoxism_sr.002.desc.vassals:0 "test vassals desc"
 zalmoxism_sr.002.desc_vanilla:0 "test vanilla desc"
 zalmoxism_sr.002.b:0 "Convert willing vassals"
@@ -53,7 +53,7 @@ return_d_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals
 
 
 dcmd.001.t:0 "Choose main deity"
-dcmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses"
+dcmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
 dcmd.001.gebeleizis:0 "Gebeleizis"
 dcmd.001.zalmoxis:0 "Zalmoxis"
 dcmd.001.dionysus:0 "Dionysus"
@@ -64,7 +64,7 @@ dcmd.001.optout:0 "Maybe now isn't the right time"
 
 #Embrace Dacian culture 
 dacian.001.t:0 "Dacian or Thracian"
-dacian.001.desc:0 "For far to long we lost the old virtues of the dacian tribes. Or maybe the virtues of the thracian tribes"
+dacian.001.desc:0 "For far to long we lost the old virtues of the dacian tribes. Or maybe the virtues of the thracian tribes."
 dacian.001.a:0 "Embrace the Dacian culture"
 dacian.001.b:0 "Embrace the Thracian culture"
 
