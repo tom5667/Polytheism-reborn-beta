@@ -1,4 +1,104 @@
-﻿
+﻿#Restore kindom of Mehu (lower egypt)
+kingdom_of_lower_egypt = {
+	picture = "gfx/interface/illustrations/decisions/Memphis.dds"
+	major = yes
+	desc =  kingdom_of_lower_egypt_desc
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		
+		#has_culture_group = culture_group:berber_group 
+		OR = {
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
+		}
+		is_imprisoned = no	
+		is_at_war = no
+		NOR = {
+			has_title = title:k_lower_egypt
+		}
+		AND ={
+			NOT ={
+				exists = title:k_lower_egypt.holder
+			}
+		}
+		
+	}
+	is_valid = {
+		completely_controls = title:d_cairo
+		completely_controls = title:d_sinai
+		completely_controls = title:d_delta
+		completely_controls = title:d_alexandria
+
+		OR = {
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
+
+		}
+
+						
+	}
+	effect = {
+		custom_tooltip = create_lower_egypt_effect_tooltip
+		trigger_event = {
+			id = kemetic.007
+		}
+	}
+	ai_check_interval = 0
+
+}
+#Restore kingdom of Shema (upper egypt) 
+kingdom_of_upper_egypt = {
+	picture = "gfx/interface/illustrations/decisions/Memphis.dds"
+	major = yes
+	desc =  kingdom_of_upper_egypt_desc
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		
+		#has_culture_group = culture_group:berber_group 
+		OR = {
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
+		}
+		is_imprisoned = no	
+		is_at_war = no
+		NOR = {
+			has_title = title:k_upper_egypt
+		}
+		AND ={
+			NOT ={
+				exists = title:k_upper_egypt.holder
+			}
+		}
+		
+	}
+	is_valid = {
+		completely_controls = title:d_al-said
+		completely_controls = title:d_eastern_desert
+		completely_controls = title:d_al-wahat
+
+		OR = {
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
+
+		}
+
+						
+	}
+	effect = {
+		custom_tooltip = create_upper_egypt_effect_tooltip
+		trigger_event = {
+			id = kemetic.006
+		}
+	}
+	ai_check_interval = 0
+
+}
+
+
 restore_egyptus ={
 	picture = "gfx/interface/illustrations/decisions/Memphis.dds"
 	major = yes
@@ -8,37 +108,29 @@ restore_egyptus ={
 		is_landed = yes
 		
 		#has_culture_group = culture_group:berber_group 
-		OR{
+		OR = {
 			faith = faith:kemetic_polytheism
 			faith = faith:atenism
 		}
 		is_imprisoned = no	
 		is_at_war = no
 		NOR = {
-			has_title = title:k_egyptus
+			has_title = title:e_egyptus
 		}
 		AND ={
 			NOT ={
-				exists = title:k_egyptus.holder
+				exists = title:e_egyptus.holder
 			}
 		}
 		
 	}
 
 	is_valid = {
-		completely_controls = title:d_cairo
-		completely_controls = title:d_delta
-		completely_controls = title:d_alexandria
-		completely_controls = title:d_eastern_desert
-		completely_controls = title:d_al_said
-		completely_controls = title:d_sinai
-		completely_controls = title:d_palastine
-		completely_controls = title:d_urdunn
-		completely_controls = title:d_lebanon
-		completely_controls = title:d_antioch
-		completely_controls = title:d_cilicia
-
-		OR{
+		AND = {
+			has_title = title:k_upper_egypt
+			has_title = title:k_lower_egypt
+		}
+		OR = {
 			faith = faith:kemetic_polytheism
 			faith = faith:atenism
 
@@ -54,6 +146,7 @@ restore_egyptus ={
 	}
 	ai_check_interval = 0
 }
+
 
 #choose your main deity decision only Kemetic
 

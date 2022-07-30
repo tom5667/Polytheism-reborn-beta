@@ -17,13 +17,6 @@
 			desc = State_religion.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 #choose main deity traits 
 
@@ -46,13 +39,6 @@ cdr_cmd1_religion = {
 			desc = Iupiter.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 #Iuno
 cdr_cmd2_religion = {
@@ -72,13 +58,6 @@ cdr_cmd2_religion = {
 			}
 			desc = Iuno.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
 	}
 }
 #Mars
@@ -100,13 +79,6 @@ cdr_cmd3_religion = {
 			desc = Mars.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 #Venus
 cdr_cmd4_religion = {
@@ -126,13 +98,6 @@ cdr_cmd4_religion = {
 			}
 			desc = Venus1.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		#ignore_opinion_value_if_same_trait = yes
-		
 	}
 }
 #House Lares
@@ -155,13 +120,6 @@ cdr_cmd5_religion = {
 			}
 			desc = House_Laren.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
 	}
 }
 
@@ -186,11 +144,8 @@ cdr_cmd6_religion = {
 		}
 	}
 
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		
-	}
+	same_faith = yes
+
 }
 
 #hellenic
@@ -214,12 +169,6 @@ h_cmd1_religion = {
 		}
 	}
 
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 #Hera
 h_cmd2_religion = {
@@ -241,12 +190,6 @@ h_cmd2_religion = {
 		}
 	}
 
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 #Ares
 h_cmd3_religion = {
@@ -267,13 +210,6 @@ h_cmd3_religion = {
 			}
 			desc = Mars.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
 	}
 }
 #Aphrodite
@@ -298,12 +234,7 @@ h_cmd4_religion = {
 		}
 	}
 
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		#ignore_opinion_value_if_same_trait = yes
-		
-	}
+
 }
 
 # Hermes
@@ -324,12 +255,6 @@ h_cmd5_religion = {
 			}
 			desc = Mercurius.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		
 	}
 }
 
@@ -353,13 +278,6 @@ mm_cmd1_religion = {
 			desc = Mithras.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 
 hellenismos_state_religion = {
@@ -381,13 +299,6 @@ hellenismos_state_religion = {
 			desc = Hellenic_State_religion.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 
 julian_state_religion = {
@@ -408,13 +319,6 @@ julian_state_religion = {
 			}
 			desc = Hellenic_State_religion.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
 	}
 }
 
@@ -445,13 +349,6 @@ mithras_cult = {
 			desc = mithras_cult.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = no 
-		
-	}
 }
 
 isis_cult = { 
@@ -478,13 +375,6 @@ isis_cult = {
 			desc = isis_cult.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = no 
-		
-	}
 }
 
 serapis_cult = {
@@ -509,13 +399,6 @@ serapis_cult = {
 			}
 			desc = serapis_cult.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = no 
-		
 	}
 }
 
@@ -542,13 +425,6 @@ serapis_cult = {
 			desc = eluesinian_cult.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = no 
-		
-	}
 }
 
 sol_invictus_cult = {
@@ -573,13 +449,6 @@ sol_invictus_cult = {
 			desc = sol_invictus_cult.dds
 		}
 	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = no 
-		
-	}
 }
 
 imperial_cult = {
@@ -603,12 +472,5 @@ imperial_cult = {
 			}
 			desc = imperial_cult.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = no 
-		
 	}
 }

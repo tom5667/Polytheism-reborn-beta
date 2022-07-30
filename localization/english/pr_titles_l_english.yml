@@ -2,10 +2,12 @@
  #Cultus deorum dutchy title 
  d_pontifex1:0 "Collegium Pontificum"
  #Celtic religions dutchy title
- d_druidic:0 "Druidic Circle"
+ d_druidic:0 "ArdDruí"
  #High kingdom of ireland 
- k_high_kingdom_of_ireland:0 "Ardrí na hÉireann"
+ k_high_kingdom_of_ireland:0 "Ardríocht ó Ériu"
  #Kingdom of Carthago
  k_carthago:0 "Carthago"
  #Kingdom of Egypt
- k_egyptus:0 "Egypt"
+ e_egyptus:0 "Kemet"
+ k_upper_egypt:0 "Shema"
+ k_lower_egypt:0 "Mehu"

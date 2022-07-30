@@ -125,5 +125,14 @@ dacian_edc_decision = {
 				target = flag:flag_restored_dacian_edc
 			}
 		}
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
 	} 
 }

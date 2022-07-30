@@ -17,11 +17,5 @@
 		}
 	}
 
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 

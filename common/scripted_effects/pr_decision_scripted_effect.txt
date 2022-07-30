@@ -1,4 +1,4 @@
-promote_gaelic_settlement_decision_scripted_effect = {
+﻿promote_gaelic_settlement_decision_scripted_effect = {
     #This part needs a lot more testing 
 	if = {
 		limit = {

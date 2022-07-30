@@ -18,12 +18,6 @@
 		}
 	}
 
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
-	}
 }
 
 german_state_religion = {
@@ -44,12 +38,5 @@ german_state_religion = {
 			}
 			desc = german_state_religion.dds
 		}
-	}
-
-	triggered_opinion = {
-		opinion_modifier = opinion_modifier_key	
-		same_faith = yes
-		ignore_opinion_value_if_same_trait = yes
-		
 	}
 }

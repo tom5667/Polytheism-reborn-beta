@@ -126,8 +126,12 @@ cdr_erc_decision = {
 		is_ai = no
 		is_landed = yes
 		has_faith = faith:cdr_polytheism
-		has_culture = culture:greek
-		has_culture_group = culture_group:byzantine_group
+		OR = {
+			has_culture = culture:greek
+			#has_culture_group = culture_group:byzantine_group
+			culture = { has_cultural_pillar = heritage_byzantine }
+		}
+
 	NOR = { 
 		is_target_in_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -152,6 +156,15 @@ cdr_erc_decision = {
 	}
 	cost = {
 		prestige = 1000 
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
 	}
 	effect = {
 		trigger_event = cdr_erc.001  

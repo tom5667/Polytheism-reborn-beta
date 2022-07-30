@@ -15,9 +15,20 @@ restore_egyptus_effect_tooltip:0 "Restored Kigdom of Egypt"
 restore_egyptus_tooltip:1 "It's time to reclaim egyptus"
 restore_egyptus_confirm:0 "Create Egypt"
 
+kingdom_of_upper_egypt:0 "Restore Kingdom of Shema"
+kingdom_of_upper_egypt_desc:0 "For too long have many pretenders sat upon the throne of this [ROOT.Char.GetPrimaryTitle] we have reclaimed the Upper Nile and the old (Insert word for duchies here) and by the will of Horus we shall resurrect the Kingdom of Shema"
+kingdom_of_upper_egypt_confirm:0 "Create Kingdom of Shema"
+
+kingdom_of_lower_egypt:0 "Restore Kingdom of Mehu"
+kingdom_lower_egypt_desc:0 "Now all the duchies of the old kingdom of the lower Egypt(Shema) are in our hands we can recreate the Kingdom of Shema"
+kingdom_of_lower_egypt_effect_tooltip:0 "Restored Kigdom of Shema"
+create_lower_egypt_effect_tooltip:1 "It's time to reclaim Kingdom of Shema"
+kingdom_of_lower_egypt_confirm:0 "Create Kingdom of Mehu"
+
 
 #choose your main deity 
 choose_main_deity_kemetic_decision:0 "Choose your main deity"
 kemetic_cmd_decision_desc:0 "For most of the old kemetic polytheists there was one particualar god who was important for their family, now i have the chance to choose for myself."
 choose_main_deity_kemetic_decision_tooltip:1 "this can only be done once in a lifetime so choose wisely"
 choose_main_deity_kemetic_decision_confirm:1 "Let's see"
+

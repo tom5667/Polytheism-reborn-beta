@@ -7,7 +7,7 @@ restore_carthago ={
 		is_ruler = yes
 		is_landed = yes
 		faith = faith:punic_polytheism
-		has_culture_group = culture_group:berber_group 
+		culture = { has_cultural_pillar = heritage_berber }
 
 		is_imprisoned = no	
 		is_at_war = no

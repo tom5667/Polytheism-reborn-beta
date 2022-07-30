@@ -88,7 +88,8 @@ return_g_sr_decision_scripted_effect = {
 			every_in_de_facto_hierarchy = {
 				limit = {
 					tier = tier_county
-					culture_group = culture_group:west_germanic_group
+					#culture_group = culture_group:west_germanic_group
+					culture = { has_cultural_pillar = heritage_west_germanic }
 					exists = scope:old_faith
 					religion = scope:old_faith.religion
 				}

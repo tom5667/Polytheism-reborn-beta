@@ -187,9 +187,12 @@ solstice_winter_decision = {
 		}
 	}
 	
-	valid = {
-
-	}
+	# valid = {
+	# 	time_of_year = {
+	# 		min = 12.1
+	# 		max = 12.21
+	# 	}
+	# }
 	cooldown = { months = 11 }
 	cost = {
 		gold = feast_activity_cost
@@ -472,14 +475,14 @@ solstice_winter_decision = {
 			}
 		}
 	}
-
+	ai_check_interval = 96 
 	ai_potential = {
 		short_term_gold > standard_activity_cost
 		NOT = {
 			has_trait = reclusive
 		}
 	}
-
+    
 	ai_will_do = {
 		base = 35
 
@@ -561,9 +564,12 @@ solstice_summer_decision ={
 		gold = feast_activity_cost
 	}
 
-	valid ={
-
-	}
+	# valid ={
+	# 	time_of_year = {
+	# 		min = 6.1
+	# 		max = 6.21
+	# 	}
+	# }
 	cooldown = { months = 11 }
 	effect = {
 		trigger_event = solstice.002
@@ -842,7 +848,7 @@ solstice_summer_decision ={
 			}
 		}
 	}
-
+	ai_check_interval = 96 
 	ai_potential = {
 		short_term_gold > standard_activity_cost
 		NOT = {

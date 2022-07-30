@@ -1,0 +1,63 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+######################
+#High kingdom Ireland Royal family
+high_king_ireland:0 "Ardrí ó Ériu"
+high_queen_ireland:0 "Ardrígan ó Ériu"
+high_prince_ireland:0 "flaith ó Ériu"
+high_princess_ireland:0 "Banfhlaith ó Ériu"
+#Council localization
+high_kingdom_ireland_druid:0 "Rí Druí"
+high_kingdom_ireland_druidess:0 "Rí Bandruí"
+high_kingdom_ireland_chancellor:0 "Seansailéir"
+high_kingdom_ireland_steward:0 "Rechtaire" 
+high_kingdom_ireland_marshal:0 "Cennphort"
+high_kingdom_ireland_spymaster:0 "Magister mrath"
+#Duke/Duchess
+high_kingdom_ireland_duke:0 "Rí"
+high_kingdom_ireland_duchess:0 "Rígan"
+#Count/Countess
+high_kingdom_ireland_count:0 "Iarla"
+high_kingdom_ireland_countess:0 "Ban-iarla"
+#Duchy
+high_kingdom_ireland_duchy:0 "Cóiced"
+#county
+high_kingdom_ireland_county:0 "Tuaith"
+#Baron/Baronnes
+high_kingdom_ireland_baron:0 "Barún"
+high_kingdom_ireland_baroness:0 "Banbharún"
+#Barony 
+high_kingdom_ireland_barony:0 "Barúntacht"
+
+
+#Egypt 
+egypt_pharaoh:0 "Nesut-biti"
+egypt_queen:0 "Hemet-nesut-weret"
+egypt_priest:0 "Hem-netjer"
+#Council 
+egypt_priestess:0 "Hemet-netjer"
+egypt_steward:0 "Imi-er Per"
+egypt_marshal:0 "Imi-er Mesha"
+#Duke/Duches
+egypt_duke:0 "Iret-pat"
+egypt_duchess:0 "Iri-pat"
+#Duchy
+
+#Count/Countess
+egypt_count:0 "Heri-tep"
+egypt_countess:0 "Heret-tep"
+
+#County
+egypt_county:0 "Sepat"
+
+
+#Normal english localization
+# high_king_ireland:0 "High King of Ireland"
+# high_queen_ireland:0 "High Queen of Ireland"
+#high_prince_ireland:0 "High Prince of Ireland "
+#high_princess_ireland:0 "High Princes of Ireland"
+# high_kingdom_ireland_druid:0 "Realm Druid"
+# high_kingdom_ireland_druidess:0 "Realm Druidess"
+#egypt_pharaoh:0 "Pharaoh"
+#egypt_queen:0 "Great Queen"

@@ -678,7 +678,7 @@ celtic_solstice_winter_decision = {
 				}
 			}
 		}
-	
+		ai_check_interval = 96 
 		ai_potential = {
 			short_term_gold > standard_activity_cost
 			NOT = {
@@ -1028,14 +1028,14 @@ celtic_solstice_winter_decision = {
 				}
 			}
 		}
-	
+		ai_check_interval = 96 
 		ai_potential = {
 			short_term_gold > standard_activity_cost
 			NOT = {
 				has_trait = reclusive
 			}
 		}
-	
+			ai_check_interval = 96 
 		ai_will_do = {
 			base = 35
 	
@@ -1470,9 +1470,9 @@ celtic_solstice_summer_decision ={
 		gold = feast_activity_cost
 	}
 
-	valid ={
+	# valid ={
 
-	}
+	# }
 	cooldown = { months = 11 }
 	effect = {
 		if ={ 
@@ -2318,6 +2318,7 @@ celtic_solstice_summer_decision ={
 
 
 	}
+	ai_check_interval = 96 
 
 	ai_potential = {
 		short_term_gold > standard_activity_cost
@@ -2425,8 +2426,14 @@ gaulish_culture_decision = {
 			trigger_event = celtic.003  
 			save_scope_as = actor
 	} 
-	ai_chance ={ 
-		base = 0 
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
 	}
 }
 
@@ -2463,8 +2470,14 @@ eburones_culture_decision = {
 			trigger_event = celtic.002  
 			save_scope_as = actor
 	} 
-	ai_chance ={ 
-		base = 0 
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
 	}
 }
 #Embrace ancient local manx culture
@@ -2499,7 +2512,13 @@ manx_culture_decision = {
 			trigger_event = celtic.001  
 			save_scope_as = actor
 	} 
-	ai_chance ={ 
-		base = 0 
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
 	}
 }
