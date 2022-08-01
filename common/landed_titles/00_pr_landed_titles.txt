@@ -56,7 +56,10 @@ k_high_kingdom_of_ireland = {
 	landless = no
 	can_be_named_after_dynasty = no
 	capital = c_dublin
-	
+
+	can_create = {
+		faith = faith:gaelic_polytheism
+	}
 	ai_primary_priority = {
 		if = {
 			limit = {
@@ -730,16 +733,13 @@ e_egyptus = {
 	landless = no
 	can_be_named_after_dynasty = no
 	capital = c_cairo
-
 	can_create = {
-		trigger_if = {
-			limit = {
-				is_ai = yes
-			}
-			culture = { has_cultural_pillar = arabic_group }
-			religion = religion:kemetic_religion
+		OR = {
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
 		}
 	}
+
 	
 	ai_primary_priority = {
 		if = {
@@ -761,16 +761,13 @@ e_egyptus = {
 		landless = no
 		capital = c_qus
 		can_be_named_after_dynasty = no
-		# can_create = {
-		# 	trigger_if = {
-		# 		limit = {
-		# 			is_ai = yes
-		# 		}
-		# 		culture = { has_cultural_pillar = arabic_group }
-		# 		religion = religion:kemetic_religion
-		# 	}
-		# }
-		
+				can_create = {
+			OR = {
+				faith = faith:kemetic_polytheism
+				faith = faith:atenism
+			}
+		}
+
 		d_al-said = {
 			color = { 85 217 87 }
 			color2 = { 255 255 255 }
@@ -1063,6 +1060,12 @@ e_egyptus = {
 		landless = no
 		capital = c_cairo
 		can_be_named_after_dynasty = no
+		can_create = {
+			OR = {
+				faith = faith:kemetic_polytheism
+				faith = faith:atenism
+			}
+		}
 
 		d_alexandria = {
 			color = { 100 219 134 }
