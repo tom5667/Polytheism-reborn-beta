@@ -1,0 +1,77 @@
+﻿e_byzantium = {
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = e_byzantium_polytheistic
+	}		
+}
+
+e_egyptus = {
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = e_egyptus_greco_roman
+	}
+}
+
+b_kos = {
+	item = {
+		trigger ={
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = b_kos_polytheitic
+	}
+}
+
+c_rhodos = {
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = c_rhodos_polytheistic
+	}
+}
+d_athens = {
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = d_athens_polytheistic
+	}
+}
+c_attica = {
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = c_attica_polytheistic
+	}
+}
+d_achaia = { 
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = d_achaia_polytheistic
+	}
+}
+
+c_korinthos = { 
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = c_korinthos_polytheistic
+	}
+}
+
+c_roma = { 
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = c_rome_polytheistic
+	}
+}

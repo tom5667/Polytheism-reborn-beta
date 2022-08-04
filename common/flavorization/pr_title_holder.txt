@@ -172,6 +172,15 @@ egypt_pharaoh = {
 	titles = { e_egyptus k_upper_egypt k_lower_egypt  }
 	religions = { egyptian_religion }
 }
+egypt_pharaoh_greco_roman = {
+	type = character
+	special = holder
+	gender = male
+	#tier = empire
+	priority = 105
+	titles = { e_egyptus k_upper_egypt k_lower_egypt  }
+	religions = { hellenism_religion }
+}
 egypt_queen = {
 	type = character
 	gender = female

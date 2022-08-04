@@ -33,6 +33,7 @@ high_kingdom_ireland_barony:0 "Barúntacht"
 
 #Egypt 
 egypt_pharaoh:0 "Nesut-biti"
+egypt_pharaoh_greco_roman:0 "Pharaoh"
 egypt_queen:0 "Hemet-nesut-weret"
 egypt_priest:0 "Hem-netjer"
 #Council 

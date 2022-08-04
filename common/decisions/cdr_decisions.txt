@@ -995,3 +995,47 @@ choose_main_deity_roman_illyrian_decision = {
 		base = 100
 	}
  }
+
+ convert_to_roman_illyrian = { 
+	picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+	desc = restore_altar_of_victoria_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		religion = religion:hellenism_religion
+		OR = { 
+			culture = culture:bosnian
+			culture = culture:croatian
+			culture = culture:serbian
+			#More bookmarks/cultures expanded 
+			culture = culture:dalmatian_ce
+			culture = culture:illyrian
+		}
+		
+		NOR = { 
+				faith = faith:roman_illyrian_polytheism
+			}
+	}
+	is_valid = {
+		religion = religion:hellenism_religion
+		AND ={ 
+			OR = { 
+				culture = culture:bosnian
+				culture = culture:croatian
+				culture = culture:serbian
+				#More bookmarks/cultures expanded
+				culture = culture:dalmatian_ce
+				culture = culture:illyrian
+			}
+		}
+
+	}
+	effect = { 
+		trigger_event = roman_illyrian.002
+	}
+	ai_check_interval = 96
+
+	ai_will_do = {
+	   base = 100
+   }
+ }
