@@ -999,19 +999,22 @@ choose_main_deity_roman_illyrian_decision = {
  convert_to_roman_illyrian = { 
 	picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
 	desc = restore_altar_of_victoria_desc
+	major = yes
 	is_shown = {
-		is_ai = no
+		#is_ai = no
 		is_landed = yes
 		religion = religion:hellenism_religion
-		OR = { 
+		AND = {
+			OR = { 
 			culture = culture:bosnian
 			culture = culture:croatian
 			culture = culture:serbian
 			#More bookmarks/cultures expanded 
 			culture = culture:dalmatian_ce
 			culture = culture:illyrian
+			culture = culture:illyrian_slavic
+			}
 		}
-		
 		NOR = { 
 				faith = faith:roman_illyrian_polytheism
 			}
@@ -1026,6 +1029,8 @@ choose_main_deity_roman_illyrian_decision = {
 				#More bookmarks/cultures expanded
 				culture = culture:dalmatian_ce
 				culture = culture:illyrian
+				culture = culture:illyrian_slavic
+				culture = culture:arberian
 			}
 		}
 
@@ -1033,9 +1038,15 @@ choose_main_deity_roman_illyrian_decision = {
 	effect = { 
 		trigger_event = roman_illyrian.002
 	}
-	ai_check_interval = 96
+	
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
 
 	ai_will_do = {
-	   base = 100
-   }
+		base = 100
+	}
  }

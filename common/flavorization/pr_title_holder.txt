@@ -161,6 +161,62 @@ high_kingdom_ireland_barony = {
 	priority = 47
 	faiths = { gaelic_polytheism }
 }
+# emperor_irish = {
+# 	type = character
+# 	gender = male
+# 	special = holder
+# 	tier = empire 
+# 	priority = 260
+# 	titles = { e_byzantium }
+# 	heritages = { heritage_goidelic }
+	
+# }
+# empress_irish = {
+# 	type = character
+# 	gender = female
+# 	special = holder
+# 	tier = empire
+# 	priority = 260
+# 	titles = { e_byzantium }
+# 	heritages = { heritage_goidelic }
+# }
+
+
+#Greco Roman religion 
+emperor_cultus_deorum = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire 
+	priority = 250
+	titles = { e_byzantium }
+	faiths = { cdr_polytheism}
+}
+empress_cultus_deorum = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 250
+	titles = { e_byzantium }
+	faiths = { cdr_polytheism}
+}
+council_priest_cultus_deorum = {
+	type = character
+	gender = male
+	special = councillor
+	priority = 300
+	council_position = councillor_court_chaplain
+  	faiths = { cdr_polytheism }
+}
+council_priestess_cultus_deorum = {
+	type = character
+	gender = female
+	special = councillor
+	priority = 300
+	council_position = councillor_court_chaplain
+  	faiths = { cdr_polytheism }
+}
 
 #Egypt
 egypt_pharaoh = {

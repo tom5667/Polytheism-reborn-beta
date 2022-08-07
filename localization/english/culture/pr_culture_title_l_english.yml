@@ -30,6 +30,17 @@ high_kingdom_ireland_baroness:0 "Banbharún"
 #Barony 
 high_kingdom_ireland_barony:0 "Barúntacht"
 
+#Roman emperor - empress
+# emperor_irish:0 "Impire"
+# empress_irish:0 "Banimpire"
+
+#Greco Roman 
+emperor_cultus_deorum:0 "Imperator"
+empress_cultus_deorum:0 "Imperatrix"
+
+#Council 
+council_priest_cultus_deorum:0 "Flamen Dialis"
+council_priestess_cultus_deorum:0 "Flaminica Dialis"
 
 #Egypt 
 egypt_pharaoh:0 "Nesut-biti"

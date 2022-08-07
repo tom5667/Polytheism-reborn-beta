@@ -598,7 +598,7 @@
                 BishopFemalePlural = cdr_polytheism_priest_female_plural
                 BishopNeuter = cdr_polytheism_priest_male
                 BishopNeuterPlural = cdr_polytheism_priest_male_plural
-                DivineRealm = divine_realm
+                DivineRealm = cdr_polytheism_divine_realm
                 PositiveAfterLife = cdr_polytheism_death_deity_name
                 NegativeAfterLife = cdr_polytheism_death_deity_name
                 DeathDeityName = cdr_polytheism_death_deity_name
