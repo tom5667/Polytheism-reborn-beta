@@ -1,5 +1,4 @@
-﻿
-#Restore celtic Priesthood
+﻿#Restore celtic Priesthood
 cp_restore_high_priesthood_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
 
@@ -93,7 +92,7 @@ restore_high_kingdom ={
 		completely_controls = title:d_leinster
 		completely_controls = title:d_munster
 		faith = faith:gaelic_polytheism
-						
+		
 	}
 	effect = {
 		custom_tooltip = restore_high_kingdom_of_ireland_effect_tooltip
@@ -198,7 +197,7 @@ choose_main_deity_celtic_decision = {
 
 		if ={
 			limit={
-				faith = faith:gaelic_polytheism
+					faith = faith:gaelic_polytheism
 			}
 			show_as_tooltip = {
 				random_list = {
@@ -234,7 +233,8 @@ choose_main_deity_celtic_decision = {
 		}
 		else_if ={
 			limit ={
-				faith = faith:brythonic_polytheism
+					faith = faith:brythonic_polytheism
+
 			}
 			show_as_tooltip = {
 				random_list = {
