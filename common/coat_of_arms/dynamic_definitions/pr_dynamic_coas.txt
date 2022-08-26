@@ -72,6 +72,41 @@ c_roma = {
 		trigger = {
 			holder.faith.religion = religion:hellenism_religion
 		}
-		coat_of_arms = c_rome_polytheistic
+		coat_of_arms = c_roma_polytheistic
+	}
+}
+
+c_byzantion = { 
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = c_nova_roma_polytheistic
+	}
+}
+
+k_hellas = {
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = k_hellas_polytheistic
+	}
+}
+
+k_thessalonika = { 
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = k_thessalonika_polytheistic
+	}
+}
+d_epirus = { 
+	item = {
+		trigger = {
+			holder.faith.religion = religion:hellenism_religion
+		}
+		coat_of_arms = d_epirus_polytheistic
 	}
 }

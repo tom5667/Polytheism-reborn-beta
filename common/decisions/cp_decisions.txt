@@ -20,7 +20,7 @@ cp_restore_high_priesthood_decision = {
 			faith = faith:gaelic_polytheism
 			faith = faith:brythonic_polytheism
 			faith = faith:gaulish_polytheism
-			faith = faith:celtic_iberian_polytheism
+			faith = faith:celtic_iberian_polytheism	
 		}
 	}
 
