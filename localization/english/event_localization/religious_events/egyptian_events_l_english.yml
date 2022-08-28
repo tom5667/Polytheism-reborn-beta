@@ -1,8 +1,8 @@
 ﻿l_english:
 
 et.001.t:0 "Creating kingdom"
-et.001.desc:0 "After years of fighting against Muslims and Christians, It's finnaly time to Restore Egypt."
-et.001.a:0 "Egypt is once more"
+et.001.desc:0 "From the first days of Narmer to the last days of Nectanebo rises from the ashes of the last kingdoms and the ashes of the pretenders a new unified Kemet Kingdom"
+et.001.a:0 "The kingdom of Kemet is once more"
 
 #Return kemetic polytheism event localization 
 kemetic.001.t:0 "Travel trough realm"
@@ -79,9 +79,10 @@ kemetic_cmd.001.f:0 "Maybe this isn't the right time"
 
 
 kemetic.006.t:0 "Shema"
-kemetic.006.desc:0 "Text will be added later"
-kemetic.006.a:0 "Create Shema"
+kemetic.006.desc:0 "We have reclaimed the Upper Nile and the old duchies and by the will of Horus we shall resurrect the Kingdom of Shema. "
+kemetic.006.a:0 "Shema is once more"
+
 
 kemetic.007.t:0 "Mehu"
-kemetic.007.desc:0 "Text will be added later"
-kemetic.007.a:0 "Create Mehu"
+kemetic.007.desc:0 "We have reclaimed the Lower Nile and the old duchies and by the will of Horus we shall resurrect the Kingdom of Mehu."
+kemetic.007.a:0 "Mehu is once more"

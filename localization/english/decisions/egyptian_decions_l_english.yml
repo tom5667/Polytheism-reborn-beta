@@ -17,6 +17,7 @@ restore_egyptus_confirm:0 "Create Egypt"
 
 kingdom_of_upper_egypt:0 "Restore Kingdom of Shema"
 kingdom_of_upper_egypt_desc:0 "For too long have many pretenders sat upon the throne of this Kingdom we have reclaimed the Upper Nile and the old duchies and by the will of Horus we shall resurrect the Kingdom of Shema."
+
 kingdom_of_upper_egypt_effect_tooltip:0 "Restored Kigdom of Shema"
 create_upper_egypt_effect_tooltip:1 "It's time to reclaim Kingdom of Shema"
 kingdom_of_upper_egypt_confirm:0 "Create Kingdom of Shema"
