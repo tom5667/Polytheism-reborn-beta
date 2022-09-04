@@ -210,9 +210,6 @@ egyptian_religion ={
 
                 }
             }
-
-        }
-		faiths = {
 			atenism ={
 				#color
 				color = {252 240 0}

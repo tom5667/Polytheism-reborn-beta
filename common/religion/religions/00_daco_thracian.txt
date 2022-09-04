@@ -211,8 +211,6 @@
 				GHWNamePlural = ghw_great_holy_wars
 			}
 		}
-	}
-	faiths = {
 		zalmoxism = {
 			color = { 173 112 9 }
 			icon = zalmoxism

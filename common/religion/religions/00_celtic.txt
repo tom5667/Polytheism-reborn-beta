@@ -224,10 +224,6 @@ celtic_religion ={
     
                     }
                 }
-    
-            }
-
-    faiths = {
         brythonic_polytheism ={
             #color
             color = {56 255 0}
@@ -428,8 +424,6 @@ celtic_religion ={
 
                 }
             }
-        }
-        faiths = {
           gaulish_polytheism ={ 
             #color
             color = {56 255 0}
@@ -625,9 +619,7 @@ celtic_religion ={
                     GHWName = ghw_great_holy_war
                     GHWNamePlural = ghw_great_holy_wars
                }
-       }
-    }
-    faiths = {
+        }
         celtic_iberian_polytheism = { 
             #color
             color = {247 207 107}

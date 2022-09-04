@@ -216,8 +216,6 @@ caucasus_religion ={
 					GHWNamePlural = ghw_great_holy_wars
 				}
 			}
-    }
-	faiths = {
 		armenian_polytheism = {
 			color = { 219  183 50  }
 			icon = armenian

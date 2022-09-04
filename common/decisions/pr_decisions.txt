@@ -15,12 +15,12 @@
 			culture = culture:sardinian
 			culture = culture:sicilian
 			culture = culture:butr
-			culture = culutre:baranis
-			culture = culutre:zaghawa
+			culture = culture:baranis
+			culture = culture:zaghawa
 			culture = culture:nubian
-			culture = culutre:egyptian
-			culture = culutre:beja
-			culture = culutre:coptic
+			culture = culture:egyptian
+			culture = culture:beja
+			culture = culture:coptic
 			culture = culture:irish
 			culture = culture:pictish
 			culture = culture:gaelic
@@ -106,8 +106,8 @@
 				OR = {
 					
 					culture = culture:butr
-					culture = culutre:baranis
-					culture = culutre:zaghawa
+					culture = culture:baranis
+					culture = culture:zaghawa
 				}
 			}
 			trigger_event = punic.001
@@ -119,9 +119,9 @@
 				OR = {
 					
 					culture = culture:nubian
-					culture = culutre:egyptian
-					culture = culutre:beja
-					culture = culutre:coptic
+					culture = culture:egyptian
+					culture = culture:beja
+					culture = culture:coptic
 				}
 			}
 			trigger_event = kemetic.001 
@@ -493,4 +493,89 @@ return_polytheism_short_decision={
  #It's a bit of a far fetch as polytheistic religions didn't realy send religious emissaries to others(as far as I know) 
  #just to make the game play more fun and with lower religious fervor it could happen just like the neo polytheistic(pagan) religions 4
 
+
+ dismantle_papacy_decision = { #For Muslims and Pagans.
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	desc = dismantle_papacy_decision_desc
+	selection_tooltip = dismantle_papacy_decision_tooltip
+	major = yes
+
+	ai_check_interval = 60
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		faith:catholic = {
+			has_doctrine = doctrine_spiritual_head
+		}
+		OR = { #Must have historical grudge with Christianity
+			faith.religion = faith:hellenic_pagan.religion
+			faith.religion = faith:ashari.religion
+			faith.religion = faith:norse_pagan.religion
+			faith.religion = faith:slavic_pagan.religion
+			faith.religion = faith:baltic_pagan.religion
+			faith.religion = faith:cdr_polytheism.religion
+			faith.religion = faith:eluesinian_mysteries.religion
+			faith.religion = faith:mithraic_mysteries.religion
+			faith.religion = faith:mysteries_of_isis.religion
+			faith.religion = faith:cult_of_serapis.religion
+			faith.religion = faith:sol_invictus_cult.religion
+			faith.religion = faith:imperial_cult.religion
+			faith.religion = faith:gaelic_polytheism.religion
+			faith.religion = faith:brythonic_polytheism.religion
+			faith.religion = faith:gaulish_polytheism.religion
+			faith.religion = faith:celtic_iberian_polytheism.religion
+			faith.religion = faith:punic_polytheism.religion
+			faith.religion = faith:etc_polytheism.religion
+			faith.religion = faith:anglo_saxon_polytheism.religion
+			faith.religion = faith:german_polytheism.religion
+			faith.religion = faith:kemetic_polytheism.religion
+			faith.religion = faith:atenism.religion
+		}
+		highest_held_title_tier > 3 #Only Kings and Emperors
+		capital_province = { #Indians could not possibly care...
+			OR = {
+				geographical_region = world_europe
+				geographical_region = world_middle_east
+				geographical_region = world_africa_north
+			}
+		}
+	}
+
+	is_valid = {
+		trigger_if = {
+			limit = {
+				exists = title:k_papal_state.holder
+			}
+			title:k_papal_state.holder = { is_landed = no } #If he fled elsewhere, it cannot be done, the Pope must be landless.
+			title:k_papal_state.holder = { is_at_war = no } #Shouldn't be possible during a Crusade
+		}
+		completely_controls_region = world_europe_south_italy
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		custom_tooltip = dismantle_papacy_decision_effect_tooltip
+		show_as_tooltip = {
+			destroy_papacy_scripted_effect = yes
+		}
+		trigger_event = {
+			id = roman_restoration.0130
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = { #Do it always.
+		base = 100
+	}
+}
 

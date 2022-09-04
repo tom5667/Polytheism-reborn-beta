@@ -209,9 +209,7 @@ punic_religion ={
                 
                 GHWName = phw_great_holy_war
                 GHWNamePlural = phw_great_holy_wars
-
-                }
             }
-
         }
+    }
 }

@@ -427,10 +427,8 @@
 			GHWName = ghw_great_holy_war
 			GHWNamePlural = ghw_great_holy_wars
 			}
-			}
 		}
-		faiths = {
-			german_polytheism = {
+		german_polytheism = {
 				color = { 87 87 87 }
 				icon = german_polytheism
 				reformed_icon = german_polytheism
@@ -631,7 +629,7 @@
 
 				GHWName = ghw_great_holy_war
 				GHWNamePlural = ghw_great_holy_wars
-			}
+				}
 			}
 		}
 	}

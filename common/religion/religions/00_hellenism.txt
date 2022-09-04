@@ -220,9 +220,7 @@
 				GHWNamePlural = ghw_great_holy_wars
 			}
 		}
-	}
-	faiths = {
-		julians_polytheism ={
+    julians_polytheism ={
 			color = { 0.6 0.1 0.1 }
 			icon = hellinismos
 
@@ -412,8 +410,6 @@
 				GHWNamePlural = ghw_great_holy_wars
 			}
 		}
-	}
-	faiths = {
         cdr_polytheism ={
             #color
             color = {208 0 0}
@@ -617,9 +613,6 @@
 
                 }
             }
-
-        }
-    faiths = {
         #Eleusinian Mysteries
         eluesinian_mysteries ={
             #color
@@ -814,11 +807,8 @@
                 }
 
             }
-                
-        }
     #Mithraic Mysteries
-    faiths = {
-        mithraic_mysteries = {
+    mithraic_mysteries = {
             color = {210 0 0}
             icon = mithraic_mysteries
             holy_site = rome
@@ -1010,10 +1000,9 @@
                 GHWNamePlural = ghw_great_holy_wars
             }
         }
-    }
-    faiths = { 
-        #Mysteries of Isis
-        mysteries_of_isis = {
+
+    #Mysteries of Isis
+    mysteries_of_isis = {
         color = {211 0 0}
         icon = mysteries_of_isis
         religious_head = d_pontifex
@@ -1209,9 +1198,7 @@
                 GHWNamePlural = ghw_great_holy_wars
             }
         }
-    }
-    faiths = {
-        cult_of_serapis = {
+    cult_of_serapis = {
         color = {212 0 0}    
         icon = cult_of_serapis
         religious_head = d_pontifex
@@ -1408,8 +1395,6 @@
                 GHWNamePlural = ghw_great_holy_wars
             }
         }
-    }
-    faiths = {
         sol_invictus_cult = {
             color = {210 0 0}
             icon = sol_invictus
@@ -1603,8 +1588,6 @@
                 GHWNamePlural = ghw_great_holy_wars
             }
         }
-    }
-    faiths = {
         imperial_cult ={
             color = {212 0 0}
             icon = imperial_cult
@@ -1798,8 +1781,6 @@
                 GHWNamePlural = ghw_great_holy_wars
             }    
         }
-    }
-    faiths = {
         roman_illyrian_polytheism ={
             #color
             color = { 222 44 87 }
