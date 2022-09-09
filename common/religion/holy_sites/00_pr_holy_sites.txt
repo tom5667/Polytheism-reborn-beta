@@ -497,3 +497,45 @@ london = {
 	}
 	flag = ur_conversion_bonus # +20% County Conversion
 }
+
+#############
+#Mycenaean
+#############
+chandax = {
+	county = c_chandax
+
+	character_modifier = {
+		name = holy_site_dyrrachion_effect_name
+		cultural_head_fascination_mult = 0.05
+		monthly_county_control_change_factor = 0.05
+	}
+ }
+
+troy= {
+	county = c_abydos
+
+	character_modifier = {
+		name = holy_site_venice_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
+ }
+
+corinth = {
+	county = c_korinthos
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.2
+	}
+	flag = ur_conversion_bonus # +20% County Conversion
+}
+
+# olympus = {
+# 	county = c_middlesex
+
+# 	character_modifier = {
+# 		name = holy_site_dyrrachion_effect_name
+# 		cultural_head_fascination_mult = 0.05
+# 		monthly_county_control_change_factor = 0.05
+# 	}
+#  }

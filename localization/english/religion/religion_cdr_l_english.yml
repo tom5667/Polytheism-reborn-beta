@@ -51,8 +51,8 @@
     cdr_polytheism_high_god_herhis:0 "His"
 
     #Creater god Localization
-    cdr_polytheism_creator_god_name:0 "kháos"
-    cdr_polytheism_creator_god_name_possessive:0 "kháos's"
+    cdr_polytheism_creator_god_name:0 "Kháos"
+    cdr_polytheism_creator_god_name_possessive:0 "Kháos's"
 
     #Health Goddess Bona Dea
     cdr_polytheism_health_god_name:0 "Bona Dea"
@@ -124,7 +124,7 @@
 
     #Cdr priest 
     cdr_polytheism_priest_male:0 "Priest"
-    cdr_polytheism_priest_male_plural:0 "Priest"
+    cdr_polytheism_priest_male_plural:0 "Priests"
 
     #Cdr vestals 
     cdr_polytheism_priest_female:0 "Vestal" 
@@ -241,7 +241,7 @@
     eluesinian_mysteries_priest_male_plural:0 "Dadouchos"
     #Eluesinian Mysteries priestess 
     eluesinian_mysteries_priest_female:0 "Dadouchousa Prietess" 
-    eluesinian_mysteries_priest_female_plural:0 "Dadouchousa Prietess's" 
+    eluesinian_mysteries_priest_female_plural:0 "Dadouchousa Prietesses" 
 
     #holy order Eluesinian Mysteries 
     holy_order_protectors_of_eluesinian_mysteries:0 "Protectors of Eluesinian Mysteries"
@@ -342,7 +342,7 @@
     mithraic_mysteries_priest_male_plural:0 "Mithraic priest's"
     #Mithraic priestess 
     mithraic_mysteries_priest_female:0 "Dadouchousa Prietess" 
-    mithraic_mysteries_priest_female_plural:0 "Mithraic Prietess's" 
+    mithraic_mysteries_priest_female_plural:0 "Mithraic Prietesses" 
 
     #holy order Mithraic Mysteries 
     holy_order_protectors_of_mithraic_mysteries:0 "Protectors of Mitras"
@@ -440,7 +440,7 @@
 
     #Isis Mysteries priest 
     mysteries_of_isis_priest_male:0 "Isis mysterie priest"
-    mysteries_of_isis_priest_male_plural:0 "Isis mysterie priest's"
+    mysteries_of_isis_priest_male_plural:0 "Isis mysterie priests"
     #Isis Mysteries priestess 
     mysteries_of_isis_female:0 "Isis mysterie priestess" 
     mysteries_of_isis_priest_female_plural:0 "Isis mysterie priestess's" 
@@ -877,7 +877,7 @@
 
     roman_illyrian_polytheism:0 "Roman Illyrian Polytheism"
     roman_illyrian_polytheism_adj:0 "Roman Illyrian Polytheism"
-    roman_illyrian_polytheism_adherent:0 "Roman Illyrian Polytheismfollower"
+    roman_illyrian_polytheism_adherent:0 "Roman Illyrian Polytheism follower"
     roman_illyrian_polytheism_adherent_plural:0 "Roman Illyrian Polytheism followers"
     roman_illyrian_polytheism_desc:0 "Illyrian gods and goddess adopted by the Romans after conquering the Illyrian tribes" 
     roman_illyrian_polytheism_religious_head_title:0 "Pontifex Maximus"
@@ -970,7 +970,7 @@
 
     #Roman Illyrian priest 
     roman_illyrian_polytheism_priest_male:0 "Priest"
-    roman_illyrian_polytheism_priest_male_plural:0 "Priest"
+    roman_illyrian_polytheism_priest_male_plural:0 "Priests"
 
     #Roman Illyrian vestals 
     roman_illyrian_polytheism_priest_female:0 "Vestal" 
@@ -987,5 +987,238 @@
     reserved_female_names:0 "Roman Illyrian female names"
 
     #holy orders: 
-    holy_order_sons_of_mars:0 "Sons of Mars"
+    holy_order_sons_of_mars:0 "Sons of Armatus"
+    holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"
+
+  #mycenaean
+    mycenaean_polytheism:0 "Mycenaean Polytheism"
+    mycenaean_polytheism_adj:0 "Mycenaean Polytheism"
+    mycenaean_polytheism_adherent:0 "Mycenaean Polytheism follower"
+    mycenaean_polytheism_adherent_plural:0 "Mycenaean Polytheism followers"
+    mycenaean_polytheism_desc:0 "" 
+    mycenaean_polytheism_religious_head_title:0 "High Priest"
+    mycenaean_polytheism_divine_realm:0 "$hellenism_divine_realm$"
+    mycenaean_polytheism_polytheism_religious_symbol:0 "Bull"
+    mycenaean_polytheism_religious_text:0 "$hellenism_religious_text$"
+    
+
+    #mycenaean gods/goddesses Localization
+
+    #Poseidon Localization
+    mycenaean_polytheism_high_god_name:0 "Poseidon"
+    mycenaean_polytheism_high_god_name_possessive:0 "Poseidon's"
+    mycenaean_polytheism_high_god_name_alternate:0 "Poseidon"
+    mycenaean_polytheism_high_god_name_alternate_possessive:0 "Poseidon's"
+    mycenaean_polytheism_high_god_shehe:0 "He"
+    mycenaean_polytheism_high_god_herselfhimself:0 "Himself"
+    mycenaean_polytheism_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    mycenaean_polytheism_creator_god_name:0 "Gaia"
+    mycenaean_polytheism_creator_god_name_possessive:0 "Gaia's"
+
+    #Health Goddess Paean
+    mycenaean_polytheism_health_god_name:0 "Paean"
+    mycenaean_polytheism_health_god_name_possessive:0 "Paean's"
+
+    #Fertility Goddess Ceres Localization
+    mycenaean_polytheism_fertility_god_name:0 "Aphrodite"
+    mycenaean_polytheism_fertility_god_name_possessive:0 "Aphrodite's"
+
+    #Wealth god Hermes Localization
+    mycenaean_polytheism_wealth_god_name:0 "Hermes"
+    mycenaean_polytheism_wealth_god_name_possessive:0 "Hermes's"
+
+    #Household god Despotas 
+    mycenaean_polytheism_household_god_name:0 "Despotas"
+    mycenaean_polytheism_household_god_name_possessive:0 "Despotas's"
+
+    #Fate god the Moirai Localization
+    mycenaean_polytheism_fate_god_name:0 "the Moirai"
+    mycenaean_polytheism_fate_god_name_possessive:0 "the Moirai's"
+
+    #knowledge god Athena Localization
+    mycenaean_polytheism_knowledge_god_name:0 "Athena"
+    mycenaean_polytheism_knowledge_god_name_possessive:0 "Athena's"
+
+    #War god Ares Localization
+    mycenaean_polytheism_war_god_name:0 "Ares"
+    mycenaean_polytheism_war_god_name_possessive:0 "Ares's"
+
+    #Trickster god Mendacius Localization
+    mycenaean_polytheism_trickster_god_name:0 "Mendacius"
+    mycenaean_polytheism_trickster_god_name_possessive:0 "Mendacius's"
+
+    #Night goddess Nyx Localization
+    mycenaean_polytheism_night_god_name:0 "Nyx"
+    mycenaean_polytheism_night_god_name_possessive:0 "Nyx's"
+
+    #Water god Poseidon Localization
+    mycenaean_polytheism_water_god_name:0 "Poseidon"
+    mycenaean_polytheism_water_god_name_possessive:0 "Poseidon's"
+
+    #evil gods names 
+    mycenaean_polytheism_evil_god_menoetius:0 "Menoetius" 
+    mycenaean_polytheism_evil_god_the_erinyes":0 "The Erinyes""
+
+    #witch goddess
+    mycenaean_polytheism_witchgodname_hekate:0 "Hekate"
+    mycenaean_polytheism_witchgodname_hekate_possesive:0 "Hekate's"
+
+    #Devil god   
+    mycenaean_polytheism_devil_name:0 "Orcus" 
+    mycenaean_polytheism_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    mycenaean_polytheism_death_deity_name:0 "Hades"
+    mycenaean_polytheism_death_deity_name_possessive:0 "Hades's"
+
+    #Good gods names 
+    mycenaean_polytheism_good_god_zeus:0 "Zeus" 
+    mycenaean_polytheism_good_god_artemis:0 "Artemis" 
+    mycenaean_polytheism_good_god_posidaeia:0 "Posidaeia" 
+    mycenaean_polytheism_good_god_hermes:0 "Hermes" 
+    mycenaean_polytheism_good_god_potnia:0 "Potnia" 
+    mycenaean_polytheism_good_god_hera:0 "Hera" 
+    mycenaean_polytheism_good_god_diwia:0 "Diwia" 
+    mycenaean_polytheism_good_god_hephaestus:0 "Hephaestus"
+
+    #mycenaean priest flamen vestals
+
+    #mycenaean priest 
+    mycenaean_polytheism_priest_male:0 "Priest"
+    mycenaean_polytheism_priest_male_plural:0 "Priest"
+
+    #mycenaean vestals 
+    mycenaean_polytheism_priest_female:0 "Priestess" 
+    mycenaean_polytheism_priest_female_plural:0 "Priestesses" 
+
+    #mycenaean  
+    mycenaean_polytheism_bishop_male:0 "Fetial" 
+    mycenaean_polytheism_bishop_male_plural:0 "Fetials" 
+
+    #roman names
+    #males
+    reserved_male_names:0 "Mycenaean male names"
+    #Female 
+    reserved_female_names:0 "Mycenaean female names"
+
+    #holy orders: 
+    holy_order_sons_of_ares:0 "Sons of Ares"
+    holy_order_Protectors_of_pantes_theoi:0 "Protectors of Pantes Theoi"
+    holy_order_agememnons_finest:0 "Agememnons Finest"
+
+    gallo_roman_polytheism:0 "Gallo Roman Polytheism"
+    gallo_roman_polytheism_adj:0 "Gallo Roman Polytheism"
+    gallo_roman_polytheism_adherent:0 "Gallo Roman Polytheism follower"
+    gallo_roman_polytheism_adherent_plural:0 "Gallo Roman Polytheism followers"
+    gallo_roman_polytheism_desc:0 "Even before the Romans conquered the Gaulish tribes the Romans and the Celts had syncretism between their religions. Later on in the roman imperial era Syncretism was completed by building temples on gaulish holy sites  " 
+    gallo_roman_polytheism_religious_head_title:0 "Pontifex Maximus"
+    gallo_roman_polytheism_divine_realm:0 "Deii Consentes"
+    gallo_roman_polytheism_religious_symbol:0 "Offer altar"
+    gallo_roman_polytheism_religious_text:0 "Ritus and Caerimoniae"
+
+     #Roman Illyrian gods/goddesses Localization
+
+    #jupiter parthinus Localization
+    gallo_roman_polytheism_high_god_name:0 "Jupiter Teranus"
+    gallo_roman_polytheism_high_god_name_possessive:0 "Jupiter Teranus's"
+    gallo_roman_polytheism_high_god_name_alternate:0 "Jupiter Teranus"
+    gallo_roman_polytheism_high_god_name_alternate_possessive:0 "Jupiter Teranus's"
+    gallo_roman_polytheism_high_god_shehe:0 "He"
+    gallo_roman_polytheism_high_god_herselfhimself:0 "Himself"
+    gallo_roman_polytheism_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    gallo_roman_polytheism_creator_god_name:0 "kháos"
+    gallo_roman_polytheism_creator_god_name_possessive:0 "kháos's"
+
+    #Health Goddess Bona Dea
+    gallo_roman_polytheism_health_god_name:0 "Bona Dea"
+    gallo_roman_polytheism_health_god_name_possessive:0 "Bona Dea"
+
+    #Fertility Goddess Venus Localization
+    gallo_roman_polytheism_fertility_god_name:0 "Venus"
+    gallo_roman_polytheism_fertility_god_name_possessive:0 "Venus's"
+
+    #Wealth god Latra Localization
+    gallo_roman_polytheism_wealth_god_name:0 "Mercurius Cissonius"
+    gallo_roman_polytheism_wealth_god_name_possessive:0 "Mercurius Cissonius's"
+
+    #Household god Lares 
+    gallo_roman_polytheism_household_god_name:0 "Lares"
+    gallo_roman_polytheism_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    gallo_roman_polytheism_fate_god_name:0 "Janus"
+    gallo_roman_polytheism_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    gallo_roman_polytheism_knowledge_god_name:0 "Minerva Belisama"
+    gallo_roman_polytheism_knowledge_god_name_possessive:0 "Minerva Belisama's"
+
+    #War god Mars Localization
+    gallo_roman_polytheism_war_god_name:0 "Mars Lenus"
+    gallo_roman_polytheism_war_god_name_possessive:0 "Mars Lenus's"
+
+    #Trickster god Mercurius Cissonius Localization
+    gallo_roman_polytheism_trickster_god_name:0 "Mercurius Cissonius"
+    gallo_roman_polytheism_trickster_god_name_possessive:0 "Mercurius Cissonius's"
+
+    #Night goddess Latona Localization
+    gallo_roman_polytheism_night_god_name:0 "Latona"
+    gallo_roman_polytheism_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptune Localization
+    gallo_roman_polytheism_water_god_name:0 "Neptune"
+    gallo_roman_polytheism_water_god_name_possessive:0 "Neptune's"
+
+    #evil gods names 
+    gallo_roman_polytheism_evil_god_trivia:0 "Trivia" 
+    gallo_roman_polytheism_evil_god_discordia:0 "Discordia"
+
+    #witch goddess
+    gallo_roman_polytheism_witchgodname_trivia:0 "Trivia"
+    gallo_roman_polytheism_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Devil god   
+    gallo_roman_polytheism_devil_name:0 "Orcus" 
+    gallo_roman_polytheism_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    gallo_roman_polytheism_death_deity_name:0 "Pluto"
+    gallo_roman_polytheism_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+    gallo_roman_polytheism_good_god_juno:0 "Juno" 
+    gallo_roman_polytheism_good_god_apollo_anextlomarus:0 "Apollo Anextlomarus" 
+    gallo_roman_polytheism_good_god_minerva:0 "Minerva" 
+    gallo_roman_polytheism_good_god_mercury_visucius:0 "Mercury Visucius" 
+    gallo_roman_polytheism_good_god_mars_loucetius:0 "Mars Loucetius" 
+    gallo_roman_polytheism_good_god_mars_intarabus:0 "Mars Intarabus" 
+    gallo_roman_polytheism_good_god_apollo_granus:0 "Apollo Grannus" 
+    gallo_roman_polytheism_good_god_venus:0 "Venus"
+
+    #Roman Illyrian priest flamen vestals
+
+    #Roman Illyrian priest 
+    gallo_roman_polytheism_priest_male:0 "Priest"
+    gallo_roman_polytheism_priest_male_plural:0 "Priests"
+
+    #Roman Illyrian vestals 
+    gallo_roman_polytheism_priest_female:0 "Vestal" 
+    gallo_roman_polytheism_priest_female_plural:0 "Vestals" 
+
+    #Roman Illyrian flamen  
+    gallo_roman_polytheism_bishop_male:0 "flamen" 
+    gallo_roman_polytheism_bishop_male_plural:0 "flamens" 
+
+    #roman names
+    #males
+    reserved_male_names:0 "Gallo Roman male names"
+    #Female 
+    reserved_female_names:0 "Gallo Roman female names"
+
+    #holy orders: 
+    holy_order_sons_of_mars_lenus:0 "Sons of Mars Lenus"
     holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"

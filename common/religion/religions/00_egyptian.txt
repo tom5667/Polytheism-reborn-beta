@@ -157,7 +157,7 @@ egyptian_religion ={
                 WaterGodHerHis = CHARACTER_HERHIS_HIS
                 WaterGodHerHim = CHARACTER_HERHIM_HIM
 
-                PantheonTerm = pantheon_the_gods
+                PantheonTerm = religion_the_gods
                 PantheonTermHasHave = pantheon_term_have
                 GoodGodNames = {kemetic_polytheism_good_god_isis kemetic_polytheism_good_god_horus kemetic_polytheism_good_god_mut kemetic_polytheism_good_god_sekhmet kemetic_polytheism_good_god_geb kemetic_polytheism_good_god_ptah kemetic_polytheism_good_god_re kemetic_polytheism_good_god_anubis}
                 DevilName = kemetic_polytheism_devil_name
@@ -350,7 +350,7 @@ egyptian_religion ={
 					WaterGodHerHis = CHARACTER_HERHIS_HIS
 					WaterGodHerHim = CHARACTER_HERHIM_HIM
 	
-					PantheonTerm = pantheon_the_gods
+					PantheonTerm = religion_the_gods
 					PantheonTermHasHave = pantheon_term_have
 					GoodGodNames = {atenism_good_god_isis atenism_good_god_horus atenism_good_god_mut atenism_good_god_sekhmet atenism_good_god_geb atenism_good_god_ptah atenism_good_god_re atenism_good_god_anubis}
 					DevilName = atenism_devil_name

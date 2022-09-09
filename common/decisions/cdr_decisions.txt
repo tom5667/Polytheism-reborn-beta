@@ -998,7 +998,7 @@ choose_main_deity_roman_illyrian_decision = {
 
  convert_to_roman_illyrian = { 
 	picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
-	desc = restore_altar_of_victoria_desc
+	desc = convert_to_roman_illyrian_desc
 	major = yes
 	is_shown = {
 		#is_ai = no
@@ -1037,6 +1037,63 @@ choose_main_deity_roman_illyrian_decision = {
 	}
 	effect = { 
 		trigger_event = roman_illyrian.002
+	}
+	
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+ }
+
+ convert_to_gallo_roman = { 
+	picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+	desc = convert_to_gallo_roman_desc
+	major = yes
+	is_shown = {
+		#is_ai = no
+		is_landed = yes
+		religion = religion:hellenism_religion
+		AND = {
+			OR = { 
+			culture = culture:gaulish
+			culture = culture:french
+			culture = culture:frankish
+			culture = culture:occitan
+			#More bookmarks/cultures expanded 
+			# culture = culture:dalmatian_ce
+			# culture = culture:illyrian
+			# culture = culture:illyrian_slavic
+			}
+		}
+		NOR = { 
+				faith = faith:gallo_roman_polytheism
+			}
+	}
+	is_valid = {
+		religion = religion:hellenism_religion
+		AND ={ 
+			OR = { 
+				culture = culture:gaulish
+				culture = culture:french
+				culture = culture:frankish
+				culture = culture:occitan
+				# #More bookmarks/cultures expanded
+				# culture = culture:dalmatian_ce
+				# culture = culture:illyrian
+				# culture = culture:illyrian_slavic
+				# culture = culture:arberian
+			}
+		}
+
+	}
+	effect = { 
+		trigger_event = gallo_roman.002
 	}
 	
 	ai_check_interval = 90

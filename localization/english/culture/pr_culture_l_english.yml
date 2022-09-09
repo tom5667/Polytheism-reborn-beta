@@ -23,3 +23,11 @@
  manx:0 "Manx"
  manx_prefix:0 "Manx"
  manx_collective_noun:0 "Manx"
+
+ gallo_roman:0 "Gallo Roman"
+ gallo_roman_prefix:0 "Gallo Roman"
+ gallo_roman_collective_noun:0 "Gallo Romans"
+ 
+ mycenaean:0 "Mycenaean"
+ mycenaean_prefix:0 "Mycenaean"
+ mycenaean_collective_noun:0 "Mycenaeans"

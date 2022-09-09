@@ -174,6 +174,16 @@
  holy_site_oxford_effect_name:0 "From [holy_site|E] #weak ($holy_site_oxford_name$)#!"
  holy_site_oxford_effects:0 "County Conversion Speed: #P +20%#!"
 
+ #Macenaean
+ holy_site_chandax_name:0 "Chandax"
+ holy_site_chandax_effect_name:0 "From [holy_site|E]"
+
+ holy_site_troy_name:0 "Troy"
+ holy_site_troy_effect_name:0 "From [holy_site|E]"
+
+ holy_site_corinth_name:0 "Corinth"
+ holy_site_corinth_effect_name:0 "From [holy_site|E] #weak ($holy_site_corinth_name$)#!"
+ holy_site_corinth_effects:0 "County Conversion Speed: #P +20%#!"
 
  rf_abrahamic:0 "Abrahamic"
  rf_pagan:0 "Polytheistic"

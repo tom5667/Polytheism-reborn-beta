@@ -162,7 +162,7 @@ etruscan_religion ={
                 WaterGodHerHis = CHARACTER_HERHIS_HIS
                 WaterGodHerHim = CHARACTER_HERHIM_HIM
 
-                PantheonTerm = pantheon_the_gods
+                PantheonTerm = religion_the_gods
                 PantheonTermHasHave = pantheon_term_have
                 GoodGodNames = {etc_polytheism_good_god_juno etc_polytheism_good_god_venus etc_polytheism_good_god_minerva etc_polytheism_good_god_mercury etc_polytheism_good_god_neptune etc_polytheism_good_god_bona_dea etc_polytheism_good_god_mars  etc_polytheism_good_god_apollo etc_polytheism_good_god_diana}
                 DevilName = etc_polytheism_devil_name

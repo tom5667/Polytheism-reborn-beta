@@ -388,3 +388,12 @@ cdr_erc.001.a:0 "Embrace the roman culture"
   roman_illyrian.003.t:0 "Illyrian gods adopted"
   roman_illyrian.003.desc:0 "As new shrines are builded and rituals are written, the only thing left to do is to spread the word, after that the people will start to honour the old gods themselves."
   roman_illyrian.003.a:0 "Spread the word"
+
+  gallo_roman.002.t:0 "Adopting the Gaulish gods"
+  gallo_roman.002.desc:0 "After months of research and searching for places where the precense of the gods and good omens could be observed, it's time to build some shrines and write new rituals."
+  gallo_roman.002.a:0 "Let's start"
+  
+
+  gallo_roman.003.t:0 "Gaulish gods adopted"
+  gallo_roman.003.desc:0 "As new shrines are builded and rituals are written, the only thing left to do is to spread the word, after that the people will start to honour the old gods themselves."
+  gallo_roman.003.a:0 "Spread the word"

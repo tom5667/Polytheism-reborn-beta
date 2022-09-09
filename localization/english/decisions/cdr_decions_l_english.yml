@@ -119,6 +119,11 @@ restore_altar_of_victoria_tooltip:1 "I have only one chance at this"
 restore_altar_of_victoria_confirm:1 "Go to the senate"
 
 convert_to_roman_illyrian:0 "Adopt Illyrian Gods"
-convert_to_roman_illyrian_desc:0 "As Greco Roman Polytheist in old Illyrian lands there many ancient gods that lived here we can adopt"
+convert_to_roman_illyrian_desc:0 "As Greco Roman Polytheist in old Illyrian lands, there many ancient gods that lived here we can adopt"
 convert_to_roman_illyrian_tooltip:1 "Adopt Illyrian gods"
 convert_to_roman_illyrian_confirm:1 "Adopt Illyrian gods"
+
+convert_to_gallo_roman:0 "Adopt Gallo Roman Gods"
+convert_to_gallo_roman_desc:0 "As Greco Roman Polytheist in old Gaulish lands, there many ancient gods that lived here we can adopt"
+convert_to_roman_illyrian_tooltip:1 "Adopt Gaulish gods"
+convert_to_roman_illyrian_confirm:1 "Adopt Gaulish gods"

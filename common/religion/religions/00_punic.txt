@@ -159,7 +159,7 @@ punic_religion ={
                 WaterGodHerHis = CHARACTER_HERHIS_HIS
                 WaterGodHerHim = CHARACTER_HERHIM_HIM
 
-                PantheonTerm = punic_pantheon_the_gods
+                PantheonTerm = religion_the_gods
                 PantheonTermHasHave = pantheon_term_have
                 GoodGodNames = {punic_polytheism_good_god_baal punic_polytheism_good_god_reshef punic_polytheism_good_god_kusor punic_polytheism_good_god_melqart punic_polytheism_good_god_eshum punic_polytheism_good_god_yam punic_polytheism_good_god_tanit punic_polytheism_good_god_semes}
                 DevilName = punic_polytheism_devil_name

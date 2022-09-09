@@ -16,6 +16,7 @@ namespace = cult
 namespace = mm_cmd
 namespace = restore_altar
 namespace = roman_illyrian
+namespace = gallo_roman
 
 
 #choose your main deity events
@@ -1713,5 +1714,117 @@ restore_altar.008 ={
 	option = {
 		name = restore_altar.008.a
 		add_character_modifier = returned_altar_of_victory
+	}
+}
+
+#gallo roman
+gallo_roman.002 = { 
+	type = character_event
+	title = gallo_roman.002.t
+	desc = gallo_roman.002.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = gallo_roman.002.a
+		trigger_event = gallo_roman.003
+		days = 20
+	}
+}
+
+scripted_effect gallo_roman_sr_notify_players_effectt = {
+	every_player = {
+		limit = {
+			Not = {this = root}  
+			capital_province = {
+			geographical_region = world_europe_south_east
+			}
+		}
+		trigger_event = gallo_roman.004
+	}
+}
+
+gallo_roman.003 = {
+	type = character_event
+	title = gallo_roman.003.t
+	desc = gallo_roman.003.desc
+	theme = faith
+	right_portrait = {
+		character = scope:scoped_ruler
+		animation = personality_zealous	
+		}
+		override_background = { event_background = throne_room }
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		save_scope_as = scoped_ruler
+		faith = { save_scope_as = old_faith }
+		return_gallo_roman_sr_decision_scripted_effect = yes
+	}
+
+	option = {
+		name = gallo_roman.003.a
+		#Get a nice reward for your adherence to the true faith.
+		add_piety_level = 1
+		#Sort notification copy for players.
+		save_scope_value_as = {
+			name = gallo_roman_return
+			value = flag:vanilla
+		}
+		gallo_roman_sr_notify_players_effect = yes 
+		
+	}	
+}
+
+gallo_roman.004 = {
+	type = character_event
+	title = gallo_roman.004.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { top_liege = root }
+				desc = gallo_roman.004.desc.vassals
+			}
+			desc = gallo_roman.004.desc.outsiders
+		}
+		desc = gallo_roman.004.desc.intro
+		triggered_desc = {
+			trigger = { scope:gp_return = flag:vanilla }
+			desc = gallo_roman.004.desc_vanilla
+		}
+	}
+	theme = faith
+	left_portrait = scope:scoped_ruler
+	override_background = { event_background = throne_room }
+	#Celtic polyteist are happy about this unexpected turn of events!
+	option = {
+		name = gallo_roman.004.a
+		trigger = { religion = religion:hellenism_religion}
+		add_stress = minor_stress_loss
+	}
+	#Vassals who do not follow the faith may decide to convert after all.
+	option = {
+		name = gallo_roman.004.b
+		trigger = {
+			top_liege = root
+			NOT = { religion = religion:hellenism_religion}
+		}
+		set_character_faith_with_conversion = faith:gallo_roman_polytheism
+		
+	}
+	#Those who aren't polytheist are probably horrified.
+	option = {
+		name = gallo_roman.004.c
+		trigger = {
+			NOT = {
+				religion = { is_in_family = rf_cp}
+			}
+		}
+	}
+	#And, as a fallback, some people just won't care.
+	option = { 
+		name = gallo_roman.004.d 
 	}
 }

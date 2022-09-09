@@ -1,0 +1,40 @@
+﻿#sub cultures for Roman culture
+gallo_roman = {
+	parents = { roman }
+
+	color = { 39 210 44 }
+	created = 200.1.1
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_legalistic
+		tradition_hereditary_hierarchy
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 
+
+	ethnicities = {
+		10 = caucasian_blond
+		5 = caucasian_ginger
+		35 = caucasian_brown_hair
+		10 = mediterranean
+		35 = caucasian_dark_hair
+	}
+}
+
+# roman_illyrian = {
+
+# }
+# roman_britain = {
+
+# }

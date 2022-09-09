@@ -12,13 +12,13 @@
 
 	male_names = {
 		Ambiorix Catuvolcus Abbo Acco Adietumarus Argiotalus Ariogaisos Arleno Atebodwos Attalus Axtrotalus Bilius Brennos Brogimaros Camulos Camulus 
-		Carantus Carmanos Carmo Caturix Celunno Cerdo Cilurnos Contessilo Corius Cudius Dagodubnos Dagodurnos Dagomarus Damos Dosso Drutalos Dubnorix
+		Carantus Carmanos Carmo Caturix Celunno Cerdo Cilurnos Contessilo Corius Cudius Dagodubnos Dagomarus Damos Dosso Drutalos Dubnorix
 		Dunnius Garomaros Garos Iantumaros Iestinus Katumaros Kintugenos Kintugnatos Lascius Leno Leucus Lukotorix Lutumaros Maguno Magurix 
 		Oclinos Samo Samorix Scottus Segomaros Talos Tanisius Tasco Tinus Toccus Uercassiuellaunos Urus Wirogalos
 	}
 	female_names = {
-		Abrexta Acaunissa Acaunissa Aculia Adbugissa Banna Banna Baulia Blanda Boudia Boudicca Abbula Cantismerta boudilatis Carata Cauaria Cloustria 
-		Continuda Coria Dousonna Elantia Litogena Lubitiata Luguselwa Luguselwa Scotta Sucaria Uesuca Uinda Uindilla Uiscareua
+		Abrexta Acaunissa Acaunissa Aculia Adbugissa Banna Baulia Blanda Boudia Boudicca Abbula Cantismerta boudilatis Carata Cauaria Cloustria 
+		Continuda Coria Dousonna Elantia Litogena Lubitiata Luguselwa Scotta Sucaria Uesuca Uinda Uindilla Uiscareua Luguselwa
 	}
 
 	dynasty_of_location_prefix = "dynnp_de"

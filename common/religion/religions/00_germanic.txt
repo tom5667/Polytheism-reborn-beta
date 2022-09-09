@@ -225,9 +225,6 @@
 			GHWNamePlural = ghw_great_holy_wars
 			}
 		}
-
-	}
-	faiths = {
 		anglo_saxon_polytheism = {
 			color = { 214 214 214 }
 
