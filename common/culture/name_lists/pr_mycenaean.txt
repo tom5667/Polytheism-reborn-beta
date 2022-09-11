@@ -9,7 +9,7 @@
 	
 		male_names = {
 			Atukhos Plouteus Tantalos Warnotaios Lakhuiros Phalaikos Kusos Kerawios Kotullon Aikhweus Aithiops Adamaos Atukhos Pikreus Alksoitas Komawens Dewos Pakhullos 
-			Kusos Kerawios Kotullon Aikhweus Aithiops Adamaos Atukhos Pikreus Alksoitas Komawens Dewos Pakhullos Khalkeus Euestor Awekseus
+			Kusos Kerawios Kotullon Aikhweus Aithiops Adamaos Atukhos Pikreus Alksoitas Komawens Dewos Pakhullos Khalkeus Euestor Awekseus Arkhemedhaes Hierokleos
 		}
 		
 		female_names = {
