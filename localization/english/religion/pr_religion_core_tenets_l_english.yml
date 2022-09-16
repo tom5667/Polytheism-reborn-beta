@@ -1,0 +1,37 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+#################### 
+
+#Celtic syncretism Gaelic, Brythonic and Celtic Iberian
+tenet_celtic_syncretism_name:0 "Interpretatio Celtica"
+tenet_celtic_syncretism_desc:0 "When the Romans had met and conquered the barbarian Celts, they began to compare the local Celtic deities with their own, like the Greeks before them."
+doctrine_parameter_is_celtic_faith_bilateral_loc_override:2 "Considers Celtic [faiths|E], and is considered by Celtic $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_celtic_syncretism:1 ""
+doctrine_parameter_celtic_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_celtic_syncretism_name$ [core_tenet|E]"
+doctrine_parameter_opinion_of_celtic_syncretic_recipient_opinion_active:0 ""
+#hostility_override_special_doctrine_celtic_syncretism
+
+#Syncretism Greek, only Greek Polytheism
+tenet_greek_syncretism_name:0 "Interpretatio Graeca"
+tenet_greek_syncretism_desc:0 "We once thought that the gods as we know them today are spirits who live everywhere and have to worship in our daily lives. But since the contact with the Greeks became more, we got images of the gods and started comparing our gods with theirs next to our myths"
+doctrine_parameter_is_greek_faith_bilateral_loc_override:2 "Considers Greek [faiths|E], and is considered by Greek $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_greek_syncretism:1 ""
+doctrine_parameter_greek_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_greek_syncretism_name$ [core_tenet|E]"
+doctrine_parameter_opinion_of_greek_syncretic_recipient_opinion_active:0 ""
+hostility_override_special_doctrine_celtic_syncretism
+
+
+#Accepting syncretism 
+special_doctrine_celtic_syncretism_name:0 "Accepts Celtic Syncretism"
+doctrine_parameter_hostility_override_tenet_celtic_syncretism:1 ""  
+special_doctrine_celtic_syncretism_desc:0 "For centuries we fought and even lived with the Roman religion, but now it's time to ally with them against greater threaths"
+
+special_doctrine_greek_syncretism_name:0 "Accepts Greek Syncretism"
+doctrine_parameter_hostility_override_tenet_greek_syncretism:1 ""  
+special_doctrine_greek_syncretism_desc:0 "We fought the Romans, we lived with them, we traded with them. Now we must recognize that our gods are very similar"
+
+special_doctrine_ecumenical_greaco_roman_name:0 "Greaco-Roman Ecumenism"
+doctrine_parameter_is_greaco_roman_faith_bilateral_loc_override:2 "Other Greek and Roman [faiths|E], that have the Greaco-Roman Ecumenism doctrine are considered to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_ecumenical_greaco_roman:1 ""  
+special_doctrine_ecumenical_greaco_roman_desc:0 "Much of the cults that where in the Greek world also found their way to Roman world"

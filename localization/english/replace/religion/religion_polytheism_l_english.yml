@@ -1,0 +1,51 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+###################### 
+
+#Better religion name localization
+#Greek
+    hellenic_pagan:0 "Greek Polytheism"
+    hellenic_pagan_adj:0 "Greek Polytheism"
+    hellenic_pagan_adherent:0 "Greek polytheist"
+    hellenic_pagan_adherent_plural:0 "Greek Polytheists"
+
+    hellenic_pagan_old:0 "Old Greek Polytheism"
+    hellenic_pagan_old_adj:0 "Old Greek Polytheism"
+    hellenic_pagan_old_adherent:0 "Old Greek Polytheism"
+    hellenic_pagan_old_adherent_plural:0 "Old Greek Polytheists"
+    hellenic_pagan_desc:0 "Greeks worship the ancient Greek and gods, the greek gods said to reside on Mount Olympus. Each god has their own aspects and is venerated by their worshipers in their own way."
+    #hellenic Localization correction
+    hellenism_religion:2 "Pántheion"
+    hellenism_religion_adj:2 "Pántheion"
+    hellenism_religion_adherent:2 "Pántheion"
+    hellenism_religion_adherent_plural:2 "Pántheion"
+
+    hellenic_pagan_old_desc:0 "Greeks worship the ancient Greek and gods, the greek gods said to reside on Mount Olympus. Each god has their own aspects and is venerated by their worshipers in their own way."
+    hellenism_religion_desc:0 "The Greek gods and godesses residing on mount olympus, venerated by the ancient Greeks. The gods are known to play games with human lives or even come to earth like in the famous Illiad about the ancient city of troy"
+
+#Gods and Godesses Correction
+    hellenism_household_god_name:0 "Hestia"
+    hellenism_household_god_name_possessive:0 "Hestia's"
+    hellenism_health_god_name:0 "Appolo"
+    hellenism_health_god_name_possessive:0 "Appolo's"
+    hellenism_devil_name:0 "Eris"
+    hellenism_devil_name_possessive:0 "Eris's"
+    hellenism_fertility_god_name:0 "Aphrodite"
+    hellenism_fertility_god_name_possessive:0 "Aphrodite's"
+#Norse
+    germanic_religion:1 "Germanic"
+    germanic_religion_adj:1 "Germanic"
+    germanic_religion_adherent:1 "Germanic"
+    germanic_religion_adherent_plural:1 "Germanic"
+    germanic_religion_desc:1 "Germanic Polytheism has three main branches Norse in Scandinavia Anglo Saxon in Saxony and Angleland and Gemanic in the rest of Germany although every tribe had his own customs and rituals."
+
+    norse_pagan:0 "Norse Polytheism"
+    norse_pagan_adj:0 "Norse Polytheism"
+    norse_pagan_adherent:0 "Norse polytheist"
+    norse_pagan_adherent_plural:0 "Norse polytheists"
+
+    norse_pagan_old:0 "Old Norse Polytheism"
+    norse_pagan_old_adj:0 "Old Norse Polytheism"
+    norse_pagan_old_adherent:0 "Old Norse Polytheism follower"
+    norse_pagan_old_adherent_plural:0 "Old Norse Polytheism followers"

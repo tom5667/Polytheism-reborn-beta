@@ -1,38 +1,19 @@
 ﻿l_english:
 #####################
-#Made by tom5667 in coorparation with romanrepublic.org
-#V0.1 added religious family and cdr
-#V0.2 integrated more religous doctrines by scarelos, Added Eluesinian Mysteries
+#Made by tom5667 
 ###################### 
 
+    roman_religion:0 "Religio Romanorum"
+    roman_religion_adj:2 "Religio Romanorum"
 
-    hellenic_pagan:0 "Hellenismos"
-    hellenic_pagan_adj:0 "Hellenismos"
-    hellenic_pagan_adherent:0 "Hellenismos"
-    hellenic_pagan_adherent_plural:0 "Hellenists"
 
-    hellenic_pagan_old:0 "Old Hellenismos"
-    hellenic_pagan_old_adj:0 "Old Hellenismos"
-    hellenic_pagan_old_adherent:0 "Old Hellenismos"
-    hellenic_pagan_old_adherent_plural:0 "Old Hellenismos"
-
-    #hellenic Localization correction
-    hellenism_religion:0 "Greek-Roman"
-    hellenism_religion_adj:2 "Greek-Roman"
-    hellenism_religion_adherent:2 "Greek-Roman"
-    hellenism_religion_adherent_plural:2 "Greek-Roman"
-    hellenic_pagan_desc:0 "Greaco Roman worship the ancient Greek and gods,Th greek gods said to reside on Mount Olympus . Each god has their own aspects and is venerated by their worshipers in their own way."
-    hellenic_pagan_old_desc:0 "Greaco Roman worship the ancient Greek and gods,Th greek gods said to reside on Mount Olympus . Each god has their own aspects and is venerated by their worshipers in their own way."
-    hellenism_religion_desc:0 "The Greek and Roman Religions are the same on many fronts, although there are also some major differences like the way they perform rituals and that the greek gods reside on Mount Olympus on the contrary the Roman gods dont visit the mortal world"
-
-    #roman_religion_religious_head_title:0 "Pontifex Maximus" 
-    #cdr_pantheon_the_gods:0 "Deii Consentes"
     #cdr
-    cdr_polytheism:0 "Cultus Deorum"
-    cdr_polytheism_adj:0 "Cultus Deorum"
-    cdr_polytheism_adherent:0 "Cultus Deorum follower"
-    cdr_polytheism_adherent_plural:0 "Cultus Deorum followers"
-    cdr_polytheism_desc:0 "Deii Consentes (counsel of the gods) honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance." 
+    cdr_polytheism:0 "Roman Polytheism"
+    cdr_polytheism_adj:0 "Roman Polytheism"
+    cdr_polytheism_adherent:0 "Roman Polytheist"
+    cdr_polytheism_adherent_plural:0 "Roman Polytheists"
+    cdr_polytheism_desc:0 "Deii Consentes (counsel of the gods) honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance. Cultus deorum (Cultivation of the gods) not to be cunfused with the Greek religion, major differences like how the rituals are done and the gods won't play games with humans" 
+
     cdr_polytheism_religious_head_title:0 "Pontifex Maximus"
     cdr_polytheism_divine_realm:0 "Deii Consentes"
     cdr_polytheism_polytheism_religious_symbol:0 "Offer altar"
@@ -115,7 +96,7 @@
     cdr_polytheism_good_god_bona_dea:0 "Bona Dea" 
     cdr_polytheism_good_god_minerva:0 "Minerva" 
     cdr_polytheism_good_god_mercury:0 "Mercurius" 
-    cdr_polytheism_good_god_neptune:0 "Neptune" 
+    cdr_polytheism_good_god_neptune:0 "Neptunus" 
     cdr_polytheism_good_god_mars:0 "Mars" 
     cdr_polytheism_good_god_apollo:0 "Apollo" 
     cdr_polytheism_good_god_Venus:0 "Venus"
@@ -125,6 +106,7 @@
     #Cdr priest 
     cdr_polytheism_priest_male:0 "Priest"
     cdr_polytheism_priest_male_plural:0 "Priests"
+    cdr_polytheism_priest_alternate_plural:0 "Priest"
 
     #Cdr vestals 
     cdr_polytheism_priest_female:0 "Vestal" 
@@ -148,8 +130,8 @@
     
     eluesinian_mysteries:0 "Eluesinian Mysteries"
     eluesinian_mysteries_adj:0 "Eluesinian Mysteries"
-    eluesinian_mysteries_adherent:0 "Eluesinian Follower"
-    eluesinian_mysteries_adherent_plural:0 "Eluesinian Mysteries followers"
+    eluesinian_mysteries_adherent:0 "Eluesinian cultist"
+    eluesinian_mysteries_adherent_plural:0 "Eluesinian Mysteries cultists"
     eluesinian_mysteries_desc:0 "The Eluesinian mysteries was one of the most famous mysterie cults of Greece and later The Roman republic and Empire. It represented the myth of the abduction of Persephone from her mother Demeter by the king of the underworld Hades. Rites were performed at Eleusis near Athens" 
     eluesinian_mysteries_divine_realm:0 "Deii Consentes"
     eluesinian_mysteries_religious_head_title:0 "Hierophantes"
@@ -249,8 +231,8 @@
     #Mithras Mysteries 
     mithraic_mysteries:0 "Mithraic Mysteries"
     mithraic_mysteries_adj:0 "Mithraic Mysteries"
-    mithraic_mysteries_adherent:0 "Mithraic Follower"
-    mithraic_mysteries_adherent_plural:0 "syndexioi"
+    mithraic_mysteries_adherent:0 "Mithraic Cultist"
+    mithraic_mysteries_adherent_plural:0 "Syndexioi"
     mithraic_mysteries_desc:0 "Roman mysterie cult popular by the roman army from 1st till 4th century ad and mostly worshiped by roman soldiers" 
     mithraic_mysteries_divine_realm:0 "Deii Consentes"
     mithraic_mysteries_religious_head_title:0 "Hierophantes"
@@ -350,8 +332,8 @@
     #Isis Mysteries 
     mysteries_of_isis:0 "Mysteries of Isis"
     mysteries_of_isis_adj:0 "Mysteries of Isis"
-    mysteries_of_isis_adherent:0 "Isis Mysteries Follower"
-    mysteries_of_isis_adherent_plural:0 "followers of mysterie cult of Isis"
+    mysteries_of_isis_adherent:0 "Isis Mysteries Cultist"
+    mysteries_of_isis_adherent_plural:0 "Isis Mysteries Cultists"
     mysteries_of_isis_desc:0 "With roots in Kemetic Polytheism, the cult of isis mysteries where one of the most famous mysterie cults in rome" 
     mysteries_of_isis_divine_realm:0 "Deii Consentes"
     mysteries_of_isis_religious_head_title:0 "Hierophantes"
@@ -451,8 +433,8 @@
     #Serapis Cult
     cult_of_serapis:0 "Serapis Cult"
     cult_of_serapis_adj:0 "Serapis Cult"
-    cult_of_serapis_adherent:0 "Serapis Cult follower"
-    cult_of_serapis_adherent_plural:0 "Followers of Serapis cult"
+    cult_of_serapis_adherent:0 "Serapis Cult Cultist"
+    cult_of_serapis_adherent_plural:0 "Serapis Cult Cultists"
     cult_of_serapis_desc:0 "The cult of Serapis was pushed forward during the third century BC on the orders of Greek Pharaoh Ptolemy I Soter of the Ptolemaic Kingdom and made him patron of the ptolomic dynasty and Alexandria. In roman times Serapis continued to increase in popularity " 
     cult_of_serapis_divine_realm:0 "Deii Consentes"
     cult_of_serapis_religious_head_title:0 "Hierophantes"
@@ -550,10 +532,10 @@
     holy_order_protectors_of_serapis_cult:0 "Protectors of Serapis"
 
     #Sol invictus Cult
-    sol_invictus_cult:0 "Sol Invictus cult"
-    sol_invictus_cult_adj:0 "Sol Invictus cult"
-    sol_invictus_cult_adherent:0 "Sol Invictus cult follower"
-    sol_invictus_cult_adherent_plural:0 "Followers of Sol Invictus cult"
+    sol_invictus_cult:0 "Sol Invictus Cult"
+    sol_invictus_cult_adj:0 "Sol Invictus Cult"
+    sol_invictus_cult_adherent:0 "Sol Invictus Cultists"
+    sol_invictus_cult_adherent_plural:0 "Sol Invictus Cultists"
     sol_invictus_cult_desc:0 "Sol Invictus (Unconquerable Sun) is a continuation of the old sol cult, established in 274 CE by Emperor Aurelian he made it one of the most important cults, the cult was mostly gone by 387 CE" 
     sol_invictus_cult_divine_realm:0 "Deii Consentes"
     sol_invictus_cult_religious_head_title:0 "Hierophantes"
@@ -653,8 +635,8 @@
     #Imperial cult
     imperial_cult:0 "Imperial Cult"
     imperial_cult_adj:0 "Imperial Cult"
-    imperial_cult_adherent:0 "Imperial Cult follower"
-    imperial_cult_adherent_plural:0 "Imperial Cult followers"
+    imperial_cult_adherent:0 "Imperial Cult Cultist"
+    imperial_cult_adherent_plural:0 "Imperial Cult Cultists"
     imperial_cult_desc:0 "In Imperial Cult Emperors are honored by ritus and Caerimoniae. Established in 28 bc by eastern states of the Roman Empire, Difference in west Divus (with the gods) in eastern Deus(god)" 
     imperial_cult_religious_head_title:0 "Pontifex Maximus"
     imperial_cult_divine_realm:0 "Deii Consentes"
@@ -738,7 +720,7 @@
     imperial_cult_good_god_augustus:0 "Augustus" 
     imperial_cult_good_god_minerva:0 "Minerva" 
     imperial_cult_good_god_hadrianus:0 "Hadrianus" 
-    imperial_cult_good_god_neptune:0 "Neptune" 
+    imperial_cult_good_god_neptune:0 "Neptunus" 
     imperial_cult_good_god_mars:0 "Mars" 
     imperial_cult_good_god_trajanus:0 "Trajanus" 
     imperial_cult_good_god_Venus:0 "Venus"
@@ -763,8 +745,8 @@
     #Julians Polytheism
     julians_polytheism:0 "Greco Roman"
     julians_polytheism_adj:0 "Greco Roman"
-    julians_polytheism_adherent:0 "Greco Roman follower"
-    julians_polytheism_adherent_plural:0 "Greco Roman followers"
+    julians_polytheism_adherent:0 "Greco Roman Polytheist"
+    julians_polytheism_adherent_plural:0 "Greco Roman Polytheists"
     #julians_polytheism_desc:0 "Emperor Julians Quest to restore the old Polytheistic ways was a combination of Cultus Deorum and Hellenismos. Deii Consentes (counsel of the gods) honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance." 
     julians_polytheism_desc:0 "Greco Roman Polytheism is a combination between Cultus Deorum, Hellenismos, Sol Invictus and 3 cults( Mithras, Imperial and Isis cult) with Sol Invictus as most important god. Reformed after the ideas of Emperor Julian the philosopher (Julian the apostate in christian writings)"
     julians_polytheism_religious_head_title:0 "Pontifex Maximus"
@@ -877,8 +859,8 @@
 
     roman_illyrian_polytheism:0 "Roman Illyrian Polytheism"
     roman_illyrian_polytheism_adj:0 "Roman Illyrian Polytheism"
-    roman_illyrian_polytheism_adherent:0 "Roman Illyrian Polytheism follower"
-    roman_illyrian_polytheism_adherent_plural:0 "Roman Illyrian Polytheism followers"
+    roman_illyrian_polytheism_adherent:0 "Roman Illyrian Polytheist"
+    roman_illyrian_polytheism_adherent_plural:0 "Roman Illyrian Polytheists"
     roman_illyrian_polytheism_desc:0 "Illyrian gods and goddess adopted by the Romans after conquering the Illyrian tribes" 
     roman_illyrian_polytheism_religious_head_title:0 "Pontifex Maximus"
     roman_illyrian_polytheism_divine_realm:0 "Deii Consentes"
@@ -961,7 +943,7 @@
     roman_illyrian_polytheism_good_god_bona_dea:0 "Bona Dea" 
     roman_illyrian_polytheism_good_god_minerva:0 "Minerva" 
     roman_illyrian_polytheism_good_god_mercury:0 "Mercurius" 
-    roman_illyrian_polytheism_good_god_neptune:0 "Neptune" 
+    roman_illyrian_polytheism_good_god_neptune:0 "Neptunus" 
     roman_illyrian_polytheism_good_god_mars:0 "Mars" 
     roman_illyrian_polytheism_good_god_apollo:0 "Apollo" 
     roman_illyrian_polytheism_good_god_Venus:0 "Venus"
@@ -987,7 +969,7 @@
     reserved_female_names:0 "Roman Illyrian female names"
 
     #holy orders: 
-    holy_order_sons_of_mars:0 "Sons of Armatus"
+    holy_order_sons_of_armatus:0 "Sons of Armatus"
     holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"
 
   #mycenaean
@@ -1110,15 +1092,15 @@
 
     gallo_roman_polytheism:0 "Gallo Roman Polytheism"
     gallo_roman_polytheism_adj:0 "Gallo Roman Polytheism"
-    gallo_roman_polytheism_adherent:0 "Gallo Roman Polytheism follower"
-    gallo_roman_polytheism_adherent_plural:0 "Gallo Roman Polytheism followers"
-    gallo_roman_polytheism_desc:0 "Even before the Romans conquered the Gaulish tribes the Romans and the Celts had syncretism between their religions. Later on in the roman imperial era Syncretism was completed by building temples on gaulish holy sites  " 
+    gallo_roman_polytheism_adherent:0 "Gallo Roman Polytheist"
+    gallo_roman_polytheism_adherent_plural:0 "Gallo Roman Polytheists"
+    gallo_roman_polytheism_desc:0 "Even before the Romans conquered the Gaulish tribes the Romans and the Celts had syncretism between their religions. Later on in the roman imperial era Syncretism was completed by building temples on gaulish holy sites" 
     gallo_roman_polytheism_religious_head_title:0 "Pontifex Maximus"
     gallo_roman_polytheism_divine_realm:0 "Deii Consentes"
     gallo_roman_polytheism_religious_symbol:0 "Offer altar"
     gallo_roman_polytheism_religious_text:0 "Ritus and Caerimoniae"
 
-     #Roman Illyrian gods/goddesses Localization
+     #Gallo Roman gods/goddesses Localization
 
     #jupiter parthinus Localization
     gallo_roman_polytheism_high_god_name:0 "Jupiter Teranus"
@@ -1133,9 +1115,9 @@
     gallo_roman_polytheism_creator_god_name:0 "kháos"
     gallo_roman_polytheism_creator_god_name_possessive:0 "kháos's"
 
-    #Health Goddess Bona Dea
-    gallo_roman_polytheism_health_god_name:0 "Bona Dea"
-    gallo_roman_polytheism_health_god_name_possessive:0 "Bona Dea"
+    #Health Goddess Apollo Grannus
+    gallo_roman_polytheism_health_god_name:0 "Apollo Grannus"
+    gallo_roman_polytheism_health_god_name_possessive:0 "Apollo Grannus's"
 
     #Fertility Goddess Venus Localization
     gallo_roman_polytheism_fertility_god_name:0 "Venus"
@@ -1169,9 +1151,9 @@
     gallo_roman_polytheism_night_god_name:0 "Latona"
     gallo_roman_polytheism_night_god_name_possessive:0 "Latona's"
 
-    #Water god Neptune Localization
-    gallo_roman_polytheism_water_god_name:0 "Neptune"
-    gallo_roman_polytheism_water_god_name_possessive:0 "Neptune's"
+    #Water god Neptunus Localization
+    gallo_roman_polytheism_water_god_name:0 "Neptunus"
+    gallo_roman_polytheism_water_god_name_possessive:0 "Neptunus's"
 
     #evil gods names 
     gallo_roman_polytheism_evil_god_trivia:0 "Trivia" 
@@ -1192,14 +1174,14 @@
     #Good gods names 
     gallo_roman_polytheism_good_god_juno:0 "Juno" 
     gallo_roman_polytheism_good_god_apollo_anextlomarus:0 "Apollo Anextlomarus" 
-    gallo_roman_polytheism_good_god_minerva:0 "Minerva" 
-    gallo_roman_polytheism_good_god_mercury_visucius:0 "Mercury Visucius" 
+    gallo_roman_polytheism_good_god_gobannos:0 "Gobannos" 
+    gallo_roman_polytheism_good_god_mercurius_visucius:0 "Mercurius Visucius" 
     gallo_roman_polytheism_good_god_mars_loucetius:0 "Mars Loucetius" 
     gallo_roman_polytheism_good_god_mars_intarabus:0 "Mars Intarabus" 
     gallo_roman_polytheism_good_god_apollo_granus:0 "Apollo Grannus" 
     gallo_roman_polytheism_good_god_venus:0 "Venus"
 
-    #Roman Illyrian priest flamen vestals
+    #Gallo Roman  priest flamen vestals
 
     #Roman Illyrian priest 
     gallo_roman_polytheism_priest_male:0 "Priest"
@@ -1221,4 +1203,119 @@
 
     #holy orders: 
     holy_order_sons_of_mars_lenus:0 "Sons of Mars Lenus"
+    holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"
+    
+    romano_british_polytheism:0 "Romano British Polytheism"
+    romano_british_polytheism_adj:0 "Romano British Polytheism"
+    romano_british_polytheism_adherent:0 "Romano British Polytheist"
+    romano_british_polytheism_adherent_plural:0 "Romano British Polytheists"
+    romano_british_polytheism_desc:0 "Even before the Romans conquered the British tribes the Romans and the Celts had syncretism between their religions. Later on in the roman imperial era Syncretism was completed by building temples on british holy sites with the most famous of Sulis Minerva" 
+    romano_british_polytheism_religious_head_title:0 "Pontifex Maximus"
+    romano_british_polytheism_divine_realm:0 "Deii Consentes"
+    romano_british_polytheism_religious_symbol:0 "Offer altar"
+    romano_british_polytheism_religious_text:0 "Ritus and Caerimoniae"
+
+     #Romano British gods/goddesses Localization
+
+    #jupiter parthinus Localization
+    romano_british_polytheism_high_god_name:0 "Jupiter Taran"
+    romano_british_polytheism_high_god_name_possessive:0 "Jupiter Taran's"
+    romano_british_polytheism_high_god_name_alternate:0 "Jupiter Taran"
+    romano_british_polytheism_high_god_name_alternate_possessive:0 "Jupiter Taran's"
+    romano_british_polytheism_high_god_shehe:0 "He"
+    romano_british_polytheism_high_god_herselfhimself:0 "Himself"
+    romano_british_polytheism_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    romano_british_polytheism_creator_god_name:0 "kháos"
+    romano_british_polytheism_creator_god_name_possessive:0 "kháos's"
+
+    #Health God Apollo Belenus
+    romano_british_polytheism_health_god_name:0 "Apollo Belenus"
+    romano_british_polytheism_health_god_name_possessive:0 "Apollo Belenus"
+
+    #Fertility Goddess Venus Localization
+    romano_british_polytheism_fertility_god_name:0 "Venus"
+    romano_british_polytheism_fertility_god_name_possessive:0 "Venus's"
+
+    #Wealth god Latra Localization
+    romano_british_polytheism_wealth_god_name:0 "Mercurius Lugus"
+    romano_british_polytheism_wealth_god_name_possessive:0 "Mercurius Lugus's"
+
+    #Household god Lares 
+    romano_british_polytheism_household_god_name:0 "Lares"
+    romano_british_polytheism_household_god_name_possessive:0 "Lares's"
+
+    #Fate god Janus Localization
+    romano_british_polytheism_fate_god_name:0 "Janus"
+    romano_british_polytheism_fate_god_name_possessive:0 "Janus's"
+
+    #knowledge god Minerva Localization
+    romano_british_polytheism_knowledge_god_name:0 "Sulis Minerva"
+    romano_british_polytheism_knowledge_god_name_possessive:0 "Sulis Minerva's"
+
+    #War god Mars Localization
+    romano_british_polytheism_war_god_name:0 "Mars Cocidius"
+    romano_british_polytheism_war_god_name_possessive:0 "Mars Cocidius's"
+
+    #Trickster god Mercurius Cissonius Localization
+    romano_british_polytheism_trickster_god_name:0 "Mercurius Lugus"
+    romano_british_polytheism_trickster_god_name_possessive:0 "Mercurius Lugus's"
+
+    #Night goddess Latona Localization
+    romano_british_polytheism_night_god_name:0 "Latona"
+    romano_british_polytheism_night_god_name_possessive:0 "Latona's"
+
+    #Water god Neptunus Localization
+    romano_british_polytheism_water_god_name:0 "Neptunus"
+    romano_british_polytheism_water_god_name_possessive:0 "Neptunus's"
+
+    #evil gods names 
+    romano_british_polytheism_evil_god_trivia:0 "Trivia" 
+    romano_british_polytheism_evil_god_discordia:0 "Discordia"
+
+    #witch goddess
+    romano_british_polytheism_witchgodname_trivia:0 "Trivia"
+    romano_british_polytheism_witchgodname_trivia_possesive:0 "Trivia's"
+
+    #Devil god   
+    romano_british_polytheism_devil_name:0 "Orcus" 
+    romano_british_polytheism_devil_name_possessive:0 "Orcus's"
+
+    #Death god Pluto 
+    romano_british_polytheism_death_deity_name:0 "Pluto"
+    romano_british_polytheism_death_deity_name_possessive:0 "Pluto's"
+
+    #Good gods names 
+    romano_british_polytheism_good_god_juno:0 "Juno" 
+    romano_british_polytheism_good_god_minerva_brigantia:0 "Minerva Brigantia" 
+    romano_british_polytheism_good_god_minerva:0 "Minerva" 
+    romano_british_polytheism_good_god_mercurius_lugus:0 "Mercurius Lugus" 
+    romano_british_polytheism_good_god_mars_nodens:0 "Mars Nodens" 
+    romano_british_polytheism_good_god_mars_intarabus:0 "Mars Intarabus" 
+    romano_british_polytheism_good_god_apollo_belenus:0 "Apollo Belenus" 
+    romano_british_polytheism_good_god_venus:0 "Venus"
+
+    #Roman Illyrian priest flamen vestals
+
+    #Roman Illyrian priest 
+    romano_british_polytheism_priest_male:0 "Priest"
+    romano_british_polytheism_priest_male_plural:0 "Priests"
+
+    #Roman Illyrian vestals 
+    romano_british_polytheism_priest_female:0 "Vestal" 
+    romano_british_polytheism_priest_female_plural:0 "Vestals" 
+
+    #Roman Illyrian flamen  
+    romano_british_polytheism_bishop_male:0 "flamen" 
+    romano_british_polytheism_bishop_male_plural:0 "flamens" 
+
+    #roman names
+    #males
+    reserved_male_names:0 "Romano British male names"
+    #Female 
+    reserved_female_names:0 "Romano British female names"
+
+    #holy orders: 
+    holy_order_sons_of_mars_nodens:0 "Sons of Mars Nodens"
     holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"

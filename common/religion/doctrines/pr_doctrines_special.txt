@@ -1,0 +1,42 @@
+﻿roman_syncretisms = { 
+	group = special 
+	#Test, could be it's needed to create a tenet 
+	is_available_on_create = {
+		# Removed on reformation.
+		always = no
+	}
+	special_doctrine_celtic_syncretism ={
+		parameters = {
+			hostility_override_tenet_celtic_syncretism = 1
+			 #For loc:
+			 is_celtic_faith_bilateral_loc_override = 1
+			# celtic_syncretic_actor_opinion_active = yes
+			# opinion_of_celtic_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		}
+	}
+	special_doctrine_greek_syncretism ={
+		parameters = {
+			hostility_override_tenet_greek_syncretism = 1
+			 #For loc:
+			 is_greek_faith_bilateral_loc_override = 1
+			# celtic_syncretic_actor_opinion_active = yes
+			# opinion_of_celtic_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		}
+	}
+}
+special_cult_tolerance = {
+	group = "main_group"
+	
+	is_available_on_create = {
+		always = no # Goes away when creating a new Faith
+	}
+	
+	special_doctrine_ecumenical_greaco_roman = {
+		icon = special_doctrine_ecumenical_greaco_roman
+		parameters = {
+			hostility_override_special_doctrine_ecumenical_greaco_roman = 1
+			#For loc:
+			is_greaco_roman_faith_bilateral_loc_override = 1
+		}
+	}
+}

@@ -13,8 +13,8 @@
     #mesopotamian
     mesopotamian_polytheism:0 "Mesopotamian Polytheism"
     mesopotamian_polytheism_adj:0 "Mesopotamian Polytheism"
-    mesopotamian_polytheism_adherent:0 "Mesopotamian Polytheism follower"
-    mesopotamian_polytheism_adherent_plural:0 "Mesopotamian Polytheism followers"
+    mesopotamian_polytheism_adherent:0 "Mesopotamian Polytheist"
+    mesopotamian_polytheism_adherent_plural:0 "Mesopotamian Polytheists"
     mesopotamian_polytheism_desc:0 "Mesopotamian gods and goddesses are honored with rituals and ceremonies, so they may bless their followers and lead them to greatness" 
     mesopotamian_polytheism_religious_head_title:0 "Supreme priest"
     mesopotamian_polytheism_divine_realm:0 "Devine realm"

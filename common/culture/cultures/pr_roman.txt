@@ -5,7 +5,7 @@ gallo_roman = {
 	color = { 39 210 44 }
 	created = 200.1.1
 	ethos = ethos_stoic
-	heritage = heritage_latin
+	heritage = heritage_gaulish
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -41,7 +41,7 @@ gallo_roman = {
 	color = { 39 230 44 }
 	created = 212.1.1
 	ethos = ethos_stoic
-	heritage = heritage_latin
+	heritage = heritage_brythonic
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -49,7 +49,7 @@ gallo_roman = {
 		tradition_legalistic
 		tradition_highland_warriors
 		tradition_longbow_competitions
-		tradition_celtic_syncretism
+		#tradition_celtic_syncretism
 	}
 	
 	name_list = name_list_romano_british
