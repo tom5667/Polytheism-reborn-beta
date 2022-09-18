@@ -329,3 +329,102 @@ egypt_county = {
 	titles = {e_egyptus k_upper_egypt k_lower_egypt }
 	religions = { egyptian_religion }
 }
+
+#Etruscan 
+etruscan_king = {
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	priority = 105
+	heritages = { heritage_etruscan }
+}
+
+etruscan_queen = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom 
+	priority = 105
+	heritages = { heritage_etruscan }
+}
+
+etruscan_priest = {
+	type = character
+	gender = male
+	special = councillor
+	priority = 300
+	council_position = councillor_court_chaplain
+	heritages = { heritage_etruscan }
+}
+
+etruscan_priestess = {
+	type = character
+	special = councillor
+	gender = female
+	priority = 300
+	council_position = councillor_court_chaplain
+	heritages = { heritage_etruscan }
+}
+etruscan_steward = {
+	type = character
+	special = councillor
+	priority = 300
+	council_position = councillor_steward
+	heritages = { heritage_etruscan }
+}
+etruscan_chancellor = {
+	type = character
+	special = councillor
+	priority = 300
+	heritages = { heritage_etruscan }
+}
+etruscan_marshal = {
+	type = character
+	special = councillor
+	priority = 300
+	council_position = councillor_marshal
+	heritages = { heritage_etruscan }
+}
+etruscan_spymaster = {
+	type = character
+	special = councillor
+	priority = 310
+	council_position = councillor_spymaster
+	heritages = { heritage_etruscan }
+}
+etruscan_duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 47
+	heritages = { heritage_etruscan }
+}
+
+etruscan_duchess = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 47
+	heritages = { heritage_etruscan }
+}
+
+etruscan_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 47
+	heritages = { heritage_etruscan }
+}
+
+etruscan_countess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 47
+	heritages = { heritage_etruscan }
+}

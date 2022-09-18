@@ -130,12 +130,20 @@ cdr_r.008.desc:0 "Now for if there are made any errors int the ritual, i wil off
 cdr_r.008.a:0 "Proceed"
 
 
-
+#Embrace culture decisions 
 
 #Embrace roman culture 
-cdr_erc.001.t:0 "Embrace Roman Culture"
-cdr_erc.001.desc:0 "For far to long we lost the old virtues of the roman empire."
-cdr_erc.001.a:0 "Embrace the roman culture"
+embrace_culture.001.t:0 "Embrace Roman Culture"
+embrace_culture.001.desc:0 "For far to long we lost the old virtues of the roman empire."
+embrace_culture.001.a:0 "Embrace the Roman culture"
+#Embrace Gallo Roman Culture
+embrace_culture.002.t:0 "Embrace Gallo Roman Culture"
+embrace_culture.002.desc:0 "For far to long we lost the old virtues of the Gallo Roman Culture."
+embrace_culture.002.a:0 "Embrace the Gallo Roman culture"
+#Embrace Romano British Culture
+embrace_culture.003.t:0 "Embrace Romano British Culture"
+embrace_culture.003.desc:0 "For far to long we lost the old virtues of the Romano British Culture."
+embrace_culture.003.a:0 "Embrace the Romano British culture"
 
 #Restore cultus deorum Priesthood
  cdr_rph_decisions.0001.t:0 "The New [scoped_ruler.GetFaith.GetAdjective] Priesthood"

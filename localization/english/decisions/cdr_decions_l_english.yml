@@ -1,17 +1,7 @@
 ﻿l_english:
 #####################
-#Made by tom5667 in coorparation with romanrepublic.org
-#V0.1 added religious family and cdr
-#V0.2 integrated more religous doctrines by scarelos, Added Eluesinian Mysteries
-#V0.3 Added cult of isis, serapis and mithras. Added some missing localization
-#V0.4 Added beta version of return roman polytheism decision. 
+#Made by tom5667 
 ######################
-
-# Return Cultus Deorum Decision 
-# cdr_return_decision:0 "Return Cultus Deorum"
-# cdr_return_decision_desc:0 "I'm wondering what the old roman religion looked like"
-# cdr_return_decision_tooltip:1 "How did the ancient religion work" 
-# cdr_return_decision_confirm:1 "Travel to Athens"
 
 #Make Cultus deorum state religion
 cdr_sr_decision:0 "Make Cultus Deorum state religion"
@@ -61,10 +51,22 @@ choose_main_deity_mm_decision_tooltip:1 "this can only be done once in a lifetim
 choose_main_deity_mm_decision_confirm:1 "Let's see"
 
 #Embrace roman culture 
-cdr_erc_decision:0 "Embrace Roman culture"
-cdr_erc_decision_desc:0 "We have our old religion back now it's time reintroduce the Roman virtues."
-cdr_erc_decision_tooltip:0 "Return Roman culture"
-cdr_erc_decision_confirm:0 "Confirm"
+embrace_roman_culture_decision:0 "Embrace Roman culture"
+embrace_roman_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Roman virtues."
+embrace_roman_culture_decision_tooltip:0 "Return Roman culture"
+embrace_roman_culture_decision_confirm:0 "Confirm"
+
+#Embrace gallo roman culture 
+embrace_gallo_roman_culture_decision:0 "Embrace Gallo Roman culture"
+embrace_gallo_roman_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Gallo Roman virtues."
+embrace_gallo_roman_culture_decision_tooltip:0 "Return Gallo Roman culture"
+embrace_gallo_roman_culture_decision_confirm:0 "Confirm"
+
+#Embrace romano british culture 
+embrace_romano_british_culture_decision:0 "Embrace Romano British culture"
+embrace_romano_british_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Romano British virtues."
+embrace_romano_british_culture_decision_tooltip:0 "Return Romano British culture"
+embrace_romano_british_culture_decision_confirm:0 "Confirm"
 
 #Restore Cultus Deorum Priesthood
 cdr_restore_high_priesthood_decision:0 "Restore Cultus Deorum Priesthood"

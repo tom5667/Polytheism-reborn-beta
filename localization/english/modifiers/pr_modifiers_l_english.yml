@@ -208,6 +208,22 @@ roman_illyrian_bona_dea_desc:0 "Devotee of Bona Dead goddess of healing"
 roman_illyrian_latra:0 "Devoted to Latra"
 roman_illyrian_latra_desc:0 "Devotee of Latra god of weatlth"
 
+#Etruscan
+etruscan_tinia:0 "Devoted to Tinia"
+etruscan_tinia_desc:0 "Devotee of Tinia High god of the Etruscans"
+
+etruscan_nortia:0 "Devoted to Nortia"
+etruscan_nortia_desc:0 "Devotee of Nortia goddess of fertility"
+
+etruscan_turms:0 "Devoted to Turms"
+etruscan_turms_desc:0 "Devotee of Turms god of Wealth"
+
+etruscan_menrva:0 "Devoted to Menrva"
+etruscan_menrva_desc:0 "Devotee of Menrva goddess of wisdom"
+
+etruscan_maris:0 "Devoted to Maris"
+etruscan_maris_desc:0 "Devotee of Maris god of war"
+
 
 summer_solstice:0 "Held Summer Solstice"
 winter_solstice:0 "Held Winter Solstice"

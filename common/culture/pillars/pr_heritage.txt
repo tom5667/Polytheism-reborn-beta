@@ -7,3 +7,6 @@ heritage_gaulish = {
 heritage_mycenaean ={
 	type = heritage
 }
+heritage_etruscan = {
+	type = heritage
+}

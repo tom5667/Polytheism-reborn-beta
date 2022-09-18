@@ -3,6 +3,7 @@ namespace = hellenismos
 namespace = hellenismos_sr
 namespace = cdr_sr
 namespace = julian_sr
+namespace = embrace_culture
 
 #Return Hellenismos
 hellenismos.001 = {
@@ -420,3 +421,20 @@ cdr_sr.002 = {
 		name = cdr_sr.002.d 
 	}
 }
+
+embrace_culture.004= {
+	type = character_event
+	title = embrace_culture.004.t
+	desc = embrace_culture.004.desc
+	theme = learning
+
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = embrace_culture.004.a
+		set_culture = culture:mycenaean
+	}
+}
+

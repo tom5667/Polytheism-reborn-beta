@@ -53,3 +53,81 @@ etc_return_decision = {
 
 
 
+#Choose main deity Etruscan Polytheism 
+choose_main_deity_etruscan_decision = {
+	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
+
+	#desc = choose_main_deity_celtic_decision_desc
+	desc = select_personal_deity_germanic_decision_desc
+	selection_tooltip = choose_main_deity_etruscan_decision_tooltip
+
+	is_shown = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Following a valid religion & faith.
+		faith = faith:etc_polytheism 
+		
+	}
+
+	is_valid = {
+	}
+
+	is_valid_showing_failures_only = {
+		# Have to at _least_ not be in piety debt.
+		piety >= 0
+	}
+
+	cooldown = { years = 1 }
+
+	effect = {
+		# Show the possible options.
+			show_as_tooltip = {
+				random_list = {
+					desc = choose_main_deity_punic_decision_tt
+					100 = {
+						show_chance = no
+						desc = select_main_deity_etruscan_decision.select_tinia
+						add_character_modifier = etruscan_tinia
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_etruscan_decision.select_nortia
+						add_character_modifier = etruscan_nortia
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_etruscan_decision.select_turms
+						add_character_modifier = etruscan_turms
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_etruscan_decision.select_menrva
+						add_character_modifier = etruscan_menrva
+					}
+					100 = {
+						show_chance = no
+						desc = select_main_deity_etruscan_decision.select_maris
+						add_character_modifier = etruscan_maris
+					}
+				}
+			}
+			trigger_event = etc.007
+	}
+	ai_check_interval = 96
+	
+	ai_potential = {
+		piety >= minor_piety_value
+		 NOR = {
+		 	has_character_modifier = etruscan_tinia #High god
+		 	has_character_modifier = etruscan_nortia #fertility
+		 	has_character_modifier = etruscan_turms #wealth
+			has_character_modifier = etruscan_menrva #Knowledge
+			has_character_modifier = etruscan_maris #War 
+			
+		 }
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

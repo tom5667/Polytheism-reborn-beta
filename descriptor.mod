@@ -9,5 +9,5 @@ tags={
 	"Events"
 }
 name="Polytheism Reborn Beta"
-supported_version="1.7.0"
+supported_version="1.7.1"
 remote_file_id="2843281596"

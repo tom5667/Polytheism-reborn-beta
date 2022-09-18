@@ -118,10 +118,10 @@ choose_main_deity_mm_decision = {
 }
 
 #embrace roman culture 
-cdr_erc_decision = {
+embrace_roman_culture_decision = {
 	picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
 	major = yes
-	desc =  cdr_erc_decision_desc
+	desc =  embrace_roman_culture_decision_desc
 	is_shown = {
 		is_ai = no
 		is_landed = yes
@@ -167,7 +167,121 @@ cdr_erc_decision = {
 		base = 100
 	}
 	effect = {
-		trigger_event = cdr_erc.001  
+		trigger_event = embrace_culture.002 
+		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_cdr_erc
+			}
+		}
+	} 
+}
+
+#Embrace Gallo Roman culture 
+embrace_gallo_roman_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+	major = yes
+	desc =  embrace_gallo_roman_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		has_faith = faith:gallo_roman_polytheism
+		#OR = {
+			#has_culture = culture:roman
+			#has_culture_group = culture_group:byzantine_group
+			culture = { has_cultural_pillar = heritage_frankish }
+		#}
+
+	NOR = { 
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_restored_cdr_erc	
+			}
+		}
+	}
+	is_valid = {
+		is_adult = yes
+		is_imprisoned = no
+		completely_controls = title:c_ile_de_france
+		has_faith = faith:gallo_roman_polytheism
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+	effect = {
+		trigger_event = embrace_culture.002
+		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_cdr_erc
+			}
+		}
+	} 
+}
+
+#Embrace Romano British culture
+embrace_romano_british_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/londinium.dds"
+	major = yes
+	desc =  embrace_romano_british_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		has_faith = faith:romano_british_polytheism
+			#has_culture = culture:roman
+			#has_culture_group = culture_group:byzantine_group
+		culture = { has_cultural_pillar = heritage_brythonic }
+
+	NOR = { 
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_restored_cdr_erc	
+			}
+		}
+	}
+	is_valid = {
+		is_adult = yes
+		is_imprisoned = no
+		completely_controls = title:c_middlesex
+		has_faith = faith:romano_british_polytheism
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+	effect = {
+		trigger_event = embrace_culture.003
 		save_scope_as = actor
 		hidden_effect = {
 			add_to_global_variable_list = {

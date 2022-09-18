@@ -1,4 +1,104 @@
-﻿name_list_gallo_roman = {
+﻿name_list_roman = {
+	cadet_dynasty_names = {
+		"dynn_Juli-Claudii"
+		"dynn_Juli-Vipsanii"
+		"dynn_Aelii-Hadriani"
+		"dynn_Nerva-Antonine"
+	}
+
+	dynasty_names = {
+		#template
+		#"dynn_"
+		"dynn_Antonii"
+		"dynn_Abutii"
+		"dynn_Aemilii"
+		"dynn_Aqullii"
+		"dynn_Aternii"
+		"dynn_Atilii"
+		"dynn_Claudii"
+		"dynn_Cloelii"
+		"dynn_Cornelii"
+		"dynn_Curtii"
+		"dynn_Fabii"
+		"dynn_Foslii"
+		"dynn_Furii"
+		"dynn_Geganii"
+		"dynn_Genucii"
+		"dynn_Herminii"
+		"dynn_Horatii"
+		"dynn_Julii"
+		"dynn_Lartii"
+		"dynn_Lucretii"
+		"dynn_Manlii"
+		"dynn_Menenii"
+		"dynn_Metilii"
+		"dynn_Minucii"
+		"dynn_Mucii"
+		"dynn_Nautii"
+		"dynn_Numicii"
+		"dynn_Papirii"
+		"dynn_Pinarii"
+		"dynn_Pollii"
+		"dynn_Postumii"
+		"dynn_Potitii"
+		"dynn_Quinctii"
+		"dynn_Quinctilii"
+		"dynn_Romilii"
+		"dynn_Sempronii"
+		"dynn_Sergii"
+		"dynn_Servilii"
+		"dynn_Sebstii"
+		"dynn_Siccii"
+		"dynn_Sulpicii"
+		"dynn_Tarpeii"
+		"dynn_Tarquitii"
+		"dynn_Tullii"
+		"dynn_Valerii"
+		"dynn_Verginii"
+		"dynn_Veturii"
+		"dynn_Vitellii"
+		"dynn_Volumnii"
+		"dynn_Antonii"
+		"dynn_Cassii"
+		"dynn_Cominii"
+		"dynn_Curiatii"
+		"dynn_Hostilli"
+		"dynn_Junii"
+		"dynn_Marcii"
+		"dynn_Vipsanii"
+		"dynn_Flavii"
+		"dynn_Aelii"
+		"dynn_Hadriani"
+		"dynn_Symmachi"
+		"dynn_Pompeia"
+		"dynn_Diocletianus"
+		"dynn_Ulpii"
+		"dynn_Traianus"
+		"dynn_Nerva"
+	}
+
+	male_names = {
+		Gaius_Jullius_Caesar Gaius_Jullius Marcus Gaius Publius Sextus Appius Gnaeus Caius Agrippa 
+	}
+	female_names = {
+		Fabia Hadriana Agripina Julia_Agrippina Julia 
+	}
+
+
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_prefix_male = "dynnpat_pre_filius"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+}
+name_list_gallo_roman = {
 	cadet_dynasty_names = {
 		"dynn_Julio_Claudian"
 		"dynn_Flavian"
@@ -219,3 +319,4 @@ name_list_romano_germanic = {
 	mat_grm_name_chance = 50
 	mother_name_chance = 0
 }
+

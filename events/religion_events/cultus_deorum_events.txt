@@ -1,23 +1,28 @@
 ﻿namespace = cdr_cmd
 namespace = cdr_rgg
 namespace = cdr_r
-namespace = cdr_erc
 namespace = cdr_rph_decisions
 namespace = julian_sr
 namespace = hellenismos
 namespace = hellenismos_sr
 namespace = h_cmd
 namespace = cdr_otv
+#Vestal Vergins
 namespace = rejected_to_join_vestal_vergins
 namespace = accepted_to_join_vestal_vergins
+#Saturnalia
 namespace = saturnalia
+#Join cult events 
 namespace = cult
 #mithras mysteries namespace 
 namespace = mm_cmd
 namespace = restore_altar
+#Return religion
 namespace = roman_illyrian
+#return religion 
 namespace = gallo_roman
-
+#For all cultures
+namespace = embrace_culture
 
 #choose your main deity events
 cdr_cmd.001 = {
@@ -371,15 +376,12 @@ cdr_r.008 = {
 
 
 
-
-
-
+#Embrace Cultures
 #Embrace roman culture
-
-cdr_erc.001 = {
+embrace_culture.001 = {
 	type = character_event
-	title = cdr_erc.001.t
-	desc = cdr_erc.001.desc
+	title = embrace_culture.001.t
+	desc = embrace_culture.001.desc
 	theme = learning
 
 	override_background = {
@@ -390,11 +392,51 @@ cdr_erc.001 = {
 		animation = personality_content
 	}
 	option = {
-		name = cdr_erc.001.a
+		name = embrace_culture.001.a
 		set_culture = culture:roman
 	}
 
 }
+
+#Embrace Gallo Roman culture
+embrace_culture.002= {
+	type = character_event
+	title = embrace_culture.002.t
+	desc = embrace_culture.002.desc
+	theme = learning
+
+	override_background = {
+		event_background = virtues
+	}
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = embrace_culture.002.a
+		set_culture = culture:gallo_roman
+	}
+}
+#Embrace Romano British culture
+embrace_culture.003= {
+	type = character_event
+	title = embrace_culture.003.t
+	desc = embrace_culture.003.desc
+	theme = learning
+
+	override_background = {
+		event_background = virtues
+	}
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = embrace_culture.003.a
+		set_culture = culture:romano_british
+	}
+}
+
 
 #Restore Priesthood events
 cdr_rph_decisions.0001 = {

@@ -112,7 +112,7 @@ vannes = {
 } 
 
 #############
-# gaulic polytheism
+# gaulish polytheism
 #############
 
 aachen = {

@@ -63,6 +63,20 @@ egypt_countess:0 "Heret-tep"
 #County
 egypt_county:0 "Sepat"
 
+#Etruscan
+etruscan_king:0 "Lucumu"
+etruscan_queen:0 "Zilacei"
+etruscan_priest:0 "Sacni"
+etruscan_priestess:0 "Sacna"
+etruscan_chancellor:0 "Zilac"
+etruscan_steward:0 "Satena"
+etruscan_marshal:0 "Purth-Svana"
+etruscan_spymaster:0 "Spiu"
+etruscan_duke:0 "Zilax-Nucix"
+etruscan_duchess:0 "Zilatha"
+etruscan_count:0 "Zilath"
+etruscan_countess:0 "Zilatha"
+
 
 #Normal english localization
 # high_king_ireland:0 "High King of Ireland"

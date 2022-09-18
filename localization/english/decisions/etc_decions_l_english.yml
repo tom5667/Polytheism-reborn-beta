@@ -15,3 +15,15 @@ etc_sr_decision_desc:0 "It's time to make Etruscan polytheism ones again our sta
 etc_sr_decision_tooltip:1 "Making Etruscan polytheismstate religion again would be great"
 etc_sr_decision_confirm:1 "Let's do this"
 
+#Choose main deity
+choose_main_deity_etruscan_decision:0 "Choose your main deity"
+choose_main_deity_etruscan_decision_desc:0 "For some extra help in daily life, I can choose one god as my personal main god"
+
+select_main_deity_etruscan_decision.select_tinia:0 "Tinia high god of the Etruscans"
+select_main_deity_etruscan_decision.select_nortia:0 "Nortia goddess of fertility"
+select_main_deity_etruscan_decision.select_turms:0 "Turms god of wealth"
+select_main_deity_etruscan_decision.select_menrva:0 "Menrva goddess of wisdom"
+select_main_deity_etruscan_decision.select_maris:0 "Maris god of war"
+choose_main_deity_etruscan_decision_tooltip:1 "Choose main god(dess)"
+choose_main_deity_etruscan_decision_confirm:1 "Choose main god(dess)s"
+

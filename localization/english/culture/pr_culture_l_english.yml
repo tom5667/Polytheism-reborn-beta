@@ -35,3 +35,7 @@
  mycenaean:0 "Mycenaean"
  mycenaean_prefix:0 "Mycenaean"
  mycenaean_collective_noun:0 "Mycenaeans"
+#Etruscan
+ etruscan:0 "Rasenna"
+ etruscan_prefix:0 "Rasenna"
+ etruscan_collective_noun:0 "Rasna"

@@ -3,7 +3,7 @@ namespace = etc_sr
 
 
 
-#Return Cultus Deorum
+#Return Etruscan
 etc.001 = {
 	type = character_event
 	title = etc.001.t
@@ -210,3 +210,69 @@ etc_sr.002 = {
 }
 
 
+etc.007 = {
+	type = character_event
+	title = etc.007.t
+	desc = etc.007.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Tinia
+	option = {
+		name = etc.007.tinia
+		trigger = {
+			NOT = { has_character_modifier = etruscan_tinia }
+		}
+		set_bhakti_effect = { BHAKTI = etruscan_tinia }
+	}
+
+	 #Norti
+	 option = {
+	 	name = etc.007.nortia
+	 	trigger = {
+	 		NOT = { has_character_modifier = etruscan_nortia }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = etruscan_nortia }
+	 }
+
+	#Turms
+	option = {
+		name = etc.007.turms
+		trigger = {
+			NOT = { has_character_modifier = etruscan_turms}
+		}
+		set_bhakti_effect = { BHAKTI = etruscan_turms}
+	}
+
+	# Menvra
+	option = {
+		name = etc.007.menvra
+		trigger = {
+			NOT = { has_character_modifier = etruscan_menrva }
+		}
+		set_bhakti_effect = { BHAKTI = etruscan_menrva }
+	}
+
+
+	 # Maris
+	 option = {
+	 	name = etc.007.maris
+	 	trigger = {
+	 		NOT = { has_character_modifier = etruscan_maris }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = etruscan_maris }
+	 }
+
+	# Opt-Out
+	option = {
+		name = etc.007.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}

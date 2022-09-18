@@ -22,10 +22,10 @@
     #etc gods/goddesses Localization
 
     #jupiter Localization
-    etc_polytheism_high_god_name:0 "Tin"
-    etc_polytheism_high_god_name_possessive:0 "Tin's"
-    etc_polytheism_high_god_name_alternate:0 "Tin"
-    etc_polytheism_high_god_name_alternate_possessive:0 "Tin's"
+    etc_polytheism_high_god_name:0 "Tinia"
+    etc_polytheism_high_god_name_possessive:0 "Tinia's"
+    etc_polytheism_high_god_name_alternate:0 "Tinia"
+    etc_polytheism_high_god_name_alternate_possessive:0 "Tinia's"
     etc_polytheism_high_god_shehe:0 "He"
     etc_polytheism_high_god_herselfhimself:0 "Himself"
     etc_polytheism_high_god_herhis:0 "His"
