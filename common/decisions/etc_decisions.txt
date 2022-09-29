@@ -1,7 +1,7 @@
 ﻿#Etruscan polytheism decission return to Etruscan polytheism 
 #changes to secret religion when paradox includes secret religions 
 etc_return_decision = {
-		picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+		picture = "gfx/interface/illustrations/decisions/etruscan.dds"
 		major = yes
 		desc =  etc_return_decision_desc
 	is_shown = {
@@ -34,8 +34,8 @@ etc_return_decision = {
 		}
 	}
 	cost = {
-		piety = 500
-		gold = 500
+		prestige = 100
+		piety = 200
 	}
 	effect = {
 		trigger_event = etc.001 
@@ -128,6 +128,110 @@ choose_main_deity_etruscan_decision = {
 	}
 
 	ai_will_do = {
+		base = 100
+	}
+}
+
+create_etruria_decision = {
+	picture = "gfx/interface/illustrations/decisions/etruscan.dds"
+	desc = create_etruria_decision_desc
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		
+		OR = {
+			religion = religion:etruscan_religion
+			culture = { has_cultural_pillar = heritage_etruscan }
+		}
+		is_imprisoned = no	
+		is_at_war = no
+		NOR = {
+			has_title = title:k_etruria
+		}
+		AND ={
+			NOT ={
+				exists = title:k_etruria.holder
+			}
+		}
+		
+	}
+	cost = {
+		gold = 300 
+	}
+	is_valid = {
+		has_title = title:d_pisa
+		has_title = title:d_toscana
+		#has_title = title:d_corsica
+		#has_title = title:d_romagna
+		#has_title = title:d_latium
+		#has_title = title:d_capua
+
+	}
+	effect = {
+		custom_tooltip = create_etruria_decision_effect_tooltip
+		trigger_event = {
+			id = etc.008
+		}
+	}
+	ai_check_interval = 0
+ }
+
+
+ set_capital_pisa_decision = {
+	picture = "gfx/interface/illustrations/decisions/etruscan.dds"
+
+	desc = set_capital_pisa_decision_desc
+	selection_tooltip = set_capital_pisa_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:k_etruria
+		NOT = { capital_county = { this = title:c_pisa } }
+		OR = {
+			title:c_pisa.holder = { 	
+				any_liege_or_above = { this = root }
+			}
+			title:c_pisa.holder = { this = root }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+	}
+
+	effect = {
+		if = { #Usurp if not held personally.
+			limit = {
+				NOT = { title:c_pisa.holder = { this = root } }
+			}
+			create_title_and_vassal_change = {
+				type = returned
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:c_tunis = {
+				change_title_holder = {
+					holder = root
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+
+		}
+		set_realm_capital = title:c_pisa
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = { #Do it always, for coherence.
 		base = 100
 	}
 }

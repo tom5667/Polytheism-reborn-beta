@@ -44,6 +44,28 @@ select_main_deity_roman_illyrian_decision.select_latra:0 "Latra god of wealth"
 choose_main_deity_roman_illyrian_decision_tooltip:1 "Choose main god(dess)"
 choose_main_deity_roman_illyrian_decision_confirm:1 "Choose main god(dess)"
 
+#Gallo Roman 
+choose_main_deity_gallo_roman_decision:0 "Choose your main deity"
+choose_main_deity_gallo_roman_decision_tt:0 "You begin to live your life according to the values of"
+select_main_deity_gallo_roman_decision.select_jupiter_teranus:0 "Jupiter Teranus high god of the Gallo Romans"
+select_main_deity_gallo_roman_decision.select_minerva_belisama:0 "Minerva Belisama goddess of wisdom"
+select_main_deity_gallo_roman_decision.select_mars_lenus:0 "Mars Lenus god of war"
+select_main_deity_gallo_roman_decision.select_mercurius_cissonius:0 "Mercurius Cissonius god of wealth"
+select_main_deity_gallo_roman_decision.select_venus:0 "Venus goddess of fertility"
+choose_main_deity_gallo_roman_decision_tooltip:1 "Choose main god(dess)"
+choose_main_deity_gallo_roman_decision_confirm:1 "Choose main god(dess)"
+
+#Romano British
+choose_main_deity_romano_british_decision:0 "Choose your main deity"
+choose_main_deity_romano_british_decision_tt:0 "You begin to live your life according to the values of"
+select_main_deity_romano_british_decision.select_jupiter_teran:0 "Jupiter Teran high god of the Romano British"
+select_main_deity_romano_british_decision.select_sulis_minerva:0 "Sulis Minerva goddess of wisdom"
+select_main_deity_romano_british_decision.select_mars_cocidius:0 "Mars Cocidius god of war"
+select_main_deity_romano_british_decision.select_mercurius_lugus:0 "Mercurius Lugus god of wealth"
+select_main_deity_romano_british_decision.select_venus:0 "Venus goddess of fertility"
+choose_main_deity_romano_british_decision_tooltip:1 "Choose main god(dess)"
+choose_main_deity_romano_british_decision_confirm:1 "Choose main god(dess)"
+
 #choose your main deity Mithraic Mysteries
 choose_main_deity_mm_decision:0 "Choose your main deity"
 mm_cmd_decision_desc:0 "as i proceed, like most of the old cultus followers there was one particualar god who was important for their family."
@@ -115,17 +137,22 @@ join_cult_decision_confirm:1 "Take a look at the avaible cults"
 
 
 #Restore altar of victoria decision
-restore_altar_of_victoria:0 "Restore the altar of Victoria"
-restore_altar_of_victoria_desc:0 "Bring back the altar of victoria to the senate building."
-restore_altar_of_victoria_tooltip:1 "I have only one chance at this"
-restore_altar_of_victoria_confirm:1 "Go to the senate"
+restore_altar_of_victoria_decision:0 "Restore the altar of Victoria"
+restore_altar_of_victoria_decision_desc:0 "Bring back the altar of victoria to the senate building."
+restore_altar_of_victoria_decision_tooltip:1 "I have only one chance at this"
+restore_altar_of_victoria_decision_confirm:1 "Go to the senate"
 
-convert_to_roman_illyrian:0 "Adopt Illyrian Gods"
-convert_to_roman_illyrian_desc:0 "As Greco Roman Polytheist in old Illyrian lands, there many ancient gods that lived here we can adopt"
-convert_to_roman_illyrian_tooltip:1 "Adopt Illyrian gods"
-convert_to_roman_illyrian_confirm:1 "Adopt Illyrian gods"
+convert_to_roman_illyrian_decision:0 "Adopt Illyrian Gods"
+convert_to_roman_illyrian__decisiondesc:0 "As Greco Roman Polytheist in old Illyrian lands, there many ancient gods that lived here we can adopt"
+convert_to_roman_illyrian_decision_tooltip:1 "Adopt Illyrian gods"
+convert_to_roman_illyrian_decision_confirm:1 "Adopt Illyrian gods"
 
-convert_to_gallo_roman:0 "Adopt Gallo Roman Gods"
-convert_to_gallo_roman_desc:0 "As Greco Roman Polytheist in old Gaulish lands, there many ancient gods that lived here we can adopt"
-convert_to_roman_illyrian_tooltip:1 "Adopt Gaulish gods"
-convert_to_roman_illyrian_confirm:1 "Adopt Gaulish gods"
+convert_to_gallo_roman_decision:0 "Adopt Gallo Roman Gods"
+convert_to_gallo_roman_decision_desc:0 "As Greco Roman Polytheist in old Gaulish lands, there many ancient gods that lived here we can adopt"
+convert_to_gallo_roman_decision_tooltip:1 "Adopt Gaulish gods"
+convert_to_gallo_roman_decision_confirm:1 "Adopt Gaulish gods"
+
+convert_to_romano_british_decision:0 "Adopt Romano British Gods"
+convert_to_romano_british_decision_desc:0 "As Greco Roman Polytheist in old British lands, there many ancient gods that lived here we can adopt"
+convert_to_romano_british_decision_tooltip:1 "Adopt British gods"
+convert_to_romano_british_decision_confirm:1 "Adopt British gods"

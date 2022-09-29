@@ -5,9 +5,20 @@
  d_druidic:0 "ArdDruí"
  #High kingdom of ireland 
  k_high_kingdom_of_ireland:0 "Ardríocht ó Ériu"
+
+ #Celtic empire
+ e_celtic_empire:0 "Celts"
  #Kingdom of Carthago
  k_carthago:0 "Carthago"
  #Kingdom of Egypt
  e_egyptus:0 "Kemet"
  k_upper_egypt:0 "Shema"
  k_lower_egypt:0 "Mehu"
+ #Gaul
+ e_gaul:0 "Gaul"
+ k_celtica:0 "Celtica"
+ k_belgica:0 "Belgae"
+ k_cisalpina:0 "Cisalpine Gaul"
+ k_aquitania:0 "Aquitania"
+ k_narbonensis:0 "Narbonensis"
+ k_etruria:0 "Etruria"

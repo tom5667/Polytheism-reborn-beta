@@ -17,10 +17,10 @@ namespace = cult
 #mithras mysteries namespace 
 namespace = mm_cmd
 namespace = restore_altar
-#Return religion
+#Return religion choose main deity
 namespace = roman_illyrian
-#return religion 
 namespace = gallo_roman
+namespace = romano_british
 #For all cultures
 namespace = embrace_culture
 
@@ -374,7 +374,116 @@ cdr_r.008 = {
 	}
 }
 
+cdr_r.014 = {
+	type = character_event
+	title = cdr_r.014.t
+	desc = cdr_r.014.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cdr_r.014.a
+		trigger_event = cdr_r.015
+		days = 20
+	}
+}
 
+scripted_effect romano_british_sr_notify_players_effectt = {
+	every_player = {
+		limit = {
+			Not = {this = root}  
+			capital_province = {
+			geographical_region = world_europe_south_east
+			}
+		}
+		trigger_event = cdr_r.016
+	}
+}
+
+cdr_r.015 = {
+	type = character_event
+	title = cdr_r.015.t
+	desc = cdr_r.015.desc
+	theme = faith
+	right_portrait = {
+		character = scope:scoped_ruler
+		animation = personality_zealous	
+		}
+		override_background = { event_background = throne_room }
+
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		save_scope_as = scoped_ruler
+		faith = { save_scope_as = old_faith }
+		return_romano_british_sr_decision_scripted_effect = yes
+	}
+
+	option = {
+		name = cdr_r.015.a
+		#Get a nice reward for your adherence to the true faith.
+		add_piety_level = 1
+		#Sort notification copy for players.
+		save_scope_value_as = {
+			name = roman_british_return
+			value = flag:vanilla
+		}
+		romano_british_sr_notify_players_effect = yes 
+		
+	}	
+}
+
+cdr_r.016 = {
+	type = character_event
+	title = cdr_r.016.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { top_liege = root }
+				desc = cdr_r.016.desc.vassals
+			}
+			desc = cdr_r.016.desc.outsiders
+		}
+		desc = cdr_r.016.desc.intro
+		triggered_desc = {
+			trigger = { scope:gp_return = flag:vanilla }
+			desc = cdr_r.016.desc_vanilla
+		}
+	}
+	theme = faith
+	left_portrait = scope:scoped_ruler
+	override_background = { event_background = throne_room }
+	#Celtic polyteist are happy about this unexpected turn of events!
+	option = {
+		name = cdr_r.016.a
+		trigger = { religion = religion:roman_religion}
+		add_stress = minor_stress_loss
+	}
+	#Vassals who do not follow the faith may decide to convert after all.
+	option = {
+		name = cdr_r.016.b
+		trigger = {
+			top_liege = root
+			NOT = { religion = religion:roman_religion}
+		}
+		set_character_faith_with_conversion = faith:romano_british_polytheism
+		
+	}
+	#Those who aren't polytheist are probably horrified.
+	option = {
+		name = cdr_r.016.c
+		trigger = {
+			NOT = {
+				religion = { is_in_family = rf_cp}
+			}
+		}
+	}
+	#And, as a fallback, some people just won't care.
+	option = { 
+		name = cdr_r.016.d 
+	}
+}
 
 #Embrace Cultures
 #Embrace roman culture
@@ -1868,5 +1977,139 @@ gallo_roman.004 = {
 	#And, as a fallback, some people just won't care.
 	option = { 
 		name = gallo_roman.004.d 
+	}
+}
+
+gallo_roman.005 = {
+	type = character_event
+	title = gallo_roman.005.t
+	desc = gallo_roman.005.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Jupiter Teranus
+	option = {
+		name = gallo_roman.005.select_jupiter_teranus
+		trigger = {
+			NOT = { has_character_modifier = gallo_roman_jupiter_teranus }
+		}
+		set_bhakti_effect = { BHAKTI = gallo_roman_jupiter_teranus }
+	}
+
+		#Minerva Belisama 
+		option = {
+			name = gallo_roman.005.select_minerva_belisama
+			trigger = {
+				NOT = { has_character_modifier = gallo_roman_minerva_belisama }
+			}
+			set_bhakti_effect = { BHAKTI = gallo_roman_minerva_belisama }
+		}
+
+	#Mercury
+	option = {
+		name = gallo_roman.005.select_mercurius_cissonius
+		trigger = {
+			NOT = { has_character_modifier = gallo_roman_mercurius_cissonius }
+		}
+		set_bhakti_effect = { BHAKTI = gallo_roman_mercurius_cissonius }
+	}
+
+	# Venus
+	option = {
+		name = gallo_roman.005.select_venus 
+		trigger = {
+			NOT = { has_character_modifier = gallo_roman_venus }
+		}
+		set_bhakti_effect = { BHAKTI = gallo_roman_venus }
+	}
+
+
+		# Mars Lenus
+		option = {
+			name = gallo_roman.005.select_mars_lenus
+			trigger = {
+				NOT = { has_character_modifier = gallo_roman_mars_lenus }
+			}
+			set_bhakti_effect = { BHAKTI = gallo_roman_mars_lenus }
+		}
+
+	# Opt-Out
+	option = {
+		name = gallo_roman.005.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+
+romano_british.001 = {
+	type = character_event
+	title = romano_british.001.t
+	desc = romano_british.001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Jupiter Teranus
+	option = {
+		name = romano_british.001.select_jupiter_teran
+		trigger = {
+			NOT = { has_character_modifier = romano_british_jupiter_teran }
+		}
+		set_bhakti_effect = { BHAKTI = romano_british_jupiter_teran }
+	}
+
+		#Sulis Minerva 
+		option = {
+			name = romano_british.001.select_sulis_minerva
+			trigger = {
+				NOT = { has_character_modifier = romano_british_sulis_minerva }
+			}
+			set_bhakti_effect = { BHAKTI = romano_british_sulis_minerva }
+		}
+
+	#Mercury Lugus
+	option = {
+		name = romano_british.001.select_mercurius_lugus
+		trigger = {
+			NOT = { has_character_modifier = romano_british_mercurius_lugus }
+		}
+		set_bhakti_effect = { BHAKTI = romano_british_mercurius_lugus }
+	}
+
+	# Venus
+	option = {
+		name = romano_british.001.select_venus 
+		trigger = {
+			NOT = { has_character_modifier = romano_british_venus }
+		}
+		set_bhakti_effect = { BHAKTI = romano_british_venus }
+	}
+
+
+		# Mars Lenus
+		option = {
+			name = romano_british.001.select_mars_cocidius
+			trigger = {
+				NOT = { has_character_modifier = romano_british_mars_cocidius }
+			}
+			set_bhakti_effect = { BHAKTI = romano_british_mars_cocidius }
+		}
+
+	# Opt-Out
+	option = {
+		name = romano_british.001.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
 	}
 }

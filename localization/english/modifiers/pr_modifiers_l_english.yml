@@ -208,6 +208,38 @@ roman_illyrian_bona_dea_desc:0 "Devotee of Bona Dead goddess of healing"
 roman_illyrian_latra:0 "Devoted to Latra"
 roman_illyrian_latra_desc:0 "Devotee of Latra god of weatlth"
 
+#Gallo Roman 
+gallo_roman_jupiter_teranus:0 "Devoted to Jupiter Teranus"
+gallo_roman_jupiter_teranus_desc:0 "Devotee of Jupiter Teranus high god of the Gallo Romans"
+
+gallo_roman_minerva_belisama:0 "Devoted to Minerva Belisama"
+gallo_roman_minerva_belisama_desc:0 "Devotee of Minerva Belisama goddess of wisdom"
+
+gallo_roman_mars_lenus:0 "Devoted to Mars Lenus"
+gallo_roman_mars_lenus_desc:0 "Devotee of Mars Lenus god of war"
+
+gallo_roman_mercurius_cissonius:0"Devoted to Mercurius Cissonius"
+gallo_roman_mercurius_cissonius_desc:0"Devotee of Mercurius Cissonius god of wealth"
+
+gallo_roman_venus:0 "Devoted to Venus"
+gallo_roman_venus_desc:0 "Devotee of Venus goddess of fertility"
+
+#Romano British 
+romano_british_jupiter_teran:0 "Devoted to Jupiter Taran"
+romano_british_jupiter_teran_desc:0 "Devotee to Jupiter Taran high god of the Romano British"
+
+romano_british_sulis_minerva:0 "Devoted to Sulis Minerva"
+romano_british_sulis_minerva_desc:0 "Devotee of Sulis Minerva goddess of wisdom"
+
+romano_british_mars_cocidius:0 "Devoted to Mars Cocidius"
+romano_british_mars_cocidius_desc:0 "Devotee of Mars Cocidius god of war"
+
+romano_british_mercurius_lugus:0 "Devoted to Mercurius Lugus"
+romano_british_mercurius_lugus_desc:0 "Devotee of Mercurius Lugus god of wealth"
+
+romano_british_venus:0 "Devoted to Venus"
+romano_british_venus_desc:0 "Devotee of Venus goddess of fertility"
+
 #Etruscan
 etruscan_tinia:0 "Devoted to Tinia"
 etruscan_tinia_desc:0 "Devotee of Tinia High god of the Etruscans"

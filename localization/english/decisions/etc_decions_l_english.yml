@@ -27,3 +27,15 @@ select_main_deity_etruscan_decision.select_maris:0 "Maris god of war"
 choose_main_deity_etruscan_decision_tooltip:1 "Choose main god(dess)"
 choose_main_deity_etruscan_decision_confirm:1 "Choose main god(dess)s"
 
+create_etruria_decision:0 "Create Etruria"
+create_etruria_decision_desc:0 "Etruria a long lost kingdom after centuries of Roman rule and after that the Longobards"
+create_etruria_decision_effect_tooltip:0 "Create [kingdom|E] of Etruria"
+create_etruria_decision_tooltip:0 "Creates [kingdom|E] of Etruria"
+create_etruria_decision_confirm:1 "Create Etruria"
+
+set_capital_pisa_decision:0 "Make Pisa Capital"
+set_capital_pisa_decision_desc:0 "Make Pisa capital of Etruria."
+set_capital_pisa_decision_tooltip:1 "Change capital to Pisa"
+set_capital_pisa_decision_confirm:0 "Change Capital"
+
+

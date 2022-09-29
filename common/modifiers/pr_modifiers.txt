@@ -666,6 +666,103 @@ roman_illyrian_latra = {
 	islam_religion_opinion  = -5
 }
 
+#Gallo Roman 
+gallo_roman_jupiter_teranus ={
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+gallo_roman_minerva_belisama= {
+	icon = learning_positive
+	learning = 2
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+gallo_roman_mars_lenus = {
+	icon = martial_positive
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+gallo_roman_mercurius_cissonius= {
+	icon = economy_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	stewardship = 2
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+gallo_roman_venus= {
+	icon = fertility_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+}
+
+#Roman British 
+romano_british_jupiter_teran  ={
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+romano_british_sulis_minerva = {
+	icon = learning_positive
+	learning = 2
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+romano_british_mars_cocidius = {
+	icon = martial_positive
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+romano_british_mercurius_lugus = {
+	icon = economy_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	stewardship = 2
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+romano_british_venus = {
+	icon = fertility_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+}
 #Etruscan
 etruscan_tinia = {
 	icon = jupiter_positive

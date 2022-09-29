@@ -149,3 +149,28 @@ d_epirus = {
 		coat_of_arms = d_epirus_polytheistic
 	}
 }
+
+k_epirus = { 
+	item = {
+		trigger = {
+			OR ={ 
+				holder.faith.religion = religion:hellenism_religion
+				holder.faith.religion = religion:roman_religion
+			}
+		}
+		coat_of_arms = k_epirus_polytheistic
+	}
+}
+
+k_scotland = {
+	item = {
+		trigger = {
+			OR ={ 
+				holder.faith.religion = religion:celtic_religion
+				holder.faith.religion = religion:hellenism_religion
+				holder.faith.religion = religion:roman_religion
+			}
+		}
+		coat_of_arms = k_scotland_polytheistic
+	}
+}

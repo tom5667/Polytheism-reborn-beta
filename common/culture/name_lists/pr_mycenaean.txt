@@ -8,8 +8,10 @@
 		}
 	
 		male_names = {
-			Atukhos Plouteus Tantalos Warnotaios Lakhuiros Phalaikos Kusos Kerawios Kotullon Aikhweus Aithiops Adamaos Atukhos Pikreus Alksoitas Komawens Dewos Pakhullos 
-			Kusos Kerawios Kotullon Aikhweus Aithiops Adamaos Atukhos Pikreus Alksoitas Komawens Dewos Pakhullos Khalkeus Euestor Awekseus Arkhemedhaes Hierokleos
+			Atukhos Warnotaios Lakhuiros Phalaikos Kusos Kerawios Kotullon Aikhweus 
+			Aithiops Adamaos Pikreus Alksoitas Komawens Dewos Pakhullos Kusos 
+			Kerawios Kotullon Aikhweus Aithiops Khalkeus Awekseus Arkhemedhaes Hierokleos Tehophannes Ankhialos Euruphone Nestor Attalos Newoptolmeos Sekoundos Haesswilos 
+			Kenturipaeos Astuwinios Diwophantos Ptolemeos Kastor Eumelos Polydoros Prothoenor Epikratios Podeileirios Aegios Kadmos Zeuxidamos Aithios Taios Trawalos Hippokoon Lykoon
 		}
 		
 		female_names = {

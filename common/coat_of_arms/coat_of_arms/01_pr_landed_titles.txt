@@ -7,13 +7,13 @@
 #Cultus Deorum priesthood duchy 
 d_pontifex1 = {
 	pattern = "pattern_solid.dds"
-	color1 = "red"
+	color1 = "white"
 	color2 = "white"
 	colored_emblem = {
 		texture = "ce_pontifex.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { position = { 0.542 0.40 } rotation = -40 scale = { 0.9 0.9 }  }									
+		color1 = "brown"
+		color2 = "green"
+		instance = { position = { 0.50 0.45 } scale = { 0.7 0.7 }  }									
 	}	
 }
 #Celtic priesthood duchy 
@@ -27,6 +27,18 @@ d_druidic = {
 		instance = { position = { 0.50 0.45 } scale = { 0.8 0.8 }  }									
 	}	
 }
+#Celtic empire
+e_celtic_empire = {
+	pattern =  "pattern_solid.dds"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_celtic_empire.dds"
+		color1 = "yellow_light"
+		color2 = "yellow_light"
+		color3 = "yellow_light"
+		instance = {position = { 0.5 0.45 } scale = { 0.9 0.9 }  }
+	}
+}
 #High kingdom of ireland
 k_high_kingdom_of_ireland = {
 	pattern =  "pattern_solid.dds"
@@ -35,6 +47,25 @@ k_high_kingdom_of_ireland = {
 		texture = "ce_harp.dds"
 		color1 = "yellow"
 		instance = {position = { 0.5 0.48 } scale = { 0.9 0.9 }  }
+	}
+}
+#Scotland
+k_scotland_polytheistic = {
+	pattern =  "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_scotland_polytheism.dds"
+		color1 = "red"
+		color2 = "blue"
+		color3 = "green_light"
+		instance = { position = { 0.5 0.485 } scale = { 0.57 0.57 }  }
+	}
+	colored_emblem = {
+		texture = "ce_double_tressure.dds"
+		color1 = "red"
+		color2 = "red"
 	}
 }
 #Kingdom of Carthago
@@ -230,8 +261,58 @@ d_epirus_polytheistic = {
 	color1 = "brown"
 	colored_emblem = {
 		texture = "ce_epirus.dds"
+		#texture = "ce_k_epirus.dds"
 		color1 = "white" 
 		color2 = "yellow"
+		instance = {position = { 0.50 0.40 } scale = { 0.8 0.8 } }
+	}
+}
+
+k_epirus_polytheistic = {
+	pattern = "pattern_solid.dds"
+	color1 = "brown"
+	colored_emblem = {
+		texture = "ce_k_epirus.dds"
+		color1 = "yellow_light" 
+		color2 = "yellow_light"
+		color3 = "yellow"
+		instance = {position = { 0.50 0.40 } scale = { 0.7 0.7 } }
+	}
+}
+
+
+k_belgica = {
+	pattern = "pattern_solid.dds"
+	color1 = "green_light"
+	colored_emblem = {
+		texture = "ce_bugle_horn_random.dds"
+		color1 = "yellow_light" 
+		color2 = "brown"
+		#color3 = "green"
+		instance = {position = { 0.50 0.40 } scale = { 0.8 0.8 } }
+	}
+}
+
+k_celtica = {
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_celtica.dds"
+		color2 = "brown" 
+		color1 = "yellow"
+		#color3 = "green"
+		instance = {position = { 0.50 0.45 } scale = { 0.68 0.68 } }
+	}
+}
+
+k_etruria = {
+	pattern = "pattern_solid.dds"
+	color1 = {250 244 207}
+	colored_emblem = {
+		texture = "ce_etruscan.dds"
+		color1 =  {251 235 133} 
+		color2 = "red"	
+		color3 = "black"
 		instance = {position = { 0.50 0.40 } scale = { 0.8 0.8 } }
 	}
 }

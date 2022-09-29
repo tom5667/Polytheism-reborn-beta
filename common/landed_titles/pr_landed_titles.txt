@@ -1,0 +1,327 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+#Cultus deorum duchy title
+d_pontifex1 = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_roma
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Hadrianus Quintus Maxentius Scipio Gaius Trajanus Marcus Brutus Octavianus Julius}
+	female_names = {Hadriana Trajana Sabine Octavia Agrippina Domitia Hortensia Antonia Augusta Camilla Aurellia Sabina Junia}
+}
+
+#Celtic duchy title 
+d_druidic = {
+	color = { 255 249 198 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+	
+	capital = c_dublin
+	
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	de_jure_drift_disabled = yes
+
+	male_names = { Áedacán Áileachán Boidmal Brangen Caochlaoch Díomasach Dochartach Filtiarn Colla Irial}
+	female_names = {Essa Gelgéis Gráinde Gránne Mealla Lasairfhíona Laisrén Cobhfhlaith Báine}
+}
+e_celtic_empire ={ 
+	
+	#Ireland 
+	k_high_kingdom_of_ireland = {
+		color = {22 92 29 }
+		color2 = { 255 255 255 }
+		definite_form = yes 
+		ruler_uses_title_name = yes
+		landless = no
+		can_be_named_after_dynasty = no
+		capital = c_dublin
+
+		can_create = {
+			faith = faith:gaelic_polytheism
+		}
+		ai_primary_priority = {
+			if = {
+				limit = {
+					AND = {
+						culture = culture:irish
+						faith = faith:gaelic_polytheism
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
+}
+#Carthago
+k_carthago = {
+	color = white 
+	color2 = yellow
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	can_be_named_after_dynasty = no
+	capital = c_tunis
+
+	can_create = {
+		faith = faith:punic_polytheism
+	}
+	ai_primary_priority = {
+		if = {
+			limit = {
+				AND = {
+					faith = faith:punic_polytheism
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+#Kemet
+e_egyptus = {
+	color = blue
+	color2 = yellow
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	can_be_named_after_dynasty = no
+	capital = c_cairo
+	can_create = {
+		OR = {
+			faith = faith:kemetic_polytheism
+			faith = faith:atenism
+		}
+	}
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				AND = {
+					culture = culture:egyptian
+					OR = {
+						faith = faith:kemetic_polytheism
+						faith = faith:atenism
+					}
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}	
+
+
+	k_upper_egypt = {
+		color = blue
+		color2 = yellow
+		#definite_form = yes 
+		ruler_uses_title_name = yes
+		landless = no
+		capital = c_qus
+		can_be_named_after_dynasty = no
+				can_create = {
+			OR = {
+				faith = faith:kemetic_polytheism
+				faith = faith:atenism
+			}
+		}
+
+
+	} 
+
+	k_lower_egypt = {
+		color = blue
+		color2 = yellow
+		#definite_form = yes 
+		ruler_uses_title_name = yes
+		landless = no
+		capital = c_cairo
+		can_be_named_after_dynasty = no
+		can_create = {
+			OR = {
+				faith = faith:kemetic_polytheism
+				faith = faith:atenism
+			}
+		}
+
+	}
+}
+
+e_gaul = {
+	color = green
+	color2 = yellow
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	can_be_named_after_dynasty = no
+	capital = c_ile_de_france 
+
+	can_create = {
+		faith = faith:gaulish_polytheism
+	}
+	ai_primary_priority = {
+		if = {
+			limit = {
+				AND = {
+					faith = faith:gaulish_polytheism
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	#For now same duchies etc as frankish empire 
+	#Later on this will be replaced with the smaller tribes that allied to face rome 
+	#Nervii #Maybe to small 
+	#Celtica 
+	k_celtica = {
+		color = green
+		color2 = yellow
+		definite_form = yes 
+		ruler_uses_title_name = yes
+		landless = no
+		can_be_named_after_dynasty = no
+		capital = c_ile_de_france 
+	
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					AND = {
+						faith = faith:gaulish_polytheism
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
+	#Belgica 
+	k_belgica = {
+		color = {46 255 0}
+		color2 = yellow
+		definite_form = yes 
+		ruler_uses_title_name = yes
+		landless = no
+		can_be_named_after_dynasty = no
+		capital = c_aachen 
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					AND = {
+						faith = faith:gaulish_polytheism
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+
+	}
+
+	k_narbonensis= {
+		color = green_light
+		color2 = yellow
+		definite_form = yes 
+		ruler_uses_title_name = yes
+		landless = no
+		can_be_named_after_dynasty = no
+		capital = c_provence
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					AND = {
+						faith = faith:gaulish_polytheism
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
+	#Aquitania
+	k_aquitania = {
+		color = green_light
+		color2 = yellow
+		definite_form = yes 
+		ruler_uses_title_name = yes
+		landless = no
+		can_be_named_after_dynasty = no
+		capital = c_bordeaux
+
+		ai_primary_priority = {
+			if = {
+				limit = {
+					AND = {
+						faith = faith:gaulish_polytheism
+					}
+				}
+				add = @correct_culture_primary_score
+			}
+		}
+	}
+
+
+}
+#Galia Cisalpina
+k_cisalpina  ={
+	color = green_light
+	color2 = yellow
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	can_be_named_after_dynasty = no
+	capital = c_genoa 
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				AND = {
+					faith = faith:gaulish_polytheism
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}
+
+k_etruria = {
+	color = {250 244 207}
+	color2 = yellow
+	definite_form = yes 
+	ruler_uses_title_name = yes
+	landless = no
+	can_be_named_after_dynasty = no
+	capital = c_pisa
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				AND = {
+					faith = faith:etc_polytheism
+				}
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+}

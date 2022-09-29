@@ -4,6 +4,8 @@
 		"dynn_Juli-Vipsanii"
 		"dynn_Aelii-Hadriani"
 		"dynn_Nerva-Antonine"
+		"dynn_Ulpii-Hadriani"
+		"dynn_Hadriani-Aurelii"
 	}
 
 	dynasty_names = {
@@ -75,13 +77,22 @@
 		"dynn_Ulpii"
 		"dynn_Traianus"
 		"dynn_Nerva"
+		"dynn_Octavii"
+		"dynn_Caecilii"
+		"dynn_Brutii"
+		"dynn_Tarquinii"
+		"dynn_Aurelii"
 	}
 
 	male_names = {
-		Gaius_Jullius_Caesar Gaius_Jullius Marcus Gaius Publius Sextus Appius Gnaeus Caius Agrippa 
+		Gaius_Jullius_Caesar Gaius_Jullius Marcus Gaius Publius Sextus Appius Gnaeus Caius Agrippa Titus Vitus Albus Tiberius Lucius Nero Antonius
+		Felix Atticus Cassius Aurelius Aloysius Rufus Remus Romulus Marius Maximus Cornelius Cato Brutus Septimus Silvanus Junius Flavius Vitus Antoninus
+		Livius
 	}
 	female_names = {
-		Fabia Hadriana Agripina Julia_Agrippina Julia 
+		Fabia Hadriana Agrippina Julia_Agrippina Julia Mariana Octavia Valentina Tiberia Antonia Aemilia Amanda Camilla Caecilia Claudia 
+		Clelia Flavia Fulvia Iulia Iris Laura Lucia Sabina Serena Silvana Titiana Tullia Valeria Martia Paula Domitia Domitilla Drusilla Fabricia  
+		Ennia Iuliana Iustina Romana Severa Servia Virginia Ursula Ulpia Tosca Rosa
 	}
 
 

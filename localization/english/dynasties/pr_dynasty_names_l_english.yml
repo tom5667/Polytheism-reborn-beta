@@ -1,4 +1,7 @@
 ﻿l_english:
+#####################
+#Made by tom5667 
+#################### 
  FOUNDER_BASED_NAME_POSTFIX:0 "id"
  
 #Mycenaean
@@ -29,6 +32,7 @@
  dynn_Aqullii:0 "Aqullii"  
  dynn_Aternii:0 "Aternii"  
  dynn_Atilii:0 "Atillii"  
+ dynn_Caecilii:0 "Caecilii"
  dynn_Claudii:0 "Claudii"  
  dynn_Cloelii:0 "Cloelii"  
  dynn_Cornelii:0 "Cornelii"  
@@ -90,3 +94,16 @@
  dynn_Traianus:0 "Traianus"
  dynn_Nerva:0 "Nerva"
  dynn_Diocletianus:0 "Diocletianus"
+ dynn_Octavii:0 "Octavii"
+ dynn_Caecilii:0 "Caecilii" 
+ dynn_Brutii:0 "Brutii"
+ dynn_Tarquinii:0 "Tarquinii"
+ dynn_Aurelii:0 "Aurelii"
+ 
+ #Cadet 
+ dynn_Juli-Claudii:0 "Juli-Claudii"
+ dynn_Juli-Vipsanii:0 "Juli-Vipsanii"
+ dynn_Aelii-Hadriani:0 "Aelii-Hadriani"
+ dynn_Nerva-Antonine:0 "Nerva-Antonine"
+ dynn_Ulpii-Hadriani:0 "Ulpii-Hadriani"
+ dynn_Hadriani-Aurelii:0 "Hadriani-Aurelii"

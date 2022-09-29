@@ -102,10 +102,11 @@ sassanid_reconquest.001.t:0 "Start of the reconquest"
 sassanid_reconquest.001_desc:0 "Finaly years after the conquest of Persia by the Arabs, we finally have a bridge from Afrighids lands to Tokharistan. From now on we are a fors to be reconed with again. Search for we can search for extra allies or go on like we do now."
 sassanid_reconquest.001.a:0 "Praise Ahura Mazda"
 
-prctv.001.t:0 "Close the temple of Vesta"
-prctv.001.desc:0 "Closed once by Christians now soldiers of the [ROOT.Char.GetFaith.GetAdjective] religion close it once more and hopefully for good now."
-prctv.001.a:0 "Close the heathen temple"
+ prctv.001.t:0 "Close the temple of Vesta"
+ prctv.001.desc:0 "Closed once by Christians now soldiers of the [ROOT.Char.GetFaith.GetAdjective] religion close it once more and hopefully for good now."
+ prctv.001.a:0 "Close the heathen temple"
 
+#Gaelic
  pr.001.t:0 "New Beginning"
  pr.001.desc:0 "By allowing experienced traders, farmers, and artisans from our neighbours, [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] will soon become a thriving center of commerce.\n\nHopefully, these new Gaelic settlers will also help us to understand our past better."
  pr.001.a:0 "You are all welcome!"
@@ -115,3 +116,48 @@ prctv.001.a:0 "Close the heathen temple"
  pr.002.desc.others:1 "[scoped_ruler.GetTitledFirstName] has decided to welcome foreign settlers from the [scoped_ruler.GetFaith.GetReligion.GetAdjectiveNoTooltip] realms neighboring [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate [scoped_ruler.GetHerHis] land faster and increase commerce with [scoped_ruler.GetHerHis] allies."
  pr.002.a:0 "Well, I don't trust them!"
  pr.002.b:0 "I see..."
+
+#Brythonic
+ pr.014.t:0 "New Beginning"
+ pr.014.desc:0 "By allowing experienced traders, farmers, and artisans from our neighbours, [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] will soon become a thriving center of commerce.\n\nHopefully, these new Brythonic settlers will also help us to understand our past better."
+ pr.014.a:0 "You are all welcome!"
+ #Text not changed, not important for single player
+ pr.015.t:0 "The New Settlers"
+ pr.015.desc.vassals:0 "[scoped_ruler.GetTitledFirstName] has decided to welcome foreign settlers from the neighboring [scoped_ruler.GetFaith.GetReligion.GetAdjectiveNoTooltip] realms.\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate our land faster and increase commerce with our allies."
+ pr.015.desc.others:1 "[scoped_ruler.GetTitledFirstName] has decided to welcome foreign settlers from the [scoped_ruler.GetFaith.GetReligion.GetAdjectiveNoTooltip] realms neighboring [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate [scoped_ruler.GetHerHis] land faster and increase commerce with [scoped_ruler.GetHerHis] allies."
+ pr.015.a:0 "Well, I don't trust them!"
+ pr.015.b:0 "I see..."
+
+#Gaulish
+ pr.016.t:0 "New Beginning"
+ pr.016.desc:0 "By allowing experienced traders, farmers, and artisans from our neighbours, [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] will soon become a thriving center of commerce.\n\nHopefully, these new Gaulish settlers will also help us to understand our past better."
+ pr.016.a:0 "You are all welcome!"
+ #Text not changed, not important for single player
+ pr.017.t:0 "The New Settlers"
+ pr.017.desc.vassals:0 "[scoped_ruler.GetTitledFirstName] has decided to welcome foreign settlers from the neighboring [scoped_ruler.GetFaith.GetReligion.GetAdjectiveNoTooltip] realms.\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate our land faster and increase commerce with our allies."
+ pr.017.desc.others:1 "[scoped_ruler.GetTitledFirstName] has decided to welcome foreign settlers from the [scoped_ruler.GetFaith.GetReligion.GetAdjectiveNoTooltip] realms neighboring [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\n[scoped_ruler.GetSheHe|U] hopes that these new arrivals will help populate [scoped_ruler.GetHerHis] land faster and increase commerce with [scoped_ruler.GetHerHis] allies."
+ pr.015.a:0 "Well, I don't trust them!"
+ pr.015.b:0 "I see..."
+
+ pr.003.t:0 "Celtica"
+ pr.003.desc:0 "The tribes in Gaul where many, but now it's time to create a new cetral Gualish [kingdom| E] Celtica."
+ pr.003.a:0 "Celtica is once more"
+
+ pr.004.t:0 "Belgica"
+ pr.004.desc:0 "Once one of the most problomatic tribes for the Romans to keep them under control, now again united under the [kingdom| E] Belgae"
+ pr.004.a:0 "Belgae is once more"
+
+ pr.005.t:0 "Narbonensis"
+ pr.005.desc:0 "Narbonensis Once a Celtic Greek Province with the biggest city Massalia, this greek celtic city was once a great ally of the Roman Republic"
+ pr.005.a:0 "Narbonensis is once more"
+
+ pr.006.t:0 "Aquitania"
+ pr.006.desc:0 "The tribes in Gaul where many, but now it's time to create a new southern Gualish [kingdom| E] Celtica."
+ pr.006.a:0 "Narbonensis is once more"
+
+ pr.007.t:0 "Gaul"
+ pr.007.desc:0 "By $gaulish_polytheism_high_god_name$, $gaulish_polytheism_wealth_god_name$ and $gaulish_polytheism_war_god_name$ now that the 4 dejure [kingdoms| E] Celtica, Narbonensis, Aquitania and Belgae are back under one banner we have our own coalition of kingdoms, like we had in the times we fought against the Romans."
+ pr.007.a:0 "Praise $gaulish_polytheism_high_god_name$"
+ 
+ 
+

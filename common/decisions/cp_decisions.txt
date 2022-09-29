@@ -61,6 +61,56 @@ cp_restore_high_priesthood_decision = {
 		base = 100
 	}
 }
+create_celtic_empire_decision = { 
+	picture = "gfx/interface/illustrations/decisions/celtic_fort.dds"
+	major = yes
+	desc =  create_celtic_empire_decision_desc
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		OR = {
+			faith = faith:gaelic_polytheism
+			faith = faith:brythonic_polytheism
+		}
+		OR = {
+			culture = culture:irish
+			culture = culture:manx
+			culture = culture:welsh 
+			culture = culture:gaelic
+		}
+		is_imprisoned = no	
+		is_at_war = no
+		NOR = {
+			has_title = title:e_celtic_empire
+		}
+		AND ={
+			NOT ={
+				exists = title:e_celtic_empire.holder
+			}
+		}
+		
+	}
+
+	is_valid = {
+		has_title = title:k_high_kingdom_of_ireland
+		has_title = title:k_scotland
+		has_title = title:k_wales
+		has_title = title:k_england
+		OR = {
+			faith = faith:gaelic_polytheism
+			faith = faith:brythonic_polytheism
+		}
+		
+		
+	}
+	effect = {
+		custom_tooltip = create_celtic_empire_effect_tooltip
+		trigger_event = {
+			id = celtic.004
+		}
+	}
+	ai_check_interval = 0
+}
 
 #Gaelic restore Irish High Kingdom decision
 restore_high_kingdom ={

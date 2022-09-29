@@ -70,6 +70,13 @@ restore_high_kingdom_of_ireland_effect_tooltip:0 "Restored Irish High Kingdom"
 restore_high_kingdom_tooltip:1 "It's time to reclaim the old Irish High Kingdom"
 restore_high_kingdom_confirm:0 "Create High Kingdom"
 
+#Gaelic restore Celtic Empire 
+create_celtic_empire_decision:0 "Create Celtic Empire"
+create_celtic_empire_decision_desc:0 "Now that the [kingdoms |E] Scotland, Ireland, Wales and England are brought together under one banner, we can create the Celtic Empire"
+create_celtic_empire_effect_tooltip:0 "Create the Celtic Empire" 
+create_celtic_empire_decision_tooltip:1 "It's time to reclaim all of the Celtic Isles"
+create_celtic_empire_decision_confirm:0 "Create Celtic Empire"
+
 set_capital_dublin_decision:0 "Make Dublin Capital"
 set_capital_dublin_decision_desc:0 "Make Dublin the capital of Ardrí na hÉireann"
 set_capital_dublin_decision_tooltip:1 "Change capital to Dublin"

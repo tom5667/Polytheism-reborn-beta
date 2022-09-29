@@ -1,8 +1,28 @@
-﻿# check_roma_owner = {
-# 	on_actions ={
-#  		check_temple_of_vesta_owner_roma
-#  	}
-#  }
+﻿on_game_start = {
+	on_actions = {
+		PR_check
+	}
+}
+
+PR_check = {
+	effect = {
+		set_global_variable = {
+			name = PR_is_active
+			value = yes
+		}
+		if = { 
+			limit = {
+				exists = global_var:PR_is_active
+			}
+		}
+	}
+}
+
+check_roma_owner = {
+	 on_actions ={
+		  check_temple_of_vesta_owner_roma
+	  }
+}
 
 check_temple_of_vesta_owner_roma = {
 	trigger ={ 

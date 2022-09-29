@@ -6,7 +6,8 @@ high_king_ireland ={
 	tier = kingdom 
 	priority = 250
 	titles = { k_high_kingdom_of_ireland }
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_queen_ireland = {
@@ -16,7 +17,8 @@ high_queen_ireland = {
 	tier = kingdom 
 	priority = 102
 	titles = { k_high_kingdom_of_ireland }
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_prince_ireland = {
@@ -27,7 +29,8 @@ high_prince_ireland = {
 	priority = 60
 	titles = { k_high_kingdom_of_ireland }
 	governments = { feudal_government clan_government tribal_government }
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_princess_ireland = {
@@ -37,6 +40,7 @@ high_princess_ireland = {
 	priority = 60
 	titles = { k_high_kingdom_of_ireland }
 	governments = { feudal_government clan_government tribal_government }
+	name_lists = { name_list_irish }
 	top_liege = no
 }
 
@@ -47,6 +51,7 @@ high_kingdom_ireland_druid = {
 	priority = 300
 	council_position = councillor_court_chaplain
   	faiths = { gaelic_polytheism }
+	#name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_druidess = {
@@ -56,38 +61,7 @@ high_kingdom_ireland_druidess = {
 	priority = 300
 	council_position = councillor_court_chaplain
 	faiths = { gaelic_polytheism }
-}
-
-high_kingdom_ireland_chancellor = {
-	type = character
-	special = councillor
-	priority = 300
-	council_position = councillor_chancellor
-	faiths = { gaelic_polytheism }
-}
-
-high_kingdom_ireland_steward = {
-	type = character
-	special = councillor
-	priority = 300
-	council_position = councillor_steward
-	faiths = { gaelic_polytheism }
-}
-
-high_kingdom_ireland_marshal = {
-	type = character
-	special = councillor
-	priority = 300
-	council_position = councillor_marshal
-	faiths = { gaelic_polytheism }
-}
-
-high_kingdom_ireland_spymaster = {
-	type = character
-	special = councillor
-	priority = 300
-	council_position = councillor_spymaster
-	faiths = { gaelic_polytheism }
+	#name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_duke = {
@@ -96,7 +70,8 @@ high_kingdom_ireland_duke = {
 	special = holder
 	tier = duchy
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_duchess = {
@@ -105,13 +80,15 @@ high_kingdom_ireland_duchess = {
 	special = holder
 	tier = duchy
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 high_kingdom_ireland_duchy = {
 	type = title 
 	tier = duchy
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_count = {
@@ -120,7 +97,8 @@ high_kingdom_ireland_count = {
 	special = holder
 	tier = county
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_countess = {
@@ -129,57 +107,64 @@ high_kingdom_ireland_countess = {
 	special = holder
 	tier = county
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_county = {
 	type = title 
 	tier = county
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_baron = {
 	type = character
-	gender = female
+	gender = male
 	special = holder
-	tier = county
+	tier = barony
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_baroness = {
-	type = title 
-	tier = county
+	type = character
+	gender = female
+	special = holder
+	tier = barony
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
 
 high_kingdom_ireland_barony = {
 	type = title 
 	tier = barony
 	priority = 47
-	faiths = { gaelic_polytheism }
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_irish }
 }
-# emperor_irish = {
-# 	type = character
-# 	gender = male
-# 	special = holder
-# 	tier = empire 
-# 	priority = 260
-# 	titles = { e_byzantium }
-# 	heritages = { heritage_goidelic }
+ emperor_irish = {
+ 	type = character
+ 	gender = male
+ 	special = holder
+ 	tier = empire 
+ 	priority = 260
+ 	#titles = { e_byzantium }
+ 	name_lists = { name_list_irish }
 	
-# }
-# empress_irish = {
-# 	type = character
-# 	gender = female
-# 	special = holder
-# 	tier = empire
-# 	priority = 260
-# 	titles = { e_byzantium }
-# 	heritages = { heritage_goidelic }
-# }
+ }
+ empress_irish = {
+ 	type = character
+ 	gender = female
+ 	special = holder
+ 	tier = empire
+ 	priority = 260
+ 	#titles = { e_byzantium }
+ 	name_lists = { name_list_irish }
+ }
 
 
 #Greco Roman religion 
@@ -366,33 +351,7 @@ etruscan_priestess = {
 	council_position = councillor_court_chaplain
 	heritages = { heritage_etruscan }
 }
-etruscan_steward = {
-	type = character
-	special = councillor
-	priority = 300
-	council_position = councillor_steward
-	heritages = { heritage_etruscan }
-}
-etruscan_chancellor = {
-	type = character
-	special = councillor
-	priority = 300
-	heritages = { heritage_etruscan }
-}
-etruscan_marshal = {
-	type = character
-	special = councillor
-	priority = 300
-	council_position = councillor_marshal
-	heritages = { heritage_etruscan }
-}
-etruscan_spymaster = {
-	type = character
-	special = councillor
-	priority = 310
-	council_position = councillor_spymaster
-	heritages = { heritage_etruscan }
-}
+
 etruscan_duke = {
 	type = character
 	gender = male
@@ -427,4 +386,142 @@ etruscan_countess = {
 	tier = county
 	priority = 47
 	heritages = { heritage_etruscan }
+}
+etruscan_barony = {
+	type = title 
+	tier = barony
+	priority = 47
+	#faiths = { gaelic_polytheism }
+	heritages = { heritage_etruscan }
+}
+#Roman 
+
+roman_emperor = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire 
+	priority = 250
+	name_lists = { name_list_roman } 
+}
+roman_empress = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 250
+	name_lists = { name_list_roman } 
+}
+roman_king = {
+	type = character
+	special = holder
+	gender = male
+	tier = kingdom
+	priority = 105
+	name_lists = { name_list_roman } 
+}
+
+roman_queen = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom 
+	priority = 105
+	name_lists = { name_list_roman } 
+}
+
+roman_prince = {
+	type = character
+	gender = male
+	special = ruler_child
+	top_liege = no
+	priority = 60
+	name_lists = { name_list_roman } 
+}
+
+roman_princess = {
+	type = character
+	gender = female
+	special = ruler_child
+	priority = 60
+	name_lists = { name_list_roman } 
+	#top_liege = no
+}
+
+roman_duchy = {
+	type = title 
+	tier = duchy
+	priority = 47
+	name_lists = { name_list_roman } 
+}
+
+roman_duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 47
+	name_lists = { name_list_roman } 
+}
+
+roman_count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 47
+	name_lists = { name_list_roman } 
+}
+roman_countess = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 47
+	name_lists = { name_list_roman } 
+}
+
+roman_county = {
+	type = title 
+	tier = county
+	priority = 47
+	name_lists = { name_list_roman } 
+}
+
+roman_baron = {
+	type = character
+	
+	special = holder
+	tier = county
+	priority = 47
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_roman  }
+}
+
+roman_baroness = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 47
+
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_roman  }
+}
+
+roman_barony = {
+	type = title 
+	tier = barony
+	priority = 47
+	#faiths = { gaelic_polytheism }
+	name_lists = { name_list_roman }
+}
+roman_praefectus = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 52
+	titles = { c_roma c_byzantion }
+	name_lists = { name_list_roman  }
 }

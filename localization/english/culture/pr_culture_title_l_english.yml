@@ -2,18 +2,15 @@
 #####################
 #Made by tom5667 
 ######################
+#Gaelic Religion
+#Emperor/Empress
+emperor_irish:0 "Impire"
+empress_irish:0 "Banimpire"
 #High kingdom Ireland Royal family
 high_king_ireland:0 "Ardrí ó Ériu"
 high_queen_ireland:0 "Ardrígan ó Ériu"
 high_prince_ireland:0 "flaith ó Ériu"
 high_princess_ireland:0 "Banfhlaith ó Ériu"
-#Council localization
-high_kingdom_ireland_druid:0 "Rí Druí"
-high_kingdom_ireland_druidess:0 "Rí Bandruí"
-high_kingdom_ireland_chancellor:0 "Seansailéir"
-high_kingdom_ireland_steward:0 "Rechtaire" 
-high_kingdom_ireland_marshal:0 "Cennphort"
-high_kingdom_ireland_spymaster:0 "Magister mrath"
 #Duke/Duchess
 high_kingdom_ireland_duke:0 "Rí"
 high_kingdom_ireland_duchess:0 "Rígan"
@@ -30,20 +27,11 @@ high_kingdom_ireland_baroness:0 "Banbharún"
 #Barony 
 high_kingdom_ireland_barony:0 "Barúntacht"
 
-#Roman emperor - empress
-# emperor_irish:0 "Impire"
-# empress_irish:0 "Banimpire"
 
-#Greco Roman 
-emperor_cultus_deorum:0 "Imperator"
-empress_cultus_deorum:0 "Imperatrix"
 
-#Council 
-council_priest_cultus_deorum:0 "Flamen Dialis"
-council_priestess_cultus_deorum:0 "Flaminica Dialis"
-
-#Egypt 
+#Egypt Now Religion Will change to Old Egyptian Culture 
 egypt_pharaoh:0 "Nesut-biti"
+#When Greek religion
 egypt_pharaoh_greco_roman:0 "Pharaoh"
 egypt_queen:0 "Hemet-nesut-weret"
 egypt_priest:0 "Hem-netjer"
@@ -63,20 +51,43 @@ egypt_countess:0 "Heret-tep"
 #County
 egypt_county:0 "Sepat"
 
-#Etruscan
+#Etruscan Culture
 etruscan_king:0 "Lucumu"
 etruscan_queen:0 "Zilacei"
 etruscan_priest:0 "Sacni"
 etruscan_priestess:0 "Sacna"
-etruscan_chancellor:0 "Zilac"
-etruscan_steward:0 "Satena"
-etruscan_marshal:0 "Purth-Svana"
-etruscan_spymaster:0 "Spiu"
+etruscan_duchy:0 "Methlum"
 etruscan_duke:0 "Zilax-Nucix"
-etruscan_duchess:0 "Zilatha"
+etruscan_duchess:0 "Zilax-Nucixi"
+etrsucan_county:0 "Methluza"
 etruscan_count:0 "Zilath"
-etruscan_countess:0 "Zilatha"
+etruscan_countess:0 "Zilathi"
 
+etruscan_countess:0 "Zilatha"
+etruscan_baron:0 "Zilathuza"
+
+#Roman Religion
+emperor_cultus_deorum:0 "Imperator"
+empress_cultus_deorum:0 "Imperatrix"
+
+
+#Roman Culture 
+roman_emperor:0 "Imperator"
+roman_empress:0 "Imperatrix"
+roman_prince:0 "Caesar"
+roman_princess:0 "Caesarina"
+roman_king:0 "Rex"
+roman_queen:0 "Regina"
+roman_duchy:0 "Provinciae"
+roman_duke:0 "Dux"
+roman_duchess:0 "Ducissa"
+roman_county:0 "Urbis"
+#roman_count:0 "Praefectus urbanus"
+roman_count:0 "Comes"
+roman_countess:0 "Comitissa"
+roman_baron:0 "Dominus"
+roman_baroness:0 "Domina"
+roman_praefectus:0 "Praefectus urbi"
 
 #Normal english localization
 # high_king_ireland:0 "High King of Ireland"
