@@ -159,5 +159,7 @@ sassanid_reconquest.001.a:0 "Praise Ahura Mazda"
  pr.007.desc:0 "By $gaulish_polytheism_high_god_name$, $gaulish_polytheism_wealth_god_name$ and $gaulish_polytheism_war_god_name$ now that the 4 dejure [kingdoms| E] Celtica, Narbonensis, Aquitania and Belgae are back under one banner we have our own coalition of kingdoms, like we had in the times we fought against the Romans."
  pr.007.a:0 "Praise $gaulish_polytheism_high_god_name$"
  
- 
+ pr.008.t:0 "Liguria"
+ pr.008.desc:0 "Now we conquert all of old liguria and have control over the old lands of the veneti. North italy is celtic once more"
+ pr.008.a:0 "Liguria is once more"
 

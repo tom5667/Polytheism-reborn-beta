@@ -280,6 +280,22 @@ k_epirus_polytheistic = {
 	}
 }
 
+e_gaul = { 
+	pattern = "pattern_solid.dds"
+	color1 = "green_light"
+	colored_emblem = {
+		texture = "ce_boar_passant_02.dds"
+		color1 = "brown" 
+		color2 = "red"
+		color3 = "white"
+		instance = {position = { 0.50 0.30 } scale = { 0.6 0.6 } }
+	}
+	colored_emblem = {
+		texture = "ce_pagan_rod.dds"
+		color1 =  "yellow" 
+		instance = {position = { 0.50 0.63 } scale = { 0.4 0.4 } }
+	}
+}
 
 k_belgica = {
 	pattern = "pattern_solid.dds"
@@ -305,6 +321,39 @@ k_celtica = {
 	}
 }
 
+k_cisalpina = {
+	pattern = "pattern_solid.dds"
+	color1 = "brown"
+	colored_emblem = {
+		texture = "ce_goat.dds"
+		color1 =  "white"
+		color2 = "red"	
+		color3 = "black"
+		instance = {position = { 0.50 0.50 } scale = { 0.8 0.8 } }
+	}
+}
+
+k_narbonensis = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_lion_passant.dds"
+		color1 =  "yellow_light"
+		color2 = "red"	
+		color3 = "white"
+		instance = {position = { 0.50 0.50 } scale = { 0.8 0.8 } }
+	}
+}
+k_aquitania = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_lion_rampant_crown.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
 k_etruria = {
 	pattern = "pattern_solid.dds"
 	color1 = {250 244 207}
