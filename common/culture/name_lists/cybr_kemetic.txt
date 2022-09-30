@@ -21,7 +21,8 @@ name_list_kemetic = {
 		}
 		
 		female_names = {
-			Ahmose Mentuhotep Neferu Sobekhotep Teti Tentamun Setnwosret Iui Ahmose Ahhotep Mentuhotep Meresankh Meret Meretnebty Meryt Meritamen Meritites Merit-Ptah Merytre Mutnofret Maathorneferure Nebet Neferneferure Neferhetepes Nofret Nefertiabet Nefertiti Nefertkau Neferthenut Neferubity Neferuptah Neferure Neferusobek Netiqret Neithhotep Persenet Peseshet Pyhia 
+			Ahmose Mentuhotep Neferu Sobekhotep Teti Tentamun Setnwosret Iui Ahmose Ahhotep Mentuhotep Meresankh Meret Meretnebty Meryt Meritamen Meritites Merit-Ptah Merytre Mutnofret 
+			Maathorneferure Nebet Neferneferure Neferhetepes Nofret Nefertiabet Nefertiti Nefertkau Neferthenut Neferubity Neferuptah Neferure Neferusobek Netiqret Neithhotep Persenet Peseshet Pyhia 
 			Renesres Sobekhotep Tiaa Teti Sheftu Djedjetamun Henuttawy Hetepheres Hatshepsut Khenemetneferhedjet Iset Aset Isis Isetemkheb Isetnofret Ankhesenamun
 		}
 
