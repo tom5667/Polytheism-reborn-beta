@@ -107,3 +107,15 @@
  dynn_Nerva-Antonine:0 "Nerva-Antonine"
  dynn_Ulpii-Hadriani:0 "Ulpii-Hadriani"
  dynn_Hadriani-Aurelii:0 "Hadriani-Aurelii"
+
+ #kemetic
+ dynn_Mekh:0 "Mekh"
+ dynn_Neheb:0 "Neheb"
+ dynn_Nekau:0 "Nekau"
+ dynn_Panehesy:0 "Panehesy"
+
+ #Cadet
+ dynn_Mekh-Neheb:0 "Mekh-Neheb"
+ dynn_Neheb-Nekau:0 "Neheb-Nekau"
+ dynn_Nekau-Panehesy:0 "Nekau-Panehesy"
+ dynn_Panehesy-Mekh:0 "Panehesy-Mekh"

@@ -5,11 +5,17 @@
 
 name_list_kemetic = {
     cadet_dynasty_names = {
-
+			"dynn_Mekh-Neheb"
+			"dynn_Neheb-Nekau"
+			"dynn_Nekau-Panehesy"
+			"dynn_Panehesy-Mekh"
 		}
 
 		dynasty_names = {
-
+			"dynn_Mekh"
+			"dynn_Neheb"
+			"dynn_Nekau"
+			"dynn_Panehesy"
 		}
 
 		male_names = {
