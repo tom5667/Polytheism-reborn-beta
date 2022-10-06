@@ -1,0 +1,16 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+######################
+  
+ rule_historical_polytheistic_world:0 "Historical Polytheistic World(WIP)"
+ setting_historical_polytheistic_world_on:0 "On"
+ setting_historical_polytheistic_world_off:0 "Default"
+ setting_historical_polytheistic_world_on_desc:0 "Set the world back to a time where polytheistic religions were dominant. This will give regions their historical polytheistic religion"
+ setting_historical_polytheistic_world_off_desc:0 "Normal vanilla religions on map"
+
+ rule_more_doctrines:0 "More doctrines(WIP)"
+ setting_more_doctrines_on:0 "On"
+ setting_more_doctrines_off:0 "Off"
+ setting_more_doctrines_on_desc:0 "Adds the doctrines from the more doctrines mod"
+ setting_more_doctrines_off_desc:0 "Default vanilla doctrines"

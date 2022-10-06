@@ -48,10 +48,10 @@
 
 			#doctrine = unreformed_faith_doctrine
 			doctrine = tenet_astrology
-			doctrine = tenet_legalism
+			doctrine = tenet_communal_identity
 			doctrine = tenet_unrelenting_faith
         
-
+			doctrine = special_doctrine_ecumenical_mesopotamian
 			#Main Group
 			doctrine = doctrine_no_head
 			doctrine = doctrine_gender_male_dominated

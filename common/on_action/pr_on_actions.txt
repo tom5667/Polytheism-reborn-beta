@@ -1,6 +1,7 @@
 ﻿on_game_start = {
 	on_actions = {
 		PR_check
+		TFE_check
 	}
 }
 
@@ -17,6 +18,56 @@ PR_check = {
 		}
 	}
 }
+
+TFE_check = {
+	effect = {
+		if = {
+			limit = {
+				current_date < 769.1.1
+			}
+			set_global_variable = {
+				name = tfe_is_active
+				value = yes
+			}
+		}
+	}
+}
+
+on_game_start_after_lobby = {
+	on_actions = {
+		polytheism_reborn_on_game_start
+	}
+}
+
+polytheism_reborn_on_game_start = {
+	effect = {
+		if = {
+			limit = { has_game_rule = historical_polytheistic_world_on }
+			game_rule_historical_polytheistic_world_list_effect = yes
+			set_global_variable = {
+				name = polytheistic_world_is_active
+				value = yes
+			}
+		}
+		if = {
+			limit = {
+				AND = {
+					has_game_rule = more_doctrines_on 
+					NOR = {
+							has_global_variable = MBP_is_loaded
+							has_global_variable = tfe_is_active
+					}
+				}
+			}
+			game_rule_more_doctrines_add_doctrines_effect = yes
+			set_global_variable = {
+			name = more_doctrines_is_active
+			value = yes
+			}
+		}
+	}
+}
+
 
 check_roma_owner = {
 	 on_actions ={

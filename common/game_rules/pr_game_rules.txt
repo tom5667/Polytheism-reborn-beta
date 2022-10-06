@@ -1,0 +1,22 @@
+﻿historical_polytheistic_world = {
+	default = historical_polytheistic_world_off	# Which setting to default to
+
+	historical_polytheistic_world_off  = {
+
+		
+	}
+	historical_polytheistic_world_on = {
+
+    }
+
+}
+#Turned of for TFE and bookmarks + Although the rule itself is clickable, don't know if there is a function to make the rules invissable 
+more_doctrines  = {
+	default = more_doctrines_on #To be decided if it's better to default off it will be changed
+	more_doctrines_on = {
+
+	}
+	more_doctrines_off = {
+
+	}
+}

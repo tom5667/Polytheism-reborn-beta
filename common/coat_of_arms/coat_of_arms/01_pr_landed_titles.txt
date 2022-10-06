@@ -52,20 +52,14 @@ k_high_kingdom_of_ireland = {
 #Scotland
 k_scotland_polytheistic = {
 	pattern =  "pattern_solid.dds"
-	color1 = "yellow"
-	color2 = "red"
+	color1 = "green_light"
 
 	colored_emblem = {
-		texture = "ce_scotland_polytheism.dds"
-		color1 = "red"
-		color2 = "blue"
-		color3 = "green_light"
-		instance = { position = { 0.5 0.485 } scale = { 0.57 0.57 }  }
-	}
-	colored_emblem = {
-		texture = "ce_double_tressure.dds"
-		color1 = "red"
+		texture = "ce_scotland_polytheistic.dds"
+		color1 = "yellow"
 		color2 = "red"
+		color3 = "black"
+		instance = { position = { 0.5 0.40 } scale = { 0.75 0.75 }  }
 	}
 }
 #Kingdom of Carthago

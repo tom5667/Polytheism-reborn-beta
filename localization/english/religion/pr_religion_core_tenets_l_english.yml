@@ -12,6 +12,7 @@ doctrine_parameter_celtic_syncretic_actor_opinion_active:1 "Mutual [EmptyScope.S
 doctrine_parameter_opinion_of_celtic_syncretic_recipient_opinion_active:0 ""
 #hostility_override_special_doctrine_celtic_syncretism
 
+
 #Syncretism Greek, only Greek Polytheism
 tenet_greek_syncretism_name:0 "Interpretatio Graeca"
 tenet_greek_syncretism_desc:0 "We once thought that the gods as we know them today are spirits who live everywhere and have to worship in our daily lives. But since the contact with the Greeks became more, we got images of the gods and started comparing our gods with theirs next to our myths"
@@ -35,3 +36,8 @@ special_doctrine_ecumenical_greaco_roman_name:0 "Greaco-Roman Ecumenism"
 doctrine_parameter_is_greaco_roman_faith_bilateral_loc_override:2 "Other Greek and Roman [faiths|E], that have the Greaco-Roman Ecumenism doctrine are considered to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
 doctrine_parameter_hostility_override_special_doctrine_ecumenical_greaco_roman:1 ""  
 special_doctrine_ecumenical_greaco_roman_desc:0 "Much of the cults that where in the Greek world also found their way to Roman world"
+
+special_doctrine_ecumenical_mesopotamian_name:0 "Mesopotamian Ecumenism"
+doctrine_parameter_is_mesopotamian_faith_bilateral_loc_override:2 "Other Mesopotamian [faiths|E], that have the Mesopotamian Ecumenism doctrine are considered to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_ecumenical_mesopotamian:1 ""  
+special_doctrine_ecumenical_mesopotamian_desc:0 "The gods we venerate are also venerated by the Mesopotamian religions"

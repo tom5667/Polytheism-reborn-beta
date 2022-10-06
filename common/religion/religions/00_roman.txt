@@ -44,6 +44,7 @@
 			doctrine = tenet_communal_identity
 			doctrine = tenet_esotericism
             
+            doctrine = special_doctrine_ecumenical_greaco_roman 
 			#Main Group
 			doctrine = doctrine_spiritual_head
 			doctrine = doctrine_gender_male_dominated

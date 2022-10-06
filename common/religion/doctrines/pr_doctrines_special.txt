@@ -24,6 +24,22 @@
 		}
 	}
 }
+special_mesopotamian_syncretisms = {
+	group = "main_group"
+	
+	is_available_on_create = {
+		always = no # Goes away when creating a new Faith
+	}
+	
+	special_doctrine_ecumenical_mesopotamian = {
+		icon = special_doctrine_ecumenical_mesopotamian
+		parameters = {
+			hostility_override_special_doctrine_ecumenical_mesopotamian = 1
+			#For loc:
+			is_mesopotamian_faith_bilateral_loc_override = 1
+		}
+	}
+}
 special_cult_tolerance = {
 	group = "main_group"
 	
