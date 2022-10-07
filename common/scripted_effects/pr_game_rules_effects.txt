@@ -838,7 +838,7 @@
 				add_doctrine = doctrine_no_concubinage
 				add_doctrine = doctrine_divorce_allowed
 				add_doctrine = doctrine_bastardry_legitimization
-				add_doctrine = doctrine_sacred_marriage
+				add_doctrine = doctrine_worldly_marriage
 				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 			}
 		}

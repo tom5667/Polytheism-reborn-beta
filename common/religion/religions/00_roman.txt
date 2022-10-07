@@ -249,8 +249,8 @@
 
             #Crimes
             doctrine = doctrine_homosexuality_accepted
-            doctrine = doctrine_adultery_men_crime
-            doctrine = doctrine_adultery_women_crime
+            doctrine = doctrine_adultery_men_accepted
+            doctrine = doctrine_adultery_women_shunned
             doctrine = doctrine_kinslaying_close_kin_crime
             doctrine = doctrine_deviancy_accepted
             doctrine = doctrine_witchcraft_shunned

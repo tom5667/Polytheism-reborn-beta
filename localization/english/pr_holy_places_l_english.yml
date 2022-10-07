@@ -112,7 +112,7 @@
  holy_site_susa_name:0 "Susa"
  holy_site_susa_effect_name:0 "From [holy_site|E]"
 
- holy_site_ebla_name:0 "Ebla"
+ holy_site_ebla_name:0 "Mari"
  holy_site_ebla_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"
 
  holy_site_sarmizegetusa_name:0 "Sarmizegetusa"

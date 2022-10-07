@@ -419,7 +419,15 @@ councillor_spouse = {
 				trigger = {
 					scope:councillor_liege.culture = { has_name_list = name_list_irish }	
 				}
-				desc = councillor_court_spouse_gaelic_polytheism
+				desc = councillor_court_spouse_irish
+			}
+			
+			#Roman
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.culture = { has_name_list = name_list_roman }	
+				}
+				desc = councillor_court_spouse_roman
 			}
 			triggered_desc = {
 				

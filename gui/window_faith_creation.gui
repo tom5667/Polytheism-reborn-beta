@@ -262,7 +262,7 @@ window = {
 								#More doctrines mod 
 								vbox = {
 									name = "more_doctrines_belief"
-									visible = "[And(Or( GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_religious_text' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_oral_tradition' ) Or(GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_autonomous_tradition' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_sacred_scriptures' )))  )]"
+									visible = "[And(Or( GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_religious_text' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_oral_tradition' )) Or(GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_autonomous_tradition' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_sacred_scriptures' )) Or( GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_autonomous_tradition' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_oral_tradition' )) Or( GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_sacred_scriptures' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_oral_tradition' )) )]"
 									layoutpolicy_horizontal = expanding
 									spacing = 10
 
@@ -289,8 +289,7 @@ window = {
 
 								vbox = {
 									name = "more_doctrines_practices"
-									visible = "[GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_monotheistic' )]"
-									layoutpolicy_horizontal = expanding
+									visible = "[And(Or( GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_religious_text' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_oral_tradition' )) Or(GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_autonomous_tradition' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_sacred_scriptures' )) Or( GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_autonomous_tradition' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_oral_tradition' )) Or( GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_sacred_scriptures' ) , GetPlayer.GetFaith.HasDoctrineByKey( 'doctrine_oral_tradition' )) )]"									layoutpolicy_horizontal = expanding
 									spacing = 10
 
 									text_label_left = {
