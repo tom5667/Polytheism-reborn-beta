@@ -61,13 +61,7 @@ polytheism_reborn_on_game_start = {
 		}
 		if = {
 			limit = {
-				AND = {
 					has_game_rule = more_doctrines_on 
-					NOR = {
-							has_global_variable = MBP_is_loaded
-							has_global_variable = tfe_is_active
-					}
-				}
 			}
 			game_rule_more_doctrines_add_doctrines_effect = yes
 			set_global_variable = {
@@ -77,7 +71,6 @@ polytheism_reborn_on_game_start = {
 		}
 	}
 }
-
 
 check_roma_owner = {
 	 on_actions ={
@@ -97,6 +90,30 @@ check_temple_of_vesta_owner_roma = {
 		add_character_modifier = burning_flame_of_vesta
 	}
 } 		
+#Beta Research ancient religions on actions 
+pr_research_ancient_religion_events_great_library = {
+	random_events = {
+		10 = pr.031 
+		2 = pr.032
+	}
+}
+pr_research_ancient_religion_events_small_library  = {
+	random_events = {
+		10 = pr.031 
+		10 = pr.032
+	}
+}
+pr_research_ancient_religion_events_debate = {
+	random_events = {
+		10 = pr.036
+	}
+}
+pr_research_ancient_religion_events_debate_moderate_bad = {
+	random_events = {
+		7 = pr.037
+		3 = pr.038
+	}	
+}
 #Credits to Cybrkxhan
 # VIET Celtic Flavor Events
 VIET_celtic_events_tri_yearly_pulse = {

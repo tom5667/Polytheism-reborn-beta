@@ -1,7 +1,64 @@
-﻿return_polytheism_decision={
+﻿################################
+#Beta
+#Reconstruct polytheism decision
+################################
+reconstruct_polytheism_decision = {
+	desc = reconstruct_polytheism_decision_desc
+	#Needs to be changed to a library
+	picture = "gfx/interface/illustrations/decisions/room_with_scrolls.tga"
+	major = yes
+	is_shown = {
+		current_date >= 769.1.1
+		AND = {
+			OR = {
+				learning >= 12 
+				has_trait = cynical
+			}
+			OR={			
+				has_religion = religion:christianity_religion
+				has_religion = religion:islam_religion
+				has_religion = religion:tengrism_religion
+			}
+		}
+
+	}
+	is_valid = {
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+		NOT = {
+			has_trait = Zealous
+		}
+		
+	}
+	effect = {
+		if = {
+			limit = {
+				faith = {
+					any_holy_site = {
+						squared_distance = {
+							target = root.capital_province
+							value <= medium_pilgrimage_max_length
+						}
+					}
+				}
+			}
+			custom_tooltip = pilgrimage_effect_4
+		}
+
+		trigger_event = pr.018
+		save_scope_as = actor
+	}
+}
+################################
+return_polytheism_decision={
 	picture = "gfx/interface/illustrations/decisions/constantinople.dds"
 	major = yes
 	is_shown ={
+		current_date < 769.1.1
 		is_adult = yes
 		is_imprisoned = no
  		is_at_war = no

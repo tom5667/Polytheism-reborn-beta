@@ -190,10 +190,11 @@ toledo = {
  cartagena = {
 	county = c_murcia
 
- 	character_modifier = {
- 		name = holy_site_cartagena_effect_name
- 		clergy_opinion = 5
- 	}
+	character_modifier = {
+		name = holy_site_devon_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
  }
 
 sidon = {
@@ -208,12 +209,29 @@ sidon = {
 tyre = {
  	county = c_acre
  	character_modifier = {
-		monthly_piety_gain_mult = 0.1
+		name = holy_site_tyre_effect_name
+		clergy_opinion = 5
 	}
-	flag = tyre_conversion_bonus # +5% County Conversion
 } 
-
-
+#############
+# Semitic polytheism
+#############
+palermo = {
+	county = c_palermo
+	character_modifier = {
+		name = holy_site_ninive_effect_name
+		diplomacy = 1
+		martial = 1
+	}
+}
+nicosia = {
+	county = c_nicosia
+	character_modifier = {
+		name = holy_site_devon_effect_name
+		development_growth_factor = 0.1
+		stewardship = 1
+	}
+}
 #############
 # etruscan polytheism
 #############
@@ -262,8 +280,7 @@ augsburg ={
 #############
 
 ur = {
-	county = c_ubulla
-	barony = b_matara-iraq
+	county = c_akhadid
 
 	character_modifier = {
 		monthly_piety_gain_mult = 0.2
@@ -309,6 +326,41 @@ ebla = {
 		stewardship = 2
 	}
 }
+#############
+#Sumerian
+#############
+nippur = { 
+	county = c_batiha
+	character_modifier = {
+		name = holy_site_nippur_effect_name
+		diplomacy = 1
+		martial = 1
+	}
+}
+uruk  = {
+	county = c_qadisiya
+
+	character_modifier = {
+	   monthly_piety_gain_mult = 0.1
+   }
+   flag = uruk_conversion_bonus # +5% County Conversion
+}
+kish = {
+	county = c_kufa
+
+	character_modifier = {
+		name = holy_site_kish_effect_name
+		clergy_opinion = 5
+	}
+}
+lagash = {
+	county = c_rusafa
+	character_modifier = {
+		name = holy_site_ebla_effect_name
+		stewardship = 2
+	}
+}
+
 
 #############
 #Dacian
@@ -483,7 +535,7 @@ london = {
 	county = c_devon
 
 	character_modifier = {
-		name = holy_site_venice_effect_name
+		name = holy_site_devon_effect_name
 		development_growth_factor = 0.1
 		stewardship = 1
 	}

@@ -204,8 +204,8 @@
 				BishopNeuter = hellenism_priest_male
 				BishopNeuterPlural = hellenism_priest_male_plural
 				DivineRealm = hellenism_divine_realm
-				PositiveAfterLife = hellenism_death_deity_name
-				NegativeAfterLife = hellenism_death_deity_name
+                PositiveAfterLife = greco_roman_religion_positive_afterlife
+                NegativeAfterLife = greek_religion_negative_afterlife
 				DeathDeityName = hellenism_death_deity_name
 				DeathDeityNamePossessive = hellenism_death_deity_name_possessive
 				DeathDeitySheHe = CHARACTER_SHEHE_HE
@@ -409,8 +409,8 @@
                 BishopNeuter = mycenaean_polytheism_priest_male
                 BishopNeuterPlural = mycenaean_polytheism_priest_male_plural
                 DivineRealm = divine_realm
-                PositiveAfterLife = mycenaean_polytheism_death_deity_name
-                NegativeAfterLife = mycenaean_polytheism_death_deity_name
+                PositiveAfterLife = greco_roman_religion_positive_afterlife
+                NegativeAfterLife = greek_religion_negative_afterlife
                 DeathDeityName = mycenaean_polytheism_death_deity_name
                 DeathDeityNamePossessive = mycenaean_polytheism_death_deity_name_possessive
                 DeathDeitySheHe = CHARACTER_SHEHE_HE

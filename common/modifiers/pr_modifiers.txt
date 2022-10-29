@@ -825,3 +825,14 @@ returned_altar_of_victory = {
 	christianity_religion_opinion = -10
 	islam_religion_opinion = -10
 }
+
+#research ancient religion modifiers
+knowledge_of_ancient_religion = {
+	prestige = 0.1
+	learning = 3
+	
+	religious_head_opinion = -10
+
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}

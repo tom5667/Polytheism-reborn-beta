@@ -121,7 +121,7 @@ restore_high_kingdom ={
 		is_ruler = yes
 		is_landed = yes
 		faith = faith:gaelic_polytheism
-		culture = culture:irish
+		culture = { has_cultural_pillar = heritage_goidelic }
 		is_imprisoned = no	
 		is_at_war = no
 		NOR = {

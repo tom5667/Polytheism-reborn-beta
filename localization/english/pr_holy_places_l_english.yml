@@ -80,10 +80,14 @@
 
  holy_site_tyre_name:0 "Tyre"
  holy_site_tyre_effect_name:0 "From [holy_site|E] #weak ($holy_site_tyre_name$)#!"
- holy_site_tyre_effects:0 "County Conversion Speed: #P +5%#!"
 
  holy_site_cartagena_name:0 "Cartagena"
  holy_site_cartagena_effect_name:0 "From [holy_site|E] #weak ($holy_site_cartagena_name$)#!"
+
+ holy_site_palermo_name:0 "Palermo"
+ holy_site_palermo_effect_name:0 "From [holy_site|E]
+ holy_site_nicosia_name:0 "Nicosia"
+ holy_site_nicosia_effect_name:0 "From [holy_site|E]
 
 
  #Etruscan Polytheism
@@ -99,9 +103,10 @@
 
  holy_site_augsburg_name:0 "Augsburg"
  holy_site_augsburg_effect_name:0 "From [holy_site|E]"
-
+ #Mesopotamian
  holy_site_ur_name:0 "Ur"
  holy_site_ur_effect_name:0 "From [holy_site|E]"
+ holy_site_ur_effects:0 "County Conversion Speed: #P +20%#!"
 
  holy_site_ninive_name:0 "Ninive"
  holy_site_ninive_effect_name:0 "From [holy_site|E] #weak ($holy_site_ninive_name$)#!"
@@ -112,8 +117,21 @@
  holy_site_susa_name:0 "Susa"
  holy_site_susa_effect_name:0 "From [holy_site|E]"
 
- holy_site_ebla_name:0 "Mari"
- holy_site_ebla_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"
+ #Sumerian
+ holy_site_nippur_name:0 "Nippur"
+ holy_site_nippur_effect_name:0 "From [holy_site|E]"
+
+ holy_site_susa_name:0 "Susa"
+ holy_site_susa_effect_name:0 "From [holy_site|E]"
+
+ holy_site_lagash_name:0 "Lagash"
+ holy_site_lagash_effect_name:0 "From [holy_site|E]"
+
+ holy_site_uruk_name:0 "Uruk"
+ holy_site_uruk_effect_name:0 "From [holy_site|E]"
+
+ holy_site_kish_name:0 "Kish"
+ holy_site_kish_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"
 
  holy_site_sarmizegetusa_name:0 "Sarmizegetusa"
  holy_site_sarmizegetusa_effect_name:0 "From [holy_site|E] #weak ($holy_site_ebla_name$)#!"

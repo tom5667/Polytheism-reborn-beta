@@ -216,7 +216,7 @@
 				add_doctrine = doctrine_monk_not_clergy_enforced
 				add_doctrine = doctrine_atonement_none
 				add_doctrine = doctrine_encouraged_alms
-				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_polygamy
 				add_doctrine = doctrine_no_concubinage
 				add_doctrine = doctrine_divorce_allowed
 				add_doctrine = doctrine_bastardry_none
@@ -872,7 +872,7 @@
 				add_doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 			}
 		}
-		religion:punic_religion ={
+		religion:canaanite_religion ={
 			every_faith ={
 				clear_modded_doctrines = yes
 				#Belief Doctrines 
@@ -980,7 +980,7 @@
 				add_doctrine = doctrine_monogamy
 				add_doctrine = doctrine_divorce_allowed
 				add_doctrine = doctrine_bastardry_legitimization
-				add_doctrine = doctrine_no_concubinage
+				add_doctrine = doctrine_concubines
 				add_doctrine = doctrine_sacred_marriage
 				add_doctrine = doctrine_consanguinity_cousins
 			}

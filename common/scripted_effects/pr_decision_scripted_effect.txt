@@ -543,3 +543,50 @@ promote_gaulish_settlement_decision_scripted_effect = {
 		
 	}
 }
+#PR research ancient religion event effects 
+pr_research_ancient_religion_events_great_library_effect = {
+	if = {
+		limit = {
+			has_global_variable = research_great_library
+			#learning >= 12 
+		}
+		trigger_event = {
+			on_action = pr_research_ancient_religion_events_great_library
+		}
+	}
+}
+
+pr_research_ancient_religion_events_small_library_effect = {
+	if = {
+		limit = {
+			has_global_variable = research_small_library
+			#learning >= 12 
+		}
+		trigger_event = {
+			on_action = pr_research_ancient_religion_events_small_library
+		}
+	}
+
+}
+
+pr_research_ancient_religion_events_debate_effect = {
+	if = {
+		limit = {
+			has_global_variable = learning_good
+		}
+		trigger_event ={
+			on_action = pr_research_ancient_religion_events_debate
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_global_variable = learning_good
+			}
+		}
+		trigger_event ={
+	 		on_action = pr_research_ancient_religion_events_debate_moderate_bad
+	 	}
+	}
+
+}

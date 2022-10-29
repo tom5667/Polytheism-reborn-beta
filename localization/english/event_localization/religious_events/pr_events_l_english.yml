@@ -3,77 +3,81 @@
 #quick menu change religon
 rps.001.t:0 ""
 rps.001.desc:0 "Quick menu change religion"
-rps.001.a:0 "Greek-Roman"
-rps.001.b:0 "Etruscan"
-rps.001.c:0 "Egyptian"
-rps.001.d:0 "Celtic"
-rps.001.e:0 "German"
+rps.001.greek_roman:0 "Greek-Roman"
+rps.001.etruscan:0 "Etruscan"
+rps.001.egyptian:0 "Egyptian"
+rps.001.celtic:0 "Celtic"
+rps.001.germanic:0 "Germanic"
 rps.001.next:0 "Next"
 rps.001.optout:0 "Exit"
 
 rps.011.t:0 ""
 rps.011.desc:0 "Quick menu change religion"
-rps.011.a:0 "Punic"
-rps.011.b:0 "Mesopotamian"
-rps.011.c:0 "Daco-Thracian"
-rps.011.d:0 "Caucasus"
+rps.011.canaanite:0 "Canaanite"
+rps.011.mesopotamian:0 "Mesopotamian"
+rps.011.daco_thracian:0 "Daco-Thracian"
+rps.011.caucasus:0 "Caucasus"
 rps.011.back:0 "Back"
 rps.011.optout:0 "Exit"
 
 #Greek-Roman
 rps.002.t:0 ""
 rps.002.desc:0 " "
-rps.002.a:0 "Cultus Deorum"
-rps.002.b:0 "Hellenismos"
-rps.002.c:0 "Greaco Roman"
-rps.002.d:0 "Mithraic mysteries"
-rps.002.e:0 "Eluesinian mysteries"
-rps.002.f:0 "Cult of Serapis"
-rps.002.g:0 "Sol Invictus cult"
-rps.002.h:0 "Mysteries of Isis"
-rps.002.i:0 "Roman Illyrian"
+rps.002.roman:0 "Roman Polytheism"
+rps.002.greek:0 "Greek Polytheism"
+rps.002.greaco_roman:0 "Greaco Roman"
+rps.002.mithras:0 "Mithraic mysteries"
+rps.002.eluesinian:0 "Eluesinian mysteries"
+rps.002.serapis:0 "Cult of Serapis"
+rps.002.sol_invictus:0 "Sol Invictus cult"
+rps.002.isis:0 "Mysteries of Isis"
+rps.002.roman_illyrian:0 "Roman Illyrian Polytheism"
+rps.002.romano_british:0 "Roman British Polytheism"
+rps.002.gallo_roman:0 "Gallo Roman"
 rps.002.back:0 "Back"
 
 #Etruscan
 rps.003.t:0 ""
 rps.003.desc:0 " "
-rps.003.a:0 "Etruscan Polytheism"
-rps.003.b:0 "Back"
+rps.003.etruscan:0 "Etruscan Polytheism"
+rps.003.back:0 "Back"
 
 #Egyptian
 rps.004.t:0 ""
 rps.004.desc:0 " "
-rps.004.a:0 "Kemetic Polytheism"
-rps.004.b:0 "Atenism"
-rps.004.c:0 "Back"
+rps.004.kemetic:0 "Kemetic Polytheism"
+rps.004.atenism:0 "Atenism"
+rps.004.back:0 "Back"
 
 #Celtic
 rps.005.t:0 ""
 rps.005.desc:0 " "
-rps.005.a:0 "Gaelic Polytheism"
-rps.005.b:0 "Brythonic Poltheism"
-rps.005.c:0 "Gaulish Polytheism"
-rps.005.d:0 "Celtic Iberian Polytheism"
-rps.005.e:0 "Back"
+rps.005.gaelic:0 "Gaelic Polytheism"
+rps.005.brythonic:0 "Brythonic Poltheism"
+rps.005.gaulish:0 "Gaulish Polytheism"
+rps.005.celtic_iberian:0 "Celtic Iberian Polytheism"
+rps.005.back:0 "Back"
 
 #Germanic
 rps.006.t:0 ""
 rps.006.desc:0 " "
-rps.006.a:0 "Anglo Saxon Polytheism"
-rps.006.b:0 "German Polytheism"
-rps.006.c:0 "Back"
+rps.006.anglo_saxon:0 "Anglo Saxon Polytheism"
+rps.006.german:0 "German Polytheism"
+rps.006.back:0 "Back"
 
 #Punic
 rps.007.t:0 ""
 rps.007.desc:0 " "
-rps.007.a:0 "Punic Polytheism"
-rps.007.b:0 "Back"
+rps.007.punic:0 "Punic Polytheism"
+rps.007.semitic:0 "Semitic Polytheism"
+rps.007.back:0 "Back"
 
 #Mesopotamian
 rps.008.t:0 ""
 rps.008.desc:0 " "
-rps.008.a:0 "Mesopotamian Polytheism"
-rps.008.b:0 "Back"
+rps.008.babylonian:0 "Babylonian Polytheism"
+rps.008.sumerian:0 "Sumerian Polytheism"
+rps.008.back:0 "Back"
 
 #Dacian
 rps.009.t:0 ""
@@ -89,6 +93,128 @@ rps.010.georgian:0 "Georgian Polytheism"
 rps.010.armenian:0 "Armenian Polytheism"
 rps.010.back:0 "Back"
 
+#religion menu
+pr.018.t:0 ""
+pr.018.desc:0 "Let's see,there are so many religions lost, now it's time to do research and bring a religion back."
+pr.018.greek_roman:0 "Greek-Roman"
+pr.018.etruscan:0 "Etruscan"
+pr.018.egyptian:0 "Egyptian"
+pr.018.celtic:0 "Celtic"
+pr.018.germanic:0 "Germanic"
+pr.018.next:0 "Next"
+pr.018.optout:0 "Exit"
+
+pr.019.t:0 ""
+pr.019.desc:0 ""
+pr.019.canaanite:0 "Canaanite"
+pr.019.mesopotamian:0 "Mesopotamian"
+pr.019.daco_thracian:0 "Daco-Thracian"
+pr.019.caucasus:0 "Caucasus"
+pr.019.hittite:0 "Hittite"
+pr.019.back:0 "Back"
+pr.019.optout:0 "Exit"
+
+#Greek-Roman
+pr.020.t:0 ""
+pr.020.desc:0 "The ancient Greek and Roman religions long ago the dominant religions in the mediteranian. The Roman religion or better said Cultus deorum (cultivation of the gods)once the state religion of the mighty Roman Empire. Or maybe the religion what is created by Emperor Julian the Philosopher a combination of Greek and Roman religion. Maybe even the ancient Greek religion of the mighty Spartans and Athenians."
+pr.020.roman:0 "Roman Polytheism"
+pr.020.greek:0 "Greek Polytheism"
+pr.020.graeco_roman:0 "Greaco Roman"
+pr.020.back:0 "Back"
+
+#Etruscan
+pr.021.t:0 ""
+pr.021.desc:0 "Once the religion of the prosperos Etruscans"
+pr.021.etruscan:0 "Etruscan Polytheism"
+pr.021.back:0 "Back"
+
+#Egyptian
+pr.022.t:0 ""
+pr.022.desc:0 " "
+pr.022.kemetic:0 "Kemetic Polytheism"
+pr.022.atenism:0 "Atenism"
+pr.022.back:0 "Back"
+
+#Celtic
+pr.023.t:0 ""
+pr.023.desc:0 "The celtic religions, once dominant in most of central europe and have even been in Ancyra"
+pr.023.gaelic:0 "Gaelic Polytheism"
+pr.023.brythonic:0 "Brythonic Poltheism"
+pr.023.gaulish:0 "Gaulish Polytheism"
+pr.023.celtic_iberian:0 "Celtic Iberian Polytheism"
+pr.023.back:0 "Back"
+
+#Germanic
+pr.024.t:0 ""
+pr.024.desc:0 " "
+pr.024.anglo_saxon:0 "Anglo Saxon Polytheism"
+pr.024.german:0 "German Polytheism"
+pr.024.back:0 "Back"
+
+#Punic
+pr.025.t:0 ""
+pr.025.desc:0 " "
+pr.025.punic:0 "Punic Polytheism"
+pr.025.semitic:0 "Semitic Polytheism"
+pr.025.back:0 "Back"
+
+#Mesopotamian
+pr.026.t:0 ""
+pr.026.desc:0 " "
+pr.026.babylonian:0 "Babylonian Polytheism"
+pr.026.sumerian:0 "Sumerian Polytheism"
+pr.026.back:0 "Back"
+
+#Dacian
+pr.027.t:0 ""
+pr.027.desc:0 " "
+pr.027.dacian:0 "Dacian Polytheism"
+pr.027.zalmoxism:0 "Zalmoxism"
+pr.027.back:0 "Back"
+
+#Caucasus
+pr.028.t:0 ""
+pr.028.desc:0 " "
+pr.028.georgian:0 "Georgian Polytheism"
+pr.028.armenian:0 "Armenian Polytheism"
+pr.028.back:0 "Back"
+
+#Hittite
+pr.029.t:0 ""
+pr.029.desc:0 " "
+pr.029.hittite:0 "Hittite Polytheism"
+pr.029.back:0 "Back"
+
+pr.030.t:0 ""
+pr.030.desc:0 "Now I know which of the ancient religions I want to research I can send out a historian to one of the big libraries or a minor library to find information of the old religion"
+pr.030.alexandria:0 "Library of Alexandria"
+pr.030.athens:0 "Library of Athens"
+pr.030.vatican:0 "Vatican library"
+pr.030.minor_library:0 "Minor library"
+
+pr.031.t:0 ""
+pr.031.desc:0 "The historian returns with good news he found information about the ancient religion, now let's talk about it and learn from the scriptures."
+pr.031.a:0 "Learn about the religion"
+
+pr.033.t:0 ""
+pr.033.desc:0 "Of course it's not easy if you have no information but a few scrolls combined with the knowledge of the historian but we will get there or should I stop now ?"
+pr.033.a:0 "Continue learning"
+pr.033.b:0 "This is al I want to know"
+
+pr.035.t:0 ""
+#Needs to get the court chaplain $ so it can be auto filled in 
+pr.035.desc:0 "You wouldn't say but every time you do something off the record the (court chaplain) get's to know it well he gave me a choice of repending or should I try to convince him that the old ways are the best?  "
+pr.035.a:0 "Try to convince (court chaplain)"
+pr.035.b:0 "Repent"
+
+r.035.t:0 ""
+#Needs to get the court chaplain $ so it can be auto filled in 
+pr.035.desc:0 "You wouldn't say but every time you do something off the record the (court chaplain) get's to know it well he gave me a choice of repending or should I try to convince him that the old ways are the best?"
+pr.035.a:0 "Try to convince (court chaplain)"
+
+pr.036.t:0 " "
+pr.036.desc:0 "After a long and tiresome debate the (court chaplain) finaly gave in and see that the old gods aren't as evil as they say"
+pr.036.a:0 "It won't be simple my friend"
 
 
 #Invite relatives

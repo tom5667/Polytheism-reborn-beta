@@ -3,6 +3,12 @@
 #Made by tom5667 
 ######################
 
+#Reconstruct Polytheism
+reconstruct_polytheism_decision:0 "Reconstruct Polytheistic Religion"
+reconstruct_polytheism_decision_desc:0 "Long gone are the times of most polytheistic religions, but with some work we can get them back."
+reconstruct_polytheism_decision_tooltip:0 "Try to reconstruct an Polytheistic religion"
+reconstruct_polytheism_decision_confirm:0  "Confirm"
+
 # Return Cultus Deorum Decision 
 return_polytheism_decision:0 "Return Ancient Polytheism Religion"
 return_polytheism_decision_desc:0 "Return ancient polytheistic religion, the culture determes wich ancient religion event will trigger for example irish Gealic polytheism and with Greek you get the events for cultus deorum hellenic etc."

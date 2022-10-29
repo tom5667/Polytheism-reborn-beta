@@ -3,10 +3,10 @@
 #Made by tom5667 
 #V0.1 added religious family and gaelic
 ######################
-    punic_religion:0 "Punic"
-    punic_religion_adj:0 "Punic"
-    punic_religion_desc:0 "The Old religion of the Phoenicians"
-    punic_pantheon_the_gods:0 "punic Pantheon of gods"
+    canaanite_religion:0 "Canaanite"
+    canaanite_religion_adj:0 "Canaanite"
+    canaanite_religion_desc:0 "The Old religion of the Phoenicians"
+    canaanite_pantheon_the_gods:0 "punic Pantheon of gods"
     holy_order_sons_of_baal:0 "Sons of Baal"
 
     #Punic
@@ -114,5 +114,101 @@
     punic_polytheism_bishop_male_plural:0 "High Priest" 
 
 
+    #Semitic
+    semitic_polytheism:0 "Semitic Polytheism"
+    semitic_polytheism_adj:0 "Semitic Polytheism"
+    semitic_polytheism_adherent:0 "Semitic Polytheist"
+    semitic_polytheism_adherent_plural:0 "Semitic Polytheists"
+    semitic_polytheism_desc:0 "Semitic desc" 
+    semitic_polytheism_religious_symbol:0 "to be done"
+    semitic_polytheism_religious_text:0 "Katubei Ha-Qdusha"
+    
+    semitic_polytheism_high_god_name:0 "Ba'al-Hadad"
+    semitic_polytheism_high_god_name_possessive:0 "Ba'al-Hadad's"
+    semitic_polytheism_high_god_name_alternate:0 "Ba'al-Hadad"
+    semitic_polytheism_high_god_name_alternate_possessive:0 "Ba'al-Hadad's"
+    semitic_polytheism_high_god_shehe:0 "He"
+    semitic_polytheism_high_god_herselfhimself:0 "Himself"
+    semitic_polytheism_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    semitic_polytheism_creator_god_name:0 "El Elyon"
+    semitic_polytheism_creator_god_name_possessive:0 "El Elyon's"
+
+    #Health Goddess Marqod
+    semitic_polytheism_health_god_name:0 "Marqod"
+    semitic_polytheism_health_god_name_possessive:0 "Marqod's"
+
+    #Fertility Goddess Ashera Localization
+    semitic_polytheism_fertility_god_name:0 "Ashera"
+    semitic_polytheism_fertility_god_name_possessive:0 "Ashera's"
+
+    #Wealth god Dagan Localization
+    semitic_polytheism_wealth_god_name:0 "Dagan"
+    semitic_polytheism_wealth_god_name_possessive:0 "Dagan's"
+
+    #Household god 
+    semitic_polytheism_household_god_name:0 "Kotharat"
+    semitic_polytheism_household_god_name_possessive:0 "Kotharat's"
+
+    #Fate god Ashima Localization
+    semitic_polytheism_fate_god_name:0 "Ashima"
+    semitic_polytheism_fate_god_name_possessive:0 "Ashima's"
+
+    #knowledge god ecnaLocalization
+    semitic_polytheism_knowledge_god_name:0 "El Elyon"
+    semitic_polytheism_knowledge_god_name_possessive:0 "El Elyon's"
+
+    #War god Ashtart Localization
+    semitic_polytheism_war_god_name:0 "Ashtart"
+    semitic_polytheism_war_god_name_possessive:0 "Ashtart's"
+
+    #Trickster god Localization
+    semitic_polytheism_trickster_god_name:0 "Ia"
+    semitic_polytheism_trickster_god_name_possessive:0 "Ia's"
+
+    #Night goddess 
+    semitic_polytheism_night_god_name:0 "Shalim"
+    semitic_polytheism_night_god_name_possessive:0 "Shalim's"
+
+
+    semitic_polytheism_water_god_name:0 "Yam"
+    semitic_polytheism_water_god_name_possessive:0 "Yam's"
+
+    #evil gods names 
+    semitic_polytheism_evil_god_yam:0 "Yam" 
+    semitic_polytheism_evil_god_mot:0 "Mot"
+
+    semitic_polytheism_witchgodname_moloch:0 "Moloch"
+
+    #Devil god   
+    semitic_polytheism_devil_name:0 "Hawot" 
+    semitic_polytheism_devil_name_possessive:0 "Hawot's"
+
+    #Death god 
+    semitic_polytheism_death_deity_name:0 "Mot"
+    semitic_polytheism_death_deity_name_possessive:0 "Mot's"
+
+    #Good gods names 
+    semitic_polytheism_good_god_baal:0 "Baal Hammon" 
+    semitic_polytheism_good_god_reshef:0 "Reshef" 
+    semitic_polytheism_good_god_kusor:0 "Kusor" 
+    semitic_polytheism_good_god_melqart:0 "Melqart" 
+    semitic_polytheism_good_god_eshum:0 "Eshmun" 
+    semitic_polytheism_good_god_yam:0 "Yam" 
+    semitic_polytheism_good_god_tanit:0 "Tanit" 
+    semitic_polytheism_good_god_semes:0 "Semes"
 
     
+
+    #punic male priests  
+    semitic_polytheism_priest_male:0 "Priest"
+    semitic_polytheism_priest_male_plural:0 "Priest"
+
+    #punic female priests 
+    semitic_polytheism_priest_female:0 "Priestess" 
+    semitic_polytheism_priest_female_plural:0 "Priestess" 
+
+    #Druids  
+    semitic_polytheism_bishop_male:0 "High Priest" 
+    semitic_polytheism_bishop_male_plural:0 "High Priest" 

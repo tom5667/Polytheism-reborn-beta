@@ -84,8 +84,8 @@
     hittite_polytheism_witchgodname_kamrushepa_possesive:0 "Kamrushepa's"
 
     #Devil god   
-    cdr_polytheism_devil_name:0 "Hahhima" 
-    cdr_polytheism_devil_name_possessive:0 "Hahhima's"
+    hittite_polytheism_devil_name:0 "Hahhima" 
+    hittite_polytheism_devil_name_possessive:0 "Hahhima's"
 
     #Death god Lelwani 
     hittite_polytheism_death_deity_name:0 "Lelwani"

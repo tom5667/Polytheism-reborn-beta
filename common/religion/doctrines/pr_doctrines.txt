@@ -1,0 +1,631 @@
+
+###############
+#More Doctrines
+###############
+#BELIEF DOCTRINES
+doctrine_religious_tradition = {
+	group = "belief"
+	doctrine_religious_text = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_oral_tradition = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_sacred_scriptures = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_autonomous_tradition = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_gods = {
+	group = "belief"
+	doctrine_monotheistic = {	#Only One
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_henotheistic = {	#One, may be more
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_ditheistic = {	#Only Two
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_dihenotheistic = {	#Two, may be more
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_tritheistic = {	#Only Three
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_trihenotheistic = {	#Three, may be more
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_polytheistic = {	#Many
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_kathenotheistic = {	#Many, but one is worshipped at a time
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_syncretic_mythology = {	#Many, but we do not exclude other religions Gods
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		parameters = {
+			hostility_override_doctrine_clerical_marriage_allowed = 1
+			hostility_override_doctrine_clerical_marriage_disallowed = 1
+		}
+		character_modifier = {
+			hidden_effect = { different_faith_county_opinion_mult = -1.0 }
+			different_faith_opinion = 5
+		}
+	}
+	doctrine_transtheistic = {	#No Gods, but still a religion
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		traits = {
+			virtues = { scholar }
+		}
+	}
+	doctrine_agnostic = {	#No Gods, but there may be one
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		traits = {
+			virtues = { theologian = 2 }
+		}
+	}
+	doctrine_atheistic = {	#No Gods
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		character_modifier = {
+			stress_gain_mult = 0.1
+		}
+		traits = {
+			sins = { theologian }
+			virtues = { scholar }
+		}
+	}
+}
+doctrine_nature_of_godhood = {
+	group = "belief"
+	doctrine_ethereal = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_immortal = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_ethereal_immortal = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_aeonic = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_spiritual = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_personal = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_cosmology = {
+	group = "belief"
+	doctrine_theistic_creation = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_eternal = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_cyclic = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_dualistic = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		can_pick = {
+			custom_description = {
+				text = incompatible_doctrine_dualistic_ditheistic_trigger
+				OR = {
+					flag:doctrine_dihenotheistic = { is_in_list = selected_doctrines }
+					flag:doctrine_ditheistic = { is_in_list = selected_doctrines }
+					flag:doctrine_transtheistic = { is_in_list = selected_doctrines }
+				}
+			}
+		}
+	}
+	doctrine_chaos_into_world = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		can_pick = {
+			custom_description = {
+				text = incompatible_doctrine_chaos_into_world_polytheistic_trigger
+				NOR = {
+					flag:doctrine_monotheistic = { is_in_list = selected_doctrines }
+					flag:doctrine_henotheistic = { is_in_list = selected_doctrines }
+					flag:doctrine_transtheistic = { is_in_list = selected_doctrines }
+					flag:doctrine_agnostic = { is_in_list = selected_doctrines }
+					flag:doctrine_atheistic = { is_in_list = selected_doctrines }
+				}
+			}
+		}
+	}
+}
+doctrine_deities = {
+	group = "belief"
+	doctrine_demigods = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_archangels = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_aspects = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_spirits = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_deities_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_divine_guidance = {
+	group = "belief"
+	doctrine_prophets = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_anointed_deliverer = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_gurus = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_avatars = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_enlightened_monks = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_divine_guidance_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_eschatology = {
+	group = "belief"
+	doctrine_apocalypse = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_judgement_day = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_promised_deliverer = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_eschatology_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_thanatology = {
+	group = "belief"
+	doctrine_paradise = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_underworld = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_paradise_and_underworld = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_reincarnation = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_eternal_feast = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+
+#PRACTICES DOCTRINES
+doctrine_holy_mortals = {
+	group = "practices"
+	doctrine_venerated_ancestors = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_saints = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_heroes = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_gurus_2 = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_avatars_2 = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_holy_mortals_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_prayer = {
+	group = "practices"
+	doctrine_paramount = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_obligatory = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_recommended = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_autonomous = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_atonement = {
+	group = "practices"
+	doctrine_mandatory_atone = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_encouraged_atone = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_atonement_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+doctrine_almsgiving = {
+	group = "practices"
+	doctrine_mandatory_alms = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		character_modifier = {
+			domain_tax_mult_even_if_baron = -0.05
+		}
+	}
+	doctrine_encouraged_alms = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+	doctrine_almsgiving_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+	}
+}
+##############
+#Mariage doctrines
+##############
+doctrine_concubine_type = {
+	group = "marriage"
+	doctrine_no_concubinage = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_no_concubinage }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_paramourial }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_two_concubines }
+				multiply = faith_changed_doctrine_cost_mult_three_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_concubines }
+				multiply = faith_changed_doctrine_cost_mult_four_step
+			}
+		}
+		parameters = {
+			number_of_consorts = 0
+		}
+	}
+	doctrine_paramourial = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_paramourial }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_no_concubinage }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_two_concubines }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_concubines }
+				multiply = faith_changed_doctrine_cost_mult_three_step
+			}
+		}
+		can_pick = {
+			custom_description = {
+				text = doctrine_not_both_marriage_and_concubinage
+				flag:doctrine_monogamy = { is_in_list = selected_doctrines }
+			}
+		}
+		parameters = {
+			number_of_consorts = 1
+		}
+	}
+	doctrine_two_concubines = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_two_concubines }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_paramourial }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_concubines }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_no_concubinage }
+				multiply = faith_changed_doctrine_cost_mult_three_step
+			}
+		}
+		can_pick = {
+			custom_description = {
+				text = doctrine_not_both_marriage_and_concubinage
+				flag:doctrine_monogamy = { is_in_list = selected_doctrines }
+			}
+		}
+		parameters = {
+			number_of_consorts = 2
+		}
+	}
+	doctrine_concubines = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_concubines }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_two_concubines }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_paramourial }
+				multiply = faith_changed_doctrine_cost_mult_three_step
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_no_concubinage }
+				multiply = faith_changed_doctrine_cost_mult_four_step
+			}
+		}
+		can_pick = {
+			custom_description = {
+				text = doctrine_not_both_marriage_and_concubinage
+				flag:doctrine_monogamy = { is_in_list = selected_doctrines }
+			}
+		}
+		parameters = {
+			number_of_consorts = 3
+		}
+	}
+}
+
+doctrine_stance_on_marriage = {
+	group = "marriage"
+	doctrine_sacred_marriage = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_sacred_marriage }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_none_marriage }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+	}
+	doctrine_worldly_marriage = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_worldly_marriage }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+	}
+	doctrine_none_marriage = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_none_marriage }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_sacred_marriage }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+	}
+}
+#Clergy doctrines
+doctrine_clerical_wealth = {
+	group = "clergy"
+	doctrine_encouraged = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		character_modifier = {
+			domain_tax_mult_even_if_baron = -0.05
+		}
+		clergy_modifier = {
+			monthly_piety = -0.5
+			domain_tax_mult_even_if_baron = 0.1
+		}
+	}
+	doctrine_no_restrictions = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		clergy_modifier = {
+			domain_tax_mult_even_if_baron = 0.05
+		}
+	}
+	doctrine_curtailed = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		clergy_modifier = {
+			monthly_piety = 0.5
+			domain_tax_mult_even_if_baron = -0.05
+		}
+	}
+	doctrine_apostolic_poverty = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		character_modifier = {
+			domain_tax_mult_even_if_baron = 0.05
+		}
+		clergy_modifier = {
+			monthly_piety = 1
+			domain_tax_mult_even_if_baron = -0.1
+		}
+	}
+}
+doctrine_clerical_monkhood = {
+	group = "clergy"
+	doctrine_monk_clergy_enforced = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		clergy_modifier = {
+			custom_description = {
+				text = allowed_clergy_appointed_to_monks
+			}
+		}
+	}
+	doctrine_monk_not_clergy_enforced = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		clergy_modifier = {
+			custom_description = {
+				text = disallowed_clergy_appointed_to_monks
+			}
+		}
+	}
+}
