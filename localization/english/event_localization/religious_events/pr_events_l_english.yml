@@ -202,9 +202,9 @@ pr.032.a:0 "Invite a book merchant"
 pr.032.b:0 "Leave it as it is"
 
 pr.034.t:0 "The book merchant"
-pr.034.desc:0 " "
+pr.034.desc:0 ""
 pr.034.a:0 "Buy the book"
-pr.034.a:0 "Don't buy the book"
+pr.034.b:0 "Don't buy the book"
 
 pr.033.t:0 "Found information"
 pr.033.desc:0 "Of course it's not easy if you have no information but a few scrolls combined with the knowledge of the historian but we will get there or should I stop now ?"
@@ -237,6 +237,7 @@ pr.039.a:0 "Can I call all of this a succes ?"
 pr.040.t:0 "A good book"
 pr.040.desc:0 "As I hoped the book merchant selled me a good book and most importantly nobody knows I bought it so let's continue"
 pr.040.a:0 "Continue reading"
+pr.040.b:0 "This is all I want to know"
 
 pr.041.t:0 "A bad book"
 pr.041.desc:0 "As I start reading the book I came acros a page with the following text, I would dispose this book you're fooled haha. So that was a lot of money spend for nothing...."
@@ -245,6 +246,10 @@ pr.041.a:0 "Better luck next time I hope"
 pr.042.t:0 "After studying"
 pr.042.desc:0 "It's facinating how the old religion worked they even preserved how the so called heathens did their rituals."
 pr.042.a:0 "Convert to the true faith"
+
+pr.043.t:0 "Repending"
+pr.043.desc:0 "The priest was right after all now after repending I can call myself a true believer again."
+pr.043.a:0 "Glory to God!"
 
 #Invite relatives
 prsr.001.t:0 "The Sassanid Relatives"

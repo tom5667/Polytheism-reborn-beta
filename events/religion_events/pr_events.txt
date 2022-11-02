@@ -1123,7 +1123,7 @@ pr.030 = {#Choose library
 	}
 	option = {
 		name = pr.030.athens
-		remove_short_term_gold = 250'
+		remove_short_term_gold = 250
 		set_global_variable = {
 			name = research_great_library
 			value = yes
@@ -1181,7 +1181,10 @@ pr.032 = {#Historian didn't find information
 	}
 	option={
 		name = pr.032.a #Invite a book merchant 
-		trigger_event = pr.034
+		 trigger_event = {
+		 	id = pr.034
+		 	days = 5 
+		 } 
 	}
 	option={
 		name = pr.032.b #Leave it as it is 
@@ -1231,7 +1234,7 @@ pr.035 = {#Court chaplain finds out
 		hidden_effect = { 
 			if = {
 				limit = {
-					learning >= 18
+					learning >= 18 
 				}
 				set_global_variable = {
 					name = learning_good
@@ -1249,11 +1252,11 @@ pr.035 = {#Court chaplain finds out
 	}
 	option={
 		name = pr.035.b #Just repent
-		#repent event
+		trigger_event = pr.043
 	}
 }
 
-pr.036.good = {#Outcome debate good
+pr.036 = {#Outcome debate good
 	type = character_event
 	title = pr.036.t
 	desc = pr.036.desc
@@ -1265,7 +1268,7 @@ pr.036.good = {#Outcome debate good
 	}
 	left_portrait = {
 		character = scope:realm_priest
-		animation = fear
+		animation = personality_content
 	}
 	option={
 		name = pr.036.a #Won the debate
@@ -1281,7 +1284,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:cdr_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit ={
@@ -1294,7 +1297,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:hellenic_pagan
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit ={
@@ -1307,7 +1310,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:julians_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1320,7 +1323,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:gaelic_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1333,7 +1336,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:brythonic_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1346,7 +1349,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:celtic_iberian_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1359,7 +1362,7 @@ pr.036.good = {#Outcome debate good
 				scope:realm_priest = {
 					set_character_faith = faith:anglo_saxon_polytheism
 				}
-				trigger_event = pr.039
+				# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1372,7 +1375,7 @@ pr.036.good = {#Outcome debate good
 				scope:realm_priest = {
 					set_character_faith = faith:german_polytheism
 				}
-				trigger_event = pr.039
+				# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1380,12 +1383,12 @@ pr.036.good = {#Outcome debate good
 						name = research_etruscan
 						target = flag:flag_research_etruscan
 					}
-				set_character_faith = faith:etc_polytheism
-				scope:realm_priest = {
-					set_character_faith = faith:etc_polytheism
-				}
-				trigger_event = pr.039
 			}
+			set_character_faith = faith:etc_polytheism
+			scope:realm_priest = {
+				set_character_faith = faith:etc_polytheism
+			}
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1398,7 +1401,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:kemetic_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1411,7 +1414,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:atenism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1424,7 +1427,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:punic_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1437,7 +1440,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:semitic_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1445,12 +1448,12 @@ pr.036.good = {#Outcome debate good
 					name = research_babylonian
 					target = flag:flag_research_babylonian
 				}
-				set_character_faith = faith:babylonian_polytheism
-				scope:realm_priest = {
-					set_character_faith = faith:babylonian_polytheism
-				}
-				trigger_event = pr.039
 			}
+			set_character_faith = faith:babylonian_polytheism
+			scope:realm_priest = {
+				set_character_faith = faith:babylonian_polytheism
+			}
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1463,7 +1466,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:sumerian_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1476,7 +1479,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:dacian_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1489,7 +1492,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:zalmoxism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1502,7 +1505,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:georgian_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1515,7 +1518,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:armenian_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 		if = {
 			limit = {
@@ -1528,7 +1531,7 @@ pr.036.good = {#Outcome debate good
 			scope:realm_priest = {
 				set_character_faith = faith:hittite_polytheism
 			}
-			trigger_event = pr.039
+			# trigger_event = pr.039
 		}
 	}
 }
@@ -1737,8 +1740,9 @@ pr.037 = {#Outcome debate medium
 					target = flag:flag_research_babylonian
 				}
 				set_character_faith = faith:babylonian_polytheism
-				scope:realm_priest = {
-					set_character_faith = faith:babylonian_polytheism
+				imprison_character_effect = {
+					TARGET = scope:realm_priest
+					IMPRISONER = root
 				}
 				trigger_event = pr.039
 			}
@@ -1765,8 +1769,9 @@ pr.037 = {#Outcome debate medium
 				}
 			}
 			set_character_faith = faith:dacian_polytheism
-			scope:realm_priest = {
-				set_character_faith = faith:dacian_polytheism
+			imprison_character_effect = {
+				TARGET = scope:realm_priest
+				IMPRISONER = root
 			}
 			trigger_event = pr.039
 		}
@@ -1828,8 +1833,8 @@ pr.037 = {#Outcome debate medium
 		}
 	}
 	option={
-		name = pr.037.b #Maybe just keep it by this knowledge 
- 
+		name = pr.037.b #Repent 
+		trigger_event = pr.043
 	}
 }
 pr.038 = {#Outcome debate bad
@@ -1848,7 +1853,7 @@ pr.038 = {#Outcome debate bad
 	}
 	option={
 		name = pr.038.a #Lost the debate repending is the only solution
-		
+		trigger_event = pr.043
 	}
 }
 pr.039 = {#after debate moderate
@@ -1952,10 +1957,10 @@ pr.041 = {#Bought book bad
 	}
 }
 
-pr.041 = {#End event buying book 
+pr.042 = {#
 	type = character_event
-	title = pr.041.t
-	desc = pr.041.desc
+	title = pr.042.t
+	desc = pr.042.desc
 	theme = learning_scholarship_focus
 	override_background = { event_background = council_chamber }
 	right_portrait = {
@@ -1963,7 +1968,7 @@ pr.041 = {#End event buying book
 			animation = personality_content
 	}
 	option={
-		name = pr.041.a #It's time to convert to the true faith
+		name = pr.042.a #It's time to convert to the true faith
 		if = {
 			limit = {
 				is_target_in_global_variable_list = {
@@ -2144,5 +2149,26 @@ pr.041 = {#End event buying book
 			}
 			set_character_faith = faith:hittite_polytheism
 		}
+	}
+}
+
+pr.043 = {#after debate moderate
+	type = character_event
+	title = pr.043.t
+	desc = pr.043.desc
+	theme = learning_scholarship_focus
+	override_background = { event_background = 	temple_generic }
+	right_portrait = {
+			character = root
+			animation = personality_content
+	}
+	left_portrait = {
+		character = scope:realm_priest
+		animation = personality_content
+	}
+	option={
+		name = pr.043.a #The end 
+		add_trait = zealous
+		add_piety = 100 
 	}
 }

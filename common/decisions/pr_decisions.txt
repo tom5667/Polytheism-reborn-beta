@@ -30,7 +30,7 @@ reconstruct_polytheism_decision = {
 		is_independent_ruler = yes
 		is_at_war = no
 		NOT = {
-			has_trait = Zealous
+			has_trait = zealous
 		}
 		
 	}
