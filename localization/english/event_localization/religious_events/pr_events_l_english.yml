@@ -185,37 +185,66 @@ pr.029.desc:0 " "
 pr.029.hittite:0 "Hittite Polytheism"
 pr.029.back:0 "Back"
 
-pr.030.t:0 ""
+pr.030.t:0 "The libaries"
 pr.030.desc:0 "Now I know which of the ancient religions I want to research I can send out a historian to one of the big libraries or a minor library to find information of the old religion"
 pr.030.alexandria:0 "Library of Alexandria"
 pr.030.athens:0 "Library of Athens"
 pr.030.vatican:0 "Vatican library"
 pr.030.minor_library:0 "Minor library"
 
-pr.031.t:0 ""
+pr.031.t:0 "Return of the historian"
 pr.031.desc:0 "The historian returns with good news he found information about the ancient religion, now let's talk about it and learn from the scriptures."
 pr.031.a:0 "Learn about the religion"
 
-pr.033.t:0 ""
+pr.032.t:0 "Return of the historian"
+pr.032.desc:0 "Sadly the historian brought bad news, he couldn't find any info about ancient religions. So maybe I should invite a book merchant to see if he can deliver a book with information about ancient religions ?"
+pr.032.a:0 "Invite a book merchant"
+pr.032.b:0 "Leave it as it is"
+
+pr.034.t:0 "The book merchant"
+pr.034.desc:0 " "
+pr.034.a:0 "Buy the book"
+pr.034.a:0 "Don't buy the book"
+
+pr.033.t:0 "Found information"
 pr.033.desc:0 "Of course it's not easy if you have no information but a few scrolls combined with the knowledge of the historian but we will get there or should I stop now ?"
 pr.033.a:0 "Continue learning"
 pr.033.b:0 "This is al I want to know"
 
-pr.035.t:0 ""
+pr.035.t:0 "Court chaplain interference"
 #Needs to get the court chaplain $ so it can be auto filled in 
 pr.035.desc:0 "You wouldn't say but every time you do something off the record the (court chaplain) get's to know it well he gave me a choice of repending or should I try to convince him that the old ways are the best?  "
 pr.035.a:0 "Try to convince (court chaplain)"
 pr.035.b:0 "Repent"
 
-r.035.t:0 ""
-#Needs to get the court chaplain $ so it can be auto filled in 
-pr.035.desc:0 "You wouldn't say but every time you do something off the record the (court chaplain) get's to know it well he gave me a choice of repending or should I try to convince him that the old ways are the best?"
-pr.035.a:0 "Try to convince (court chaplain)"
-
-pr.036.t:0 " "
+pr.036.t:0 "Won the debate"
 pr.036.desc:0 "After a long and tiresome debate the (court chaplain) finaly gave in and see that the old gods aren't as evil as they say"
 pr.036.a:0 "It won't be simple my friend"
 
+pr.037.t:0 "Moderate debate"
+pr.037.desc:0 "After a long and tiresome debate the (court chaplain) stayed with his point that his god is superior, well does he speak the truth ? He says that there is still time to repent."
+pr.037.a:0 "Imprison this fool"
+pr.037.b:0 "Repent"
+
+pr.038.t:0 "Lost debate"
+pr.038.desc:0 "Maybe he is right after all, maybe there is just one god who has all the power."
+pr.038.a:0 "Repent"
+
+pr.039.t:0 "At the dungeon"
+pr.039.desc:0 "putting you in prison is the only choice I have since you don't want to convert"
+pr.039.a:0 "Can I call all of this a succes ?"
+
+pr.040.t:0 "A good book"
+pr.040.desc:0 "As I hoped the book merchant selled me a good book and most importantly nobody knows I bought it so let's continue"
+pr.040.a:0 "Continue reading"
+
+pr.041.t:0 "A bad book"
+pr.041.desc:0 "As I start reading the book I came acros a page with the following text, I would dispose this book you're fooled haha. So that was a lot of money spend for nothing...."
+pr.041.a:0 "Better luck next time I hope"
+
+pr.042.t:0 "After studying"
+pr.042.desc:0 "It's facinating how the old religion worked they even preserved how the so called heathens did their rituals."
+pr.042.a:0 "Convert to the true faith"
 
 #Invite relatives
 prsr.001.t:0 "The Sassanid Relatives"

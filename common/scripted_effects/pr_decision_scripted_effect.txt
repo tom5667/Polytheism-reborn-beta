@@ -588,5 +588,14 @@ pr_research_ancient_religion_events_debate_effect = {
 	 		on_action = pr_research_ancient_religion_events_debate_moderate_bad
 	 	}
 	}
-
+}
+pr_bought_book_event_effect = {
+	if ={
+		limit = {
+			has_global_variable = bought_book
+		}
+	}
+	trigger_event = {
+		on_action = pr_bought_book_event
+	}
 }

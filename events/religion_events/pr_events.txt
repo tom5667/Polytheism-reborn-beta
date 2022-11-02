@@ -1083,6 +1083,7 @@ pr.030 = {#Choose library
 	title = pr.030.t
 	desc = pr.030.desc
 	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1153,7 +1154,8 @@ pr.031 = {#Historian finds information
 	type = character_event
 	title = pr.031.t
 	desc = pr.031.desc
-	theme =  learning_scholarship_focuss
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1171,7 +1173,8 @@ pr.032 = {#Historian didn't find information
 	type = character_event
 	title = pr.032.t
 	desc = pr.032.desc
-	theme =  learning_scholarship_focus
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1188,7 +1191,8 @@ pr.033 = {#Talk with historian
 	type = character_event
 	title = pr.033.t
 	desc = pr.033.desc
-	theme =  learning_scholarship_focus
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1213,7 +1217,8 @@ pr.035 = {#Court chaplain finds out
 	type = character_event
 	title = pr.035.t
 	desc = pr.035.desc
-	theme =  learning_scholarship_focus
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = shock
@@ -1243,8 +1248,8 @@ pr.035 = {#Court chaplain finds out
 		pr_research_ancient_religion_events_debate_effect = yes
 	}
 	option={
-		name = pr.035.b #Just repend
-		#repend event
+		name = pr.035.b #Just repent
+		#repent event
 	}
 }
 
@@ -1252,7 +1257,8 @@ pr.036.good = {#Outcome debate good
 	type = character_event
 	title = pr.036.t
 	desc = pr.036.desc
-	theme =  learning_scholarship_focus
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1530,7 +1536,8 @@ pr.037 = {#Outcome debate medium
 	type = character_event
 	title = pr.037.t
 	desc = pr.037.desc
-	theme =  learning_scholarship_focus
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1829,7 +1836,8 @@ pr.038 = {#Outcome debate bad
 	type = character_event
 	title = pr.038.t
 	desc = pr.038.desc
-	theme =  learning_scholarship_focus
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1843,11 +1851,12 @@ pr.038 = {#Outcome debate bad
 		
 	}
 }
-pr.039 = {#after winning the debate
+pr.039 = {#after debate moderate
 	type = character_event
-	title = pr.038.t
-	desc = pr.038.desc
-	theme =  learning_scholarship_focus
+	title = pr.039.t
+	desc = pr.039.desc
+	theme = learning_scholarship_focus
+	override_background = { event_background = dungeon }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1857,7 +1866,7 @@ pr.039 = {#after winning the debate
 		animation = personality_content
 	}
 	option={
-		name = pr.038.a #The end 
+		name = pr.039.a #The end 
 		
 	}
 }
@@ -1865,7 +1874,8 @@ pr.034 = {#Book merchant
 	type = character_event
 	title = pr.034.t
 	desc = pr.034.desc
-	theme =  learning_scholarship_focus
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
 	right_portrait = {
 			character = root
 			animation = personality_content
@@ -1875,10 +1885,264 @@ pr.034 = {#Book merchant
 		animation = personality_content
 	}
 	option={
-		name = pr.034.a #Buy books from merchant 
-		
+		name = pr.034.a #Buy the book from the merchant 
+		remove_short_term_gold = 70
+		set_global_variable = {
+			name = bought_book
+			value = yes
+		}
+		pr_bought_book_event_effect = yes
 	}
 	option={
-		name = pr.034.b 
+		name = pr.034.b #Don't buy the book
+	}
+}
+
+pr.040 = {#Bought book good  
+	type = character_event
+	title = pr.040.t
+	desc = pr.040.desc
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
+	right_portrait = {
+			character = root
+			animation = personality_content
+	}
+	immediate = {
+		#First artifact, for now no problems 
+		create_artifact = {	
+			name = ancient_religions_book
+			description = ancient_religions_book_description
+			type = miscellaneous
+			visuals = book
+			modifier = ancient_religions_book_modifier 
+		}
+	}
+	option={
+		name = pr.040.a 
+		trigger_event = pr.042
+	}
+	option={
+		name = pr.040.b #this is all I want to know
+	}
+}
+
+pr.041 = {#Bought book bad  
+	type = character_event
+	title = pr.041.t
+	desc = pr.041.desc
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
+	right_portrait = {
+			character = root
+			animation = personality_angry
+	}
+	immediate = {
+		create_artifact = {	
+			name = pr_worthless_book
+			description = pr_worthless_book_description
+			type = miscellaneous
+			visuals = book
+			modifier = pr_worthless_book_modifier 
+		}
+	}
+	option={
+		name = pr.041.a #Better luck next time I hope
+
+	}
+}
+
+pr.041 = {#End event buying book 
+	type = character_event
+	title = pr.041.t
+	desc = pr.041.desc
+	theme = learning_scholarship_focus
+	override_background = { event_background = council_chamber }
+	right_portrait = {
+			character = root
+			animation = personality_content
+	}
+	option={
+		name = pr.041.a #It's time to convert to the true faith
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_roman
+					target = flag:flag_research_roman
+				}
+			}
+			set_character_faith = faith:cdr_polytheism
+		}
+		if = {
+			limit ={
+				is_target_in_global_variable_list = {
+					name = research_greek
+					target = flag:flag_research_greek
+				}
+			}
+			set_character_faith = faith:hellenic_pagan
+		}
+		if = {
+			limit ={
+				is_target_in_global_variable_list = {
+					name = research_graeco_roman
+					target = flag:flag_research_graeco_roman
+				}
+			}
+			set_character_faith = faith:julians_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_gaelic
+					target = flag:flag_research_gaelic
+				}
+			}
+	 		set_character_faith = faith:gaelic_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_brythonic
+					target = flag:flag_research_brythonic
+				}
+			}
+	 		set_character_faith = faith:brythonic_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_celtic_iberian
+					target = flag:flag_research_celtic_iberian
+				}
+			}
+	 		set_character_faith = faith:celtic_iberian_polytheism
+		}
+		if = {
+			limit = {
+					is_target_in_global_variable_list = {
+						name = research_anglo_saxon
+						target = flag:flag_research_anglo_saxon
+					}
+				}
+				set_character_faith = faith:anglo_saxon_polytheism
+		}
+		if = {
+			limit = {
+					is_target_in_global_variable_list = {
+						name = research_german
+						target = flag:flag_research_german
+					}
+				}
+				set_character_faith = faith:german_polytheism
+		}
+		if = {
+			limit = {
+					is_target_in_global_variable_list = {
+						name = research_etruscan
+						target = flag:flag_research_etruscan
+					}
+			}
+			set_character_faith = faith:etc_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_kemetic
+					target = flag:flag_research_kemetic
+				}
+			}
+			set_character_faith = faith:kemetic_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_atenism
+					target = flag:flag_research_atenism
+				}
+			}
+			set_character_faith = faith:atenism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_punic
+					target = flag:flag_research_punic
+				}
+			}
+			set_character_faith = faith:punic_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_semitic
+					target = flag:flag_research_semitic
+				}
+			}
+			set_character_faith = faith:semitic_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_babylonian
+					target = flag:flag_research_babylonian
+				}
+			}
+			set_character_faith = faith:babylonian_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_sumerian
+					target = flag:flag_research_sumerian
+				}
+			}
+			set_character_faith = faith:sumerian_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_dacian
+					target = flag:flag_research_dacian
+				}
+			}
+			set_character_faith = faith:dacian_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_zalmoxism
+					target = flag:flag_research_zalmoxism
+				}
+			}
+			set_character_faith = faith:zalmoxism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_georgian
+					target = flag:flag_research_georgian
+				}
+			}
+			set_character_faith = faith:georgian_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_armenian
+					target = flag:flag_research_armenian
+				}
+			}
+			set_character_faith = faith:armenian_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_hittite
+					target = flag:flag_research_hittite
+				}
+			}
+			set_character_faith = faith:hittite_polytheism
+		}
 	}
 }

@@ -114,6 +114,12 @@ pr_research_ancient_religion_events_debate_moderate_bad = {
 		3 = pr.038
 	}	
 }
+pr_bought_book_event = {
+	random_events = {
+		7 = pr.040
+		3 = pr.041
+	}
+}
 #Credits to Cybrkxhan
 # VIET Celtic Flavor Events
 VIET_celtic_events_tri_yearly_pulse = {

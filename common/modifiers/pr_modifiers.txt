@@ -828,11 +828,20 @@ returned_altar_of_victory = {
 
 #research ancient religion modifiers
 knowledge_of_ancient_religion = {
-	prestige = 0.1
+	prestige = 0.2
 	learning = 3
-	
-	religious_head_opinion = -10
+}
+
+ancient_religions_book_modifier = {
+	learning = 3
+	monthly_prestige = 0.1
+	clergy_opinion = -5
 
 	christianity_religion_opinion = -5
 	islam_religion_opinion = -5
+}
+
+pr_worthless_book_modifier = {
+	learning = -2
+	monthly_prestige = -0.1
 }
