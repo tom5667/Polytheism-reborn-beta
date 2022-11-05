@@ -964,8 +964,8 @@
 				add_doctrine = doctrine_oral_tradition
 				add_doctrine = doctrine_polytheistic
 				add_doctrine = doctrine_personal
-				add_doctrine = doctrine_eternal
-				add_doctrine = doctrine_deities_none
+				add_doctrine = doctrine_chaos_into_world
+				add_doctrine = doctrine_demigods
 				add_doctrine = doctrine_divine_guidance_none
 				add_doctrine = doctrine_eschatology_none
 				add_doctrine = doctrine_underworld

@@ -241,6 +241,10 @@ rps.008={
 		name = rps.008.sumerian
 		set_character_faith = faith:sumerian_polytheism
 	}
+	option = {
+		name = rps.008.assyrian
+		set_character_faith = faith:assyrian_polytheism
+	}
 	option={
 		name = rps.008.back
 		trigger_event = rps.001
@@ -994,7 +998,15 @@ pr.026={
 			target = flag:flag_research_sumerian
 		}
 	}
-	
+	option={
+		name = pr.026.assyrian
+		#set_character_faith = faith:sumerian_polytheism
+		trigger_event = pr.030
+		add_to_global_variable_list ={
+			name = research_assyrian
+			target = flag:flag_research_assyrian
+		}
+	}
 	option={
 		name = pr.026.back
 		trigger_event = pr.019
@@ -1476,6 +1488,19 @@ pr.036 = {#Outcome debate good
 		if = {
 			limit = {
 				is_target_in_global_variable_list = {
+					name = research_assyrian
+					target = flag:flag_research_assyrian
+				}
+			}
+			set_character_faith = faith:assyrian_polytheism
+			scope:realm_priest = {
+				set_character_faith = faith:assyrian_polytheism
+			}
+			# trigger_event = pr.039
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
 					name = research_dacian
 					target = flag:flag_research_dacian
 				}
@@ -1760,6 +1785,20 @@ pr.037 = {#Outcome debate medium
 				}
 			}
 			set_character_faith = faith:sumerian_polytheism
+			imprison_character_effect = {
+				TARGET = scope:realm_priest
+				IMPRISONER = root
+			}
+			trigger_event = pr.039
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_assyrian
+					target = flag:flag_research_assyrian
+				}
+			}
+			set_character_faith = faith:asresearch_assyrian_polytheism
 			imprison_character_effect = {
 				TARGET = scope:realm_priest
 				IMPRISONER = root
@@ -2111,6 +2150,15 @@ pr.042 = {#
 				}
 			}
 			set_character_faith = faith:sumerian_polytheism
+		}
+		if = {
+			limit = {
+				is_target_in_global_variable_list = {
+					name = research_assyrian
+					target = flag:flag_research_assyrian
+				}
+			}
+			set_character_faith = faith:assyrian_polytheism
 		}
 		if = {
 			limit = {

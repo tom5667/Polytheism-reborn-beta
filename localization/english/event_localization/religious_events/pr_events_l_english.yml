@@ -78,6 +78,7 @@ rps.008.t:0 ""
 rps.008.desc:0 " "
 rps.008.babylonian:0 "Babylonian Polytheism"
 rps.008.sumerian:0 "Sumerian Polytheism"
+rps.008.assyrian:0 "Assyrian Polytheism"
 rps.008.back:0 "Back"
 
 #Dacian
@@ -164,6 +165,7 @@ pr.026.t:0 ""
 pr.026.desc:0 " "
 pr.026.babylonian:0 "Babylonian Polytheism"
 pr.026.sumerian:0 "Sumerian Polytheism"
+
 pr.026.back:0 "Back"
 
 #Dacian
