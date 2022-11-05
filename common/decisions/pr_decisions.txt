@@ -19,6 +19,12 @@ reconstruct_polytheism_decision = {
 				has_religion = religion:islam_religion
 				has_religion = religion:tengrism_religion
 			}
+			NOT = {
+				is_target_in_global_variable_list = {
+					name = unavailable_unique_decisions_reconstruct_polytheism_decision
+					target = flag:flag_restored_reconstruct_polytheism_decision
+				}
+			}
 		}
 
 	}
@@ -31,6 +37,7 @@ reconstruct_polytheism_decision = {
 		is_at_war = no
 		NOT = {
 			has_trait = zealous
+			
 		}
 		
 	}
@@ -51,6 +58,12 @@ reconstruct_polytheism_decision = {
 
 		trigger_event = pr.018
 		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list ={
+				name = unavailable_unique_decisions_reconstruct_polytheism_decision
+				target = flag:flag_restored_reconstruct_polytheism_decision
+			}
+		}
 	}
 }
 ################################

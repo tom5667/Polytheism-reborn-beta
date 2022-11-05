@@ -24,8 +24,8 @@
  #Mesopotamian
  #Used by polytheism Reborn
  #Edited by Polytheism reborn
- sumerian_polytheism:0 "Sumerian"
- sumerian_polytheism_adj:0 "Sumerian"
+ sumerian_polytheism:0 "Sumerian Polytheism"
+ sumerian_polytheism_adj:0 "Sumerian Polytheism"
  sumerian_polytheism_adherent:0 "Sumerian"
  sumerian_polytheism_adherent_plural:0 "Sumerians"
  sumerian_polytheism_desc:0 "Sumerian desc"
@@ -33,8 +33,8 @@
  
  #Sumerian 
  sumerian_polytheism_high_god_name:0 "Enlil"
- sumerian_polytheism_high_god_name_alternate:0 "$mesopotamian_high_god_name$"
- sumerian_polytheism_high_god_name_alternate_possessive:0 "$mesopotamian_high_god_name_possessive$"
+ sumerian_polytheism_high_god_name_alternate:0 "Enlil"
+ sumerian_polytheism_high_god_name_alternate_possessive:0 "Enlil's"
  sumerian_polytheism_creator_god_name:0 "An"
  sumerian_polytheism_health_god_name:0 "Nanna"
  sumerian_polytheism_fertility_god_name:0 "Inanna"

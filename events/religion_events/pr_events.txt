@@ -108,6 +108,10 @@ rps.002={
 		set_character_faith = faith:mysteries_of_isis
 	}
 	option={
+		name = rps.002.imperial
+		set_character_faith = faith:imperial_cult
+	}
+	option={
 		name = rps.002.roman_illyrian
 		set_character_faith = faith:roman_illyrian_polytheism
 	}
@@ -1188,6 +1192,7 @@ pr.032 = {#Historian didn't find information
 	}
 	option={
 		name = pr.032.b #Leave it as it is 
+		
 	}
 }
 pr.033 = {#Talk with historian
@@ -1873,6 +1878,7 @@ pr.039 = {#after debate moderate
 	option={
 		name = pr.039.a #The end 
 		
+		
 	}
 }
 pr.034 = {#Book merchant 
@@ -1900,6 +1906,7 @@ pr.034 = {#Book merchant
 	}
 	option={
 		name = pr.034.b #Don't buy the book
+		clear_global_variable_list = reconstruct_polytheism_decision
 	}
 }
 
@@ -1929,6 +1936,7 @@ pr.040 = {#Bought book good
 	}
 	option={
 		name = pr.040.b #this is all I want to know
+		clear_global_variable_list = reconstruct_polytheism_decision
 	}
 }
 
@@ -1953,7 +1961,7 @@ pr.041 = {#Bought book bad
 	}
 	option={
 		name = pr.041.a #Better luck next time I hope
-
+		clear_global_variable_list = reconstruct_polytheism_decision
 	}
 }
 

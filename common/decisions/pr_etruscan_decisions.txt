@@ -5,6 +5,7 @@ etc_return_decision = {
 		major = yes
 		desc =  etc_return_decision_desc
 	is_shown = {
+		current_date < 769.1.1
 		is_ai = no
 		is_landed = yes
 		culuture_group = culture_group:latin_group 
@@ -17,7 +18,7 @@ etc_return_decision = {
 			is_target_in_global_variable_list = {
 				name = unavailable_unique_decisions_etc
 				target = flag:flag_restored_etc_religion
-				}
+			}
 		}
 	}
 
