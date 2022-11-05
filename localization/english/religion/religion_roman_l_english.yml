@@ -17,6 +17,7 @@
     cdr_polytheism_desc:0 "Deii Consentes (counsel of the gods) honored by ritus and Caerimoniae to bond with the gods, and get their help or guidance. Cultus deorum (Cultivation of the gods) not to be cunfused with the Greek religion, major differences like how the rituals are done and the gods won't play games with humans" 
 
     cdr_polytheism_religious_head_title:0 "Pontifex Maximus"
+    cdr_polytheism_religious_head_title_name:0 "Collegium Pontificum"
     cdr_polytheism_divine_realm:0 "Deii Consentes"
     cdr_polytheism_polytheism_religious_symbol:0 "Offer altar"
     cdr_polytheism_religious_text:0 "Ritus and Caerimoniae"
@@ -640,7 +641,8 @@
     imperial_cult_adherent:0 "Imperial Cult Cultist"
     imperial_cult_adherent_plural:0 "Imperial Cult Cultists"
     imperial_cult_desc:0 "In Imperial Cult Emperors are honored by ritus and Caerimoniae. Established in 28 bc by eastern states of the Roman Empire, Difference in west Divus (with the gods) in eastern Deus(god)" 
-    imperial_cult_religious_head_title:0 "Pontifex Maximus"
+    imperial_cult_religious_head_title:0 "Divus Imperator"
+    imperial_cult_religious_head_title_name:0 "Collegium Augustalis"
     imperial_cult_divine_realm:0 "Deii Consentes"
     imperial_cult_religious_symbol:0 "Offer altar"
     imperial_cult_religious_text:0 "Ritus and Caerimoniae"

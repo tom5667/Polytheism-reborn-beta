@@ -105,6 +105,21 @@ add_doctrine_monotheistic = {
 	add_doctrine = doctrine_monotheistic
 }
 
+add_doctrine_polytheistic = {
+	remove_doctrine = doctrine_henotheistic
+	remove_doctrine = doctrine_dihenotheistic
+	remove_doctrine = doctrine_tritheistic
+	remove_doctrine = doctrine_trihenotheistic
+	remove_doctrine = doctrine_monotheistic
+	remove_doctrine = doctrine_kathenotheistic
+	remove_doctrine = doctrine_syncretic_mythology
+	remove_doctrine = doctrine_transtheistic
+	remove_doctrine = doctrine_agnostic
+	remove_doctrine = doctrine_atheistic
+	remove_doctrine = doctrine_ditheistic
+	add_doctrine = doctrine_polytheistic
+}
+
 clear_modded_doctrines = {
 	remove_doctrine = doctrine_religious_text
 	remove_doctrine = doctrine_oral_tradition

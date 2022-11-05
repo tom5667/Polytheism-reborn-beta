@@ -962,7 +962,7 @@
 				clear_modded_doctrines = yes
 				#Belief Doctrines 
 				add_doctrine = doctrine_oral_tradition
-				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_kathenotheistic
 				add_doctrine = doctrine_personal
 				add_doctrine = doctrine_chaos_into_world
 				add_doctrine = doctrine_demigods
@@ -1049,6 +1049,9 @@ game_rule_edit_doctrines_effect = {
 		#polytheism reborn
 		faith:atenism ={add_doctrine_monotheistic = yes}
 		faith:zalmoxism = {	add_doctrine_monotheistic = yes}
+		faith:sumerian_polytheism = {
+			add_doctrine_polytheistic = yes
+		}
 		#end polytheism reborn
 		faith:theravada = { add_doctrine_polygamy = yes }
 		faith:vajrayana = {

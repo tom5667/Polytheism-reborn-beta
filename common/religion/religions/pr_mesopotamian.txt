@@ -5,14 +5,6 @@
 
 	doctrine = pagan_hostility_doctrine
 
-	reserved_male_names = {
-		Eannatum Eannatum Sargon Rimush Manishtushu Shulgi Kurigalzu Nabopolassar Shalmaneser Esarhaddon Darius
-	}
-	reserved_female_names = {
-		Anatu Belatsunat Mmu Zirratbanit Beltis Davke Sabitum
-	}
-
-
 	traits = {
 		virtues = { brave just education_martial_2 }
 		sins = { craven arbitrary gluttonous }
@@ -42,7 +34,13 @@
 			holy_site = ur
 			holy_site = ebla
 			
-
+			reserved_male_names = {
+				Gilgamesh Naram-sin Manishtushu Sharrukin Ibarum Shu-Enlil Rimush Abaish-Takal La'ibum Shar-kali-sharri Igigi Ishtumegu Belsharraussur Epirmupi Lli-ishmani Nergal-ushezib Shuzub Bel-ibni Marduk-apla-iddina Marduk-zakir-shumi
+			}
+			reserved_female_names = {
+				Tashultum Enheduanna Tutar-napshum Lippush-ja'um Tuta-shar-ibbish Tutasharlibish Banitu
+			}
+		
 
 			#doctrine = unreformed_faith_doctrine
 			doctrine = tenet_astrology
@@ -228,6 +226,13 @@
 
 			#doctrine = special_doctrine_is_sumerian_faith
 			doctrine = special_doctrine_ecumenical_mesopotamian
+			reserved_male_names = {
+				EBilgamesh Pabilga-mes Enmebaragesi Meskalamdug Lugalushumgal Puzer-mama Eannatum Akurgal Ur-Nanshe Lugalshaengur Mesilim Enkidu Atra-hasis Ziusudra Apkallu Aga Utnapishtim
+			}
+			reserved_female_names = {
+				Siduri Shammat Nanna
+			}
+		
 
 			holy_site = ur
 			holy_site = kish
@@ -413,15 +418,23 @@
 
 			doctrine = special_doctrine_ecumenical_mesopotamian
 
+			reserved_male_names = {
+				Ashurnasirpal Ashurbanipal Sinacherib Bel-bani Adasi Ashurdugul Shu-Ninua Erishum Shamshi-Adad Ishme-Dagan Ashur-narari Ashur-uballit Sinsharishkun Ashur-etil-ilani Ninurta-sharru-usur Asshur-aha-iddina Ashur-nadin-shumi Salmanu-ashared Ashur-dain-aplu Sin-ahu-usur
+			}
+			reserved_female_names = {
+				Ana-Tashmetum-taklak Libbali-sharrat Esharra-hammat Iaba Atalia Ra'ima Shammuramat
+			}
+		
+
 			holy_site = ur
 			holy_site = kish
 			holy_site = nippur
 			holy_site = uruk 
 			holy_site = lagash
 
-			doctrine = tenet_astrology
+			doctrine = tenet_warmonger
 			doctrine = tenet_legalism
-			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_communal_identity
         
 			#Main Group
 			doctrine = doctrine_gender_male_dominated
@@ -547,7 +560,7 @@
 				DevilSheHe = CHARACTER_SHEHE_IT
 				DevilHerHis = CHARACTER_HERHIS_ITS
 				DevilHerselfHimself = CHARACTER_ITSELF
-				EvilGodNames = { assyrian_polytheism_evil_god_kingaludda  assyrian_polytheism_evil_god_tiamat}
+				EvilGodNames = { assyrian_polytheism_evil_god_tiamat assyrian_polytheism_evil_god_pazuzu}
 				HouseOfWorship = paganism_house_of_worship
 				HouseOfWorshipPlural = paganism_house_of_worship_plural
 				ReligiousSymbol = assyrian_polytheism_religious_symbol
