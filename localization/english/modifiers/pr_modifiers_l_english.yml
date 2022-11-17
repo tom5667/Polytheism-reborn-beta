@@ -189,6 +189,22 @@ mesopotamian_nergal_desc:0 "Devotee of Nergal god of war"
 mesopotamian_ishtar:0 "Devoted to Ishtar"
 mesopotamian_ishtar_desc:0 "Devotee of Ishtar goddess of fertility and queen of heaven"
 
+#Hittite
+hittite_tarhunna:0 "Devoted to Tarhunna"
+hittite_tarhunna_desc:0 "Devotee of Tarhunna god of weather and heaven Lord of Hatussa"
+
+hittite_telipinu:0 "Devoted to Telipinu"
+hittite_telipinu_desc:0 "Devotee of Telipinu goddess of fertility"
+
+hittite_halki:0 "Devoted to Halki"
+hittite_halki_desc:0 "Devotee of Halki god of grain"
+
+hittite_a_as:0 "Devoted to A'as"
+hittite_a_as_desc:0 "Devotee of A'as god of wisdom "
+
+hittite_tashmishu:0 "Devoted to Tashmishu"
+hittite_tashmishu_desc:0 "Devotee of Tashmishu god of war"
+
 #Georgian
 georgian_armzi:0 "Devoted to Armzi"
 georgian_armzi_desc:0 "Devotee of Armzi high god of the Georgians"

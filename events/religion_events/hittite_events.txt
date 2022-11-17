@@ -1,0 +1,68 @@
+﻿namespace = ht
+
+ht.003 = {
+	type = character_event
+	title = ht.001.t
+	desc = ht.001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Tarhunna
+	option = {
+		name = ht.001.tarhunna
+		trigger = {
+			NOT = { has_character_modifier = hittite_tarhunna }
+		}
+		set_bhakti_effect = { BHAKTI = hittite_tarhunna  }
+	}
+
+	 #Telipinu
+	 option = {
+	 	name = ht.001.telipinu
+	 	trigger = {
+	 		NOT = { has_character_modifier = hittite_telipinu }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = hittite_telipinu }
+	 }
+
+	#Halki
+	option = {
+		name = ht.001.halki
+		trigger = {
+			NOT = { has_character_modifier = hittite_halki }
+		}
+		set_bhakti_effect = { BHAKTI = hittite_halki }
+	}
+
+	# A'as
+	option = {
+		name = ht.001.a_as
+		trigger = {
+			NOT = { has_character_modifier = hittite_a_as}
+		}
+		set_bhakti_effect = { BHAKTI = hittite_a_as}
+	}
+
+
+	 # Tashmishu
+	 option = {
+	 	name = ht.001.tashmishu
+	 	trigger = {
+	 		NOT = { has_character_modifier = hittite_tashmishu }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = hittite_tashmishu }
+	 }
+
+	# Opt-Out
+	option = {
+		name = ht.001.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}

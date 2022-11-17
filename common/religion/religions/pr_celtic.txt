@@ -72,7 +72,7 @@ celtic_religion ={
                 doctrine = tenet_sanctity_of_nature
                 doctrine = tenet_megaliths
                 # Special doctrine
-                doctrine = special_doctrine_celtic_syncretism
+                doctrine = special_doctrine_ecumenical_celtic_roman
                 #To be added with more tenets mod active
                 #First test run 
                 #doctrine = tenet_communal_identity
@@ -252,7 +252,7 @@ celtic_religion ={
                 doctrine = doctrine_theocracy_lay_clergy
 
                 # Special doctrine
-                doctrine = special_doctrine_celtic_syncretism
+                doctrine = special_doctrine_ecumenical_celtic_roman 
 
                 #mariage 
                 doctrine = doctrine_consanguinity_cousins
@@ -477,7 +477,7 @@ celtic_religion ={
             doctrine = tenet_megaliths
             doctrine = tenet_sanctity_of_nature
             # Special doctrine
-            doctrine = special_doctrine_celtic_syncretism
+            doctrine = special_doctrine_ecumenical_celtic_roman 
             #test doctrine 
             #doctrine = doctrine_venerated_ancestors  
             
@@ -678,7 +678,7 @@ celtic_religion ={
             doctrine = tenet_sanctity_of_nature
 
             # Special doctrine
-            doctrine = special_doctrine_celtic_syncretism
+            doctrine = special_doctrine_ecumenical_celtic_roman 
             #test doctrine 
             #doctrine = doctrine_venerated_ancestors  
             

@@ -13,10 +13,11 @@ z_r.001 = {
 	#proceed
 	option = {
 		name = z_r.001.a
-		trigger_event = {
-			id = z_sr.001
-			months = 2 
-		}
+		# trigger_event = {
+		# 	id = z_sr.001
+		# 	months = 2 
+		# }
+		set_character_faith = mazdayasna
 	}	
 }
 

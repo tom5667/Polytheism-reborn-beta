@@ -265,14 +265,9 @@
 
             #doctrine = unreformed_faith_doctrine
 
-			doctrine = tenet_greek_syncretism
+			doctrine = tenet_ancestor_worship
 			doctrine = tenet_warmonger
             doctrine = tenet_ritual_celebrations
-            #test doctrine 
-            #doctrine = doctrine_venerated_ancestors  
-            
-            # religious_head = 
-            
             
             holy_order_names = {
                 { name = "holy_order_sons_of_mars" }
@@ -1642,13 +1637,11 @@
 
 		#doctrine = unreformed_faith_doctrine
 
-		doctrine = tenet_greek_syncretism
+		doctrine = tenet_ancestor_worship
 		doctrine = tenet_warmonger
 		doctrine = tenet_ritual_celebrations
-		#test doctrine 
-		#doctrine = doctrine_venerated_ancestors  
-		
-		# religious_head = 
+
+        doctrine = special_doctrine_ecumenical_greaco_roman 
 		
 		
 		holy_order_names = {
@@ -1846,12 +1839,10 @@
 		#doctrine = unreformed_faith_doctrine
 
 		doctrine = tenet_warmonger 
-		doctrine = tenet_celtic_syncretism
-		doctrine = tenet_ritual_celebrations
-		#test doctrine 
-		#doctrine = doctrine_venerated_ancestors  
-		
-		# religious_head = 
+		doctrine = tenet_sanctity_of_nature
+		doctrine = tenet_ancestor_worship
+
+        doctrine = special_doctrine_ecumenical_celtic_roman 
 		
 		
 		holy_order_names = {            
@@ -2050,8 +2041,8 @@
 		doctrine = tenet_warmonger 
 		doctrine = tenet_celtic_syncretism
 		doctrine = tenet_ritual_celebrations
-		#test doctrine 
-		#doctrine = doctrine_venerated_ancestors  
+
+        doctrine = special_doctrine_ecumenical_celtic_roman 
 		
 		holy_order_names = {            
 			{ name = "holy_order_sons_of_mars_nodens" }

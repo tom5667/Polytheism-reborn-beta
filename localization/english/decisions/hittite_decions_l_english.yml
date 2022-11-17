@@ -1,0 +1,17 @@
+﻿l_english:
+#####################
+#Made by tom5667 
+######################
+
+ choose_main_deity_hittite_decision:0 "Choose your main deity"
+ choose_main_deity_hittite_decision_tt:0 "You begin to live your life according to the values of"
+
+ select_main_deity_hittite_decision.select_tarhunna:0 "Tarhunna High god of the Hittite's"
+ select_main_deity_hittite_decision.select_telipinu:0 "Telipinu goddess of health"
+ select_main_deity_hittite_decision.select_halki:0 "Halki god of wealth"
+ select_main_deity_hittite_decision.select_a_as:0 "A'as god of wisdom"
+ select_main_deity_hittite_decision.select_tashmishu:0 "Tashmishu god of war"
+
+ choose_main_deity_hittite_decision_tooltip:1 "Choose main god(dess)"
+ choose_main_deity_hittite_decision_confirm:1 "Choose main god(dess)"
+

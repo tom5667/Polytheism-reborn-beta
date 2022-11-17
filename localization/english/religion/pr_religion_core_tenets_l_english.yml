@@ -37,6 +37,11 @@ doctrine_parameter_is_greaco_roman_faith_bilateral_loc_override:2 "Other Greek a
 doctrine_parameter_hostility_override_special_doctrine_ecumenical_greaco_roman:1 ""  
 special_doctrine_ecumenical_greaco_roman_desc:0 "Much of the cults that where in the Greek world also found their way to Roman world"
 
+special_doctrine_ecumenical_celtic_roman_name:0 "Celto-Roman Ecumenism"
+doctrine_parameter_is_celtic_roman_faith_bilateral_loc_override:2 "Other celtic and Roman [faiths|E], that have the Celtic-Roman Ecumenism doctrine are considered to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_ecumenical_celtic_roman:1 "" 
+special_doctrine_ecumenical_celtic_roman_desc:0 "When the Romans had met and conquered the barbarian Celts, they began to compare the local Celtic deities with their own, like the Greeks before them."
+
 special_doctrine_ecumenical_mesopotamian_name:0 "Mesopotamian Ecumenism"
 doctrine_parameter_is_mesopotamian_faith_bilateral_loc_override:2 "Other Mesopotamian [faiths|E], that have the Mesopotamian Ecumenism doctrine are considered to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
 doctrine_parameter_hostility_override_special_doctrine_ecumenical_mesopotamian:1 ""  

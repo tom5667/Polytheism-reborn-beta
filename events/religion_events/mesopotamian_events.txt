@@ -257,9 +257,9 @@ mspt.002 = {
 	option = {
 		name = mspt.002.ashur
 		trigger = {
-			NOT = { has_character_modifier = asyrian_ashur }
+			NOT = { has_character_modifier = assyrian_ashur }
 		}
-		set_bhakti_effect = { BHAKTI = asyrian_ashur }
+		set_bhakti_effect = { BHAKTI = assyrian_ashur }
 	}
 
 	 #Ishtar
@@ -294,9 +294,9 @@ mspt.002 = {
 	 option = {
 	 	name = mspt.002.select_ninkarrak
 	 	trigger = {
-	 		NOT = { has_character_modifier = asyrian_ninkarrak }
+	 		NOT = { has_character_modifier = assyrian_ninkarrak }
 	 	}
-	 	set_bhakti_effect = { BHAKTI = asyrian_ninkarrak }
+	 	set_bhakti_effect = { BHAKTI = assyrian_ninkarrak }
 	 }
 
 	# Opt-Out

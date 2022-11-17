@@ -1,5 +1,4 @@
-﻿#Choose main deity Mesopotamian Polytheism 
-#Needs to be changed to Babylonian Assyrian Sumerian 
+﻿#Choose main deity Mesopotamian religions
 choose_main_deity_babylonian_decision = {
 	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
 
