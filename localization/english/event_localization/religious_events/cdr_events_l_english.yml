@@ -433,3 +433,6 @@ embrace_culture.003.a:0 "Embrace the Romano British culture"
   cdr_r.015.t:0 "British gods adopted"
   cdr_r.015.desc:0 "As new shrines are builded and rituals are written, the only thing left to do is to spread the word, after that the people will start to honour the old gods themselves."
   cdr_r.015.a:0 "Spread the word"
+
+  #Event text  random event Temple sacriledge
+  #Some fool has been caught defacing the temple of Jupiter. Such matter shouldn't be taken lightly 

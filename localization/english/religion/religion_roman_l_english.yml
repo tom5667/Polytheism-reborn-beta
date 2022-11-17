@@ -3,8 +3,8 @@
 #Made by tom5667 
 ###################### 
 
-    roman_religion:0 "Religio Romanorum"
-    roman_religion_adj:2 "Religio Romanorum"
+    roman_religion:0 "Roman"
+    roman_religion_adj:2 "Roman"
     greco_roman_religion_positive_afterlife:0 "Elysium"
     roman_negative_afterlife:0 "Dīs Pater's realm"
 

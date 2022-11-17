@@ -151,8 +151,31 @@ dacian_derzelas:0 "Devoted to Derzelas"
 dacian_derzelas_desc:0 "Devotee of Deezelas god of health"
 
 #Mesopotamian
-mesopotamian_anu:0 "Devoted to Anu" 
-mesopotamian_anu_desc:0 "Devotee of Anu god of the sky and king of the gods"
+#Babylonian
+babylonian_marduk:0 "Devoted to Marduk" 
+babylonian_marduk_desc:0 "Devotee of Marduk god of the sky and king of the gods"
+
+babylonian_nergal:0 "Devoted to Nergal"
+babylonian_nergal_desc:0 "Devotee of Nergal god of war"
+#Assyrian
+assyrian_ashur:0 "Devoted to Ashur" 
+assyrian_ashur_desc:0 "Devotee of Ashur father of all gods"
+
+assyrian_ninkarrak:0 "Devoted to Ninkarrak"
+assyrian_ninkarrak_desc:0 "Devotee of Ninkarrak goddess of health"
+
+#Sumerian
+sumerian_enlil:0 "Devoted to Enlil" 
+sumerian_enlil_desc:0 "Devotee of Enlil god of the air and protector of Nippur"
+
+sumerian_inanna:0 "Devoted to Inanna"
+sumerian_inanna_desc:0 "Devotee of Inanna goddess of fertility"
+
+sumerian_nisaba:0 "Devoted to Nisaba"
+sumerian_nisaba_desc:0 "Devotee of Nisaba godess of knowledge"
+
+sumerian_ninurta:0 "Devoted to Ninurta"
+sumerian_ninurta_desc:0 "Devotee of Ninurta god of war, agriculture and hunting"
 
 mesopotamian_ninisina:0 "Devoted to Ninisina"
 mesopotamian_ninisina_desc:0 "Devotee of Ninisina goddess of health"

@@ -479,6 +479,7 @@ dacian_derzelas = {
 	islam_religion_opinion  = -5
 }
 
+#Mesopotamian
 mesopotamian_anu = {
 	icon = jupiter_positive
 	same_faith_opinion = 10
@@ -490,27 +491,22 @@ mesopotamian_anu = {
 	islam_religion_opinion = -5
 }
 
-mesopotamian_ninisina = {
-	icon = magic_positive
+
+
+
+#babylonian
+babylonian_marduk = {
+	icon = jupiter_positive
+	same_faith_opinion = 10
 	monthly_piety = 0.5
-	same_faith_opinion = 5
-	health = 0.5
-	negate_health_penalty_add = 0.25
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
 	christianity_religion_opinion = -5
-	islam_religion_opinion  = -5
+	islam_religion_opinion = -5
 }
 
-mesopotamian_bogu = {
-	icon = magic_positive
-	same_faith_opinion = 5 
-	monthly_piety = 0.5
-	stewardship = 1
-	monthly_income_mult = 0.2
-	christianity_religion_opinion = -5
-	islam_religion_opinion  = -5
-}
-
-mesopotamian_nergal = {
+babylonian_nergal = {
 	icon = martial_positive
 	same_faith_opinion = 5
 	monthly_prestige = 0.3
@@ -520,6 +516,73 @@ mesopotamian_nergal = {
 	islam_religion_opinion  = -5
 }
 
+#Assyrian
+assyrian_ashur = {
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 1
+	martial = 1
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+assyrian_ninkarrak = {
+	icon = magic_positive
+	monthly_piety = 0.5
+	same_faith_opinion = 5
+	health = 0.5
+	negate_health_penalty_add = 0.25
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+#Sumerian 
+sumerian_enlil = {
+	icon = jupiter_positive
+	same_faith_opinion = 10
+	monthly_piety = 0.5
+	diplomacy = 2
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
+	christianity_religion_opinion = -5
+	islam_religion_opinion = -5
+}
+
+sumerian_inanna = {
+	icon = fertility_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	attraction_opinion = 20
+	fertility = 0.2
+	christianity_religion_opinion = -10
+	islam_religion_opinion  = -10
+}
+
+sumerian_nisaba = {
+	icon = learning_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	same_faith_opinion = 5
+	learning = 2
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+sumerian_ninurta = {
+	icon = martial_positive
+	same_faith_opinion = 5
+	monthly_prestige = 0.3
+	prowess = 1
+	martial = 1
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
+
+#For assyrian and babylonian
 mesopotamian_ishtar = {
 	icon = fertility_positive
 	same_faith_opinion = 5
@@ -529,6 +592,26 @@ mesopotamian_ishtar = {
 	christianity_religion_opinion = -10
 	islam_religion_opinion  = -10
 }
+mesopotamian_nabu = {
+	icon = learning_positive
+	same_faith_opinion = 5
+	monthly_piety = 0.5
+	same_faith_opinion = 5
+	learning = 2
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+#For all mesopotamian religions
+mesopotamian_ninhegal = {
+	icon = magic_positive
+	same_faith_opinion = 5 
+	monthly_piety = 0.5
+	stewardship = 1
+	monthly_income_mult = 0.2
+	christianity_religion_opinion = -5
+	islam_religion_opinion  = -5
+}
+
 
 #Georgian
 georgian_armzi ={

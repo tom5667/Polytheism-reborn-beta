@@ -13,7 +13,9 @@ m_r.002.optout:0 "My faith is stronger than strange dreams"
 
 m_r.003.t:0 "Conversion"
 m_r.003.desc:0 "Days of research in the temple gave us much more insight of the old religion of the Mesopotamians. That night followed another vision this time without striking my head, again, It was no dream it was a real vision."
-m_r.003.a:0 "Now I know it for sure"
+m_r.003.babylonian:0 "Convert to Babylonian"
+m_r.003.assyrian:0 "Convert to Assyrian"
+m_r.003.sumerian:0 "Convert to Sumerian"
 
 
 #change state religion 
@@ -35,15 +37,32 @@ m_sr.002.d:0 "There will be people who just dont care"
 #event modifier 
 return_m_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassals want to convert"
 
-mcmd.001.t:0 "Choose main deity"
-mcmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
-mcmd.001.anu:0 "Anu"
-mcmd.001.ninisina:0 "Ninisina"
-mcmd.001.bogu:0 "Bogu"
-mcmd.001.nergal:0 "Nergal"
-mcmd.001.ishtar:0 "Ishtar"
-mcmd.001.optout:0 "Maybe now isn't the right time"
+mspt.001.t:0 "Choose main deity"
+mspt.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+mspt.001.marduk:0 "Marduk"
+mspt.001.ishtar:0 "Ishtar"
+mspt.001.ninhegal:0 "Ninhegal"
+mspt.001.nabu:0 "Nabu"
+mspt.001.nergal:0 "Nergal"
+mspt.001.optout:0 "Maybe now isn't the right time"
 
+mspt.002.t:0 "Choose main deity"
+mspt.002.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+mspt.002.ashur:0 "Ashur"
+mspt.002.ishtar:0 "Ishtar"
+mspt.002.ninhegal:0 "Ninhegal"
+mspt.002.nabu:0 "Nabu"
+mspt.002.ninkarrak:0 "Ninkarrak"
+mspt.002.optout:0 "Maybe now isn't the right time"
+
+mspt.003.t:0 "Choose main deity"
+mspt.003.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+mspt.003.enlil:0 "Enlil"
+mspt.003.inanna:0 "Inanna"
+mspt.003.ninhegal:0 "Ninhegal"
+mspt.003.nisaba:0 "Nisaba"
+mspt.003.ninurta:0 "Ninurta"
+mspt.003.optout:0 "Maybe now isn't the right time"
 
 
 

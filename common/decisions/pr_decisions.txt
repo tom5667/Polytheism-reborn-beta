@@ -279,7 +279,12 @@ return_polytheism_decision={
 		}
 		else_if={
 			limit={
-				culture = culture:persian
+				OR ={
+					culture = culture:persian
+					culture = culture:babylonian
+					culture = culture:assyrian
+					culture = culture:sumerian
+				}
 			}
 			trigger_event = m_r.001 
 			add_trait = pilgrim

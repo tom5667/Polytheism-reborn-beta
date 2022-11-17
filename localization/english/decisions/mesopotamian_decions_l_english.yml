@@ -3,12 +3,28 @@
 #Made by tom5667 
 ######################
 
- choose_main_deity_mesopotamian_decision:0 "Choose your main deity"
+ choose_main_deity_babylonian_decision:0 "Choose your main deity"
  choose_main_deity_mesopotamian_decision_tt:0 "You begin to live your life according to the values of"
- select_main_deity_mesopotamian_decision.select_anu:0 "Anu High god of the Mesopotamians"
- select_main_deity_mesopotamian_decision.select_ninisina:0 "Ninisina goddess of health"
- select_main_deity_mesopotamian_decision.select_bogu:0 "Bogu god of wealth"
- select_main_deity_mesopotamian_decision.select_nergal:0 "Nergal god of war"
- select_main_deity_mesopotamian_decision.select_ishtar:0 "Ishtar Queen of heavan "
- choose_main_deity_mesopotamian_decision_tooltip:1 "Choose main god(dess)"
- choose_main_deity_mesopotamian_decision_confirm:1 "Choose main god(dess)"
+
+ select_main_deity_babylonian_decision.select_marduk:0 "Marduk High god of the Babylonians"
+ select_main_deity_mesopotamian_decision.select_ishtar:0 "Ishtar goddess of health"
+ select_main_deity_mesopotamian_decision.select_ninhegal:0 "Ninhegal god of wealth"
+ select_main_deity_mesopotamian_decision.select_nabu:0 "Nabu god of wisdom"
+ select_main_deity_babylonian_decision.select_nergal:0 "Nergal god of war"
+
+ choose_main_deity_babylonian_decision_tooltip:1 "Choose main god(dess)"
+ choose_main_deity_babylonian_decision_confirm:1 "Choose main god(dess)"
+
+ choose_main_deity_assyrian_decision:0 "Choose your main deity"
+ select_main_deity_assyrian_decision.select_ashur:0 "Ashur High god of the Assyrians"
+ select_main_deity_assyrian_decision.select_ninkarrak:0 "Ninkarrak goddess of health"
+ choose_main_deity_assyrian_decision_tooltip:1 "Choose main god(dess)"
+ choose_main_deity_assyrian_decision_confirm:1 "Choose main god(dess)"
+
+ choose_main_deity_sumerian_decision:0 "Choose your main deity"
+ select_main_deity_sumerian_decision.select_enlil:0 "Enlil High god of the Sumerians"
+ select_main_deity_sumerian_decision.select_inanna:0 "Inanna goddess of fertility"
+ select_main_deity_sumerian_decision.select_nisaba:0 "Nisaba goddess of wisdom"
+ select_main_deity_sumerian_decision.select_ninurta:0 "Ninurta god of war"
+ choose_main_deity_sumerian_decision_tooltip:1 "Choose main god(dess)"
+ choose_main_deity_sumerian_decision_confirm:1 "Choose main god(dess)"

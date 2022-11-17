@@ -724,6 +724,31 @@
 				add_doctrine = doctrine_none_marriage
 			}
 		}
+		religion:germanic_religion = {
+			every_faith = {
+				clear_modded_doctrines = yes
+				add_doctrine = doctrine_oral_tradition
+				add_doctrine = doctrine_polytheistic
+				add_doctrine = doctrine_aeonic
+				add_doctrine = doctrine_eternal
+				add_doctrine = doctrine_spirits
+				add_doctrine = doctrine_divine_guidance_none
+				add_doctrine = doctrine_apocalypse
+				add_doctrine = doctrine_eternal_feast
+				add_doctrine = doctrine_heroes
+				add_doctrine = doctrine_recommended
+				add_doctrine = doctrine_no_restrictions
+				add_doctrine = doctrine_monk_not_clergy_enforced
+				add_doctrine = doctrine_atonement_none
+				add_doctrine = doctrine_almsgiving_none
+				add_doctrine = doctrine_concubines
+				add_doctrine = doctrine_monogamy
+				add_doctrine = doctrine_divorce_allowed
+				add_doctrine = doctrine_bastardry_legitimization
+				add_doctrine = doctrine_consanguinity_cousins
+				add_doctrine = doctrine_none_marriage
+			}
+		}
 		#Polytheism reborn 
 		religion:celtic_religion ={
 			every_faith ={

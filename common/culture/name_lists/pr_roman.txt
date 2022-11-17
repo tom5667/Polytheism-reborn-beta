@@ -307,15 +307,15 @@ name_list_romano_germanic = {
 	}
 
 	male_names = {
-		#Real Romano Germanic names 
-		Varus Arminius
-		#Converted Germanic to names 
+	  #Real Romano Germanic names 
+	  Varus Arminius Germanicus Carolus Ervinus Albertus Adolphus Altvidus Clodovicus Clovis Cynfritus Ollerus Locius Thorus Gervasius Gislenus Gundisalvus Henricus Hubertus Hugo Milo Ramirus Rochus Suerius Theodoricus Veremundus
+
 
 	}
 	female_names = {
 	  #Real Romano Germanic names 
-	  Thusnelda Godiva
-	  #Converted Germanic names
+	  Godiva Thusneld Adelina Aenor Alodia Amalia Avelina Berengaria Clothildis Adburga Cynburga Eadburga Genovefa Geretrudis Hilda Idalia Lutgardis Pharaildis Romilda
+
 	}
 	dynasty_of_location_prefix = "dynnp_of"
 	patronym_prefix_male = "dynnpat_pre_filius"

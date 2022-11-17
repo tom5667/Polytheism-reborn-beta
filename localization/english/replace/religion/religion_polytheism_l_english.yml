@@ -16,10 +16,10 @@
     hellenic_pagan_old_adherent_plural:0 "Old Greek Polytheists"
     hellenic_pagan_desc:0 "Greeks worship the ancient Greek and gods, the greek gods said to reside on Mount Olympus. Each god has their own aspects and is venerated by their worshipers in their own way."
     #hellenic Localization correction
-    hellenism_religion:2 "Pántheion"
-    hellenism_religion_adj:2 "Pántheion"
-    hellenism_religion_adherent:2 "Pántheion"
-    hellenism_religion_adherent_plural:2 "Pántheion"
+    hellenism_religion:2 "Greek"
+    hellenism_religion_adj:2 "Greek"
+    hellenism_religion_adherent:2 "Greek"
+    hellenism_religion_adherent_plural:2 "Greek"
 
     hellenic_pagan_old_desc:0 "Greeks worship the ancient Greek and gods, the greek gods said to reside on Mount Olympus. Each god has their own aspects and is venerated by their worshipers in their own way."
     hellenism_religion_desc:0 "The Greek gods and godesses residing on mount olympus, venerated by the ancient Greeks. The gods are known to play games with human lives or even come to earth like in the famous Illiad about the ancient city of troy"

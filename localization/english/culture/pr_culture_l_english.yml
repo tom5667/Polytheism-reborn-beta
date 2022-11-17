@@ -35,6 +35,10 @@
  romano_british:0 "Romano British"
  romano_british_prefix:0 "Romano British"  
  romano_british_collective_noun:0 "Romano Britains"
+#Romano British
+ romano_germanic:0 "Romano Germanic"
+ romano_germanic_prefix:0 "Romano Germanic"  
+ romano_germanic_collective_noun:0 "Romano Germans"
 #Mycenaean 
  mycenaean:0 "Mycenaean"
  mycenaean_prefix:0 "Mycenaean"
@@ -47,3 +51,16 @@
  kemetic:0 "Kemetic"
  kemetic_prefix:0 "Kemetic"
  kemetic_collective_noun:0 "Kemetic"
+#babylonian
+ babylonian:0 "Babylonian"
+ babylonian_prefix:0 "Babylonian"
+ babylonian_collective_noun:0 "Babylonians"
+#Assyrian
+ assyrian:0 "Assyrian"
+ assyrian_prefix:0 "Assyrian"
+ assyrian_collective_noun:0 "Assyrians"
+#Sumerian
+ sumerian:0 "Sumerian"
+ sumerian_prefix:0 "Sumerian"
+ sumerian_collective_noun:0 "Sumerian"
+  

@@ -10,3 +10,6 @@ heritage_mycenaean ={
 heritage_etruscan = {
 	type = heritage
 }
+heritage_mesopotamian = {
+	type = heritage
+}

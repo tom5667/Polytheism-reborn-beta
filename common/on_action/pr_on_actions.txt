@@ -158,3 +158,13 @@ VIET_celtic_events_tri_yearly_pulse = {
 		
 	}
 }
+
+#Roman random events 
+
+#Temple sacriledge
+
+#Lumuria
+
+#Vestalia
+
+#State ritual 
