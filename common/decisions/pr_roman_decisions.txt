@@ -27,7 +27,7 @@ choose_main_deity_cdr_decision = {
 	cooldown = { years = 1 }
 
 	effect = {
-		trigger_event = cdr_cmd.001 
+		trigger_event = cdr.001 
 
 	}
 
@@ -453,18 +453,20 @@ cdr_restore_high_priesthood_decision = {
 			exists = faith.religious_head
 			faith = { has_doctrine = doctrine_no_head } #Only if Faith is meant to have one.
 		}
-		OR = {
-			faith = faith:cdr_polytheism
-			faith = faith:mithraic_mysteries
-			faith = faith:eluesinian_mysteries
-			faith = faith:sol_invictus_cult
-			faith = faith:imperial_cult
-			faith = faith:mysteries_of_isis
-			faith = faith:cult_of_serapis
-			faith = faith:gallo_roman_polytheism
-			faith = faith:romano_british_polytheism
-			faith = faith:roman_illyrian_polytheism
-		}
+		# OR = {
+		# 	faith = faith:cdr_polytheism
+		# 	faith = faith:mithraic_mysteries
+		# 	faith = faith:eluesinian_mysteries
+		# 	faith = faith:sol_invictus_cult
+		# 	faith = faith:imperial_cult
+		# 	faith = faith:mysteries_of_isis
+		# 	faith = faith:cult_of_serapis
+		# 	faith = faith:gallo_roman_polytheism
+		# 	faith = faith:romano_british_polytheism
+		# 	faith = faith:roman_illyrian_polytheism
+		# 	faith = faith:romano_germanic_polytheism
+		# }
+		religion = religion:roman_religion
 	}
 
 	is_valid = {
@@ -1499,3 +1501,196 @@ choose_main_deity_romano_british_decision = {
 		base = 100
 	}
  }
+#Romano Germanic Decisions 
+ convert_to_romano_germanic_decision = { 
+	picture = "gfx/interface/illustrations/decisions/capotiline_hill_roma.dds"
+	desc = convert_to_romano_germanic_decision_desc
+	major = yes
+	is_shown = {
+		#is_ai = no
+		is_landed = yes
+		religion = religion:roman_religion
+		AND = {
+			OR = { 
+			culture = culture:swabian
+			culture = culture:franconian
+			culture = culture:bavarian
+
+			culture = culture:romano_germanic
+			}
+		}
+		NOR = { 
+				faith = faith:romano_gernanic_polytheism
+			}
+	}
+	is_valid = {
+		religion = religion:roman_religion
+		AND ={ 
+			OR = { 
+				culture = culture:swabian
+				culture = culture:franconian
+				culture = culture:bavarian
+				culture = culture:frissian
+				culture = culture:dutch
+				culture = culture:romano_germanic
+				# #More bookmarks/cultures expanded
+				# culture = culture:dalmatian_ce
+				# culture = culture:illyrian
+				# culture = culture:illyrian_slavic
+				# culture = culture:arberian
+			}
+		}
+
+	}
+	effect = { 
+		trigger_event = romano_germanic.001
+	}
+	
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+ }
+
+ choose_main_deity_romano_germanic_decision = {
+	picture = "gfx/interface/illustrations/decisions/fp1_decisons_hold_bolt.dds"
+
+	#desc = choose_main_deity_celtic_decision_desc
+	desc = select_personal_deity_germanic_decision_desc
+	selection_tooltip = choose_main_deity_romano_germanic_decision_tooltip
+
+	is_shown = {
+		# DLC check.
+		has_fp1_dlc_trigger = yes
+		# Following a valid religion & faith.
+		faith = faith:romano_germanic_polytheism
+		
+	}
+
+	is_valid = {
+	}
+
+	is_valid_showing_failures_only = {
+		# Have to at _least_ not be in piety debt.
+		piety >= 0
+	}
+
+	cooldown = { years = 1 }
+
+	effect = {
+		# Show the possible options.
+			show_as_tooltip = {
+				random_list = {
+					desc = choose_main_deity_romano_germanic_decision_tt
+					100 = {
+						show_chance = no
+						desc = select_main_deity_romano_germanic_decision.select_mercurius_vodani
+						add_character_modifier = romano_germanic_mercurius_vodani
+					}
+					# 100 = {
+					# 	show_chance = no
+					# 	desc = select_main_deity_romano_germanic_decision.select_sulis_minerva
+					# 	add_character_modifier = romano_germanic_sulis_minerva
+					# }
+					100 = {
+						show_chance = no
+						desc = select_main_deity_romano_germanic_decision.select_mars_thincsus
+						add_character_modifier = romano_germanic_mars_thincsus
+					}
+					# 100 = {
+					# 	show_chance = no
+					# 	desc = select_main_deity_romano_germanic_decision.select_mercurius_lugus
+					# 	add_character_modifier = romano_germanic_mercurius_lugus
+					# }
+					100 = {
+						show_chance = no
+						desc = select_main_deity_romano_british_decision.select_venus
+						add_character_modifier = romano_british_venus
+					}
+				}
+			}
+			trigger_event = romano_germanic.002
+	}
+	ai_check_interval = 96
+	
+	ai_potential = {
+		piety >= minor_piety_value
+		 NOR = {
+		 	has_character_modifier = romano_germanic_mercurius_vodani
+			#To be changed
+		 	#has_character_modifier = romano_germanic_sulis_minerva
+			#Correct
+		 	has_character_modifier = romano_germanic_mars_thincsus
+			#To be changed
+			#has_character_modifier = romano_germanic_mercurius_lugus
+			#Correct
+			has_character_modifier = romano_british_venus
+			
+		 }
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+embrace_romano_germanic_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/londinium.dds"
+	major = yes
+	desc =  embrace_romano_germanic_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		has_faith = faith:romano_germanic_polytheism
+			#has_culture = culture:roman
+			#has_culture_group = culture_group:byzantine_group
+		culture = { has_cultural_pillar = heritage_central_germanic }
+
+	NOR = { 
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_restored_cdr_egc	
+			}
+		}
+	}
+	is_valid = {
+		is_adult = yes
+		is_imprisoned = no
+		completely_controls = title:c_cologne
+		has_faith = faith:romano_germanic_polytheism
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+	effect = {
+		trigger_event = embrace_culture.004
+		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_cdr_egc
+			}
+		}
+	} 
+}

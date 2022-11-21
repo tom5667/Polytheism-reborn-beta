@@ -87,10 +87,10 @@
     cdr_polytheism_witchgodname_trivia_possesive:0 "Trivia's"
 
     #Devil god   
-    cdr_polytheism_devil_name:0 "Pluto" 
-    cdr_polytheism_devil_name_possessive:0 "Pluto's"
+    cdr_polytheism_devil_name:0 "Orcus" 
+    cdr_polytheism_devil_name_possessive:0 "$cdr_polytheism_devil_name$'s"
 
-    #Death god Pluto 
+    #Death god Dīs Pater 
     cdr_polytheism_death_deity_name:0 "Dīs Pater"
     cdr_polytheism_death_deity_name_possessive:0 "Dīs Pater's"
 
@@ -206,9 +206,9 @@
     eluesinian_mysteries_witchgodname_trivia:0 "Trivia"
     eluesinian_mysteries_witchgodname_trivia_possesive:0 "Trivia's"
 
-    #Death god Pluto 
-    eluesinian_mysteries_death_deity_name:0 "Pluto"
-    eluesinian_mysteries_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    eluesinian_mysteries_death_deity_name:0 "Dīs Pater"
+    eluesinian_mysteries_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
           
@@ -307,9 +307,9 @@
     mithraic_mysteries_devil_name:0 "Orcus" 
     mithraic_mysteries_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
-    mithraic_mysteries_death_deity_name:0 "Pluto"
-    mithraic_mysteries_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    mithraic_mysteries_death_deity_name:0 "Dīs Pater"
+    mithraic_mysteries_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
           
@@ -408,9 +408,9 @@
     mysteries_of_isis_witchgodname_trivia:0 "Trivia"
     mysteries_of_isis_witchgodname_trivia_possesive:0 "Trivia's"
 
-    #Death god Pluto 
-    mysteries_of_isis_death_deity_name:0 "Pluto"
-    mysteries_of_isis_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    mysteries_of_isis_death_deity_name:0 "Dīs Pater"
+    mysteries_of_isis_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
           
@@ -509,9 +509,9 @@
     cult_of_serapis_witchgodname_trivia:0 "Trivia"
     cult_of_serapis_witchgodname_trivia_possesive:0 "Trivia's"
 
-    #Death god Pluto 
-    cult_of_serapis_death_deity_name:0 "Pluto"
-    cult_of_serapis_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    cult_of_serapis_death_deity_name:0 "Dīs Pater"
+    cult_of_serapis_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
           
@@ -610,9 +610,9 @@
     sol_invictus_cult_devil_name:0 "Orcus" 
     sol_invictus_cult_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
-    sol_invictus_cult_death_deity_name:0 "Pluto"
-    sol_invictus_cult_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    sol_invictus_cult_death_deity_name:0 "Dīs Pater"
+    sol_invictus_cult_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
           
@@ -715,9 +715,9 @@
     imperial_cult_devil_name:0 "Orcus" 
     imperial_cult_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
-    imperial_cult_death_deity_name:0 "Pluto"
-    imperial_cult_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    imperial_cult_death_deity_name:0 "Dīs Pater"
+    imperial_cult_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
     imperial_cult_good_god_juno:0 "Juno" 
@@ -826,9 +826,9 @@
     julians_polytheism_devil_name:0 "Orcus" 
     julians_polytheism_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
-    julians_polytheism_death_deity_name:0 "Pluto"
-    julians_polytheism_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    julians_polytheism_death_deity_name:0 "Dīs Pater"
+    julians_polytheism_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
     julians_polytheism_good_god_juno:0 "Juno" 
@@ -938,9 +938,9 @@
     roman_illyrian_polytheism_devil_name:0 "Orcus" 
     roman_illyrian_polytheism_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
-    roman_illyrian_polytheism_death_deity_name:0 "Pluto"
-    roman_illyrian_polytheism_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    roman_illyrian_polytheism_death_deity_name:0 "Dīs Pater"
+    roman_illyrian_polytheism_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
     roman_illyrian_polytheism_good_god_juno:0 "Juno" 
@@ -1055,7 +1055,7 @@
     mycenaean_polytheism_devil_name:0 "Orcus" 
     mycenaean_polytheism_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
+    #Death god Dīs Pater 
     mycenaean_polytheism_death_deity_name:0 "Hades"
     mycenaean_polytheism_death_deity_name_possessive:0 "Hades's"
 
@@ -1171,9 +1171,9 @@
     gallo_roman_polytheism_devil_name:0 "Orcus" 
     gallo_roman_polytheism_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
-    gallo_roman_polytheism_death_deity_name:0 "Pluto"
-    gallo_roman_polytheism_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    gallo_roman_polytheism_death_deity_name:0 "Dīs Pater"
+    gallo_roman_polytheism_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
     gallo_roman_polytheism_good_god_juno:0 "Juno" 
@@ -1286,9 +1286,9 @@
     romano_british_polytheism_devil_name:0 "Orcus" 
     romano_british_polytheism_devil_name_possessive:0 "Orcus's"
 
-    #Death god Pluto 
-    romano_british_polytheism_death_deity_name:0 "Pluto"
-    romano_british_polytheism_death_deity_name_possessive:0 "Pluto's"
+    #Death god Dīs Pater 
+    romano_british_polytheism_death_deity_name:0 "Dīs Pater"
+    romano_british_polytheism_death_deity_name_possessive:0 "Dīs Pater's"
 
     #Good gods names 
     romano_british_polytheism_good_god_juno:0 "Juno" 
@@ -1322,4 +1322,114 @@
 
     #holy orders: 
     holy_order_sons_of_mars_nodens:0 "Sons of Mars Nodens"
+    holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"
+
+    romano_germanic_polytheism:0 "Romano Germanic Polytheism"
+    romano_germanic_polytheism_adj:0 "Romano Germanic Polytheism"
+    romano_germanic_polytheism_adherent:0 "Romano Germanic Polytheist"
+    romano_germanic_polytheism_adherent_plural:0 "Romano Germanic Polytheists"
+    romano_germanic_polytheism_desc:0 "Even before the Romans conquered the germanic tribes the Romans and the Celts had syncretism between their religions. Later on in the roman imperial era Syncretism was completed by building temples on germanic holy sites with the most famous of Sulis Minerva" 
+    romano_germanic_polytheism_religious_head_title:0 "Pontifex Maximus"
+    romano_germanic_polytheism_divine_realm:0 "Deii Consentes"
+    romano_germanic_polytheism_religious_symbol:0 "Valknut surounded by laurels"
+    romano_germanic_polytheism_religious_text:0 "Combination of Roman Rituals, Caerimoniae and Germanic rituals "
+
+     #Romano germanic gods/goddesses Localization
+
+    #Mercuruis Vōdanī Localization
+    #Equalization between Mercurius and Odin the high god of the germanic tribes 
+    romano_germanic_polytheism_high_god_name:0 "Mercurius Vōdanī"
+    romano_germanic_polytheism_high_god_name_possessive:0 "$romano_germanic_polytheism_high_god_name$'s"
+    romano_germanic_polytheism_high_god_name_alternate:0 "romano_germanic_polytheism_high_god_name"
+    romano_germanic_polytheism_high_god_name_alternate_possessive:0 "$romano_germanic_polytheism_high_god_name$'s"
+    romano_germanic_polytheism_high_god_shehe:0 "He"
+    romano_germanic_polytheism_high_god_herselfhimself:0 "Himself"
+    romano_germanic_polytheism_high_god_herhis:0 "His"
+
+    #Creater god Localization
+    romano_germanic_polytheism_creator_god_name:0 "Lumirus"
+    romano_germanic_polytheism_creator_god_name_possessive:0 "$romano_germanic_polytheism_creator_god_name$'s"
+
+    #Health God Eira
+    romano_germanic_polytheism_health_god_name:0 "Eira"
+    romano_germanic_polytheism_health_god_name_possessive:0 "$romano_germanic_polytheism_health_god_name$'s"
+
+    #Fertility Goddess Venus Localization
+    #Venus was a popular cult in the whole empire only evidence of putting names together is Venus Victrix who is equalized with Ishtar 
+    #To be save we just use Venus
+    romano_germanic_polytheism_fertility_god_name:0 "Venus"
+    romano_germanic_polytheism_fertility_god_name_possessive:0 "$romano_germanic_polytheism_fertility_god_name$'s"
+
+    #Wealth god Latra Localization
+    #Tellus and Nerthum where Equalized not sure if it's Nerthum Tellus or Tellus Nerthum
+    romano_germanic_polytheism_wealth_god_name:0 "Tellus Nerthum"
+    romano_germanic_polytheism_wealth_god_name_possessive:0 "$romano_germanic_polytheism_fertility_god_name$'s"
+
+    #Household god Frigga 
+    romano_germanic_polytheism_household_god_name:0 "Frigga"
+    romano_germanic_polytheism_household_god_name_possessive:0 "$romano_germanic_polytheism_household_god_name$'s"
+
+    #Fate god Fata Germanicae Localization
+    romano_germanic_polytheism_fate_god_name:0 "Fata Germanicae"
+    romano_germanic_polytheism_fate_god_name_possessive:0 "$romano_germanic_polytheism_fate_god_name$'s"
+
+    #knowledge god Vothinus Localization
+    romano_germanic_polytheism_knowledge_god_name:0 "Vothinus"
+    romano_germanic_polytheism_knowledge_god_name_possessive:0 "$romano_germanic_polytheism_knowledge_god_name$'s"
+
+    #War god Mars Localization
+    romano_germanic_polytheism_war_god_name:0 "Mars Thincsus"
+    romano_germanic_polytheism_war_god_name_possessive:0 "$romano_germanic_polytheism_war_god_name$'s"
+
+    #Trickster god Mercurius Cissonius Localization
+    romano_germanic_polytheism_trickster_god_name:0 "Locius"
+    romano_germanic_polytheism_trickster_god_name_possessive:0 "$romano_germanic_polytheism_trickster_god_name$'s"
+
+    #Night goddess Nyx Localization
+    romano_germanic_polytheism_night_god_name:0 "Nyx"
+    romano_germanic_polytheism_night_god_name_possessive:0 "$romano_germanic_polytheism_night_god_name$'s"
+
+    #Water god Neptunus Localization
+    romano_germanic_polytheism_water_god_name:0 "Nertus"
+    romano_germanic_polytheism_water_god_name_possessive:0 "$romano_germanic_polytheism_water_god_name$'s"
+
+    #evil gods names 
+    romano_germanic_polytheism_evil_god_surturus:0 "Surturus" 
+    romano_germanic_polytheism_evil_god_imirus:0 "Imirus"
+
+    #witch goddess
+    romano_germanic_polytheism_witchgodname_trivia:0 "Trivia"
+    romano_germanic_polytheism_witchgodname_trivia_possesive:0 "$romano_germanic_polytheism_witchgodname_trivia$'s"
+
+    #Devil god   
+    romano_germanic_polytheism_devil_name:0 "Locius" 
+    romano_germanic_polytheism_devil_name_possessive:0 "$romano_germanic_polytheism_devil_name$'s"
+
+    #Death god Dīs Pater 
+    romano_germanic_polytheism_death_deity_name:0 "Hela"
+    romano_germanic_polytheism_death_deity_name_possessive:0 "$romano_germanic_polytheism_death_deity_name$'s"
+
+
+    #Romano Germanic priest flamen vestals
+
+    #Romano Germanic priest 
+    romano_germanic_polytheism_priest_male:0 "Priest"
+    romano_germanic_polytheism_priest_male_plural:0 "Priests"
+
+    #Romano Germanic vestals 
+    romano_germanic_polytheism_priest_female:0 "Vestal" 
+    romano_germanic_polytheism_priest_female_plural:0 "Vestals" 
+
+    #Romano Germanic flamen  
+    romano_germanic_polytheism_bishop_male:0 "flamen" 
+    romano_germanic_polytheism_bishop_male_plural:0 "flamens" 
+
+    #roman names
+    #males
+    reserved_male_names:0 "Romano Germanic male names"
+    #Female 
+    reserved_female_names:0 "Romano Germanic female names"
+
+    #holy orders: 
+    holy_order_sons_of_mars_thincsus:0 "Sons of Mars Thincsus"
     holy_order_Protectors_of_dei_consentes:0 "Protectors of Dei Consentes"

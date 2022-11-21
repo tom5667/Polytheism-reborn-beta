@@ -3,6 +3,7 @@ namespace = punic
 namespace = punic_sr
 namespace = rc
 namespace = pcmd
+namespace = semitic
 
 #punic
 
@@ -97,10 +98,11 @@ punic.005 = {
 	}
 	option = {
 		name = punic.005.a
-		trigger_event = {
-			id = punic_sr.001
-			months = 2 
-		}
+		# trigger_event = {
+		# 	id = punic_sr.001
+		# 	months = 2 
+		# }
+		set_character_faith = faith:punic_polytheism
 	}
 	option = {
 		name = punic.005.b
@@ -299,6 +301,73 @@ pcmd.001 = {
 	# Opt-Out
 	option = {
 		name = pcmd.001.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+
+semitic.001 = {
+	type = character_event
+	title = semitic.001.t
+	desc = semitic.001.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Ba al hadad
+	option = {
+		name = semitic.001.ba_al_hadad
+		trigger = {
+			NOT = { has_character_modifier = semitic_ba_al_hadad }
+		}
+		set_bhakti_effect = { BHAKTI = semitic_ba_al_hadad  }
+	}
+
+	 #Ashera
+	 option = {
+	 	name = semitic.001.ashera
+	 	trigger = {
+	 		NOT = { has_character_modifier = semitic_ashera }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = semitic_ashera}
+	 }
+
+	#Dagan
+	option = {
+		name = semitic.001.dagan
+		trigger = {
+			NOT = { has_character_modifier = semitic_dagan }
+		}
+		set_bhakti_effect = { BHAKTI = semitic_dagan }
+	}
+
+	# Tanit
+	option = {
+		name = semitic.001.el_elyon
+		trigger = {
+			NOT = { has_character_modifier = semitic_el_elyon }
+		}
+		set_bhakti_effect = { BHAKTI = semitic_el_elyon }
+	}
+
+
+	 # Ashtart
+	 option = {
+	 	name = semitic.001.ashtart
+	 	trigger = {
+	 		NOT = { has_character_modifier = semitic_ashtart }
+	 	}
+	 	set_bhakti_effect = { BHAKTI = semitic_ashtart }
+	 }
+
+	# Opt-Out
+	option = {
+		name = semitic.001.optout
 		flavor = religious_decision.0102.flavor
 
 		ai_chance = {

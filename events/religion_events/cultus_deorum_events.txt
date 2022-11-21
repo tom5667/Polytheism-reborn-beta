@@ -1,10 +1,8 @@
-﻿namespace = cdr_cmd
+﻿namespace = cdr
 namespace = cdr_rgg
 namespace = cdr_r
 namespace = cdr_rph_decisions
 namespace = julian_sr
-namespace = hellenismos
-namespace = hellenismos_sr
 namespace = h_cmd
 namespace = cdr_otv
 #Vestal Vergins
@@ -21,14 +19,15 @@ namespace = restore_altar
 namespace = roman_illyrian
 namespace = gallo_roman
 namespace = romano_british
+namespace = romano_germanic
 #For all cultures
 namespace = embrace_culture
 
 #choose your main deity events
-cdr_cmd.001 = {
+cdr.001 = {
 	type = character_event
-	title = cdr_cmd.001.t
-	desc = cdr_cmd.001.desc
+	title = cdr.001.t
+	desc = cdr.001.desc
 	theme = learning_scholarship_focus
 	right_portrait = {
 		character = root
@@ -36,37 +35,37 @@ cdr_cmd.001 = {
 	}
 	
 	option = {
-		name = cdr_cmd.001.a
+		name = cdr.001.a
 		#Iupiter
 		add_trait = cdr_cmd1_religion
 	}
 	option = {
-		name = cdr_cmd.001.b
+		name = cdr.001.b
 		#Iuno
 		add_trait = cdr_cmd2_religion
 	}
 	option = {
-		name = cdr_cmd.001.c
+		name = cdr.001.c
 		#Mars
 		add_trait = cdr_cmd3_religion
 	}
 	option = {
-		name = cdr_cmd.001.d
+		name = cdr.001.d
 		#Venus
 		add_trait = cdr_cmd4_religion
 	}
 	option = {
-		name = cdr_cmd.001.e
+		name = cdr.001.e
 		#House Lares
 		add_trait = cdr_cmd5_religion
 	}
 	option = {
-		name = cdr_cmd.001.f
+		name = cdr.001.f
 		#Mercurius
 		add_trait = cdr_cmd6_religion
 	}
 	option = {
-		name = cdr_cmd.001.g
+		name = cdr.001.g
 		add_piety = 100
 		
 		ai_chance = {
@@ -373,7 +372,9 @@ cdr_r.008 = {
 		add_piety = 100 
 	}
 }
-
+#Romano British return religion 
+#Turned off the conversion of most of the vassals for now
+#Historacly it's a proces of years and not just of one day 
 cdr_r.014 = {
 	type = character_event
 	title = cdr_r.014.t
@@ -385,11 +386,12 @@ cdr_r.014 = {
 	}
 	option = {
 		name = cdr_r.014.a
-		trigger_event = cdr_r.015
-		days = 20
+		# trigger_event = cdr_r.015
+		# days = 20
+		set_character_faith = faith:romano_british_polytheism
 	}
 }
-
+#Turned of for now as it is a bit cheating and takes away the struggle of adopting old 
 scripted_effect romano_british_sr_notify_players_effectt = {
 	every_player = {
 		limit = {
@@ -1541,8 +1543,9 @@ roman_illyrian.002 = {
 	}
 	option = {
 		name = roman_illyrian.002.a
-		trigger_event = roman_illyrian.003
-		days = 20
+		# trigger_event = roman_illyrian.003
+		# days = 20
+		set_character_faith = faith:roman_illyrian_polytheism
 	}
 }
 
@@ -1869,6 +1872,7 @@ restore_altar.008 ={
 }
 
 #gallo roman
+#Same as for other religions turned off the vassal conversion 
 gallo_roman.002 = { 
 	type = character_event
 	title = gallo_roman.002.t
@@ -1880,8 +1884,9 @@ gallo_roman.002 = {
 	}
 	option = {
 		name = gallo_roman.002.a
-		trigger_event = gallo_roman.003
-		days = 20
+		# trigger_event = gallo_roman.003
+		# days = 20
+		set_character_faith = faith:gallo_roman_polytheism
 	}
 }
 
@@ -2106,6 +2111,108 @@ romano_british.001 = {
 	# Opt-Out
 	option = {
 		name = romano_british.001.optout
+		flavor = religious_decision.0102.flavor
+
+		ai_chance = {
+			base = 0
+		}		
+	}
+}
+#Romano Germanic 
+#Embrace Roman Germanic Culture
+embrace_culture.004= {
+	type = character_event
+	title = embrace_culture.004.t
+	desc = embrace_culture.004.desc
+	theme = learning
+
+	override_background = {
+		event_background = virtues
+	}
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = embrace_culture.004.a
+		set_culture = culture:romano_germanic
+	}
+}
+#Convert to Romano Germanic
+romano_germanic.001 = { 
+	type = character_event
+	title = romano_germanic.001.t
+	desc = romano_germanic.001.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = romano_germanic.001.a
+		set_character_faith = faith:romano_germanic_polytheism
+	}
+}
+#Choose main deity
+romano_germanic.002 = {
+	type = character_event
+	title = romano_germanic.002.t
+	desc = romano_germanic.002.desc
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+
+	#Mer
+	option = {
+		name = romano_germanic.002.select_mercurius_vodani
+		trigger = {
+			NOT = { has_character_modifier = romano_germanic_mercurius_vodani }
+		}
+		set_bhakti_effect = { BHAKTI = romano_germanic_mercurius_vodani }
+	}
+
+	#Sulis Minerva 
+	# option = {
+	# 	name = romano_germanic.002.select_sulis_minerva
+	# 	trigger = {
+	# 		NOT = { has_character_modifier = romano_british_sulis_minerva }
+	# 	}
+	# 	set_bhakti_effect = { BHAKTI = romano_british_sulis_minerva }
+	# }
+
+	#Mercury Lugus
+	# option = {
+	# 	name = romano_germanic.002.select_mercurius_lugus
+	# 	trigger = {
+	# 		NOT = { has_character_modifier = romano_british_mercurius_lugus }
+	# 	}
+	# 	set_bhakti_effect = { BHAKTI = romano_british_mercurius_lugus }
+	# }
+
+	# Venus
+	option = {
+		name = romano_germanic.002.select_venus 
+		trigger = {
+			NOT = { has_character_modifier = romano_british_venus }
+		}
+		set_bhakti_effect = { BHAKTI = romano_british_venus }
+	}
+
+
+	# Mars Thincsus
+	option = {
+		name = romano_germanic.002.select_mars_thincsus
+		trigger = {
+			NOT = { has_character_modifier = romano_germanic_mars_thincsus }
+		}
+		set_bhakti_effect = { BHAKTI = romano_germanic_mars_thincsus }
+	}
+
+	# Opt-Out
+	option = {
+		name = romano_germanic.002.optout
 		flavor = religious_decision.0102.flavor
 
 		ai_chance = {

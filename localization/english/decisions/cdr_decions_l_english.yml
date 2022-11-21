@@ -66,6 +66,17 @@ select_main_deity_romano_british_decision.select_venus:0 "Venus goddess of ferti
 choose_main_deity_romano_british_decision_tooltip:1 "Choose main god(dess)"
 choose_main_deity_romano_british_decision_confirm:1 "Choose main god(dess)"
 
+#Romano Germanic
+choose_main_deity_romano_germanic_decision:0 "Choose your main deity"
+choose_main_deity_romano_germanic_decision_tt:0 "You begin to live your life according to the values of"
+select_main_deity_romano_germanic_decision.select_mercurius_vodani:0 "Mercurius Vōdanī high god of the Romano germanic"
+select_main_deity_romano_germanic_decision.select_sulis_minerva:0 "Sulis Minerva goddess of wisdom"
+select_main_deity_romano_germanic_decision.select_mars_thincsus:0 "Mars Thincsus god of war"
+select_main_deity_romano_germanic_decision.select_mercurius_lugus:0 "Mercurius Lugus god of wealth"
+select_main_deity_romano_germanic_decision.select_venus:0 "Venus goddess of fertility"
+choose_main_deity_romano_germanic_decision_tooltip:1 "Choose main god(dess)"
+choose_main_deity_romano_germanic_decision_confirm:1 "Choose main god(dess)"
+
 #choose your main deity Mithraic Mysteries
 choose_main_deity_mm_decision:0 "Choose your main deity"
 mm_cmd_decision_desc:0 "as i proceed, like most of the old cultus followers there was one particualar god who was important for their family."
@@ -89,6 +100,12 @@ embrace_romano_british_culture_decision:0 "Embrace Romano British culture"
 embrace_romano_british_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Romano British virtues."
 embrace_romano_british_culture_decision_tooltip:0 "Return Romano British culture"
 embrace_romano_british_culture_decision_confirm:0 "Confirm"
+
+#Embrace romano germanic culture 
+embrace_romano_germanic_culture_decision:0 "Embrace Romano Germanic culture"
+embrace_romano_germanic_culture_decision_desc:0 "We have our old religion back now it's time reintroduce the Romano Germanic virtues."
+embrace_romano_germanic_culture_decision_tooltip:0 "Return Romano Germanic culture"
+embrace_romano_germanic_culture_decision_confirm:0 "Confirm"
 
 #Restore Cultus Deorum Priesthood
 cdr_restore_high_priesthood_decision:0 "Restore Cultus Deorum Priesthood"
@@ -143,16 +160,21 @@ restore_altar_of_victoria_decision_tooltip:1 "I have only one chance at this"
 restore_altar_of_victoria_decision_confirm:1 "Go to the senate"
 
 convert_to_roman_illyrian_decision:0 "Adopt Illyrian Gods"
-convert_to_roman_illyrian__decisiondesc:0 "As Greco Roman Polytheist in old Illyrian lands, there many ancient gods that lived here we can adopt"
+convert_to_roman_illyrian__decisiondesc:0 "As Roman Polytheist in old Illyrian lands, there many ancient gods that lived here we can adopt"
 convert_to_roman_illyrian_decision_tooltip:1 "Adopt Illyrian gods"
 convert_to_roman_illyrian_decision_confirm:1 "Adopt Illyrian gods"
 
 convert_to_gallo_roman_decision:0 "Adopt Gallo Roman Gods"
-convert_to_gallo_roman_decision_desc:0 "As Greco Roman Polytheist in old Gaulish lands, there many ancient gods that lived here we can adopt"
+convert_to_gallo_roman_decision_desc:0 "As Roman Polytheist in old Gaulish lands, there many ancient gods that lived here we can adopt"
 convert_to_gallo_roman_decision_tooltip:1 "Adopt Gaulish gods"
 convert_to_gallo_roman_decision_confirm:1 "Adopt Gaulish gods"
 
 convert_to_romano_british_decision:0 "Adopt Romano British Gods"
-convert_to_romano_british_decision_desc:0 "As Greco Roman Polytheist in old British lands, there many ancient gods that lived here we can adopt"
+convert_to_romano_british_decision_desc:0 "As Roman Polytheist in old British lands, there many ancient gods that lived here we can adopt"
 convert_to_romano_british_decision_tooltip:1 "Adopt British gods"
 convert_to_romano_british_decision_confirm:1 "Adopt British gods"
+
+convert_to_romano_germanic_decision:0 "Adopt Romano germanic Gods"
+convert_to_romano_germanic_decision_desc:0 "As Roman Polytheist in old Germanic lands, there many ancient gods that lived here we can adopt"
+convert_to_romano_germanic_decision_tooltip:1 "Adopt Germanic gods"
+convert_to_romano_germanic_decision_confirm:1 "Adopt Germanic gods"

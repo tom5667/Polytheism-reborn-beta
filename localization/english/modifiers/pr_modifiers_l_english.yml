@@ -129,10 +129,27 @@ punic_tanit:0 "Devoted to Tanit"
 punic_tanit_desc:0 "Devotee of Tanit Goddess of war and invassions"
 
 punic_kusor:0 "Devoted to Kusor"
-punic_kusor_desc:0 "Devotee of Kusor god of Knowledge"
+punic_kusor_desc:0 "Devotee of Kusor god of wisdom"
 
 punic_melqart:0 "Devoted to Melqart"
 punic_melqart_desc:0 "Devotee of Melqart god of trade and military"
+
+
+#Semitic
+semitic_ba_al_hadad:0 "Devoted to Ba'al-Hadad"
+semitic_ba_al_hadad_desc:0 "Devotee of Ba'al-Hadad high god of the Semitics"
+
+semitic_ashera:0 "Devoted to Ashera"
+semitic_ashera_desc:0 "Devotee of Ashera goddess of fertility"
+
+semitic_dagan:0 "Devoted to Dagan"
+semitic_dagan_desc:0 "Devotee of Tanit God of wealth"
+
+semitic_el_elyon:0 "Devoted to El Elyon"
+semitic_el_elyon_desc:0 "Devotee of El Elyon god of wisdom"
+
+semitic_ashtart:0 "Devoted to Ashtart"
+semitic_ashtart_desc:0 "Devotee of Ashtart god of war"
 
 #Dacian
 dacian_gebeleizis:0 "Devoted Gebeleizis"

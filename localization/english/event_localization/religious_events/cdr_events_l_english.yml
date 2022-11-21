@@ -19,15 +19,15 @@ return_cdr_sr_decision_scripted_effect.county_conversions.tt:0 "Let's hope vassa
 
 
 #choose your main deity event localization 
-cdr_cmd.001.t:0 "Choose main deity"
-cdr_cmd.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
-cdr_cmd.001.a:0 "Iupiter"
-cdr_cmd.001.b:0 "Iuno"
-cdr_cmd.001.c:0 "Mars"
-cdr_cmd.001.d:0 "Venus"
-cdr_cmd.001.e:0 "the house lares"
-cdr_cmd.001.f:0 "Mercurius"
-cdr_cmd.001.g:0 "Maybe now isn't the right time"
+cdr.001.t:0 "Choose main deity"
+cdr.001.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+cdr.001.a:0 "Iupiter"
+cdr.001.b:0 "Iuno"
+cdr.001.c:0 "Mars"
+cdr.001.d:0 "Venus"
+cdr.001.e:0 "the house lares"
+cdr.001.f:0 "Mercurius"
+cdr.001.g:0 "Maybe now isn't the right time"
 
 #choose your main deity hellenic event localization 
 h_cmd.001.t:0 "Choose main deity"
@@ -69,6 +69,15 @@ romano_british.001.select_venus:0 "Venus"
 romano_british.001.select_mars_cocidius:0 "Mars Cocidius"
 romano_british.001.optout:0 "Maybe now isn't the right time"
 
+#Choose main deity Romano Germanic 
+romano_germanic.002.t:0 "Choose main deity"
+romano_germanic.002.desc:0 "To help me in the struggle to rule my realm I could devote to one of the gods or godesses."
+romano_germanic.002.select_mercurius_vodani:0 "Mercurius Vōdanī"
+#romano_germanic.002.select_sulis_minerva:0 "Sulis Minerva"
+#romano_germanic.002.select_mercurius_lugus:0 "Mercurius Lugus"
+romano_germanic.002.select_venus:0 "Venus"
+romano_germanic.002.select_mars_thincsus:0 "Mars Thincsus"
+romano_germanic.002.optout:0 "Maybe now isn't the right time"
 
 #Choose your main deity Mithraic Mysteries
 mm_cmd.001.t:0 "Choose main deity"
@@ -164,6 +173,10 @@ embrace_culture.002.a:0 "Embrace the Gallo Roman culture"
 embrace_culture.003.t:0 "Embrace Romano British Culture"
 embrace_culture.003.desc:0 "For far to long we lost the old virtues of the Romano British Culture."
 embrace_culture.003.a:0 "Embrace the Romano British culture"
+#Embrace Romano Germanic Culture
+embrace_culture.004.t:0 "Embrace Romano Germanic Culture"
+embrace_culture.004.desc:0 "For far to long we lost the old virtues of the Romano Germanic Culture."
+embrace_culture.004.a:0 "Embrace the Romano Germanic culture"
 
 #Restore cultus deorum Priesthood
  cdr_rph_decisions.0001.t:0 "The New [scoped_ruler.GetFaith.GetAdjective] Priesthood"
@@ -433,6 +446,10 @@ embrace_culture.003.a:0 "Embrace the Romano British culture"
   cdr_r.015.t:0 "British gods adopted"
   cdr_r.015.desc:0 "As new shrines are builded and rituals are written, the only thing left to do is to spread the word, after that the people will start to honour the old gods themselves."
   cdr_r.015.a:0 "Spread the word"
+
+  romano_germanic.001.t:0 "Adopting the Germanic gods"
+  romano_germanic.001.desc:0 "After months of research and searching for places where the precense of the gods and good omens could be observed, it's time to build some shrines and write new rituals."
+  romano_germanic.001.a:0 "Let's start"
 
   #Event text  random event Temple sacriledge
   #Some fool has been caught defacing the temple of Jupiter. Such matter shouldn't be taken lightly 

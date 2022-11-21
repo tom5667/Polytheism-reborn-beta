@@ -63,4 +63,12 @@ special_cult_tolerance = {
 			is_celtic_roman_faith_bilateral_loc_override = 1
 		}
 	}
+	special_doctrine_ecumenical_germanic_roman = {
+		icon = special_doctrine_ecumenical_greaco_roman
+		parameters = {
+			hostility_override_special_doctrine_ecumenical_germanic_roman = 1
+			#For loc:
+			is_germanic_roman_faith_bilateral_loc_override = 1
+		}
+	}
 }
