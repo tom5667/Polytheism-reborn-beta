@@ -2220,3 +2220,226 @@ romano_germanic.002 = {
 		}		
 	}
 }
+
+#Roman Religion Random events 
+
+#Temple sacriledge
+#ToDo cycle trough temple holders and take a random priest that complains 
+#OR just take the courtchaplain as scope
+#Add random person as scope 
+cdr.002 = {
+	type = character_event
+	title = cdr.002.t
+	desc = cdr.002.desc
+	theme = learning
+	immediate = {
+		hidden_effect = {
+			create_character = {
+				employer = root
+				random_traits = yes
+				dynasty = generate	
+				save_scope_as = random_character
+				stewardship = 26
+			}
+				cp:councillor_court_chaplain = {
+					save_scope_as = realm_priest
+				}
+		}
+	}
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = scope:realm_priest
+	}
+	#Imprison him
+	option = {
+		name = cdr.002.a
+		add_county_modifier = {
+			modifier = repaired_temple
+			years = 5
+		}	
+		add_trait = zealous
+		remove_short_term_gold = 50
+		imprison_character_effect = {
+			TARGET = scope:random_character
+			IMPRISONER = root
+		}
+	}
+	#Hand him over to the Realm Priest 
+	option = {
+		name = cdr.002.b
+		add_county_modifier = {
+			modifier = repaired_temple
+			years = 5
+		}	
+		add_trait = zealous
+		remove_short_term_gold = 50
+		imprison_character_effect = {
+			TARGET = scope:random_character
+			IMPRISONER = scope:realm_priest
+		}
+	}
+	#Do nothing
+	option = {
+		name = cdr.002.c
+		add_county_modifier = {
+			modifier = angered_realmpriest
+			years = 5
+		}	
+	}
+}
+#Lemuria
+cdr.003 = {
+	type = character_event
+	title = cdr.002.t
+	desc = cdr.002.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cdr.002.a
+		hidden_effect = {
+			random_list = {
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = cdr.002.message.positive
+						add_character_modifier = {
+							modifier = lemuria_good
+							years = 2
+						}
+					}
+				}
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = cdr.002.message.negative
+						add_character_modifier = {
+							modifier = lemuria_bad
+							years = 2
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#Offering to dis pater 
+cdr.004 = {
+	type = character_event
+	title = cdr.004.t
+	desc = cdr.004.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	#
+	option = {
+		name = cdr.004.a
+		add_county_modifier = {
+			modifier = offering_to_dis_pater
+			years = 5
+		}	
+	}
+}
+#Visiting Temple of Jupiter
+cdr.005 = {
+	type = character_event
+	title = cdr.005.t
+	desc = cdr.005.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cdr.005.a	
+	}
+	option = {
+		name = cdr.005.b
+	}
+}
+#Ludi Plebii 
+cdr.006 = {
+	type = character_event
+	title = cdr.006.t
+	desc = cdr.006.desc
+	theme = learning
+	override_background = { event_background = feast }
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cdr.006.a	
+		add_county_modifier = {
+			modifier = ludi_plebii
+			years = 5
+		}	
+	}
+}
+#Offer food of your meal to the lares 
+cdr.007 = {
+	type = character_event
+	title = cdr.007.t
+	desc = cdr.007.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cdr.007.a	
+	}
+}
+#Offering to Ceres
+cdr.008 = {
+	type = character_event
+	title = cdr.008.t
+	desc = cdr.008.desc
+	theme = learning
+	override_background = { event_background = garden }
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = cdr.008.a	
+		hidden_effect = {
+			random_list = {
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = cdr.008.message.positive
+						add_character_modifier = {
+							modifier = favoured_by_ceres
+							years = 2
+						}
+					}
+				}
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = cdr.008.message.negative
+						add_character_modifier = {
+							modifier = unfavoured_by_ceres
+							years = 2
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#Parentalia
+
+#

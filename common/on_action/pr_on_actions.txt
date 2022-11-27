@@ -10,6 +10,8 @@ three_year_playable_pulse = {
 	on_actions = {
 		delay = { days = { 13 333 } }
 		VIET_celtic_events_tri_yearly_pulse
+		delay = { days = { 13 333 } }
+		PR_roman_events_tri_yearly_pulse
 	}
 }
 
@@ -90,7 +92,7 @@ check_temple_of_vesta_owner_roma = {
 		add_character_modifier = burning_flame_of_vesta
 	}
 } 		
-#Beta Research ancient religions on actions 
+#Research ancient religions on actions 
 pr_research_ancient_religion_events_great_library = {
 	random_events = {
 		10 = pr.031 
@@ -118,6 +120,42 @@ pr_bought_book_event = {
 	random_events = {
 		7 = pr.040
 		3 = pr.041
+	}
+}
+#Roman Religion random flavor events
+PR_roman_events_tri_yearly_pulse = {
+	trigger = {
+		basic_is_valid_for_yearly_events_trigger = yes 
+		religion = religion:roman_religion
+	}
+	random_events = {
+		chance_of_no_event = {
+			value = 30
+		}
+		#1500 = 0 
+		#Temple sacriledge
+		30 = cdr.002
+		#Lemuria
+		30 = cdr.003
+		#offering to Dis Pater
+		30 = cdr.004
+		#Visit temple of Jupiter 
+		30 = cdr.005
+		#Ludi Plebeii
+		30 = cdr.006
+		#Offering to lares 
+		30 = cdr.007
+		#Offering to Ceres
+		30 = cdr.008
+		#Parentalia
+		#Omen
+
+		#Vestalia 
+
+		
+
+		
+
 	}
 }
 #Credits to Cybrkxhan
@@ -159,12 +197,3 @@ VIET_celtic_events_tri_yearly_pulse = {
 	}
 }
 
-#Roman random events 
-
-#Temple sacriledge
-
-#Lumuria
-
-#Vestalia
-
-#State ritual 

@@ -1694,3 +1694,11 @@ embrace_romano_germanic_culture_decision = {
 		}
 	} 
 }
+#Need Roma 
+#Open gates of Janus 
+#Time of War 
+
+#Close gates of Janus 
+#Peace Time
+
+#omen based on natural phenomenon (Request Auspice)

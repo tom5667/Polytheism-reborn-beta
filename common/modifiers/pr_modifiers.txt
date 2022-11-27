@@ -1040,3 +1040,32 @@ pr_worthless_book_modifier = {
 	learning = -2
 	monthly_prestige = -0.1
 }
+
+#Random events modifiers
+angered_realmpriest = {
+	icon = magic_negative
+	monthly_piety = -1
+	clergy_opinion = -10
+}
+lemuria_good = {
+	icon = magic_positive
+	monthly_piety = 0.2
+}
+lemuria_bad = {
+	icon = magic_negative
+	monthly_piety = -0.2
+}
+favoured_by_ceres ={
+	icon = outdoors_positive
+	monthly_county_control_change_factor = 0.1
+	development_growth_factor = 0.1
+}
+unfavoured_by_ceres = {
+	icon = outdoors_positive
+	monthly_county_control_change_factor = -0.1
+	development_growth_factor = -0.1
+}
+ludi_plebii = {
+	county_opinion_add = 10
+	monthly_prestige = 0.5
+}

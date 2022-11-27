@@ -53,17 +53,19 @@ d_r.003 = {
 	#proceed
 	option = {
 		name = d_r.003.a
-		trigger_event = {
-			id = d_sr.001
-			months = 2 
-		}
+		# trigger_event = {
+		# 	id = d_sr.001
+		# 	months = 2 
+		# }
+		set_character_faith = faith:dacian_polytheism
 	}	
 	option = {
 		name = d_r.003.zalmoxism
-		trigger_event = {
-			id = zalmoxism_sr.001
-			months = 2 
-		}
+		# trigger_event = {
+		# 	id = zalmoxism_sr.001
+		# 	months = 2 
+		# }
+		set_character_faith = faith:zalmoxism
 	}
 }
 

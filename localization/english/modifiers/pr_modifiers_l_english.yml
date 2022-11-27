@@ -325,3 +325,22 @@ knowledge_of_ancient_religion_desc:0 "Has knowledge about ancient religion"
 #altar of victory
 returned_altar_of_victory:0 "Returned altar of Victory"
 returned_altar_of_victory_desc:0 "Altar of victory commissioned by Emperor Augustus and placed in the senate building, The altar was used to bring offers for the welfare of the Roman Empire and make oath's to the Emperor\n\n" 
+
+
+#Random events modifiers
+
+angered_realmpriest:0 "Angered Realm Priest"
+angered_realmpriest_desc:0 "Angered the Realm Priest some time ago"
+
+lemuria_good:0 "Held succesful Lemuria"
+lemuria_good_desc:0 "The ghosts and restless deaths are appeased"
+lemuria_bad:0 "Held unsuccessful Lemuria"
+lemuria_bad_desc:0 "Bad omen sighted"
+
+favoured_by_ceres:0 "Favoured by Ceres"
+favoured_by_ceres_desc:0 "Ceres blessed us with a good harvest"
+unfavoured_by_ceres:0 "Unfavoured by Ceres"
+unfavoured_by_ceres_desc:0 "Bad harvest Ceres didn't favour us this year"
+
+ludi_plebii:0 "Held ludi Plebii"
+ludi_plebii_desc:0 "Citizens are energized after the festivities for liberty and democracy"

@@ -452,4 +452,42 @@ embrace_culture.004.a:0 "Embrace the Romano Germanic culture"
   romano_germanic.001.a:0 "Let's start"
 
   #Event text  random event Temple sacriledge
-  #Some fool has been caught defacing the temple of Jupiter. Such matter shouldn't be taken lightly 
+  cdr.002.t:0 "Temple Sacriledge"
+  cdr.002.desc:0 "Some fool has been caught defacing the temple of Jupiter. Such matter shouldn't be taken lightly. What should we do with him ? Next to that do I want to restore the temple?"
+  cdr.002.a:0 "Send him to our prison and repair the temple"
+  cdr.002.b:0 "The priest may decide his faith, only repair the temple"
+  cdr.002.c:0 "Let him go"
+
+  #Lemuria
+  cdr.003.t:0 "Lemuria"
+  cdr.003.desc:0 "Today we hold the Lemuria to expel the restless death and the fearful ghosts from our house, Together with my family we go through the house\n they with pots behind me while I speak the words, with these beans I redeem me and mine, nine times, after that I put beans in my mouth and spit them out over my shoulder.\n Now that is done my family are clashing the pots, while I speak the words, Ghosts of my fathers and ancestors, be gone! The ritual is done so it's time to wash my hands three times and watch for a good or bad signs."
+  cdr.003.a:0 "watch for a good or bad signs"
+  cdr.002.message.positive:0 "The ghosts and restless deaths are appeased"
+  cdr.002.message.negative:0 "Bad omen sighted"
+
+  #Offering to Dīs Pater
+  cdr.004.t:0 "Offering to Dīs Pater"
+  cdr.004.desc:0 "Today I walked along the graves of my ancestors, sometimes it's hard to believe they arren't arround anymore. After I got back home I decided to make a offering to Dīs Pater to honor my ancestors and be a bit closer to them. Important is disposing the food I offer and not eat it myself afterwards."
+  cdr.004.a:0 "Make offering"
+
+  #Visiting temple of Jupiter
+  cdr.005.t:0 "Visiting Temple of Jupiter"
+  cdr.005.desc:0 "To rule my realm I need some guidence from Jupiter King of the gods only he can he give the support my to rule my realm in a good way."
+  cdr.005.a:0 "Sacrife a White Ox"
+
+  #Ludi Plebii
+  cdr.006.t:0 "Ludi Plebii"
+  cdr.006.desc:0 "Today is the day for all citizens in the Realm races and all sort of other festivities to celebrate the liberties and democracy."
+  cdr.006.a:0 "Join the festivities"
+
+  #Offer food of your meal to the lares 
+  cdr.007.t:0 "Offering to the Lares"
+  cdr.007.desc:0 "Nothing better then a good meal, but today I want to share a part with the Lares the house gods to thank them for protecting my family."
+  cdr.007.a:0 "Make offering to the Lares"
+
+  #Offering to Ceres
+  cdr.008.t:0 "Offering to Ceres"
+  cdr.008.desc:0 "it's almost harvest time, to get some extra help we make a offering today to Ceres for a good harvest this season."
+  cdr.008.a:0 "Make offering to Ceres"
+  cdr.008.message.positive:0 "Blessed by Ceres"
+  cdr.008.message.negative:0 "Bad harvest"

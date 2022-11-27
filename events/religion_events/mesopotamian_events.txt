@@ -2,6 +2,7 @@
 namespace = m_sr
 namespace = z_r
 namespace = mspt
+namespace = embrace_culture
 #Return Cultus Deorum
 m_r.001 = {
 	type = character_event
@@ -375,4 +376,57 @@ mspt.003 = {
 			base = 0
 		}		
 	}
+}
+
+embrace_culture.005 = {
+	type = character_event
+	title = embrace_culture.005.t
+	desc = embrace_culture.005.desc
+	theme = learning
+
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = embrace_culture.005.a
+		set_culture = culture:babylonian
+	}
+
+}
+
+
+embrace_culture.006 = {
+	type = character_event
+	title = embrace_culture.006.t
+	desc = embrace_culture.006.desc
+	theme = learning
+
+
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = embrace_culture.006.a
+		set_culture = culture:assyrian
+	}
+
+}
+
+embrace_culture.007 = {
+	type = character_event
+	title = embrace_culture.007.t
+	desc = embrace_culture.007.desc
+	theme = learning
+
+	lower_right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	option = {
+		name = embrace_culture.007.a
+		set_culture = culture:sumerian
+	}
+
 }

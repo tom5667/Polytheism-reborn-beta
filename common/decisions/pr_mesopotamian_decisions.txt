@@ -232,3 +232,168 @@ choose_main_deity_sumerian_decision = {
 		base = 100
 	}
 }
+#Babylonian
+embrace_babylonian_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/londinium.dds"
+	major = yes
+	desc =  embrace_babylonian_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		has_faith = faith:babylonian_polytheism
+			#has_culture = culture:roman
+			#has_culture_group = culture_group:byzantine_group
+		culture = { has_cultural_pillar = heritage_iranian }
+
+	NOR = { 
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_restored_babylonian_egc	
+			}
+		}
+	}
+	is_valid = {
+		is_adult = yes
+		is_imprisoned = no
+		completely_controls = title:c_bagdad
+		has_faith = faith:babylonian_polytheism
+	}_
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+	effect = {
+		trigger_event = embrace_culture.005
+		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_babylonian_egc
+			}
+		}
+	} 
+}
+#Assyrian
+embrace_assyrian_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/londinium.dds"
+	major = yes
+	desc =  embrace_assyrian_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		has_faith = faith:assyrian_polytheism
+			#has_culture = culture:roman
+			#has_culture_group = culture_group:byzantine_group
+		culture = { has_cultural_pillar = heritage_iranian }
+
+	NOR = { 
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_restored_assyrian_egc	
+			}
+		}
+	}
+	is_valid = {
+		is_adult = yes
+		is_imprisoned = no
+		completely_controls = title:c_bagdad
+		has_faith = faith:assyrian_polytheism
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+	effect = {
+		trigger_event = embrace_culture.006
+		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_assyrian_egc
+			}
+		}
+	} 
+}
+#Sumerian
+embrace_sumerian_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/londinium.dds"
+	major = yes
+	desc =  embrace_sumerian_culture_decision_desc
+	is_shown = {
+		is_ai = no
+		is_landed = yes
+		has_faith = faith:sumerian_polytheism
+			#has_culture = culture:roman
+			#has_culture_group = culture_group:byzantine_group
+		culture = { has_cultural_pillar = heritage_iranian }
+
+	NOR = { 
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:flag_restored_sumerian_egc	
+			}
+		}
+	}
+	is_valid = {
+		is_adult = yes
+		is_imprisoned = no
+		completely_controls = title:c_bagdad
+		has_faith = faith:sumerian_polytheism
+	}
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_at_war = no
+		is_independent_ruler = yes
+	}
+	cost = {
+		prestige = 1000 
+	}
+	ai_check_interval = 90
+	
+	ai_potential = {
+		always = yes
+
+	}
+	ai_will_do = {
+		base = 100
+	}
+	effect = {
+		trigger_event = embrace_culture.007
+		save_scope_as = actor
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_restored_sumerian_egc
+			}
+		}
+	} 
+}
