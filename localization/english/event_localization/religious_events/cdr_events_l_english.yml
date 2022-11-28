@@ -474,6 +474,8 @@ embrace_culture.004.a:0 "Embrace the Romano Germanic culture"
   cdr.005.t:0 "Visiting Temple of Jupiter"
   cdr.005.desc:0 "To rule my realm I need some guidence from Jupiter King of the gods only he can he give the support my to rule my realm in a good way."
   cdr.005.a:0 "Sacrife a White Ox"
+  cdr.005.message.positive:0 "Blessed by Jupiter"
+  cdr.005.message.negative:0 "Unfavoured by Jupiter"
 
   #Ludi Plebii
   cdr.006.t:0 "Ludi Plebii"

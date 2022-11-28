@@ -1,23 +1,23 @@
 ﻿l_english:
  #Cultus deorum dutchy title 
- d_pontifex1:0 "Collegium Pontificum"
+ d_pontifex1:0 "College of Pontiffs"
  #Celtic religions dutchy title
- d_druidic:0 "ArdDruí"
+ d_druidic:0 "Arch Druids"
  #High kingdom of ireland 
- k_high_kingdom_of_ireland:0 "Ardríocht ó Ériu"
+ k_high_kingdom_of_ireland:0 "High Kingdom of Ireland"
 
  #Celtic empire
- e_celtic_empire:0 "Celts"
+ e_celtic_empire:0 "Celtic"
  #Kingdom of Carthago
  k_carthago:0 "Carthago"
  #Kingdom of Egypt
- e_egyptus:0 "Kemet"
- k_upper_egypt:0 "Shema"
- k_lower_egypt:0 "Mehu"
+ e_egyptus:0 "Egyptus"
+ k_upper_egypt:0 "Upper Egypt"
+ k_lower_egypt:0 "Lower Egypt"
  #Gaul
  e_gaul:0 "Gaul"
  k_celtica:0 "Celtica"
- k_belgica:0 "Belgae"
+ k_belgica:0 "Belgica"
  k_cisalpina:0 "Liguria"
  k_aquitania:0 "Aquitania"
  k_narbonensis:0 "Narbonensis"

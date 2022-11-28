@@ -1066,6 +1066,23 @@ unfavoured_by_ceres = {
 	development_growth_factor = -0.1
 }
 ludi_plebii = {
+	icon = social_positive
 	county_opinion_add = 10
 	monthly_prestige = 0.5
+}
+
+favoured_by_jupiter = {
+	icon = jupiter_positive
+	monthly_county_control_change_add = 0.2
+	direct_vassal_opinion = 15
+}
+unfavoured_by_jupiter = {
+	icon = jupiter_negative
+	monthly_county_control_change_add = -0.2
+	direct_vassal_opinion = -15
+}
+
+offering_to_dis_pater = {
+	icon = family_positive
+	spouse_opinion = 10
 }

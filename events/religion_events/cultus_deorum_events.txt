@@ -2355,15 +2355,39 @@ cdr.005 = {
 	title = cdr.005.t
 	desc = cdr.005.desc
 	theme = learning
+	override_background = { event_background = temple }
 	right_portrait = {
 		character = root
 		animation = personality_content
 	}
 	option = {
-		name = cdr.005.a	
-	}
-	option = {
-		name = cdr.005.b
+		name = cdr.005.a
+		hidden_effect = {
+			random_list = {
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = cdr.005.message.positive
+						add_character_modifier = {
+							modifier = favoured_by_jupiter
+							years = 2
+						}
+					}
+				}
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = cdr.005.message.negative
+						add_character_modifier = {
+							modifier = unfavoured_by_jupiter
+							years = 2
+						}
+					}
+				}
+			}
+		}	
 	}
 }
 #Ludi Plebii 

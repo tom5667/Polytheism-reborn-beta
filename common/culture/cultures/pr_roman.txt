@@ -5,7 +5,7 @@ gallo_roman = {
 	color = { 39 210 44 }
 	created = 200.1.1
 	ethos = ethos_stoic
-	heritage = heritage_gaulish
+	heritage = heritage_latin
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -41,7 +41,7 @@ gallo_roman = {
 	color = { 39 230 44 }
 	created = 212.1.1
 	ethos = ethos_stoic
-	heritage = heritage_brythonic
+	heritage = heritage_latin
 	language = language_latin
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -66,13 +66,13 @@ gallo_roman = {
 		30 = caucasian_dark_hair
 	}
  }
-romano_germanic ={
+romano_germanic = {
  	parents = { roman }
 
  	color = { 39 230 44 }
  	created = 1.1.1
  	ethos = ethos_stoic
- 	heritage = heritage_central_germanic
+ 	heritage = heritage_latin
  	language = language_latin
  	martial_custom = martial_custom_male_only
  	traditions = {

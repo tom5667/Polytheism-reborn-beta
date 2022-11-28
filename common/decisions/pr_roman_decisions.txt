@@ -167,7 +167,7 @@ embrace_roman_culture_decision = {
 		base = 100
 	}
 	effect = {
-		trigger_event = embrace_culture.002 
+		trigger_event = embrace_culture.001
 		save_scope_as = actor
 		hidden_effect = {
 			add_to_global_variable_list = {
