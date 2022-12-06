@@ -101,9 +101,28 @@ ascmd.002.mimir:0 "Mímir"
 ascmd.002.optout:0 "Maybe now isn't the right time"
 
 solstice.001.t:0 "Winter Solstice"
-solstice.001.desc:0 "As the snow thaws and the ice retreats the seas begin to calm and a new season begins where the gods and life alike begin their return back from fighting the spirits of Ice and Snow, Raiders and Farmers alike are to appreciate the calming of the seas. I should gather the realm in order to celebrate the retreat of Winter as it begins, soon the the warmer Sun rays of Sól arrive"
-solstice.001.a:0 "Gather the realm for the Solstice"
+solstice.001.desc:0 "As the snow thaws and the ice retreats the seas begin to calm and a new season begins where the gods and life alike begin their return back from fighting the spirits of Ice and Snow, Raiders and Farmers alike are to appreciate the calming of the seas. I should gather the realm in order to celebrate the retreat of Winter as it begins, soon the the warmer Sun rays of Sól arrive."
+solstice.001.a:0 "Gather the realm for1 the Solstice"
 
 solstice.002.t:0 "Summer Solstice"
-solstice.002.desc:0 "As the Summer ends and the Winter begins Raiders and Farmers alike give their thanks to the gods for a fruitful season of Harvest where our crops have grown bountiful and the calmer seas allow us to trade and raid with the other folk across the seas. I should prepare to gather the realm in order to celebrate this bountiful harvest season for the sun leaves us soon and the winter begins its arrival"
+solstice.002.desc:0 "As the Summer ends and the Winter begins Raiders and Farmers alike give their thanks to the gods for a fruitful season of Harvest where our crops have grown bountiful and the calmer seas allow us to trade and raid with the other folk across the seas. I should prepare to gather the realm in order to celebrate this bountiful harvest season for the sun leaves us soon and the winter begins its arrival."
 solstice.002.a:0 "Gather the realm for the Solstice"
+
+pr_germanic.001.t:0 "Visit the Volva"
+pr_germanic.001.desc:0 "Today I'm Visiting [realm_priest.GetCouncilTitle] [realm_priest.GetName] as it is always good to know if we the support to go to war or not."
+pr_germanic.001.a:0 "Ask the [realm_priest.GetCouncilTitle]"
+pr_germanic.001.positive:0 "Positive future"
+pr_germanic.001.negative:0 "Negative future"
+
+pr_germanic.002.t:0 "Offering to [ROOT.Char.GetFaith.HighGodName]"
+pr_germanic.002.desc:0 "Ruling my realm takes a lot of time and skill so today I'm offering to [ROOT.Char.GetFaith.HighGodName]"
+pr_germanic.002.a:0 "Make offering"
+#Converted a part of Cybrkxhan event of Celts and Romans 
+pr_germanic.003.t:0 "Romans and Germans"
+pr_germanic.003.desc:0 "I am reading ancient historical accounts of the peoples of Germania, who fought off the Roman invaders - sometimes successfully, many times not.\n\nAs I worship the same gods those ancient peoples do, I am their spiritual descendant. It is sad to think they were conquered in such a way. But was it all that bad? Some of our practices were influenced by the Romans, too, which helped enriched our spiritual worldview and connections to the Gods."
+pr_germanic.003.a:0 "The Romans were ruthless, bloodthirsty conquerors, nothing more!"
+pr_germanic.003.b:0 "The Romans and Germans learned much from each other."
+
+pr_germanic.004.t:0 "Carving [ROOT.Char.GetFaith.FertilityGodName]"
+pr_germanic.004.desc:0 "Today I'm carving a small Idol of wood for [ROOT.Char.GetFaith.FertilityGodName] Goddess of love and Fertility to honer her and create a closer bond."
+pr_germanic.004.a:0 "Carve the idol"

@@ -5,6 +5,7 @@ namespace = g_sr
 namespace = ascmd
 namespace = solstice
 namespace = feast_main_befriend
+namespace = pr_germanic
 
 #Return Cultus Deorum
 anglo_saxon_return.001  = {
@@ -707,3 +708,184 @@ solstice.002 ={
 	}
 	
 }
+#Visit the Volva 
+pr_germanic.001 = {
+	type = character_event
+	title = pr_germanic.001.t
+	desc = pr_germanic.001.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	left_portrait = {
+		character = realm_priest
+		animation = personality_content
+	}
+	immediate = { 
+		hidden_effect = {
+			cp:councillor_court_chaplain = {
+				save_scope_as = realm_priest
+			}
+		}
+	}
+	#
+	option = {
+		name = pr_germanic.001.a
+		hidden_effect = {
+			random_list = {
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = pr_germanic.001.positive
+						add_character_modifier = {
+							modifier = volva_good_future
+							years = 2
+						}
+					}
+				}
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = pr_germanic.001.negative
+						add_character_modifier = {
+							modifier = volva_bad_future
+							years = 2
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+#Offering to Odin/wodan
+pr_germanic.002 = {
+	type = character_event
+	title = pr_germanic.002.t
+	desc = pr_germanic.002.desc
+	theme = learning
+	right_portrait = {
+		character = root
+		animation = personality_content
+	}
+	#
+	option = {
+		name = pr_germanic.002.a
+		hidden_effect = {
+			random_list = {
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = pr_germanic.002.positive
+						add_character_modifier = {
+							modifier = offering_to_odin_wodan_good
+							years = 2
+						}
+					}
+				}
+				30 = {
+					send_interface_toast = {
+						type = event_toast_effect_good
+						left_icon = ROOT
+						title = pr_germanic.002.negative
+						add_character_modifier = {
+							modifier = offering_to_odin_wodan_bad
+							years = 2
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+
+#Read about Germans tribes vs Romans 
+#Converted from Cybrkxhan Celtic events 
+pr_germanic.003 = {
+	type = character_event
+	title = pr_germanic.003.t
+	desc = pr_germanic.003.desc
+	theme = learning
+	
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 0.2
+			has_trait = patient
+		}
+		modifier = {
+			add = -0.2
+			has_trait = impatient
+		}
+		modifier = {
+			add = 0.2
+			has_trait = shy
+		}
+		modifier = {
+			add = -0.2
+			has_trait = gregarious
+		}
+		modifier = {
+			add = 0.2
+			has_trait = cynical
+		}
+		modifier = {
+			add = -0.2
+			has_trait = zealous
+		}
+	}
+	
+	option = { # Romans bad
+		name = pr_germanic.003.a
+		add_piety = 20
+		stress_impact = {
+			forgiving = miniscule_stress_impact_gain
+			humble = miniscule_stress_impact_gain
+		}
+	}	
+	option = { # Romans and Germans can learn from each other
+		name = pr_germanic.003.b
+		add_piety = 20
+		stress_impact = {
+			zealous = miniscule_stress_impact_gain
+			arrogant = miniscule_stress_impact_gain
+		}
+	}
+}
+#Sign of prensence of Freyja
+#Falcon, Bee's around flowering lelies 
+
+#Carve a idol for Freyja -> Think it can be used for more god(desse)s 
+pr_germanic.004 = {
+	type = character_event
+	title = pr_germanic.004.t
+	desc = pr_germanic.004.desc
+	theme = learning
+	
+	left_portrait = {
+		character = root
+		animation = personality_rational
+	}
+	
+	option = { # Carve Idol 
+		name = pr_germanic.004.a
+		piety = 30
+		add_character_modifier = {
+			modifier = idol_of_freyja
+			years = 2
+		}
+	}	
+}
+#Carve a god Pole
+
+#Build a shrine for 
+
+

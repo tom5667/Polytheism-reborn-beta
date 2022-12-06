@@ -5,8 +5,9 @@
 
     roman_religion:0 "Roman"
     roman_religion_adj:2 "Roman"
+    roman_religion_desc:0 "The Roman religion not to be Confused with the more familliar Greek religion Where the gods reside on Mount Olympus. The Gods and Godesses of Rome are many but don't interfare in the earthly matters unless being asked via prayers, rituals an ciremonies."
     greco_roman_religion_positive_afterlife:0 "Elysium"
-    roman_negative_afterlife:0 "Dīs Pater's realm"
+    roman_religion_negative_afterlife:0 "Dīs Pater's realm"
 
 
     #cdr

@@ -1123,9 +1123,9 @@ pr.030 = {#Choose library
 				save_scope_as = book_merchant
 				stewardship = 26
 			}
-				cp:councillor_court_chaplain = {
-					save_scope_as = realm_priest
-				}
+			cp:councillor_court_chaplain = {
+				save_scope_as = realm_priest
+			}
 		}
 	}
 	option = {

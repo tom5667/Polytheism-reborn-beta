@@ -1,5 +1,4 @@
 ﻿################################
-#Beta
 #Reconstruct polytheism decision
 ################################
 reconstruct_polytheism_decision = {
@@ -19,12 +18,12 @@ reconstruct_polytheism_decision = {
 				has_religion = religion:islam_religion
 				has_religion = religion:tengrism_religion
 			}
-			NOT = {
-				is_target_in_global_variable_list = {
-					name = unavailable_unique_decisions_reconstruct_polytheism_decision
-					target = flag:flag_restored_reconstruct_polytheism_decision
-				}
-			}
+			# NOT = {
+			# 	is_target_in_global_variable_list = {
+			# 		name = unavailable_unique_decisions_reconstruct_polytheism_decision
+			# 		target = flag:flag_restored_reconstruct_polytheism_decision
+			# 	}
+			# }
 		}
 
 	}
@@ -767,6 +766,17 @@ return_polytheism_short_decision={
 			faith.religion = faith:german_polytheism.religion
 			faith.religion = faith:kemetic_polytheism.religion
 			faith.religion = faith:atenism.religion
+			faith.religion = faith:armenian_polytheism.religion
+			faith.religion = faith:georgian_polytheism.religion
+			faith.religion = faith:babylonian_polytheism.religion
+			faith.religion = faith:assryian_polytheism.religion
+			faith.religion = faith:sumerian_polytheism.religion
+			faith.religion = faith:hittite_polytheism.religion
+			faith.religion = faith:semitic_polytheism.religion
+			faith.religion = faith:romano_british_polytheism.religion
+			faith.religion = faith:gallo_roman_polytheism.religion
+			faith.religion = faith:roman_illyrian_polytheism.religion
+			faith.religion = faith:romano_germanic_polytheism.religion
 		}
 		highest_held_title_tier > 3 #Only Kings and Emperors
 		capital_province = { #Indians could not possibly care...

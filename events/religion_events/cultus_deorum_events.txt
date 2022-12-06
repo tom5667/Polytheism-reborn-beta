@@ -2256,7 +2256,7 @@ cdr.002 = {
 	#Imprison him
 	option = {
 		name = cdr.002.a
-		add_county_modifier = {
+		add_character_modifier = {
 			modifier = repaired_temple
 			years = 5
 		}	
@@ -2284,7 +2284,7 @@ cdr.002 = {
 	#Do nothing
 	option = {
 		name = cdr.002.c
-		add_county_modifier = {
+		add_character_modifier = {
 			modifier = angered_realmpriest
 			years = 5
 		}	
@@ -2343,7 +2343,7 @@ cdr.004 = {
 	#
 	option = {
 		name = cdr.004.a
-		add_county_modifier = {
+		add_character_modifier = {
 			modifier = offering_to_dis_pater
 			years = 5
 		}	
@@ -2403,9 +2403,9 @@ cdr.006 = {
 	}
 	option = {
 		name = cdr.006.a	
-		add_county_modifier = {
+		add_character_modifier = {
 			modifier = ludi_plebii
-			years = 5
+			years = 2
 		}	
 	}
 }
@@ -2421,6 +2421,10 @@ cdr.007 = {
 	}
 	option = {
 		name = cdr.007.a	
+		add_character_modifier = {
+			modifier = offering_to_lares
+			years = 1
+		}
 	}
 }
 #Offering to Ceres

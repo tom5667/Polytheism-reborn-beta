@@ -34,10 +34,11 @@
 			holy_site = carthage
 
 			reserved_male_names = {
-				Hadrianus Trajanus Comedus Cicero Julius Octavianus Agrippina Romulus Remus Felix Marcellus Nerva Brutus Aesculapius Achilles
+				Marcus Gaius Publius Sextus Appius Gnaeus Caius Agrippa Titus Vitus Albus Tiberius Lucius Nero Antonius
 			}
 			reserved_female_names = {
-				Hadriana Trajana Sabine Octavia Agrippina Domitia Hortensia Antonia Augusta Camilla Aurellia Sabina Junia Acantha Alexandra
+				Fabia Hadriana Agrippina Julia_Agrippina Julia Mariana Octavia Valentina Tiberia Antonia Aemilia Amanda Camilla Caecilia Claudia 
+		        Clelia Flavia Fulvia Iulia Iris Laura 
 			}
 		
 			doctrine = tenet_warmonger

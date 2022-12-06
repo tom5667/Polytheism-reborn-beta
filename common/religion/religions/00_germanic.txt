@@ -406,7 +406,7 @@
 			BishopNeuter = anglo_saxon_bishop_neuter
 			BishopNeuterPlural = anglo_saxon_bishop_neuter_plural
 			DivineRealm = anglo_saxon_divine_realm
-			PositiveAfterLife = anglo_saxon_positive_afterlife
+			PositiveAfterLife = germanic_positive_afterlife
 			NegativeAfterLife = anglo_saxon_death_deity_name
 			DeathDeityName = anglo_saxon_death_deity_name
 			DeathDeityNamePossessive = anglo_saxon_death_deity_name_possessive
@@ -610,7 +610,7 @@
 				BishopNeuter = german_bishop_neuter
 				BishopNeuterPlural = german_bishop_neuter_plural
 				DivineRealm = german_divine_realm
-				PositiveAfterLife = german_positive_afterlife
+				PositiveAfterLife = germanic_positive_afterlife
 				NegativeAfterLife = german_death_deity_name
 				DeathDeityName = german_death_deity_name
 				DeathDeityNamePossessive = german_death_deity_name_possessive

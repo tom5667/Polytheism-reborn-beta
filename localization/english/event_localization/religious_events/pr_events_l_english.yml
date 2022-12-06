@@ -215,22 +215,21 @@ pr.033.a:0 "Continue learning"
 pr.033.b:0 "This is al I want to know"
 
 pr.035.t:0 "Court chaplain interference"
-#Needs to get the court chaplain $ so it can be auto filled in 
-pr.035.desc:0 "(Court Chaplain) believes that every time I try and attempt something that drives me away from the church they get to know of it and has suggested for me to repent for my sins against the church, should I repent or should I try and convince them that the Old Ways were better?"
-pr.035.a:0 "Try to convince (court chaplain)"
+pr.035.desc:0 "[realm_priest.GetCouncilTitle] [realm_priest.GetName] believes that every time I try and attempt something that drives me away from the church they get to know of it and has suggested for me to repent for my sins against the church, should I repent or should I try and convince them that the Old Ways were better?"
+pr.035.a:0 "Try to convince the [realm_priest.GetCouncilTitle]"
 pr.035.b:0 "Repent"
 
 pr.036.t:0 "Won the debate"
-pr.036.desc:0 "After a long and tiresome debate the (court chaplain) finaly gave in and see that the old gods aren't as evil as they say"
+pr.036.desc:0 "After a long and tiresome debate the [realm_priest.GetCouncilTitle] [realm_priest.GetName] finaly gave in and see that the old gods aren't as evil as they say"
 pr.036.a:0 "It won't be simple my friend"
 
 pr.037.t:0 "Moderate debate"
-pr.037.desc:0 "After a long and tiresome debate the (court chaplain) stayed with his point that his god is superior, well does he speak the truth ? He says that there is still time to repent."
+pr.037.desc:0 "After a long and tiresome debate the [realm_priest.GetCouncilTitle] [realm_priest.GetName] stayed with his point that his god is superior, well does he speak the truth ? He says that there is still time to repent."
 pr.037.a:0 "Imprison this fool"
 pr.037.b:0 "Repent"
 
 pr.038.t:0 "Lost debate"
-pr.038.desc:0 "(Court Chaplain) is right and I was blind to not see the glory promised by god."
+pr.038.desc:0 "[realm_priest.GetCouncilTitle] [realm_priest.GetName] is right and I was blind to not see the glory promised by god."
 pr.038.a:0 "Repent"
 
 pr.039.t:0 "At the dungeon"

@@ -328,7 +328,7 @@ returned_altar_of_victory_desc:0 "Altar of victory commissioned by Emperor Augus
 
 
 #Random events modifiers
-
+#Roman
 angered_realmpriest:0 "Angered Realm Priest"
 angered_realmpriest_desc:0 "Angered the Realm Priest some time ago"
 
@@ -345,11 +345,29 @@ unfavoured_by_ceres_desc:0 "Bad harvest Ceres didn't favour us this year"
 ludi_plebii:0 "Held ludi Plebii"
 ludi_plebii_desc:0 "Citizens are energized after the festivities for liberty and democracy"
 
+offering_to_lares:0 "Honored the Lares"
+offering_to_lares_desc:0 "The household gods are honored by this Character's offering"
+
 offering_to_dis_pater:0 "Honored Ancestors"
-offering_to_dis_pater_desc:0 "Placed a offering at the alter of his/her Ancestors"
+offering_to_dis_pater_desc:0 "Placed a offering at the altar for his/her Ancestors"
 
 favoured_by_jupiter:0 "Blessed by Jupiter"
 favoured_by_jupiter_desc:0 "Jupiter helps this character to rule the realm"
 
 unfavoured_by_jupiter:0 "Unfavoured by Jupiter"
-unfavoured_by_jupiter_desc:0 "Jupiter didn't accept this characters offering"
+unfavoured_by_jupiter_desc:0 "Jupiter didn't accept this characters offering" 
+
+repaired_temple:0 "Repaired the local Temple"
+repaired_temple_desc:0 "Repaired the local Temple"
+
+#Germanic
+volva_good_future:0 "Good future"
+volva_good_future_desc:0 "The Volva foresees many successes in the coming wars" 
+volva_bad_future:0 "Bad future"
+volva_bad_future_desc:0 "The Volva foresees many bad luck in the coming wars"
+offering_to_odin_wodan_good:0 "Favoured by Odin"
+offering_to_odin_wodan_good_desc:0 "Odin helps this character to rule the realm"
+offering_to_odin_wodan_bad:0 "Unfavoured by Odin"
+offering_to_odin_wodan_bad_desc:0 "Odin didn't accept this characters offer"
+idol_of_freyja:0 "Idol of Freyja"
+idol_of_freyja_desc:0 "This character has carved a small woden idol of Freyja"
